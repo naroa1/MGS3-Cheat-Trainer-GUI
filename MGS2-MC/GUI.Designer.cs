@@ -234,14 +234,16 @@
             this.numericUpDown46 = new System.Windows.Forms.NumericUpDown();
             this.coldMedsGroupBox = new System.Windows.Forms.GroupBox();
             this.coldMedsLayoutPanel = new System.Windows.Forms.TableLayoutPanel();
-            this.coldMedsPictureBox = new System.Windows.Forms.PictureBox();
-            this.coldMedsCheckBox = new System.Windows.Forms.CheckBox();
-            this.tableLayoutPanel8 = new System.Windows.Forms.TableLayoutPanel();
-            this.label7 = new System.Windows.Forms.Label();
-            this.numericUpDown7 = new System.Windows.Forms.NumericUpDown();
             this.tableLayoutPanel9 = new System.Windows.Forms.TableLayoutPanel();
             this.label8 = new System.Windows.Forms.Label();
-            this.numericUpDown8 = new System.Windows.Forms.NumericUpDown();
+            this.coldMedsMaxUpDown = new System.Windows.Forms.NumericUpDown();
+            this.coldMedsMaxBtn = new System.Windows.Forms.Button();
+            this.tableLayoutPanel8 = new System.Windows.Forms.TableLayoutPanel();
+            this.label7 = new System.Windows.Forms.Label();
+            this.coldMedsCurrentUpDown = new System.Windows.Forms.NumericUpDown();
+            this.coldMedsCurrentBtn = new System.Windows.Forms.Button();
+            this.coldMedsPictureBox = new System.Windows.Forms.PictureBox();
+            this.coldMedsCheckBox = new System.Windows.Forms.CheckBox();
             this.rationGroupBox = new System.Windows.Forms.GroupBox();
             this.rationLayoutPanel = new System.Windows.Forms.TableLayoutPanel();
             this.tableLayoutPanel1 = new System.Windows.Forms.TableLayoutPanel();
@@ -406,11 +408,11 @@
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDown46)).BeginInit();
             this.coldMedsGroupBox.SuspendLayout();
             this.coldMedsLayoutPanel.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.coldMedsPictureBox)).BeginInit();
-            this.tableLayoutPanel8.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown7)).BeginInit();
             this.tableLayoutPanel9.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown8)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.coldMedsMaxUpDown)).BeginInit();
+            this.tableLayoutPanel8.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.coldMedsCurrentUpDown)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.coldMedsPictureBox)).BeginInit();
             this.rationGroupBox.SuspendLayout();
             this.rationLayoutPanel.SuspendLayout();
             this.tableLayoutPanel1.SuspendLayout();
@@ -463,19 +465,19 @@
             this.itemLayoutPanel.Controls.Add(this.akSupGroupBox, 3, 5);
             this.itemLayoutPanel.Controls.Add(this.phoneGroupBox, 2, 5);
             this.itemLayoutPanel.Controls.Add(this.thermalGroupBox, 1, 5);
-            this.itemLayoutPanel.Controls.Add(this.cardGroupBox, 0, 5);
+            this.itemLayoutPanel.Controls.Add(this.cardGroupBox, 0, 4);
             this.itemLayoutPanel.Controls.Add(this.orangeWigGroupBox, 5, 4);
             this.itemLayoutPanel.Controls.Add(this.box5GroupBox, 4, 4);
             this.itemLayoutPanel.Controls.Add(this.uspSupGroupBox, 3, 4);
             this.itemLayoutPanel.Controls.Add(this.sensorBGroupBox, 2, 4);
             this.itemLayoutPanel.Controls.Add(this.nvgGroupBox, 1, 4);
-            this.itemLayoutPanel.Controls.Add(this.shaverGroupBox, 0, 4);
+            this.itemLayoutPanel.Controls.Add(this.shaverGroupBox, 3, 0);
             this.itemLayoutPanel.Controls.Add(this.blueWigGroupBox, 5, 3);
             this.itemLayoutPanel.Controls.Add(this.box4GroupBox, 4, 3);
             this.itemLayoutPanel.Controls.Add(this.socomSupGroupBox, 3, 3);
             this.itemLayoutPanel.Controls.Add(this.sensorAGroupBox, 2, 3);
             this.itemLayoutPanel.Controls.Add(this.camera2GroupBox, 1, 3);
-            this.itemLayoutPanel.Controls.Add(this.dogTagsGroupBox, 0, 3);
+            this.itemLayoutPanel.Controls.Add(this.dogTagsGroupBox, 0, 5);
             this.itemLayoutPanel.Controls.Add(this.infinityWigGroupBox, 5, 2);
             this.itemLayoutPanel.Controls.Add(this.box3GroupBox, 4, 2);
             this.itemLayoutPanel.Controls.Add(this.moDiscGroupBox, 3, 2);
@@ -490,7 +492,7 @@
             this.itemLayoutPanel.Controls.Add(this.bandageGroupBox, 0, 1);
             this.itemLayoutPanel.Controls.Add(this.bduGroupBox, 5, 0);
             this.itemLayoutPanel.Controls.Add(this.box1GroupBox, 4, 0);
-            this.itemLayoutPanel.Controls.Add(this.coldMedsGroupBox, 3, 0);
+            this.itemLayoutPanel.Controls.Add(this.coldMedsGroupBox, 0, 3);
             this.itemLayoutPanel.Controls.Add(this.rationGroupBox, 0, 0);
             this.itemLayoutPanel.Controls.Add(this.binos1GroupBox, 1, 0);
             this.itemLayoutPanel.Controls.Add(this.bodyArmorGroupBox, 2, 0);
@@ -817,9 +819,9 @@
             // 
             this.cardGroupBox.Controls.Add(this.cardLayoutPanel);
             this.cardGroupBox.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.cardGroupBox.Location = new System.Drawing.Point(3, 483);
+            this.cardGroupBox.Location = new System.Drawing.Point(3, 387);
             this.cardGroupBox.Name = "cardGroupBox";
-            this.cardGroupBox.Size = new System.Drawing.Size(208, 91);
+            this.cardGroupBox.Size = new System.Drawing.Size(208, 90);
             this.cardGroupBox.TabIndex = 75;
             this.cardGroupBox.TabStop = false;
             this.cardGroupBox.Text = "Card";
@@ -838,7 +840,7 @@
             this.cardLayoutPanel.RowCount = 2;
             this.cardLayoutPanel.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 42.22222F));
             this.cardLayoutPanel.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 57.77778F));
-            this.cardLayoutPanel.Size = new System.Drawing.Size(202, 72);
+            this.cardLayoutPanel.Size = new System.Drawing.Size(202, 71);
             this.cardLayoutPanel.TabIndex = 41;
             // 
             // tableLayoutPanel13
@@ -850,7 +852,7 @@
             this.tableLayoutPanel13.Controls.Add(this.cardUpDown, 0, 1);
             this.tableLayoutPanel13.Controls.Add(this.cardBtn, 1, 1);
             this.tableLayoutPanel13.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.tableLayoutPanel13.Location = new System.Drawing.Point(3, 33);
+            this.tableLayoutPanel13.Location = new System.Drawing.Point(3, 32);
             this.tableLayoutPanel13.Name = "tableLayoutPanel13";
             this.tableLayoutPanel13.RowCount = 2;
             this.tableLayoutPanel13.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 38.88889F));
@@ -911,7 +913,7 @@
             this.cardPictureBox.Dock = System.Windows.Forms.DockStyle.Fill;
             this.cardPictureBox.Location = new System.Drawing.Point(3, 3);
             this.cardPictureBox.Name = "cardPictureBox";
-            this.cardPictureBox.Size = new System.Drawing.Size(108, 24);
+            this.cardPictureBox.Size = new System.Drawing.Size(108, 23);
             this.cardPictureBox.TabIndex = 0;
             this.cardPictureBox.TabStop = false;
             // 
@@ -1237,7 +1239,7 @@
             // 
             this.shaverGroupBox.Controls.Add(this.shaverLayoutPanel);
             this.shaverGroupBox.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.shaverGroupBox.Location = new System.Drawing.Point(3, 387);
+            this.shaverGroupBox.Location = new System.Drawing.Point(645, 3);
             this.shaverGroupBox.Name = "shaverGroupBox";
             this.shaverGroupBox.Size = new System.Drawing.Size(208, 90);
             this.shaverGroupBox.TabIndex = 68;
@@ -1701,9 +1703,10 @@
             // 
             this.dogTagsGroupBox.Controls.Add(this.dogTagsLayoutPanel);
             this.dogTagsGroupBox.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.dogTagsGroupBox.Location = new System.Drawing.Point(3, 291);
+            this.dogTagsGroupBox.Enabled = false;
+            this.dogTagsGroupBox.Location = new System.Drawing.Point(3, 483);
             this.dogTagsGroupBox.Name = "dogTagsGroupBox";
-            this.dogTagsGroupBox.Size = new System.Drawing.Size(208, 90);
+            this.dogTagsGroupBox.Size = new System.Drawing.Size(208, 91);
             this.dogTagsGroupBox.TabIndex = 61;
             this.dogTagsGroupBox.TabStop = false;
             this.dogTagsGroupBox.Text = "Dog Tags";
@@ -1723,7 +1726,7 @@
             this.dogTagsLayoutPanel.RowCount = 2;
             this.dogTagsLayoutPanel.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 42.22222F));
             this.dogTagsLayoutPanel.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 57.77778F));
-            this.dogTagsLayoutPanel.Size = new System.Drawing.Size(202, 71);
+            this.dogTagsLayoutPanel.Size = new System.Drawing.Size(202, 72);
             this.dogTagsLayoutPanel.TabIndex = 41;
             // 
             // tableLayoutPanel10
@@ -1735,7 +1738,7 @@
             this.tableLayoutPanel10.Controls.Add(this.dogTagsCurrentUpDown, 0, 1);
             this.tableLayoutPanel10.Controls.Add(this.dogTagsCurrentBtn, 1, 1);
             this.tableLayoutPanel10.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.tableLayoutPanel10.Location = new System.Drawing.Point(3, 32);
+            this.tableLayoutPanel10.Location = new System.Drawing.Point(3, 33);
             this.tableLayoutPanel10.Name = "tableLayoutPanel10";
             this.tableLayoutPanel10.RowCount = 2;
             this.tableLayoutPanel10.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 38.88889F));
@@ -1789,7 +1792,7 @@
             this.tableLayoutPanel7.Controls.Add(this.dogTagsMaxUpDown, 0, 1);
             this.tableLayoutPanel7.Controls.Add(this.dogTagsMaxBtn, 1, 1);
             this.tableLayoutPanel7.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.tableLayoutPanel7.Location = new System.Drawing.Point(108, 32);
+            this.tableLayoutPanel7.Location = new System.Drawing.Point(108, 33);
             this.tableLayoutPanel7.Name = "tableLayoutPanel7";
             this.tableLayoutPanel7.RowCount = 2;
             this.tableLayoutPanel7.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 38.88889F));
@@ -1841,7 +1844,7 @@
             this.dogTagsPictureBox.Dock = System.Windows.Forms.DockStyle.Fill;
             this.dogTagsPictureBox.Location = new System.Drawing.Point(3, 3);
             this.dogTagsPictureBox.Name = "dogTagsPictureBox";
-            this.dogTagsPictureBox.Size = new System.Drawing.Size(99, 23);
+            this.dogTagsPictureBox.Size = new System.Drawing.Size(99, 24);
             this.dogTagsPictureBox.TabIndex = 0;
             this.dogTagsPictureBox.TabStop = false;
             // 
@@ -2969,7 +2972,7 @@
             // 
             this.coldMedsGroupBox.Controls.Add(this.coldMedsLayoutPanel);
             this.coldMedsGroupBox.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.coldMedsGroupBox.Location = new System.Drawing.Point(645, 3);
+            this.coldMedsGroupBox.Location = new System.Drawing.Point(3, 291);
             this.coldMedsGroupBox.Name = "coldMedsGroupBox";
             this.coldMedsGroupBox.Size = new System.Drawing.Size(208, 90);
             this.coldMedsGroupBox.TabIndex = 43;
@@ -2979,12 +2982,12 @@
             // coldMedsLayoutPanel
             // 
             this.coldMedsLayoutPanel.ColumnCount = 2;
-            this.coldMedsLayoutPanel.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 56.74157F));
-            this.coldMedsLayoutPanel.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 43.25843F));
+            this.coldMedsLayoutPanel.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
+            this.coldMedsLayoutPanel.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
+            this.coldMedsLayoutPanel.Controls.Add(this.tableLayoutPanel9, 1, 1);
+            this.coldMedsLayoutPanel.Controls.Add(this.tableLayoutPanel8, 0, 1);
             this.coldMedsLayoutPanel.Controls.Add(this.coldMedsPictureBox, 0, 0);
             this.coldMedsLayoutPanel.Controls.Add(this.coldMedsCheckBox, 1, 0);
-            this.coldMedsLayoutPanel.Controls.Add(this.tableLayoutPanel8, 0, 1);
-            this.coldMedsLayoutPanel.Controls.Add(this.tableLayoutPanel9, 1, 1);
             this.coldMedsLayoutPanel.Dock = System.Windows.Forms.DockStyle.Fill;
             this.coldMedsLayoutPanel.Location = new System.Drawing.Point(3, 16);
             this.coldMedsLayoutPanel.Name = "coldMedsLayoutPanel";
@@ -2994,19 +2997,130 @@
             this.coldMedsLayoutPanel.Size = new System.Drawing.Size(202, 71);
             this.coldMedsLayoutPanel.TabIndex = 41;
             // 
+            // tableLayoutPanel9
+            // 
+            this.tableLayoutPanel9.ColumnCount = 2;
+            this.tableLayoutPanel9.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
+            this.tableLayoutPanel9.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 40F));
+            this.tableLayoutPanel9.Controls.Add(this.label8, 0, 0);
+            this.tableLayoutPanel9.Controls.Add(this.coldMedsMaxUpDown, 0, 1);
+            this.tableLayoutPanel9.Controls.Add(this.coldMedsMaxBtn, 1, 1);
+            this.tableLayoutPanel9.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.tableLayoutPanel9.Location = new System.Drawing.Point(104, 32);
+            this.tableLayoutPanel9.Name = "tableLayoutPanel9";
+            this.tableLayoutPanel9.RowCount = 2;
+            this.tableLayoutPanel9.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 38.88889F));
+            this.tableLayoutPanel9.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 61.11111F));
+            this.tableLayoutPanel9.Size = new System.Drawing.Size(95, 36);
+            this.tableLayoutPanel9.TabIndex = 6;
+            // 
+            // label8
+            // 
+            this.label8.AutoSize = true;
+            this.tableLayoutPanel9.SetColumnSpan(this.label8, 2);
+            this.label8.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.label8.Location = new System.Drawing.Point(0, 0);
+            this.label8.Margin = new System.Windows.Forms.Padding(0);
+            this.label8.Name = "label8";
+            this.label8.Size = new System.Drawing.Size(95, 14);
+            this.label8.TabIndex = 0;
+            this.label8.Text = "Max Count";
+            // 
+            // coldMedsMaxUpDown
+            // 
+            this.coldMedsMaxUpDown.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.coldMedsMaxUpDown.Location = new System.Drawing.Point(3, 15);
+            this.coldMedsMaxUpDown.Margin = new System.Windows.Forms.Padding(3, 1, 0, 0);
+            this.coldMedsMaxUpDown.Maximum = new decimal(new int[] {
+            32767,
+            0,
+            0,
+            0});
+            this.coldMedsMaxUpDown.Name = "coldMedsMaxUpDown";
+            this.coldMedsMaxUpDown.Size = new System.Drawing.Size(52, 20);
+            this.coldMedsMaxUpDown.TabIndex = 1;
+            // 
+            // coldMedsMaxBtn
+            // 
+            this.coldMedsMaxBtn.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.coldMedsMaxBtn.Location = new System.Drawing.Point(55, 14);
+            this.coldMedsMaxBtn.Margin = new System.Windows.Forms.Padding(0);
+            this.coldMedsMaxBtn.Name = "coldMedsMaxBtn";
+            this.coldMedsMaxBtn.Size = new System.Drawing.Size(40, 22);
+            this.coldMedsMaxBtn.TabIndex = 2;
+            this.coldMedsMaxBtn.Text = "Set!";
+            this.coldMedsMaxBtn.UseVisualStyleBackColor = true;
+            this.coldMedsMaxBtn.Click += new System.EventHandler(this.coldMedsMaxBtn_Click);
+            // 
+            // tableLayoutPanel8
+            // 
+            this.tableLayoutPanel8.ColumnCount = 2;
+            this.tableLayoutPanel8.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
+            this.tableLayoutPanel8.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 40F));
+            this.tableLayoutPanel8.Controls.Add(this.label7, 0, 0);
+            this.tableLayoutPanel8.Controls.Add(this.coldMedsCurrentUpDown, 0, 1);
+            this.tableLayoutPanel8.Controls.Add(this.coldMedsCurrentBtn, 1, 1);
+            this.tableLayoutPanel8.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.tableLayoutPanel8.Location = new System.Drawing.Point(3, 32);
+            this.tableLayoutPanel8.Name = "tableLayoutPanel8";
+            this.tableLayoutPanel8.RowCount = 2;
+            this.tableLayoutPanel8.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 38.88889F));
+            this.tableLayoutPanel8.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 61.11111F));
+            this.tableLayoutPanel8.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
+            this.tableLayoutPanel8.Size = new System.Drawing.Size(95, 36);
+            this.tableLayoutPanel8.TabIndex = 5;
+            // 
+            // label7
+            // 
+            this.label7.AutoSize = true;
+            this.tableLayoutPanel8.SetColumnSpan(this.label7, 2);
+            this.label7.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.label7.Location = new System.Drawing.Point(0, 0);
+            this.label7.Margin = new System.Windows.Forms.Padding(0);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(95, 14);
+            this.label7.TabIndex = 0;
+            this.label7.Text = "Current Count";
+            // 
+            // coldMedsCurrentUpDown
+            // 
+            this.coldMedsCurrentUpDown.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.coldMedsCurrentUpDown.Location = new System.Drawing.Point(3, 15);
+            this.coldMedsCurrentUpDown.Margin = new System.Windows.Forms.Padding(3, 1, 0, 0);
+            this.coldMedsCurrentUpDown.Maximum = new decimal(new int[] {
+            32767,
+            0,
+            0,
+            0});
+            this.coldMedsCurrentUpDown.Name = "coldMedsCurrentUpDown";
+            this.coldMedsCurrentUpDown.Size = new System.Drawing.Size(52, 20);
+            this.coldMedsCurrentUpDown.TabIndex = 1;
+            // 
+            // coldMedsCurrentBtn
+            // 
+            this.coldMedsCurrentBtn.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.coldMedsCurrentBtn.Location = new System.Drawing.Point(55, 14);
+            this.coldMedsCurrentBtn.Margin = new System.Windows.Forms.Padding(0);
+            this.coldMedsCurrentBtn.Name = "coldMedsCurrentBtn";
+            this.coldMedsCurrentBtn.Size = new System.Drawing.Size(40, 22);
+            this.coldMedsCurrentBtn.TabIndex = 2;
+            this.coldMedsCurrentBtn.Text = "Set!";
+            this.coldMedsCurrentBtn.UseVisualStyleBackColor = true;
+            this.coldMedsCurrentBtn.Click += new System.EventHandler(this.coldMedsCurrentBtn_Click);
+            // 
             // coldMedsPictureBox
             // 
             this.coldMedsPictureBox.Dock = System.Windows.Forms.DockStyle.Fill;
             this.coldMedsPictureBox.Location = new System.Drawing.Point(3, 3);
             this.coldMedsPictureBox.Name = "coldMedsPictureBox";
-            this.coldMedsPictureBox.Size = new System.Drawing.Size(108, 23);
+            this.coldMedsPictureBox.Size = new System.Drawing.Size(95, 23);
             this.coldMedsPictureBox.TabIndex = 0;
             this.coldMedsPictureBox.TabStop = false;
             // 
             // coldMedsCheckBox
             // 
             this.coldMedsCheckBox.AutoSize = true;
-            this.coldMedsCheckBox.Location = new System.Drawing.Point(117, 6);
+            this.coldMedsCheckBox.Location = new System.Drawing.Point(104, 6);
             this.coldMedsCheckBox.Margin = new System.Windows.Forms.Padding(3, 6, 3, 3);
             this.coldMedsCheckBox.Name = "coldMedsCheckBox";
             this.coldMedsCheckBox.Size = new System.Drawing.Size(71, 17);
@@ -3014,70 +3128,6 @@
             this.coldMedsCheckBox.Text = "Enabled?";
             this.coldMedsCheckBox.UseVisualStyleBackColor = true;
             this.coldMedsCheckBox.CheckedChanged += new System.EventHandler(this.coldMedsCheckBox_CheckedChanged);
-            // 
-            // tableLayoutPanel8
-            // 
-            this.tableLayoutPanel8.ColumnCount = 1;
-            this.tableLayoutPanel8.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
-            this.tableLayoutPanel8.Controls.Add(this.label7, 0, 0);
-            this.tableLayoutPanel8.Controls.Add(this.numericUpDown7, 0, 1);
-            this.tableLayoutPanel8.Location = new System.Drawing.Point(3, 32);
-            this.tableLayoutPanel8.Name = "tableLayoutPanel8";
-            this.tableLayoutPanel8.RowCount = 2;
-            this.tableLayoutPanel8.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
-            this.tableLayoutPanel8.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
-            this.tableLayoutPanel8.Size = new System.Drawing.Size(94, 36);
-            this.tableLayoutPanel8.TabIndex = 2;
-            // 
-            // label7
-            // 
-            this.label7.AutoSize = true;
-            this.label7.Location = new System.Drawing.Point(0, 0);
-            this.label7.Margin = new System.Windows.Forms.Padding(0);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(60, 13);
-            this.label7.TabIndex = 0;
-            this.label7.Text = "Set Current";
-            // 
-            // numericUpDown7
-            // 
-            this.numericUpDown7.Location = new System.Drawing.Point(3, 18);
-            this.numericUpDown7.Margin = new System.Windows.Forms.Padding(3, 0, 3, 0);
-            this.numericUpDown7.Name = "numericUpDown7";
-            this.numericUpDown7.Size = new System.Drawing.Size(52, 20);
-            this.numericUpDown7.TabIndex = 1;
-            // 
-            // tableLayoutPanel9
-            // 
-            this.tableLayoutPanel9.ColumnCount = 1;
-            this.tableLayoutPanel9.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
-            this.tableLayoutPanel9.Controls.Add(this.label8, 0, 0);
-            this.tableLayoutPanel9.Controls.Add(this.numericUpDown8, 0, 1);
-            this.tableLayoutPanel9.Location = new System.Drawing.Point(117, 32);
-            this.tableLayoutPanel9.Name = "tableLayoutPanel9";
-            this.tableLayoutPanel9.RowCount = 2;
-            this.tableLayoutPanel9.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
-            this.tableLayoutPanel9.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
-            this.tableLayoutPanel9.Size = new System.Drawing.Size(71, 36);
-            this.tableLayoutPanel9.TabIndex = 3;
-            // 
-            // label8
-            // 
-            this.label8.AutoSize = true;
-            this.label8.Location = new System.Drawing.Point(0, 0);
-            this.label8.Margin = new System.Windows.Forms.Padding(0);
-            this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(46, 13);
-            this.label8.TabIndex = 0;
-            this.label8.Text = "Set Max";
-            // 
-            // numericUpDown8
-            // 
-            this.numericUpDown8.Location = new System.Drawing.Point(3, 18);
-            this.numericUpDown8.Margin = new System.Windows.Forms.Padding(3, 0, 3, 0);
-            this.numericUpDown8.Name = "numericUpDown8";
-            this.numericUpDown8.Size = new System.Drawing.Size(52, 20);
-            this.numericUpDown8.TabIndex = 1;
             // 
             // rationGroupBox
             // 
@@ -3550,13 +3600,13 @@
             this.coldMedsGroupBox.ResumeLayout(false);
             this.coldMedsLayoutPanel.ResumeLayout(false);
             this.coldMedsLayoutPanel.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.coldMedsPictureBox)).EndInit();
-            this.tableLayoutPanel8.ResumeLayout(false);
-            this.tableLayoutPanel8.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown7)).EndInit();
             this.tableLayoutPanel9.ResumeLayout(false);
             this.tableLayoutPanel9.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown8)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.coldMedsMaxUpDown)).EndInit();
+            this.tableLayoutPanel8.ResumeLayout(false);
+            this.tableLayoutPanel8.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.coldMedsCurrentUpDown)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.coldMedsPictureBox)).EndInit();
             this.rationGroupBox.ResumeLayout(false);
             this.rationLayoutPanel.ResumeLayout(false);
             this.rationLayoutPanel.PerformLayout();
@@ -3635,12 +3685,6 @@
         private System.Windows.Forms.TableLayoutPanel coldMedsLayoutPanel;
         private System.Windows.Forms.PictureBox coldMedsPictureBox;
         private System.Windows.Forms.CheckBox coldMedsCheckBox;
-        private System.Windows.Forms.TableLayoutPanel tableLayoutPanel8;
-        private System.Windows.Forms.Label label7;
-        private System.Windows.Forms.NumericUpDown numericUpDown7;
-        private System.Windows.Forms.TableLayoutPanel tableLayoutPanel9;
-        private System.Windows.Forms.Label label8;
-        private System.Windows.Forms.NumericUpDown numericUpDown8;
         private System.Windows.Forms.TableLayoutPanel bandageLayoutPanel;
         private System.Windows.Forms.PictureBox bandagePictureBox;
         private System.Windows.Forms.CheckBox bandageCheckBox;
@@ -3816,6 +3860,14 @@
         private System.Windows.Forms.Label label13;
         private System.Windows.Forms.NumericUpDown cardUpDown;
         private System.Windows.Forms.Button cardBtn;
+        private System.Windows.Forms.TableLayoutPanel tableLayoutPanel9;
+        private System.Windows.Forms.Label label8;
+        private System.Windows.Forms.NumericUpDown coldMedsMaxUpDown;
+        private System.Windows.Forms.Button coldMedsMaxBtn;
+        private System.Windows.Forms.TableLayoutPanel tableLayoutPanel8;
+        private System.Windows.Forms.Label label7;
+        private System.Windows.Forms.NumericUpDown coldMedsCurrentUpDown;
+        private System.Windows.Forms.Button coldMedsCurrentBtn;
     }
 }
 

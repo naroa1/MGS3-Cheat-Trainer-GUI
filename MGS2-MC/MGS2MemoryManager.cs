@@ -51,14 +51,14 @@ namespace MGS2_MC
             return process;
         }
 
-        private static int GetCurrentPlayerOffset(Process mgs2Process, IntPtr processHandle)
+        private static int[] GetCurrentPlayerOffset(Process mgs2Process, IntPtr processHandle)
         {
             byte[] buffer = new byte[mgs2Process.PrivateMemorySize64];
             NativeMethods.ReadProcessMemory(processHandle, PROCESS_BASE_ADDRESS, buffer, (uint)buffer.Length, out int numBytesRead);
             // we now, theoretically, have the ENTIRETY of MGS2 loaded into this buffer. At this point, we now
             // need to scan through this buffer until we find the second to last grouping of MGS2Constants.PlayerOffsetBytes
             int byteCount = 0;
-            List<int> playerPositions = new List<int>();
+            int[] playerPositions = new int[2];
             while(byteCount + 8 < buffer.Length)
             {
                 if (buffer[byteCount] == MGS2Constants.PlayerOffsetBytes[0] &&
@@ -70,12 +70,12 @@ namespace MGS2_MC
                     buffer[byteCount + 6] == MGS2Constants.PlayerOffsetBytes[6] &&
                     buffer[byteCount + 7] == MGS2Constants.PlayerOffsetBytes[7])
                 {
-                    playerPositions.Add(byteCount);
+                    playerPositions.Append(byteCount);
                 }
-                byteCount += 8;
+                byteCount += 4; //this technically introduces the possibility that we miss the player positions.
             }
 
-            return playerPositions[0]; //need to verify this works for everything
+            return playerPositions;
         }
 
         private static byte[] ReadValueFromMemory(IntPtr processHandle, IntPtr objectAddress, byte[] bytesToRead = null)
@@ -94,10 +94,11 @@ namespace MGS2_MC
             return bytesToRead;
         }
 
-        private static void ReadWriteBooleanValue(IntPtr processHandle, int objectOffset)
+        private static void ReadWriteBooleanValue(IntPtr processHandle, int playerOffset, int objectOffset)
         {
-            IntPtr booleanAddress = IntPtr.Add(PROCESS_BASE_ADDRESS, objectOffset);
-            byte[] currentValue = ReadValueFromMemory(processHandle, booleanAddress);
+            int combinedOffset = playerOffset + objectOffset;
+            IntPtr booleanAddress = IntPtr.Add(PROCESS_BASE_ADDRESS, combinedOffset);
+            byte[] currentValue = ReadValueFromMemory(processHandle, booleanAddress, new byte[sizeof(short)]);
 
             byte[] valueToWrite = currentValue == BitConverter.GetBytes((short)0) ? BitConverter.GetBytes((short)0) : BitConverter.GetBytes((short)1);
 
@@ -126,21 +127,23 @@ namespace MGS2_MC
 
             PROCESS_BASE_ADDRESS = process.MainModule.BaseAddress;
             IntPtr processHandle = NativeMethods.OpenProcess(0x1F0FFF, false, process.Id);
-            int playerOffset = GetCurrentPlayerOffset(process, processHandle);
+            int[] playerOffset = GetCurrentPlayerOffset(process, processHandle);
             int bytesWritten;
 
             byte[] buffer = value; // Value to write
-            IntPtr targetAddress = IntPtr.Add(PROCESS_BASE_ADDRESS, (playerOffset + objectOffset)); // Adjusted to add base address
+            IntPtr targetAddress1 = IntPtr.Add(PROCESS_BASE_ADDRESS, (playerOffset[0] + objectOffset)); // Adjusted to add base address
+            IntPtr targetAddress2 = IntPtr.Add(PROCESS_BASE_ADDRESS, playerOffset[1] + objectOffset);
 
-            bool success = NativeMethods.WriteProcessMemory(processHandle, targetAddress, buffer, (uint)buffer.Length, out bytesWritten);
+            bool success1 = NativeMethods.WriteProcessMemory(processHandle, targetAddress1, buffer, (uint)buffer.Length, out bytesWritten);
+            bool success2 = NativeMethods.WriteProcessMemory(processHandle, targetAddress2, buffer, (uint)buffer.Length, out bytesWritten);
 
-            if (!success || bytesWritten != buffer.Length)
+            if ((!success1 && ! success2) || bytesWritten != buffer.Length)
             {
                 NativeMethods.CloseHandle(processHandle);
                 throw new FileLoadException($"Failed to write memory with value {value}.");
             }
 
-            if(objectOffset == -2 && success)
+            if(objectOffset == -2 && (success1 || success2))
             {
                 //the m9 max ammo is part of the player offset i chose, which is terrible, but i don't see a better option presently. should definitely find a different anchor going forward though
                 MGS2Constants.PlayerOffsetBytes[6] = value[0];
@@ -149,7 +152,32 @@ namespace MGS2_MC
             NativeMethods.CloseHandle(processHandle);
         }
 
-        internal static void UpdateCurrentCount(MGS2Object mgs2Object, short count)
+        internal static byte[] GetCurrentValue(int valueOffset, int sizeToRead)
+        {
+            Process process;
+
+            try
+            {
+                process = GetMGS2Process();
+            }
+            catch
+            {
+                throw new FileLoadException($"Cannot find process: {MGS2Constants.PROCESS_NAME}");
+            }
+
+            PROCESS_BASE_ADDRESS = process.MainModule.BaseAddress;
+            IntPtr processHandle = NativeMethods.OpenProcess(0x1F0FFF, false, process.Id);
+            int[] playerOffset = GetCurrentPlayerOffset(process, processHandle);
+            //TODO: add some kind of check system that looks at the time bytes and sees if it is updating regularly.
+            IntPtr targetAddress = IntPtr.Add(PROCESS_BASE_ADDRESS, playerOffset[0] + valueOffset); // Adjusted to add base address
+
+            byte[] bytesRead = new byte[sizeToRead];
+            ReadValueFromMemory(processHandle, targetAddress, bytesRead);
+
+            return bytesRead;
+        }
+
+        internal static void UpdateObjectCurrentCount(MGS2Object mgs2Object, short count)
         {
             switch (mgs2Object)
             {
@@ -158,6 +186,19 @@ namespace MGS2_MC
                     break;
                 case AmmoWeapon ammoWeapon:
                     ModifyByteValueObject(ammoWeapon.InventoryOffset, BitConverter.GetBytes(count));
+                    break;
+            }
+        }
+
+        internal static void UpdateObjectMaxCount(MGS2Object mgs2Object, short count)
+        {
+            switch (mgs2Object)
+            {
+                case StackableItem stackableItem:
+                    ModifyByteValueObject(stackableItem.MaxCountOffset, BitConverter.GetBytes(count)); 
+                    break;
+                case AmmoWeapon ammoWeapon:
+                    ModifyByteValueObject(ammoWeapon.MaxAmmoOffset, BitConverter.GetBytes(count));
                     break;
             }
         }
@@ -178,11 +219,12 @@ namespace MGS2_MC
 
             PROCESS_BASE_ADDRESS = process.MainModule.BaseAddress;
             IntPtr processHandle = NativeMethods.OpenProcess(0x1F0FFF, false, process.Id);
-            int playerOffset = GetCurrentPlayerOffset(process, processHandle);
+            int[] playerOffset = GetCurrentPlayerOffset(process, processHandle);
 
             try
             {
-                ReadWriteBooleanValue(processHandle, playerOffset + objectOffset);
+                ReadWriteBooleanValue(processHandle, playerOffset[0], objectOffset);
+                ReadWriteBooleanValue(processHandle, playerOffset[1], objectOffset);
             }
             catch(Exception e)
             {

@@ -59,25 +59,21 @@ namespace MGS2_MC
         {
             ToggleObject();
         }
-
-        public void UpdateCurrentCount(int count)
-        {
-            short shortCount = (short)count;
-            MGS2MemoryManager.UpdateCurrentCount(this, shortCount);
-        }
     }
 
     public class LevelableItem : BasicItem
     {
-        internal int Level { get; set; }
+        internal short Level { get; set; }
 
-        public LevelableItem(string name, IntPtr nameMemoryOffset, int inventoryOffset, int level) : base(name, nameMemoryOffset, inventoryOffset)
+        public LevelableItem(string name, IntPtr nameMemoryOffset, int inventoryOffset, short level) : base(name, nameMemoryOffset, inventoryOffset)
         {
             Level = level;
         }
 
-        public void SetLevel(int level)
+        public void SetLevel(short level)
         {
+            //TODO: figure out logic for levels
+            MGS2MemoryManager.UpdateObjectCurrentCount(this, level);
             Level = level;
         }
     }
@@ -101,10 +97,36 @@ namespace MGS2_MC
         private int MIN_MAX_COUNT_DIFF = 96;
         internal int CountOffset { get; set; }
         internal int MaxCountOffset { get; set; }
+        private short LastKnownCurrent = 1;
         public StackableItem(string name, IntPtr nameMemoryOffset, int inventoryOffset) : base(name, nameMemoryOffset, inventoryOffset)
         {
             CountOffset = inventoryOffset;
             MaxCountOffset = inventoryOffset + MIN_MAX_COUNT_DIFF;
+        }
+
+        public void UpdateCurrentCount(short count)
+        {
+            MGS2MemoryManager.UpdateObjectCurrentCount(this, count);
+        }
+
+        public new void ToggleItem()
+        {
+            //read current count: if 0, we are enabling, otherwise, disable
+            short currentCount = BitConverter.ToInt16(MGS2MemoryManager.GetCurrentValue(CountOffset, sizeof(short)), 0);
+            if (currentCount != 0)
+            {
+                LastKnownCurrent = currentCount;
+                UpdateCurrentCount(0);
+            }
+            else
+            {
+                UpdateCurrentCount(LastKnownCurrent);
+            }
+        }
+
+        public void UpdateMaxCount(short count)
+        {
+            MGS2MemoryManager.UpdateObjectMaxCount(this, count);
         }
     }
     #endregion
@@ -131,7 +153,7 @@ namespace MGS2_MC
         public void UpdateCurrentAmmoCount(int count)
         {
             short shortCount = (short)count;
-            MGS2MemoryManager.UpdateCurrentCount(this, shortCount);
+            MGS2MemoryManager.UpdateObjectCurrentCount(this, shortCount);
         }
     }
 
@@ -164,7 +186,7 @@ namespace MGS2_MC
     public class MGS2UsableObjects
     {
         private static int BASE_WEAPON_OFFSET = -66; //whenever a "new" "anchor" is chosen, only need to update this value and all others will update.
-        private static int BASE_ITEM_OFFSET = BASE_WEAPON_OFFSET + 137;
+        private static int BASE_ITEM_OFFSET = BASE_WEAPON_OFFSET + 144;
 
         //TODO: update name pointers to, you know, real values :)
         #region Weapons
@@ -200,7 +222,6 @@ namespace MGS2_MC
         #region Items
         #region Basic Items
         public static readonly BasicItem SnakeBinoculars = new BasicItem("Binoculars", IntPtr.Zero, BASE_ITEM_OFFSET + 2);
-        public static readonly BasicItem ColdMedicine = new BasicItem("Cold Medicine", IntPtr.Zero, BASE_ITEM_OFFSET + 4); //confirm this is indeed 1/0 and not stackable
         public static readonly BasicItem BodyArmor = new BasicItem("Body Armor", IntPtr.Zero, BASE_ITEM_OFFSET + 12);
         public static readonly BasicItem Stealth = new BasicItem("Stealth", IntPtr.Zero, BASE_ITEM_OFFSET + 14);
         public static readonly BasicItem MineDetector = new BasicItem("Mine Detector", IntPtr.Zero, BASE_ITEM_OFFSET + 16);
@@ -211,6 +232,7 @@ namespace MGS2_MC
         public static readonly BasicItem RaidenBinoculars = new BasicItem("Binoculars", IntPtr.Zero, BASE_ITEM_OFFSET + 26);
         public static readonly BasicItem DigitalCamera = new BasicItem("Digital Camera", IntPtr.Zero, BASE_ITEM_OFFSET + 28);
         public static readonly BasicItem Cigarettes = new BasicItem("Cigs", IntPtr.Zero, BASE_ITEM_OFFSET + 32);
+        public static readonly BasicItem Shaver = new BasicItem("Shaver", IntPtr.Zero, BASE_ITEM_OFFSET + 36);
         public static readonly BasicItem Phone = new BasicItem("Phone", IntPtr.Zero, BASE_ITEM_OFFSET + 38);
         public static readonly BasicItem Camera1 = new BasicItem("Camera", IntPtr.Zero, BASE_ITEM_OFFSET + 40);
         public static readonly BasicItem APSensor = new BasicItem("AP Sensor", IntPtr.Zero, BASE_ITEM_OFFSET + 48);
@@ -238,9 +260,9 @@ namespace MGS2_MC
         #endregion
         #region Enumerable Items
         public static readonly StackableItem Ration = new StackableItem("Ration", IntPtr.Zero, BASE_ITEM_OFFSET);
+        public static readonly StackableItem ColdMedicine = new StackableItem("Cold Medicine", IntPtr.Zero, BASE_ITEM_OFFSET + 4);
         public static readonly StackableItem Bandage = new StackableItem("Bandage", IntPtr.Zero, BASE_ITEM_OFFSET + 6);
         public static readonly StackableItem Pentazemin = new StackableItem("Pentazemin", IntPtr.Zero, BASE_ITEM_OFFSET + 8);
-        public static readonly StackableItem Shaver = new StackableItem("Shaver", IntPtr.Zero, BASE_ITEM_OFFSET + 36); //TODO: is this really a stackable item? lul
         public static readonly StackableItem DogTags = new StackableItem("DogTags", IntPtr.Zero, BASE_ITEM_OFFSET + 64);
         #endregion
         #region Levelable Items
