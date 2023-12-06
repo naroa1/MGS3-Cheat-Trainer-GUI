@@ -299,6 +299,11 @@ namespace MGS2_MC
         {
             MGS2UsableObjects.ColdMedicine.UpdateMaxCount(MaxColdMedsCount());
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+
+        }
         #endregion
 
         /*private void button1_Click(object sender, EventArgs e)

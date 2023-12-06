@@ -265,6 +265,139 @@
             this.bodyArmorPictureBox = new System.Windows.Forms.PictureBox();
             this.bodyArmorCheckBox = new System.Windows.Forms.CheckBox();
             this.tabPageWeapon = new System.Windows.Forms.TabPage();
+            this.weaponsLayoutPanel = new System.Windows.Forms.TableLayoutPanel();
+            this.m9GroupBox = new System.Windows.Forms.GroupBox();
+            this.m9LayoutPanel = new System.Windows.Forms.TableLayoutPanel();
+            this.tableLayoutPanel16 = new System.Windows.Forms.TableLayoutPanel();
+            this.label14 = new System.Windows.Forms.Label();
+            this.m9MaxUpDown = new System.Windows.Forms.NumericUpDown();
+            this.m9MaxBtn = new System.Windows.Forms.Button();
+            this.m9PictureBox = new System.Windows.Forms.PictureBox();
+            this.m9CheckBox = new System.Windows.Forms.CheckBox();
+            this.tableLayoutPanel17 = new System.Windows.Forms.TableLayoutPanel();
+            this.label15 = new System.Windows.Forms.Label();
+            this.m9CurrentUpDown = new System.Windows.Forms.NumericUpDown();
+            this.m9CurrentBtn = new System.Windows.Forms.Button();
+            this.socomGroupBox = new System.Windows.Forms.GroupBox();
+            this.socomLayoutPanel = new System.Windows.Forms.TableLayoutPanel();
+            this.tableLayoutPanel18 = new System.Windows.Forms.TableLayoutPanel();
+            this.label16 = new System.Windows.Forms.Label();
+            this.socomMaxUpDown = new System.Windows.Forms.NumericUpDown();
+            this.socomMaxBtn = new System.Windows.Forms.Button();
+            this.socomPictureBox = new System.Windows.Forms.PictureBox();
+            this.socomCheckBox = new System.Windows.Forms.CheckBox();
+            this.tableLayoutPanel19 = new System.Windows.Forms.TableLayoutPanel();
+            this.label17 = new System.Windows.Forms.Label();
+            this.socomCurrentUpDown = new System.Windows.Forms.NumericUpDown();
+            this.socomCurrentBtn = new System.Windows.Forms.Button();
+            this.uspGroupBox = new System.Windows.Forms.GroupBox();
+            this.uspLayoutPanel = new System.Windows.Forms.TableLayoutPanel();
+            this.tableLayoutPanel20 = new System.Windows.Forms.TableLayoutPanel();
+            this.label18 = new System.Windows.Forms.Label();
+            this.uspMaxUpDown = new System.Windows.Forms.NumericUpDown();
+            this.uspMaxBtn = new System.Windows.Forms.Button();
+            this.uspPictureBox = new System.Windows.Forms.PictureBox();
+            this.uspCheckBox = new System.Windows.Forms.CheckBox();
+            this.tableLayoutPanel21 = new System.Windows.Forms.TableLayoutPanel();
+            this.label19 = new System.Windows.Forms.Label();
+            this.uspCurrentUpDown = new System.Windows.Forms.NumericUpDown();
+            this.uspCurrentBtn = new System.Windows.Forms.Button();
+            this.chaffGroupBox = new System.Windows.Forms.GroupBox();
+            this.chaffLayoutPanel = new System.Windows.Forms.TableLayoutPanel();
+            this.tableLayoutPanel22 = new System.Windows.Forms.TableLayoutPanel();
+            this.label20 = new System.Windows.Forms.Label();
+            this.chaffMaxUpDown = new System.Windows.Forms.NumericUpDown();
+            this.chaffMaxBtn = new System.Windows.Forms.Button();
+            this.chaffPictureBox = new System.Windows.Forms.PictureBox();
+            this.chaffCheckBox = new System.Windows.Forms.CheckBox();
+            this.tableLayoutPanel23 = new System.Windows.Forms.TableLayoutPanel();
+            this.label21 = new System.Windows.Forms.Label();
+            this.chaffCurrentUpDown = new System.Windows.Forms.NumericUpDown();
+            this.chaffCurrentBtn = new System.Windows.Forms.Button();
+            this.stunGroupBox = new System.Windows.Forms.GroupBox();
+            this.stunLayoutPanel = new System.Windows.Forms.TableLayoutPanel();
+            this.tableLayoutPanel25 = new System.Windows.Forms.TableLayoutPanel();
+            this.label22 = new System.Windows.Forms.Label();
+            this.stunMaxUpDown = new System.Windows.Forms.NumericUpDown();
+            this.stunMaxBtn = new System.Windows.Forms.Button();
+            this.stunPictureBox = new System.Windows.Forms.PictureBox();
+            this.stunCheckBox = new System.Windows.Forms.CheckBox();
+            this.tableLayoutPanel26 = new System.Windows.Forms.TableLayoutPanel();
+            this.label23 = new System.Windows.Forms.Label();
+            this.stunCurrentUpDown = new System.Windows.Forms.NumericUpDown();
+            this.stunCurrentBtn = new System.Windows.Forms.Button();
+            this.grenadeGroupBox = new System.Windows.Forms.GroupBox();
+            this.grenadeLayoutPanel = new System.Windows.Forms.TableLayoutPanel();
+            this.tableLayoutPanel28 = new System.Windows.Forms.TableLayoutPanel();
+            this.label24 = new System.Windows.Forms.Label();
+            this.grenadeMaxUpDown = new System.Windows.Forms.NumericUpDown();
+            this.grenadeMaxBtn = new System.Windows.Forms.Button();
+            this.grenadePictureBox = new System.Windows.Forms.PictureBox();
+            this.grenadeCheckBox = new System.Windows.Forms.CheckBox();
+            this.tableLayoutPanel29 = new System.Windows.Forms.TableLayoutPanel();
+            this.label25 = new System.Windows.Forms.Label();
+            this.grenadeCurrentUpDown = new System.Windows.Forms.NumericUpDown();
+            this.grenadeCurrentBtn = new System.Windows.Forms.Button();
+            this.magazineGroupBox = new System.Windows.Forms.GroupBox();
+            this.magazineLayoutPanel = new System.Windows.Forms.TableLayoutPanel();
+            this.tableLayoutPanel24 = new System.Windows.Forms.TableLayoutPanel();
+            this.label26 = new System.Windows.Forms.Label();
+            this.magazineMaxUpDown = new System.Windows.Forms.NumericUpDown();
+            this.magazineMaxBtn = new System.Windows.Forms.Button();
+            this.magazinePictureBox = new System.Windows.Forms.PictureBox();
+            this.magazineCheckBox = new System.Windows.Forms.CheckBox();
+            this.tableLayoutPanel27 = new System.Windows.Forms.TableLayoutPanel();
+            this.label27 = new System.Windows.Forms.Label();
+            this.magazineCurrentUpDown = new System.Windows.Forms.NumericUpDown();
+            this.magazineCurrentBtn = new System.Windows.Forms.Button();
+            this.akGroupBox = new System.Windows.Forms.GroupBox();
+            this.akLayoutPanel = new System.Windows.Forms.TableLayoutPanel();
+            this.tableLayoutPanel15 = new System.Windows.Forms.TableLayoutPanel();
+            this.label28 = new System.Windows.Forms.Label();
+            this.akMaxUpDown = new System.Windows.Forms.NumericUpDown();
+            this.akMaxBtn = new System.Windows.Forms.Button();
+            this.akPictureBox = new System.Windows.Forms.PictureBox();
+            this.akCheckBox = new System.Windows.Forms.CheckBox();
+            this.tableLayoutPanel30 = new System.Windows.Forms.TableLayoutPanel();
+            this.label29 = new System.Windows.Forms.Label();
+            this.akCurrentUpDown = new System.Windows.Forms.NumericUpDown();
+            this.akCurrentBtn = new System.Windows.Forms.Button();
+            this.m4GroupBox = new System.Windows.Forms.GroupBox();
+            this.m4LayoutPanel = new System.Windows.Forms.TableLayoutPanel();
+            this.tableLayoutPanel31 = new System.Windows.Forms.TableLayoutPanel();
+            this.label30 = new System.Windows.Forms.Label();
+            this.m4MaxUpDown = new System.Windows.Forms.NumericUpDown();
+            this.m4MaxBtn = new System.Windows.Forms.Button();
+            this.m4PictureBox = new System.Windows.Forms.PictureBox();
+            this.m4CheckBox = new System.Windows.Forms.CheckBox();
+            this.tableLayoutPanel32 = new System.Windows.Forms.TableLayoutPanel();
+            this.label31 = new System.Windows.Forms.Label();
+            this.m4CurrentUpDown = new System.Windows.Forms.NumericUpDown();
+            this.m4CurrentBtn = new System.Windows.Forms.Button();
+            this.psg1GroupBox = new System.Windows.Forms.GroupBox();
+            this.psg1LayoutPanel = new System.Windows.Forms.TableLayoutPanel();
+            this.tableLayoutPanel33 = new System.Windows.Forms.TableLayoutPanel();
+            this.label32 = new System.Windows.Forms.Label();
+            this.psg1MaxUpDown = new System.Windows.Forms.NumericUpDown();
+            this.psg1MaxBtn = new System.Windows.Forms.Button();
+            this.psg1PictureBox = new System.Windows.Forms.PictureBox();
+            this.psg1CheckBox = new System.Windows.Forms.CheckBox();
+            this.tableLayoutPanel34 = new System.Windows.Forms.TableLayoutPanel();
+            this.label33 = new System.Windows.Forms.Label();
+            this.psg1CurrentUpDown = new System.Windows.Forms.NumericUpDown();
+            this.psg1CurrentBtn = new System.Windows.Forms.Button();
+            this.psg1TGroupBox = new System.Windows.Forms.GroupBox();
+            this.psg1TLayoutPanel = new System.Windows.Forms.TableLayoutPanel();
+            this.tableLayoutPanel35 = new System.Windows.Forms.TableLayoutPanel();
+            this.label34 = new System.Windows.Forms.Label();
+            this.psg1TMaxUpDown = new System.Windows.Forms.NumericUpDown();
+            this.psg1TMaxBtn = new System.Windows.Forms.Button();
+            this.psg1TPictureBox = new System.Windows.Forms.PictureBox();
+            this.psg1TCheckBox = new System.Windows.Forms.CheckBox();
+            this.tableLayoutPanel36 = new System.Windows.Forms.TableLayoutPanel();
+            this.label35 = new System.Windows.Forms.Label();
+            this.psg1TCurrentUpDown = new System.Windows.Forms.NumericUpDown();
+            this.psg1TCurrentBtn = new System.Windows.Forms.Button();
             this.mgs2TabControl.SuspendLayout();
             this.tabPageItem.SuspendLayout();
             this.itemLayoutPanel.SuspendLayout();
@@ -426,6 +559,85 @@
             this.bodyArmorGroupBox.SuspendLayout();
             this.bodyArmorLayoutPanel.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.bodyArmorPictureBox)).BeginInit();
+            this.tabPageWeapon.SuspendLayout();
+            this.weaponsLayoutPanel.SuspendLayout();
+            this.m9GroupBox.SuspendLayout();
+            this.m9LayoutPanel.SuspendLayout();
+            this.tableLayoutPanel16.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.m9MaxUpDown)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.m9PictureBox)).BeginInit();
+            this.tableLayoutPanel17.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.m9CurrentUpDown)).BeginInit();
+            this.socomGroupBox.SuspendLayout();
+            this.socomLayoutPanel.SuspendLayout();
+            this.tableLayoutPanel18.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.socomMaxUpDown)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.socomPictureBox)).BeginInit();
+            this.tableLayoutPanel19.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.socomCurrentUpDown)).BeginInit();
+            this.uspGroupBox.SuspendLayout();
+            this.uspLayoutPanel.SuspendLayout();
+            this.tableLayoutPanel20.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.uspMaxUpDown)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.uspPictureBox)).BeginInit();
+            this.tableLayoutPanel21.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.uspCurrentUpDown)).BeginInit();
+            this.chaffGroupBox.SuspendLayout();
+            this.chaffLayoutPanel.SuspendLayout();
+            this.tableLayoutPanel22.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.chaffMaxUpDown)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.chaffPictureBox)).BeginInit();
+            this.tableLayoutPanel23.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.chaffCurrentUpDown)).BeginInit();
+            this.stunGroupBox.SuspendLayout();
+            this.stunLayoutPanel.SuspendLayout();
+            this.tableLayoutPanel25.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.stunMaxUpDown)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.stunPictureBox)).BeginInit();
+            this.tableLayoutPanel26.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.stunCurrentUpDown)).BeginInit();
+            this.grenadeGroupBox.SuspendLayout();
+            this.grenadeLayoutPanel.SuspendLayout();
+            this.tableLayoutPanel28.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.grenadeMaxUpDown)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.grenadePictureBox)).BeginInit();
+            this.tableLayoutPanel29.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.grenadeCurrentUpDown)).BeginInit();
+            this.magazineGroupBox.SuspendLayout();
+            this.magazineLayoutPanel.SuspendLayout();
+            this.tableLayoutPanel24.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.magazineMaxUpDown)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.magazinePictureBox)).BeginInit();
+            this.tableLayoutPanel27.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.magazineCurrentUpDown)).BeginInit();
+            this.akGroupBox.SuspendLayout();
+            this.akLayoutPanel.SuspendLayout();
+            this.tableLayoutPanel15.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.akMaxUpDown)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.akPictureBox)).BeginInit();
+            this.tableLayoutPanel30.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.akCurrentUpDown)).BeginInit();
+            this.m4GroupBox.SuspendLayout();
+            this.m4LayoutPanel.SuspendLayout();
+            this.tableLayoutPanel31.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.m4MaxUpDown)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.m4PictureBox)).BeginInit();
+            this.tableLayoutPanel32.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.m4CurrentUpDown)).BeginInit();
+            this.psg1GroupBox.SuspendLayout();
+            this.psg1LayoutPanel.SuspendLayout();
+            this.tableLayoutPanel33.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.psg1MaxUpDown)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.psg1PictureBox)).BeginInit();
+            this.tableLayoutPanel34.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.psg1CurrentUpDown)).BeginInit();
+            this.psg1TGroupBox.SuspendLayout();
+            this.psg1TLayoutPanel.SuspendLayout();
+            this.tableLayoutPanel35.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.psg1TMaxUpDown)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.psg1TPictureBox)).BeginInit();
+            this.tableLayoutPanel36.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.psg1TCurrentUpDown)).BeginInit();
             this.SuspendLayout();
             // 
             // mgs2TabControl
@@ -3387,6 +3599,7 @@
             // 
             // tabPageWeapon
             // 
+            this.tabPageWeapon.Controls.Add(this.weaponsLayoutPanel);
             this.tabPageWeapon.Location = new System.Drawing.Point(4, 22);
             this.tabPageWeapon.Name = "tabPageWeapon";
             this.tabPageWeapon.Padding = new System.Windows.Forms.Padding(3);
@@ -3394,6 +3607,1765 @@
             this.tabPageWeapon.TabIndex = 1;
             this.tabPageWeapon.Text = "Weapons";
             this.tabPageWeapon.UseVisualStyleBackColor = true;
+            // 
+            // weaponsLayoutPanel
+            // 
+            this.weaponsLayoutPanel.ColumnCount = 6;
+            this.weaponsLayoutPanel.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 16.66667F));
+            this.weaponsLayoutPanel.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 16.66667F));
+            this.weaponsLayoutPanel.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 16.66667F));
+            this.weaponsLayoutPanel.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 16.66667F));
+            this.weaponsLayoutPanel.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 16.66667F));
+            this.weaponsLayoutPanel.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 16.66667F));
+            this.weaponsLayoutPanel.Controls.Add(this.psg1TGroupBox, 2, 3);
+            this.weaponsLayoutPanel.Controls.Add(this.psg1GroupBox, 2, 2);
+            this.weaponsLayoutPanel.Controls.Add(this.m4GroupBox, 2, 1);
+            this.weaponsLayoutPanel.Controls.Add(this.akGroupBox, 2, 0);
+            this.weaponsLayoutPanel.Controls.Add(this.magazineGroupBox, 1, 3);
+            this.weaponsLayoutPanel.Controls.Add(this.grenadeGroupBox, 1, 2);
+            this.weaponsLayoutPanel.Controls.Add(this.stunGroupBox, 1, 1);
+            this.weaponsLayoutPanel.Controls.Add(this.chaffGroupBox, 1, 0);
+            this.weaponsLayoutPanel.Controls.Add(this.uspGroupBox, 0, 2);
+            this.weaponsLayoutPanel.Controls.Add(this.socomGroupBox, 0, 1);
+            this.weaponsLayoutPanel.Controls.Add(this.m9GroupBox, 0, 0);
+            this.weaponsLayoutPanel.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.weaponsLayoutPanel.Location = new System.Drawing.Point(3, 3);
+            this.weaponsLayoutPanel.Name = "weaponsLayoutPanel";
+            this.weaponsLayoutPanel.RowCount = 4;
+            this.weaponsLayoutPanel.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 25F));
+            this.weaponsLayoutPanel.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 25F));
+            this.weaponsLayoutPanel.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 25F));
+            this.weaponsLayoutPanel.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 25F));
+            this.weaponsLayoutPanel.Size = new System.Drawing.Size(1289, 577);
+            this.weaponsLayoutPanel.TabIndex = 0;
+            // 
+            // m9GroupBox
+            // 
+            this.m9GroupBox.Controls.Add(this.m9LayoutPanel);
+            this.m9GroupBox.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.m9GroupBox.Location = new System.Drawing.Point(3, 3);
+            this.m9GroupBox.Name = "m9GroupBox";
+            this.m9GroupBox.Size = new System.Drawing.Size(208, 138);
+            this.m9GroupBox.TabIndex = 41;
+            this.m9GroupBox.TabStop = false;
+            this.m9GroupBox.Text = "M9";
+            // 
+            // m9LayoutPanel
+            // 
+            this.m9LayoutPanel.ColumnCount = 2;
+            this.m9LayoutPanel.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
+            this.m9LayoutPanel.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
+            this.m9LayoutPanel.Controls.Add(this.tableLayoutPanel16, 0, 1);
+            this.m9LayoutPanel.Controls.Add(this.m9PictureBox, 0, 0);
+            this.m9LayoutPanel.Controls.Add(this.m9CheckBox, 1, 0);
+            this.m9LayoutPanel.Controls.Add(this.tableLayoutPanel17, 0, 1);
+            this.m9LayoutPanel.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.m9LayoutPanel.Location = new System.Drawing.Point(3, 16);
+            this.m9LayoutPanel.Name = "m9LayoutPanel";
+            this.m9LayoutPanel.RowCount = 2;
+            this.m9LayoutPanel.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 42.22222F));
+            this.m9LayoutPanel.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 57.77778F));
+            this.m9LayoutPanel.Size = new System.Drawing.Size(202, 119);
+            this.m9LayoutPanel.TabIndex = 41;
+            // 
+            // tableLayoutPanel16
+            // 
+            this.tableLayoutPanel16.ColumnCount = 2;
+            this.tableLayoutPanel16.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
+            this.tableLayoutPanel16.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 40F));
+            this.tableLayoutPanel16.Controls.Add(this.label14, 0, 0);
+            this.tableLayoutPanel16.Controls.Add(this.m9MaxUpDown, 0, 1);
+            this.tableLayoutPanel16.Controls.Add(this.m9MaxBtn, 1, 1);
+            this.tableLayoutPanel16.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.tableLayoutPanel16.Location = new System.Drawing.Point(104, 53);
+            this.tableLayoutPanel16.Name = "tableLayoutPanel16";
+            this.tableLayoutPanel16.RowCount = 2;
+            this.tableLayoutPanel16.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 38.88889F));
+            this.tableLayoutPanel16.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 61.11111F));
+            this.tableLayoutPanel16.Size = new System.Drawing.Size(95, 63);
+            this.tableLayoutPanel16.TabIndex = 3;
+            // 
+            // label14
+            // 
+            this.label14.AutoSize = true;
+            this.tableLayoutPanel16.SetColumnSpan(this.label14, 2);
+            this.label14.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.label14.Location = new System.Drawing.Point(0, 0);
+            this.label14.Margin = new System.Windows.Forms.Padding(0);
+            this.label14.Name = "label14";
+            this.label14.Size = new System.Drawing.Size(95, 24);
+            this.label14.TabIndex = 0;
+            this.label14.Text = "Max Count";
+            // 
+            // m9MaxUpDown
+            // 
+            this.m9MaxUpDown.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.m9MaxUpDown.Location = new System.Drawing.Point(3, 25);
+            this.m9MaxUpDown.Margin = new System.Windows.Forms.Padding(3, 1, 0, 0);
+            this.m9MaxUpDown.Maximum = new decimal(new int[] {
+            32767,
+            0,
+            0,
+            0});
+            this.m9MaxUpDown.Name = "m9MaxUpDown";
+            this.m9MaxUpDown.Size = new System.Drawing.Size(52, 20);
+            this.m9MaxUpDown.TabIndex = 1;
+            // 
+            // m9MaxBtn
+            // 
+            this.m9MaxBtn.Dock = System.Windows.Forms.DockStyle.Top;
+            this.m9MaxBtn.Location = new System.Drawing.Point(55, 24);
+            this.m9MaxBtn.Margin = new System.Windows.Forms.Padding(0);
+            this.m9MaxBtn.Name = "m9MaxBtn";
+            this.m9MaxBtn.Size = new System.Drawing.Size(40, 22);
+            this.m9MaxBtn.TabIndex = 2;
+            this.m9MaxBtn.Text = "Set!";
+            this.m9MaxBtn.UseVisualStyleBackColor = true;
+            // 
+            // m9PictureBox
+            // 
+            this.m9PictureBox.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.m9PictureBox.Location = new System.Drawing.Point(3, 3);
+            this.m9PictureBox.Name = "m9PictureBox";
+            this.m9PictureBox.Size = new System.Drawing.Size(95, 44);
+            this.m9PictureBox.TabIndex = 0;
+            this.m9PictureBox.TabStop = false;
+            // 
+            // m9CheckBox
+            // 
+            this.m9CheckBox.AutoSize = true;
+            this.m9CheckBox.Location = new System.Drawing.Point(104, 6);
+            this.m9CheckBox.Margin = new System.Windows.Forms.Padding(3, 6, 3, 3);
+            this.m9CheckBox.Name = "m9CheckBox";
+            this.m9CheckBox.Size = new System.Drawing.Size(71, 17);
+            this.m9CheckBox.TabIndex = 1;
+            this.m9CheckBox.Text = "Enabled?";
+            this.m9CheckBox.UseVisualStyleBackColor = true;
+            // 
+            // tableLayoutPanel17
+            // 
+            this.tableLayoutPanel17.ColumnCount = 2;
+            this.tableLayoutPanel17.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
+            this.tableLayoutPanel17.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 40F));
+            this.tableLayoutPanel17.Controls.Add(this.label15, 0, 0);
+            this.tableLayoutPanel17.Controls.Add(this.m9CurrentUpDown, 0, 1);
+            this.tableLayoutPanel17.Controls.Add(this.m9CurrentBtn, 1, 1);
+            this.tableLayoutPanel17.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.tableLayoutPanel17.Location = new System.Drawing.Point(3, 53);
+            this.tableLayoutPanel17.Name = "tableLayoutPanel17";
+            this.tableLayoutPanel17.RowCount = 2;
+            this.tableLayoutPanel17.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 38.88889F));
+            this.tableLayoutPanel17.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 61.11111F));
+            this.tableLayoutPanel17.Size = new System.Drawing.Size(95, 63);
+            this.tableLayoutPanel17.TabIndex = 2;
+            // 
+            // label15
+            // 
+            this.label15.AutoSize = true;
+            this.tableLayoutPanel17.SetColumnSpan(this.label15, 2);
+            this.label15.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.label15.Location = new System.Drawing.Point(0, 0);
+            this.label15.Margin = new System.Windows.Forms.Padding(0);
+            this.label15.Name = "label15";
+            this.label15.Size = new System.Drawing.Size(95, 24);
+            this.label15.TabIndex = 0;
+            this.label15.Text = "Current Count";
+            // 
+            // m9CurrentUpDown
+            // 
+            this.m9CurrentUpDown.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.m9CurrentUpDown.Location = new System.Drawing.Point(3, 25);
+            this.m9CurrentUpDown.Margin = new System.Windows.Forms.Padding(3, 1, 0, 0);
+            this.m9CurrentUpDown.Maximum = new decimal(new int[] {
+            32767,
+            0,
+            0,
+            0});
+            this.m9CurrentUpDown.Name = "m9CurrentUpDown";
+            this.m9CurrentUpDown.Size = new System.Drawing.Size(52, 20);
+            this.m9CurrentUpDown.TabIndex = 1;
+            // 
+            // m9CurrentBtn
+            // 
+            this.m9CurrentBtn.Dock = System.Windows.Forms.DockStyle.Top;
+            this.m9CurrentBtn.Location = new System.Drawing.Point(55, 24);
+            this.m9CurrentBtn.Margin = new System.Windows.Forms.Padding(0);
+            this.m9CurrentBtn.Name = "m9CurrentBtn";
+            this.m9CurrentBtn.Size = new System.Drawing.Size(40, 22);
+            this.m9CurrentBtn.TabIndex = 2;
+            this.m9CurrentBtn.Text = "Set!";
+            this.m9CurrentBtn.UseVisualStyleBackColor = true;
+            // 
+            // socomGroupBox
+            // 
+            this.socomGroupBox.Controls.Add(this.socomLayoutPanel);
+            this.socomGroupBox.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.socomGroupBox.Location = new System.Drawing.Point(3, 147);
+            this.socomGroupBox.Name = "socomGroupBox";
+            this.socomGroupBox.Size = new System.Drawing.Size(208, 138);
+            this.socomGroupBox.TabIndex = 42;
+            this.socomGroupBox.TabStop = false;
+            this.socomGroupBox.Text = "SOCOM";
+            // 
+            // socomLayoutPanel
+            // 
+            this.socomLayoutPanel.ColumnCount = 2;
+            this.socomLayoutPanel.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
+            this.socomLayoutPanel.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
+            this.socomLayoutPanel.Controls.Add(this.tableLayoutPanel18, 0, 1);
+            this.socomLayoutPanel.Controls.Add(this.socomPictureBox, 0, 0);
+            this.socomLayoutPanel.Controls.Add(this.socomCheckBox, 1, 0);
+            this.socomLayoutPanel.Controls.Add(this.tableLayoutPanel19, 0, 1);
+            this.socomLayoutPanel.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.socomLayoutPanel.Location = new System.Drawing.Point(3, 16);
+            this.socomLayoutPanel.Name = "socomLayoutPanel";
+            this.socomLayoutPanel.RowCount = 2;
+            this.socomLayoutPanel.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 42.22222F));
+            this.socomLayoutPanel.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 57.77778F));
+            this.socomLayoutPanel.Size = new System.Drawing.Size(202, 119);
+            this.socomLayoutPanel.TabIndex = 41;
+            // 
+            // tableLayoutPanel18
+            // 
+            this.tableLayoutPanel18.ColumnCount = 2;
+            this.tableLayoutPanel18.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
+            this.tableLayoutPanel18.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 40F));
+            this.tableLayoutPanel18.Controls.Add(this.label16, 0, 0);
+            this.tableLayoutPanel18.Controls.Add(this.socomMaxUpDown, 0, 1);
+            this.tableLayoutPanel18.Controls.Add(this.socomMaxBtn, 1, 1);
+            this.tableLayoutPanel18.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.tableLayoutPanel18.Location = new System.Drawing.Point(104, 53);
+            this.tableLayoutPanel18.Name = "tableLayoutPanel18";
+            this.tableLayoutPanel18.RowCount = 2;
+            this.tableLayoutPanel18.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 38.88889F));
+            this.tableLayoutPanel18.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 61.11111F));
+            this.tableLayoutPanel18.Size = new System.Drawing.Size(95, 63);
+            this.tableLayoutPanel18.TabIndex = 3;
+            // 
+            // label16
+            // 
+            this.label16.AutoSize = true;
+            this.tableLayoutPanel18.SetColumnSpan(this.label16, 2);
+            this.label16.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.label16.Location = new System.Drawing.Point(0, 0);
+            this.label16.Margin = new System.Windows.Forms.Padding(0);
+            this.label16.Name = "label16";
+            this.label16.Size = new System.Drawing.Size(95, 24);
+            this.label16.TabIndex = 0;
+            this.label16.Text = "Max Count";
+            // 
+            // socomMaxUpDown
+            // 
+            this.socomMaxUpDown.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.socomMaxUpDown.Location = new System.Drawing.Point(3, 25);
+            this.socomMaxUpDown.Margin = new System.Windows.Forms.Padding(3, 1, 0, 0);
+            this.socomMaxUpDown.Maximum = new decimal(new int[] {
+            32767,
+            0,
+            0,
+            0});
+            this.socomMaxUpDown.Name = "socomMaxUpDown";
+            this.socomMaxUpDown.Size = new System.Drawing.Size(52, 20);
+            this.socomMaxUpDown.TabIndex = 1;
+            // 
+            // socomMaxBtn
+            // 
+            this.socomMaxBtn.Dock = System.Windows.Forms.DockStyle.Top;
+            this.socomMaxBtn.Location = new System.Drawing.Point(55, 24);
+            this.socomMaxBtn.Margin = new System.Windows.Forms.Padding(0);
+            this.socomMaxBtn.Name = "socomMaxBtn";
+            this.socomMaxBtn.Size = new System.Drawing.Size(40, 22);
+            this.socomMaxBtn.TabIndex = 2;
+            this.socomMaxBtn.Text = "Set!";
+            this.socomMaxBtn.UseVisualStyleBackColor = true;
+            // 
+            // socomPictureBox
+            // 
+            this.socomPictureBox.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.socomPictureBox.Location = new System.Drawing.Point(3, 3);
+            this.socomPictureBox.Name = "socomPictureBox";
+            this.socomPictureBox.Size = new System.Drawing.Size(95, 44);
+            this.socomPictureBox.TabIndex = 0;
+            this.socomPictureBox.TabStop = false;
+            // 
+            // socomCheckBox
+            // 
+            this.socomCheckBox.AutoSize = true;
+            this.socomCheckBox.Location = new System.Drawing.Point(104, 6);
+            this.socomCheckBox.Margin = new System.Windows.Forms.Padding(3, 6, 3, 3);
+            this.socomCheckBox.Name = "socomCheckBox";
+            this.socomCheckBox.Size = new System.Drawing.Size(71, 17);
+            this.socomCheckBox.TabIndex = 1;
+            this.socomCheckBox.Text = "Enabled?";
+            this.socomCheckBox.UseVisualStyleBackColor = true;
+            // 
+            // tableLayoutPanel19
+            // 
+            this.tableLayoutPanel19.ColumnCount = 2;
+            this.tableLayoutPanel19.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
+            this.tableLayoutPanel19.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 40F));
+            this.tableLayoutPanel19.Controls.Add(this.label17, 0, 0);
+            this.tableLayoutPanel19.Controls.Add(this.socomCurrentUpDown, 0, 1);
+            this.tableLayoutPanel19.Controls.Add(this.socomCurrentBtn, 1, 1);
+            this.tableLayoutPanel19.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.tableLayoutPanel19.Location = new System.Drawing.Point(3, 53);
+            this.tableLayoutPanel19.Name = "tableLayoutPanel19";
+            this.tableLayoutPanel19.RowCount = 2;
+            this.tableLayoutPanel19.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 38.88889F));
+            this.tableLayoutPanel19.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 61.11111F));
+            this.tableLayoutPanel19.Size = new System.Drawing.Size(95, 63);
+            this.tableLayoutPanel19.TabIndex = 2;
+            // 
+            // label17
+            // 
+            this.label17.AutoSize = true;
+            this.tableLayoutPanel19.SetColumnSpan(this.label17, 2);
+            this.label17.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.label17.Location = new System.Drawing.Point(0, 0);
+            this.label17.Margin = new System.Windows.Forms.Padding(0);
+            this.label17.Name = "label17";
+            this.label17.Size = new System.Drawing.Size(95, 24);
+            this.label17.TabIndex = 0;
+            this.label17.Text = "Current Count";
+            // 
+            // socomCurrentUpDown
+            // 
+            this.socomCurrentUpDown.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.socomCurrentUpDown.Location = new System.Drawing.Point(3, 25);
+            this.socomCurrentUpDown.Margin = new System.Windows.Forms.Padding(3, 1, 0, 0);
+            this.socomCurrentUpDown.Maximum = new decimal(new int[] {
+            32767,
+            0,
+            0,
+            0});
+            this.socomCurrentUpDown.Name = "socomCurrentUpDown";
+            this.socomCurrentUpDown.Size = new System.Drawing.Size(52, 20);
+            this.socomCurrentUpDown.TabIndex = 1;
+            // 
+            // socomCurrentBtn
+            // 
+            this.socomCurrentBtn.Dock = System.Windows.Forms.DockStyle.Top;
+            this.socomCurrentBtn.Location = new System.Drawing.Point(55, 24);
+            this.socomCurrentBtn.Margin = new System.Windows.Forms.Padding(0);
+            this.socomCurrentBtn.Name = "socomCurrentBtn";
+            this.socomCurrentBtn.Size = new System.Drawing.Size(40, 22);
+            this.socomCurrentBtn.TabIndex = 2;
+            this.socomCurrentBtn.Text = "Set!";
+            this.socomCurrentBtn.UseVisualStyleBackColor = true;
+            // 
+            // uspGroupBox
+            // 
+            this.uspGroupBox.Controls.Add(this.uspLayoutPanel);
+            this.uspGroupBox.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.uspGroupBox.Location = new System.Drawing.Point(3, 291);
+            this.uspGroupBox.Name = "uspGroupBox";
+            this.uspGroupBox.Size = new System.Drawing.Size(208, 138);
+            this.uspGroupBox.TabIndex = 43;
+            this.uspGroupBox.TabStop = false;
+            this.uspGroupBox.Text = "USP .45";
+            // 
+            // uspLayoutPanel
+            // 
+            this.uspLayoutPanel.ColumnCount = 2;
+            this.uspLayoutPanel.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
+            this.uspLayoutPanel.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
+            this.uspLayoutPanel.Controls.Add(this.tableLayoutPanel20, 0, 1);
+            this.uspLayoutPanel.Controls.Add(this.uspPictureBox, 0, 0);
+            this.uspLayoutPanel.Controls.Add(this.uspCheckBox, 1, 0);
+            this.uspLayoutPanel.Controls.Add(this.tableLayoutPanel21, 0, 1);
+            this.uspLayoutPanel.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.uspLayoutPanel.Location = new System.Drawing.Point(3, 16);
+            this.uspLayoutPanel.Name = "uspLayoutPanel";
+            this.uspLayoutPanel.RowCount = 2;
+            this.uspLayoutPanel.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 42.22222F));
+            this.uspLayoutPanel.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 57.77778F));
+            this.uspLayoutPanel.Size = new System.Drawing.Size(202, 119);
+            this.uspLayoutPanel.TabIndex = 41;
+            // 
+            // tableLayoutPanel20
+            // 
+            this.tableLayoutPanel20.ColumnCount = 2;
+            this.tableLayoutPanel20.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
+            this.tableLayoutPanel20.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 40F));
+            this.tableLayoutPanel20.Controls.Add(this.label18, 0, 0);
+            this.tableLayoutPanel20.Controls.Add(this.uspMaxUpDown, 0, 1);
+            this.tableLayoutPanel20.Controls.Add(this.uspMaxBtn, 1, 1);
+            this.tableLayoutPanel20.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.tableLayoutPanel20.Location = new System.Drawing.Point(104, 53);
+            this.tableLayoutPanel20.Name = "tableLayoutPanel20";
+            this.tableLayoutPanel20.RowCount = 2;
+            this.tableLayoutPanel20.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 38.88889F));
+            this.tableLayoutPanel20.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 61.11111F));
+            this.tableLayoutPanel20.Size = new System.Drawing.Size(95, 63);
+            this.tableLayoutPanel20.TabIndex = 3;
+            // 
+            // label18
+            // 
+            this.label18.AutoSize = true;
+            this.tableLayoutPanel20.SetColumnSpan(this.label18, 2);
+            this.label18.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.label18.Location = new System.Drawing.Point(0, 0);
+            this.label18.Margin = new System.Windows.Forms.Padding(0);
+            this.label18.Name = "label18";
+            this.label18.Size = new System.Drawing.Size(95, 24);
+            this.label18.TabIndex = 0;
+            this.label18.Text = "Max Count";
+            // 
+            // uspMaxUpDown
+            // 
+            this.uspMaxUpDown.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.uspMaxUpDown.Location = new System.Drawing.Point(3, 25);
+            this.uspMaxUpDown.Margin = new System.Windows.Forms.Padding(3, 1, 0, 0);
+            this.uspMaxUpDown.Maximum = new decimal(new int[] {
+            32767,
+            0,
+            0,
+            0});
+            this.uspMaxUpDown.Name = "uspMaxUpDown";
+            this.uspMaxUpDown.Size = new System.Drawing.Size(52, 20);
+            this.uspMaxUpDown.TabIndex = 1;
+            // 
+            // uspMaxBtn
+            // 
+            this.uspMaxBtn.Dock = System.Windows.Forms.DockStyle.Top;
+            this.uspMaxBtn.Location = new System.Drawing.Point(55, 24);
+            this.uspMaxBtn.Margin = new System.Windows.Forms.Padding(0);
+            this.uspMaxBtn.Name = "uspMaxBtn";
+            this.uspMaxBtn.Size = new System.Drawing.Size(40, 22);
+            this.uspMaxBtn.TabIndex = 2;
+            this.uspMaxBtn.Text = "Set!";
+            this.uspMaxBtn.UseVisualStyleBackColor = true;
+            // 
+            // uspPictureBox
+            // 
+            this.uspPictureBox.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.uspPictureBox.Location = new System.Drawing.Point(3, 3);
+            this.uspPictureBox.Name = "uspPictureBox";
+            this.uspPictureBox.Size = new System.Drawing.Size(95, 44);
+            this.uspPictureBox.TabIndex = 0;
+            this.uspPictureBox.TabStop = false;
+            // 
+            // uspCheckBox
+            // 
+            this.uspCheckBox.AutoSize = true;
+            this.uspCheckBox.Location = new System.Drawing.Point(104, 6);
+            this.uspCheckBox.Margin = new System.Windows.Forms.Padding(3, 6, 3, 3);
+            this.uspCheckBox.Name = "uspCheckBox";
+            this.uspCheckBox.Size = new System.Drawing.Size(71, 17);
+            this.uspCheckBox.TabIndex = 1;
+            this.uspCheckBox.Text = "Enabled?";
+            this.uspCheckBox.UseVisualStyleBackColor = true;
+            // 
+            // tableLayoutPanel21
+            // 
+            this.tableLayoutPanel21.ColumnCount = 2;
+            this.tableLayoutPanel21.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
+            this.tableLayoutPanel21.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 40F));
+            this.tableLayoutPanel21.Controls.Add(this.label19, 0, 0);
+            this.tableLayoutPanel21.Controls.Add(this.uspCurrentUpDown, 0, 1);
+            this.tableLayoutPanel21.Controls.Add(this.uspCurrentBtn, 1, 1);
+            this.tableLayoutPanel21.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.tableLayoutPanel21.Location = new System.Drawing.Point(3, 53);
+            this.tableLayoutPanel21.Name = "tableLayoutPanel21";
+            this.tableLayoutPanel21.RowCount = 2;
+            this.tableLayoutPanel21.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 38.88889F));
+            this.tableLayoutPanel21.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 61.11111F));
+            this.tableLayoutPanel21.Size = new System.Drawing.Size(95, 63);
+            this.tableLayoutPanel21.TabIndex = 2;
+            // 
+            // label19
+            // 
+            this.label19.AutoSize = true;
+            this.tableLayoutPanel21.SetColumnSpan(this.label19, 2);
+            this.label19.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.label19.Location = new System.Drawing.Point(0, 0);
+            this.label19.Margin = new System.Windows.Forms.Padding(0);
+            this.label19.Name = "label19";
+            this.label19.Size = new System.Drawing.Size(95, 24);
+            this.label19.TabIndex = 0;
+            this.label19.Text = "Current Count";
+            // 
+            // uspCurrentUpDown
+            // 
+            this.uspCurrentUpDown.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.uspCurrentUpDown.Location = new System.Drawing.Point(3, 25);
+            this.uspCurrentUpDown.Margin = new System.Windows.Forms.Padding(3, 1, 0, 0);
+            this.uspCurrentUpDown.Maximum = new decimal(new int[] {
+            32767,
+            0,
+            0,
+            0});
+            this.uspCurrentUpDown.Name = "uspCurrentUpDown";
+            this.uspCurrentUpDown.Size = new System.Drawing.Size(52, 20);
+            this.uspCurrentUpDown.TabIndex = 1;
+            // 
+            // uspCurrentBtn
+            // 
+            this.uspCurrentBtn.Dock = System.Windows.Forms.DockStyle.Top;
+            this.uspCurrentBtn.Location = new System.Drawing.Point(55, 24);
+            this.uspCurrentBtn.Margin = new System.Windows.Forms.Padding(0);
+            this.uspCurrentBtn.Name = "uspCurrentBtn";
+            this.uspCurrentBtn.Size = new System.Drawing.Size(40, 22);
+            this.uspCurrentBtn.TabIndex = 2;
+            this.uspCurrentBtn.Text = "Set!";
+            this.uspCurrentBtn.UseVisualStyleBackColor = true;
+            // 
+            // chaffGroupBox
+            // 
+            this.chaffGroupBox.Controls.Add(this.chaffLayoutPanel);
+            this.chaffGroupBox.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.chaffGroupBox.Location = new System.Drawing.Point(217, 3);
+            this.chaffGroupBox.Name = "chaffGroupBox";
+            this.chaffGroupBox.Size = new System.Drawing.Size(208, 138);
+            this.chaffGroupBox.TabIndex = 44;
+            this.chaffGroupBox.TabStop = false;
+            this.chaffGroupBox.Text = "Chaff Grenade";
+            // 
+            // chaffLayoutPanel
+            // 
+            this.chaffLayoutPanel.ColumnCount = 2;
+            this.chaffLayoutPanel.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
+            this.chaffLayoutPanel.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
+            this.chaffLayoutPanel.Controls.Add(this.tableLayoutPanel22, 0, 1);
+            this.chaffLayoutPanel.Controls.Add(this.chaffPictureBox, 0, 0);
+            this.chaffLayoutPanel.Controls.Add(this.chaffCheckBox, 1, 0);
+            this.chaffLayoutPanel.Controls.Add(this.tableLayoutPanel23, 0, 1);
+            this.chaffLayoutPanel.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.chaffLayoutPanel.Location = new System.Drawing.Point(3, 16);
+            this.chaffLayoutPanel.Name = "chaffLayoutPanel";
+            this.chaffLayoutPanel.RowCount = 2;
+            this.chaffLayoutPanel.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 42.22222F));
+            this.chaffLayoutPanel.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 57.77778F));
+            this.chaffLayoutPanel.Size = new System.Drawing.Size(202, 119);
+            this.chaffLayoutPanel.TabIndex = 41;
+            // 
+            // tableLayoutPanel22
+            // 
+            this.tableLayoutPanel22.ColumnCount = 2;
+            this.tableLayoutPanel22.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
+            this.tableLayoutPanel22.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 40F));
+            this.tableLayoutPanel22.Controls.Add(this.label20, 0, 0);
+            this.tableLayoutPanel22.Controls.Add(this.chaffMaxUpDown, 0, 1);
+            this.tableLayoutPanel22.Controls.Add(this.chaffMaxBtn, 1, 1);
+            this.tableLayoutPanel22.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.tableLayoutPanel22.Location = new System.Drawing.Point(104, 53);
+            this.tableLayoutPanel22.Name = "tableLayoutPanel22";
+            this.tableLayoutPanel22.RowCount = 2;
+            this.tableLayoutPanel22.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 38.88889F));
+            this.tableLayoutPanel22.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 61.11111F));
+            this.tableLayoutPanel22.Size = new System.Drawing.Size(95, 63);
+            this.tableLayoutPanel22.TabIndex = 3;
+            // 
+            // label20
+            // 
+            this.label20.AutoSize = true;
+            this.tableLayoutPanel22.SetColumnSpan(this.label20, 2);
+            this.label20.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.label20.Location = new System.Drawing.Point(0, 0);
+            this.label20.Margin = new System.Windows.Forms.Padding(0);
+            this.label20.Name = "label20";
+            this.label20.Size = new System.Drawing.Size(95, 24);
+            this.label20.TabIndex = 0;
+            this.label20.Text = "Max Count";
+            // 
+            // chaffMaxUpDown
+            // 
+            this.chaffMaxUpDown.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.chaffMaxUpDown.Location = new System.Drawing.Point(3, 25);
+            this.chaffMaxUpDown.Margin = new System.Windows.Forms.Padding(3, 1, 0, 0);
+            this.chaffMaxUpDown.Maximum = new decimal(new int[] {
+            32767,
+            0,
+            0,
+            0});
+            this.chaffMaxUpDown.Name = "chaffMaxUpDown";
+            this.chaffMaxUpDown.Size = new System.Drawing.Size(52, 20);
+            this.chaffMaxUpDown.TabIndex = 1;
+            // 
+            // chaffMaxBtn
+            // 
+            this.chaffMaxBtn.Dock = System.Windows.Forms.DockStyle.Top;
+            this.chaffMaxBtn.Location = new System.Drawing.Point(55, 24);
+            this.chaffMaxBtn.Margin = new System.Windows.Forms.Padding(0);
+            this.chaffMaxBtn.Name = "chaffMaxBtn";
+            this.chaffMaxBtn.Size = new System.Drawing.Size(40, 22);
+            this.chaffMaxBtn.TabIndex = 2;
+            this.chaffMaxBtn.Text = "Set!";
+            this.chaffMaxBtn.UseVisualStyleBackColor = true;
+            // 
+            // chaffPictureBox
+            // 
+            this.chaffPictureBox.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.chaffPictureBox.Location = new System.Drawing.Point(3, 3);
+            this.chaffPictureBox.Name = "chaffPictureBox";
+            this.chaffPictureBox.Size = new System.Drawing.Size(95, 44);
+            this.chaffPictureBox.TabIndex = 0;
+            this.chaffPictureBox.TabStop = false;
+            // 
+            // chaffCheckBox
+            // 
+            this.chaffCheckBox.AutoSize = true;
+            this.chaffCheckBox.Location = new System.Drawing.Point(104, 6);
+            this.chaffCheckBox.Margin = new System.Windows.Forms.Padding(3, 6, 3, 3);
+            this.chaffCheckBox.Name = "chaffCheckBox";
+            this.chaffCheckBox.Size = new System.Drawing.Size(71, 17);
+            this.chaffCheckBox.TabIndex = 1;
+            this.chaffCheckBox.Text = "Enabled?";
+            this.chaffCheckBox.UseVisualStyleBackColor = true;
+            // 
+            // tableLayoutPanel23
+            // 
+            this.tableLayoutPanel23.ColumnCount = 2;
+            this.tableLayoutPanel23.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
+            this.tableLayoutPanel23.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 40F));
+            this.tableLayoutPanel23.Controls.Add(this.label21, 0, 0);
+            this.tableLayoutPanel23.Controls.Add(this.chaffCurrentUpDown, 0, 1);
+            this.tableLayoutPanel23.Controls.Add(this.chaffCurrentBtn, 1, 1);
+            this.tableLayoutPanel23.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.tableLayoutPanel23.Location = new System.Drawing.Point(3, 53);
+            this.tableLayoutPanel23.Name = "tableLayoutPanel23";
+            this.tableLayoutPanel23.RowCount = 2;
+            this.tableLayoutPanel23.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 38.88889F));
+            this.tableLayoutPanel23.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 61.11111F));
+            this.tableLayoutPanel23.Size = new System.Drawing.Size(95, 63);
+            this.tableLayoutPanel23.TabIndex = 2;
+            // 
+            // label21
+            // 
+            this.label21.AutoSize = true;
+            this.tableLayoutPanel23.SetColumnSpan(this.label21, 2);
+            this.label21.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.label21.Location = new System.Drawing.Point(0, 0);
+            this.label21.Margin = new System.Windows.Forms.Padding(0);
+            this.label21.Name = "label21";
+            this.label21.Size = new System.Drawing.Size(95, 24);
+            this.label21.TabIndex = 0;
+            this.label21.Text = "Current Count";
+            // 
+            // chaffCurrentUpDown
+            // 
+            this.chaffCurrentUpDown.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.chaffCurrentUpDown.Location = new System.Drawing.Point(3, 25);
+            this.chaffCurrentUpDown.Margin = new System.Windows.Forms.Padding(3, 1, 0, 0);
+            this.chaffCurrentUpDown.Maximum = new decimal(new int[] {
+            32767,
+            0,
+            0,
+            0});
+            this.chaffCurrentUpDown.Name = "chaffCurrentUpDown";
+            this.chaffCurrentUpDown.Size = new System.Drawing.Size(52, 20);
+            this.chaffCurrentUpDown.TabIndex = 1;
+            // 
+            // chaffCurrentBtn
+            // 
+            this.chaffCurrentBtn.Dock = System.Windows.Forms.DockStyle.Top;
+            this.chaffCurrentBtn.Location = new System.Drawing.Point(55, 24);
+            this.chaffCurrentBtn.Margin = new System.Windows.Forms.Padding(0);
+            this.chaffCurrentBtn.Name = "chaffCurrentBtn";
+            this.chaffCurrentBtn.Size = new System.Drawing.Size(40, 22);
+            this.chaffCurrentBtn.TabIndex = 2;
+            this.chaffCurrentBtn.Text = "Set!";
+            this.chaffCurrentBtn.UseVisualStyleBackColor = true;
+            // 
+            // stunGroupBox
+            // 
+            this.stunGroupBox.Controls.Add(this.stunLayoutPanel);
+            this.stunGroupBox.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.stunGroupBox.Location = new System.Drawing.Point(217, 147);
+            this.stunGroupBox.Name = "stunGroupBox";
+            this.stunGroupBox.Size = new System.Drawing.Size(208, 138);
+            this.stunGroupBox.TabIndex = 45;
+            this.stunGroupBox.TabStop = false;
+            this.stunGroupBox.Text = "Stun Grenade";
+            // 
+            // stunLayoutPanel
+            // 
+            this.stunLayoutPanel.ColumnCount = 2;
+            this.stunLayoutPanel.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
+            this.stunLayoutPanel.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
+            this.stunLayoutPanel.Controls.Add(this.tableLayoutPanel25, 0, 1);
+            this.stunLayoutPanel.Controls.Add(this.stunPictureBox, 0, 0);
+            this.stunLayoutPanel.Controls.Add(this.stunCheckBox, 1, 0);
+            this.stunLayoutPanel.Controls.Add(this.tableLayoutPanel26, 0, 1);
+            this.stunLayoutPanel.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.stunLayoutPanel.Location = new System.Drawing.Point(3, 16);
+            this.stunLayoutPanel.Name = "stunLayoutPanel";
+            this.stunLayoutPanel.RowCount = 2;
+            this.stunLayoutPanel.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 42.22222F));
+            this.stunLayoutPanel.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 57.77778F));
+            this.stunLayoutPanel.Size = new System.Drawing.Size(202, 119);
+            this.stunLayoutPanel.TabIndex = 41;
+            // 
+            // tableLayoutPanel25
+            // 
+            this.tableLayoutPanel25.ColumnCount = 2;
+            this.tableLayoutPanel25.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
+            this.tableLayoutPanel25.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 40F));
+            this.tableLayoutPanel25.Controls.Add(this.label22, 0, 0);
+            this.tableLayoutPanel25.Controls.Add(this.stunMaxUpDown, 0, 1);
+            this.tableLayoutPanel25.Controls.Add(this.stunMaxBtn, 1, 1);
+            this.tableLayoutPanel25.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.tableLayoutPanel25.Location = new System.Drawing.Point(104, 53);
+            this.tableLayoutPanel25.Name = "tableLayoutPanel25";
+            this.tableLayoutPanel25.RowCount = 2;
+            this.tableLayoutPanel25.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 38.88889F));
+            this.tableLayoutPanel25.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 61.11111F));
+            this.tableLayoutPanel25.Size = new System.Drawing.Size(95, 63);
+            this.tableLayoutPanel25.TabIndex = 3;
+            // 
+            // label22
+            // 
+            this.label22.AutoSize = true;
+            this.tableLayoutPanel25.SetColumnSpan(this.label22, 2);
+            this.label22.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.label22.Location = new System.Drawing.Point(0, 0);
+            this.label22.Margin = new System.Windows.Forms.Padding(0);
+            this.label22.Name = "label22";
+            this.label22.Size = new System.Drawing.Size(95, 24);
+            this.label22.TabIndex = 0;
+            this.label22.Text = "Max Count";
+            // 
+            // stunMaxUpDown
+            // 
+            this.stunMaxUpDown.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.stunMaxUpDown.Location = new System.Drawing.Point(3, 25);
+            this.stunMaxUpDown.Margin = new System.Windows.Forms.Padding(3, 1, 0, 0);
+            this.stunMaxUpDown.Maximum = new decimal(new int[] {
+            32767,
+            0,
+            0,
+            0});
+            this.stunMaxUpDown.Name = "stunMaxUpDown";
+            this.stunMaxUpDown.Size = new System.Drawing.Size(52, 20);
+            this.stunMaxUpDown.TabIndex = 1;
+            // 
+            // stunMaxBtn
+            // 
+            this.stunMaxBtn.Dock = System.Windows.Forms.DockStyle.Top;
+            this.stunMaxBtn.Location = new System.Drawing.Point(55, 24);
+            this.stunMaxBtn.Margin = new System.Windows.Forms.Padding(0);
+            this.stunMaxBtn.Name = "stunMaxBtn";
+            this.stunMaxBtn.Size = new System.Drawing.Size(40, 22);
+            this.stunMaxBtn.TabIndex = 2;
+            this.stunMaxBtn.Text = "Set!";
+            this.stunMaxBtn.UseVisualStyleBackColor = true;
+            // 
+            // stunPictureBox
+            // 
+            this.stunPictureBox.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.stunPictureBox.Location = new System.Drawing.Point(3, 3);
+            this.stunPictureBox.Name = "stunPictureBox";
+            this.stunPictureBox.Size = new System.Drawing.Size(95, 44);
+            this.stunPictureBox.TabIndex = 0;
+            this.stunPictureBox.TabStop = false;
+            // 
+            // stunCheckBox
+            // 
+            this.stunCheckBox.AutoSize = true;
+            this.stunCheckBox.Location = new System.Drawing.Point(104, 6);
+            this.stunCheckBox.Margin = new System.Windows.Forms.Padding(3, 6, 3, 3);
+            this.stunCheckBox.Name = "stunCheckBox";
+            this.stunCheckBox.Size = new System.Drawing.Size(71, 17);
+            this.stunCheckBox.TabIndex = 1;
+            this.stunCheckBox.Text = "Enabled?";
+            this.stunCheckBox.UseVisualStyleBackColor = true;
+            // 
+            // tableLayoutPanel26
+            // 
+            this.tableLayoutPanel26.ColumnCount = 2;
+            this.tableLayoutPanel26.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
+            this.tableLayoutPanel26.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 40F));
+            this.tableLayoutPanel26.Controls.Add(this.label23, 0, 0);
+            this.tableLayoutPanel26.Controls.Add(this.stunCurrentUpDown, 0, 1);
+            this.tableLayoutPanel26.Controls.Add(this.stunCurrentBtn, 1, 1);
+            this.tableLayoutPanel26.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.tableLayoutPanel26.Location = new System.Drawing.Point(3, 53);
+            this.tableLayoutPanel26.Name = "tableLayoutPanel26";
+            this.tableLayoutPanel26.RowCount = 2;
+            this.tableLayoutPanel26.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 38.88889F));
+            this.tableLayoutPanel26.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 61.11111F));
+            this.tableLayoutPanel26.Size = new System.Drawing.Size(95, 63);
+            this.tableLayoutPanel26.TabIndex = 2;
+            // 
+            // label23
+            // 
+            this.label23.AutoSize = true;
+            this.tableLayoutPanel26.SetColumnSpan(this.label23, 2);
+            this.label23.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.label23.Location = new System.Drawing.Point(0, 0);
+            this.label23.Margin = new System.Windows.Forms.Padding(0);
+            this.label23.Name = "label23";
+            this.label23.Size = new System.Drawing.Size(95, 24);
+            this.label23.TabIndex = 0;
+            this.label23.Text = "Current Count";
+            // 
+            // stunCurrentUpDown
+            // 
+            this.stunCurrentUpDown.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.stunCurrentUpDown.Location = new System.Drawing.Point(3, 25);
+            this.stunCurrentUpDown.Margin = new System.Windows.Forms.Padding(3, 1, 0, 0);
+            this.stunCurrentUpDown.Maximum = new decimal(new int[] {
+            32767,
+            0,
+            0,
+            0});
+            this.stunCurrentUpDown.Name = "stunCurrentUpDown";
+            this.stunCurrentUpDown.Size = new System.Drawing.Size(52, 20);
+            this.stunCurrentUpDown.TabIndex = 1;
+            // 
+            // stunCurrentBtn
+            // 
+            this.stunCurrentBtn.Dock = System.Windows.Forms.DockStyle.Top;
+            this.stunCurrentBtn.Location = new System.Drawing.Point(55, 24);
+            this.stunCurrentBtn.Margin = new System.Windows.Forms.Padding(0);
+            this.stunCurrentBtn.Name = "stunCurrentBtn";
+            this.stunCurrentBtn.Size = new System.Drawing.Size(40, 22);
+            this.stunCurrentBtn.TabIndex = 2;
+            this.stunCurrentBtn.Text = "Set!";
+            this.stunCurrentBtn.UseVisualStyleBackColor = true;
+            // 
+            // grenadeGroupBox
+            // 
+            this.grenadeGroupBox.Controls.Add(this.grenadeLayoutPanel);
+            this.grenadeGroupBox.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.grenadeGroupBox.Location = new System.Drawing.Point(217, 291);
+            this.grenadeGroupBox.Name = "grenadeGroupBox";
+            this.grenadeGroupBox.Size = new System.Drawing.Size(208, 138);
+            this.grenadeGroupBox.TabIndex = 46;
+            this.grenadeGroupBox.TabStop = false;
+            this.grenadeGroupBox.Text = "Grenade";
+            // 
+            // grenadeLayoutPanel
+            // 
+            this.grenadeLayoutPanel.ColumnCount = 2;
+            this.grenadeLayoutPanel.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
+            this.grenadeLayoutPanel.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
+            this.grenadeLayoutPanel.Controls.Add(this.tableLayoutPanel28, 0, 1);
+            this.grenadeLayoutPanel.Controls.Add(this.grenadePictureBox, 0, 0);
+            this.grenadeLayoutPanel.Controls.Add(this.grenadeCheckBox, 1, 0);
+            this.grenadeLayoutPanel.Controls.Add(this.tableLayoutPanel29, 0, 1);
+            this.grenadeLayoutPanel.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.grenadeLayoutPanel.Location = new System.Drawing.Point(3, 16);
+            this.grenadeLayoutPanel.Name = "grenadeLayoutPanel";
+            this.grenadeLayoutPanel.RowCount = 2;
+            this.grenadeLayoutPanel.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 42.22222F));
+            this.grenadeLayoutPanel.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 57.77778F));
+            this.grenadeLayoutPanel.Size = new System.Drawing.Size(202, 119);
+            this.grenadeLayoutPanel.TabIndex = 41;
+            // 
+            // tableLayoutPanel28
+            // 
+            this.tableLayoutPanel28.ColumnCount = 2;
+            this.tableLayoutPanel28.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
+            this.tableLayoutPanel28.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 40F));
+            this.tableLayoutPanel28.Controls.Add(this.label24, 0, 0);
+            this.tableLayoutPanel28.Controls.Add(this.grenadeMaxUpDown, 0, 1);
+            this.tableLayoutPanel28.Controls.Add(this.grenadeMaxBtn, 1, 1);
+            this.tableLayoutPanel28.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.tableLayoutPanel28.Location = new System.Drawing.Point(104, 53);
+            this.tableLayoutPanel28.Name = "tableLayoutPanel28";
+            this.tableLayoutPanel28.RowCount = 2;
+            this.tableLayoutPanel28.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 38.88889F));
+            this.tableLayoutPanel28.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 61.11111F));
+            this.tableLayoutPanel28.Size = new System.Drawing.Size(95, 63);
+            this.tableLayoutPanel28.TabIndex = 3;
+            // 
+            // label24
+            // 
+            this.label24.AutoSize = true;
+            this.tableLayoutPanel28.SetColumnSpan(this.label24, 2);
+            this.label24.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.label24.Location = new System.Drawing.Point(0, 0);
+            this.label24.Margin = new System.Windows.Forms.Padding(0);
+            this.label24.Name = "label24";
+            this.label24.Size = new System.Drawing.Size(95, 24);
+            this.label24.TabIndex = 0;
+            this.label24.Text = "Max Count";
+            // 
+            // grenadeMaxUpDown
+            // 
+            this.grenadeMaxUpDown.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.grenadeMaxUpDown.Location = new System.Drawing.Point(3, 25);
+            this.grenadeMaxUpDown.Margin = new System.Windows.Forms.Padding(3, 1, 0, 0);
+            this.grenadeMaxUpDown.Maximum = new decimal(new int[] {
+            32767,
+            0,
+            0,
+            0});
+            this.grenadeMaxUpDown.Name = "grenadeMaxUpDown";
+            this.grenadeMaxUpDown.Size = new System.Drawing.Size(52, 20);
+            this.grenadeMaxUpDown.TabIndex = 1;
+            // 
+            // grenadeMaxBtn
+            // 
+            this.grenadeMaxBtn.Dock = System.Windows.Forms.DockStyle.Top;
+            this.grenadeMaxBtn.Location = new System.Drawing.Point(55, 24);
+            this.grenadeMaxBtn.Margin = new System.Windows.Forms.Padding(0);
+            this.grenadeMaxBtn.Name = "grenadeMaxBtn";
+            this.grenadeMaxBtn.Size = new System.Drawing.Size(40, 22);
+            this.grenadeMaxBtn.TabIndex = 2;
+            this.grenadeMaxBtn.Text = "Set!";
+            this.grenadeMaxBtn.UseVisualStyleBackColor = true;
+            // 
+            // grenadePictureBox
+            // 
+            this.grenadePictureBox.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.grenadePictureBox.Location = new System.Drawing.Point(3, 3);
+            this.grenadePictureBox.Name = "grenadePictureBox";
+            this.grenadePictureBox.Size = new System.Drawing.Size(95, 44);
+            this.grenadePictureBox.TabIndex = 0;
+            this.grenadePictureBox.TabStop = false;
+            // 
+            // grenadeCheckBox
+            // 
+            this.grenadeCheckBox.AutoSize = true;
+            this.grenadeCheckBox.Location = new System.Drawing.Point(104, 6);
+            this.grenadeCheckBox.Margin = new System.Windows.Forms.Padding(3, 6, 3, 3);
+            this.grenadeCheckBox.Name = "grenadeCheckBox";
+            this.grenadeCheckBox.Size = new System.Drawing.Size(71, 17);
+            this.grenadeCheckBox.TabIndex = 1;
+            this.grenadeCheckBox.Text = "Enabled?";
+            this.grenadeCheckBox.UseVisualStyleBackColor = true;
+            // 
+            // tableLayoutPanel29
+            // 
+            this.tableLayoutPanel29.ColumnCount = 2;
+            this.tableLayoutPanel29.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
+            this.tableLayoutPanel29.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 40F));
+            this.tableLayoutPanel29.Controls.Add(this.label25, 0, 0);
+            this.tableLayoutPanel29.Controls.Add(this.grenadeCurrentUpDown, 0, 1);
+            this.tableLayoutPanel29.Controls.Add(this.grenadeCurrentBtn, 1, 1);
+            this.tableLayoutPanel29.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.tableLayoutPanel29.Location = new System.Drawing.Point(3, 53);
+            this.tableLayoutPanel29.Name = "tableLayoutPanel29";
+            this.tableLayoutPanel29.RowCount = 2;
+            this.tableLayoutPanel29.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 38.88889F));
+            this.tableLayoutPanel29.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 61.11111F));
+            this.tableLayoutPanel29.Size = new System.Drawing.Size(95, 63);
+            this.tableLayoutPanel29.TabIndex = 2;
+            // 
+            // label25
+            // 
+            this.label25.AutoSize = true;
+            this.tableLayoutPanel29.SetColumnSpan(this.label25, 2);
+            this.label25.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.label25.Location = new System.Drawing.Point(0, 0);
+            this.label25.Margin = new System.Windows.Forms.Padding(0);
+            this.label25.Name = "label25";
+            this.label25.Size = new System.Drawing.Size(95, 24);
+            this.label25.TabIndex = 0;
+            this.label25.Text = "Current Count";
+            // 
+            // grenadeCurrentUpDown
+            // 
+            this.grenadeCurrentUpDown.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.grenadeCurrentUpDown.Location = new System.Drawing.Point(3, 25);
+            this.grenadeCurrentUpDown.Margin = new System.Windows.Forms.Padding(3, 1, 0, 0);
+            this.grenadeCurrentUpDown.Maximum = new decimal(new int[] {
+            32767,
+            0,
+            0,
+            0});
+            this.grenadeCurrentUpDown.Name = "grenadeCurrentUpDown";
+            this.grenadeCurrentUpDown.Size = new System.Drawing.Size(52, 20);
+            this.grenadeCurrentUpDown.TabIndex = 1;
+            // 
+            // grenadeCurrentBtn
+            // 
+            this.grenadeCurrentBtn.Dock = System.Windows.Forms.DockStyle.Top;
+            this.grenadeCurrentBtn.Location = new System.Drawing.Point(55, 24);
+            this.grenadeCurrentBtn.Margin = new System.Windows.Forms.Padding(0);
+            this.grenadeCurrentBtn.Name = "grenadeCurrentBtn";
+            this.grenadeCurrentBtn.Size = new System.Drawing.Size(40, 22);
+            this.grenadeCurrentBtn.TabIndex = 2;
+            this.grenadeCurrentBtn.Text = "Set!";
+            this.grenadeCurrentBtn.UseVisualStyleBackColor = true;
+            // 
+            // magazineGroupBox
+            // 
+            this.magazineGroupBox.Controls.Add(this.magazineLayoutPanel);
+            this.magazineGroupBox.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.magazineGroupBox.Location = new System.Drawing.Point(217, 435);
+            this.magazineGroupBox.Name = "magazineGroupBox";
+            this.magazineGroupBox.Size = new System.Drawing.Size(208, 139);
+            this.magazineGroupBox.TabIndex = 47;
+            this.magazineGroupBox.TabStop = false;
+            this.magazineGroupBox.Text = "Magazine";
+            // 
+            // magazineLayoutPanel
+            // 
+            this.magazineLayoutPanel.ColumnCount = 2;
+            this.magazineLayoutPanel.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
+            this.magazineLayoutPanel.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
+            this.magazineLayoutPanel.Controls.Add(this.tableLayoutPanel24, 0, 1);
+            this.magazineLayoutPanel.Controls.Add(this.magazinePictureBox, 0, 0);
+            this.magazineLayoutPanel.Controls.Add(this.magazineCheckBox, 1, 0);
+            this.magazineLayoutPanel.Controls.Add(this.tableLayoutPanel27, 0, 1);
+            this.magazineLayoutPanel.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.magazineLayoutPanel.Location = new System.Drawing.Point(3, 16);
+            this.magazineLayoutPanel.Name = "magazineLayoutPanel";
+            this.magazineLayoutPanel.RowCount = 2;
+            this.magazineLayoutPanel.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 42.22222F));
+            this.magazineLayoutPanel.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 57.77778F));
+            this.magazineLayoutPanel.Size = new System.Drawing.Size(202, 120);
+            this.magazineLayoutPanel.TabIndex = 41;
+            // 
+            // tableLayoutPanel24
+            // 
+            this.tableLayoutPanel24.ColumnCount = 2;
+            this.tableLayoutPanel24.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
+            this.tableLayoutPanel24.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 40F));
+            this.tableLayoutPanel24.Controls.Add(this.label26, 0, 0);
+            this.tableLayoutPanel24.Controls.Add(this.magazineMaxUpDown, 0, 1);
+            this.tableLayoutPanel24.Controls.Add(this.magazineMaxBtn, 1, 1);
+            this.tableLayoutPanel24.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.tableLayoutPanel24.Location = new System.Drawing.Point(104, 53);
+            this.tableLayoutPanel24.Name = "tableLayoutPanel24";
+            this.tableLayoutPanel24.RowCount = 2;
+            this.tableLayoutPanel24.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 38.88889F));
+            this.tableLayoutPanel24.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 61.11111F));
+            this.tableLayoutPanel24.Size = new System.Drawing.Size(95, 64);
+            this.tableLayoutPanel24.TabIndex = 3;
+            // 
+            // label26
+            // 
+            this.label26.AutoSize = true;
+            this.tableLayoutPanel24.SetColumnSpan(this.label26, 2);
+            this.label26.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.label26.Location = new System.Drawing.Point(0, 0);
+            this.label26.Margin = new System.Windows.Forms.Padding(0);
+            this.label26.Name = "label26";
+            this.label26.Size = new System.Drawing.Size(95, 24);
+            this.label26.TabIndex = 0;
+            this.label26.Text = "Max Count";
+            // 
+            // magazineMaxUpDown
+            // 
+            this.magazineMaxUpDown.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.magazineMaxUpDown.Location = new System.Drawing.Point(3, 25);
+            this.magazineMaxUpDown.Margin = new System.Windows.Forms.Padding(3, 1, 0, 0);
+            this.magazineMaxUpDown.Maximum = new decimal(new int[] {
+            32767,
+            0,
+            0,
+            0});
+            this.magazineMaxUpDown.Name = "magazineMaxUpDown";
+            this.magazineMaxUpDown.Size = new System.Drawing.Size(52, 20);
+            this.magazineMaxUpDown.TabIndex = 1;
+            // 
+            // magazineMaxBtn
+            // 
+            this.magazineMaxBtn.Dock = System.Windows.Forms.DockStyle.Top;
+            this.magazineMaxBtn.Location = new System.Drawing.Point(55, 24);
+            this.magazineMaxBtn.Margin = new System.Windows.Forms.Padding(0);
+            this.magazineMaxBtn.Name = "magazineMaxBtn";
+            this.magazineMaxBtn.Size = new System.Drawing.Size(40, 22);
+            this.magazineMaxBtn.TabIndex = 2;
+            this.magazineMaxBtn.Text = "Set!";
+            this.magazineMaxBtn.UseVisualStyleBackColor = true;
+            // 
+            // magazinePictureBox
+            // 
+            this.magazinePictureBox.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.magazinePictureBox.Location = new System.Drawing.Point(3, 3);
+            this.magazinePictureBox.Name = "magazinePictureBox";
+            this.magazinePictureBox.Size = new System.Drawing.Size(95, 44);
+            this.magazinePictureBox.TabIndex = 0;
+            this.magazinePictureBox.TabStop = false;
+            // 
+            // magazineCheckBox
+            // 
+            this.magazineCheckBox.AutoSize = true;
+            this.magazineCheckBox.Location = new System.Drawing.Point(104, 6);
+            this.magazineCheckBox.Margin = new System.Windows.Forms.Padding(3, 6, 3, 3);
+            this.magazineCheckBox.Name = "magazineCheckBox";
+            this.magazineCheckBox.Size = new System.Drawing.Size(71, 17);
+            this.magazineCheckBox.TabIndex = 1;
+            this.magazineCheckBox.Text = "Enabled?";
+            this.magazineCheckBox.UseVisualStyleBackColor = true;
+            // 
+            // tableLayoutPanel27
+            // 
+            this.tableLayoutPanel27.ColumnCount = 2;
+            this.tableLayoutPanel27.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
+            this.tableLayoutPanel27.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 40F));
+            this.tableLayoutPanel27.Controls.Add(this.label27, 0, 0);
+            this.tableLayoutPanel27.Controls.Add(this.magazineCurrentUpDown, 0, 1);
+            this.tableLayoutPanel27.Controls.Add(this.magazineCurrentBtn, 1, 1);
+            this.tableLayoutPanel27.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.tableLayoutPanel27.Location = new System.Drawing.Point(3, 53);
+            this.tableLayoutPanel27.Name = "tableLayoutPanel27";
+            this.tableLayoutPanel27.RowCount = 2;
+            this.tableLayoutPanel27.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 38.88889F));
+            this.tableLayoutPanel27.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 61.11111F));
+            this.tableLayoutPanel27.Size = new System.Drawing.Size(95, 64);
+            this.tableLayoutPanel27.TabIndex = 2;
+            // 
+            // label27
+            // 
+            this.label27.AutoSize = true;
+            this.tableLayoutPanel27.SetColumnSpan(this.label27, 2);
+            this.label27.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.label27.Location = new System.Drawing.Point(0, 0);
+            this.label27.Margin = new System.Windows.Forms.Padding(0);
+            this.label27.Name = "label27";
+            this.label27.Size = new System.Drawing.Size(95, 24);
+            this.label27.TabIndex = 0;
+            this.label27.Text = "Current Count";
+            // 
+            // magazineCurrentUpDown
+            // 
+            this.magazineCurrentUpDown.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.magazineCurrentUpDown.Location = new System.Drawing.Point(3, 25);
+            this.magazineCurrentUpDown.Margin = new System.Windows.Forms.Padding(3, 1, 0, 0);
+            this.magazineCurrentUpDown.Maximum = new decimal(new int[] {
+            32767,
+            0,
+            0,
+            0});
+            this.magazineCurrentUpDown.Name = "magazineCurrentUpDown";
+            this.magazineCurrentUpDown.Size = new System.Drawing.Size(52, 20);
+            this.magazineCurrentUpDown.TabIndex = 1;
+            // 
+            // magazineCurrentBtn
+            // 
+            this.magazineCurrentBtn.Dock = System.Windows.Forms.DockStyle.Top;
+            this.magazineCurrentBtn.Location = new System.Drawing.Point(55, 24);
+            this.magazineCurrentBtn.Margin = new System.Windows.Forms.Padding(0);
+            this.magazineCurrentBtn.Name = "magazineCurrentBtn";
+            this.magazineCurrentBtn.Size = new System.Drawing.Size(40, 22);
+            this.magazineCurrentBtn.TabIndex = 2;
+            this.magazineCurrentBtn.Text = "Set!";
+            this.magazineCurrentBtn.UseVisualStyleBackColor = true;
+            // 
+            // akGroupBox
+            // 
+            this.akGroupBox.Controls.Add(this.akLayoutPanel);
+            this.akGroupBox.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.akGroupBox.Location = new System.Drawing.Point(431, 3);
+            this.akGroupBox.Name = "akGroupBox";
+            this.akGroupBox.Size = new System.Drawing.Size(208, 138);
+            this.akGroupBox.TabIndex = 48;
+            this.akGroupBox.TabStop = false;
+            this.akGroupBox.Text = "AKS-74u";
+            // 
+            // akLayoutPanel
+            // 
+            this.akLayoutPanel.ColumnCount = 2;
+            this.akLayoutPanel.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
+            this.akLayoutPanel.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
+            this.akLayoutPanel.Controls.Add(this.tableLayoutPanel15, 0, 1);
+            this.akLayoutPanel.Controls.Add(this.akPictureBox, 0, 0);
+            this.akLayoutPanel.Controls.Add(this.akCheckBox, 1, 0);
+            this.akLayoutPanel.Controls.Add(this.tableLayoutPanel30, 0, 1);
+            this.akLayoutPanel.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.akLayoutPanel.Location = new System.Drawing.Point(3, 16);
+            this.akLayoutPanel.Name = "akLayoutPanel";
+            this.akLayoutPanel.RowCount = 2;
+            this.akLayoutPanel.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 42.22222F));
+            this.akLayoutPanel.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 57.77778F));
+            this.akLayoutPanel.Size = new System.Drawing.Size(202, 119);
+            this.akLayoutPanel.TabIndex = 41;
+            // 
+            // tableLayoutPanel15
+            // 
+            this.tableLayoutPanel15.ColumnCount = 2;
+            this.tableLayoutPanel15.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
+            this.tableLayoutPanel15.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 40F));
+            this.tableLayoutPanel15.Controls.Add(this.label28, 0, 0);
+            this.tableLayoutPanel15.Controls.Add(this.akMaxUpDown, 0, 1);
+            this.tableLayoutPanel15.Controls.Add(this.akMaxBtn, 1, 1);
+            this.tableLayoutPanel15.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.tableLayoutPanel15.Location = new System.Drawing.Point(104, 53);
+            this.tableLayoutPanel15.Name = "tableLayoutPanel15";
+            this.tableLayoutPanel15.RowCount = 2;
+            this.tableLayoutPanel15.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 38.88889F));
+            this.tableLayoutPanel15.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 61.11111F));
+            this.tableLayoutPanel15.Size = new System.Drawing.Size(95, 63);
+            this.tableLayoutPanel15.TabIndex = 3;
+            // 
+            // label28
+            // 
+            this.label28.AutoSize = true;
+            this.tableLayoutPanel15.SetColumnSpan(this.label28, 2);
+            this.label28.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.label28.Location = new System.Drawing.Point(0, 0);
+            this.label28.Margin = new System.Windows.Forms.Padding(0);
+            this.label28.Name = "label28";
+            this.label28.Size = new System.Drawing.Size(95, 24);
+            this.label28.TabIndex = 0;
+            this.label28.Text = "Max Count";
+            // 
+            // akMaxUpDown
+            // 
+            this.akMaxUpDown.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.akMaxUpDown.Location = new System.Drawing.Point(3, 25);
+            this.akMaxUpDown.Margin = new System.Windows.Forms.Padding(3, 1, 0, 0);
+            this.akMaxUpDown.Maximum = new decimal(new int[] {
+            32767,
+            0,
+            0,
+            0});
+            this.akMaxUpDown.Name = "akMaxUpDown";
+            this.akMaxUpDown.Size = new System.Drawing.Size(52, 20);
+            this.akMaxUpDown.TabIndex = 1;
+            // 
+            // akMaxBtn
+            // 
+            this.akMaxBtn.Dock = System.Windows.Forms.DockStyle.Top;
+            this.akMaxBtn.Location = new System.Drawing.Point(55, 24);
+            this.akMaxBtn.Margin = new System.Windows.Forms.Padding(0);
+            this.akMaxBtn.Name = "akMaxBtn";
+            this.akMaxBtn.Size = new System.Drawing.Size(40, 22);
+            this.akMaxBtn.TabIndex = 2;
+            this.akMaxBtn.Text = "Set!";
+            this.akMaxBtn.UseVisualStyleBackColor = true;
+            this.akMaxBtn.Click += new System.EventHandler(this.button1_Click);
+            // 
+            // akPictureBox
+            // 
+            this.akPictureBox.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.akPictureBox.Location = new System.Drawing.Point(3, 3);
+            this.akPictureBox.Name = "akPictureBox";
+            this.akPictureBox.Size = new System.Drawing.Size(95, 44);
+            this.akPictureBox.TabIndex = 0;
+            this.akPictureBox.TabStop = false;
+            // 
+            // akCheckBox
+            // 
+            this.akCheckBox.AutoSize = true;
+            this.akCheckBox.Location = new System.Drawing.Point(104, 6);
+            this.akCheckBox.Margin = new System.Windows.Forms.Padding(3, 6, 3, 3);
+            this.akCheckBox.Name = "akCheckBox";
+            this.akCheckBox.Size = new System.Drawing.Size(71, 17);
+            this.akCheckBox.TabIndex = 1;
+            this.akCheckBox.Text = "Enabled?";
+            this.akCheckBox.UseVisualStyleBackColor = true;
+            // 
+            // tableLayoutPanel30
+            // 
+            this.tableLayoutPanel30.ColumnCount = 2;
+            this.tableLayoutPanel30.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
+            this.tableLayoutPanel30.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 40F));
+            this.tableLayoutPanel30.Controls.Add(this.label29, 0, 0);
+            this.tableLayoutPanel30.Controls.Add(this.akCurrentUpDown, 0, 1);
+            this.tableLayoutPanel30.Controls.Add(this.akCurrentBtn, 1, 1);
+            this.tableLayoutPanel30.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.tableLayoutPanel30.Location = new System.Drawing.Point(3, 53);
+            this.tableLayoutPanel30.Name = "tableLayoutPanel30";
+            this.tableLayoutPanel30.RowCount = 2;
+            this.tableLayoutPanel30.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 38.88889F));
+            this.tableLayoutPanel30.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 61.11111F));
+            this.tableLayoutPanel30.Size = new System.Drawing.Size(95, 63);
+            this.tableLayoutPanel30.TabIndex = 2;
+            // 
+            // label29
+            // 
+            this.label29.AutoSize = true;
+            this.tableLayoutPanel30.SetColumnSpan(this.label29, 2);
+            this.label29.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.label29.Location = new System.Drawing.Point(0, 0);
+            this.label29.Margin = new System.Windows.Forms.Padding(0);
+            this.label29.Name = "label29";
+            this.label29.Size = new System.Drawing.Size(95, 24);
+            this.label29.TabIndex = 0;
+            this.label29.Text = "Current Count";
+            // 
+            // akCurrentUpDown
+            // 
+            this.akCurrentUpDown.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.akCurrentUpDown.Location = new System.Drawing.Point(3, 25);
+            this.akCurrentUpDown.Margin = new System.Windows.Forms.Padding(3, 1, 0, 0);
+            this.akCurrentUpDown.Maximum = new decimal(new int[] {
+            32767,
+            0,
+            0,
+            0});
+            this.akCurrentUpDown.Name = "akCurrentUpDown";
+            this.akCurrentUpDown.Size = new System.Drawing.Size(52, 20);
+            this.akCurrentUpDown.TabIndex = 1;
+            // 
+            // akCurrentBtn
+            // 
+            this.akCurrentBtn.Dock = System.Windows.Forms.DockStyle.Top;
+            this.akCurrentBtn.Location = new System.Drawing.Point(55, 24);
+            this.akCurrentBtn.Margin = new System.Windows.Forms.Padding(0);
+            this.akCurrentBtn.Name = "akCurrentBtn";
+            this.akCurrentBtn.Size = new System.Drawing.Size(40, 22);
+            this.akCurrentBtn.TabIndex = 2;
+            this.akCurrentBtn.Text = "Set!";
+            this.akCurrentBtn.UseVisualStyleBackColor = true;
+            // 
+            // m4GroupBox
+            // 
+            this.m4GroupBox.Controls.Add(this.m4LayoutPanel);
+            this.m4GroupBox.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.m4GroupBox.Location = new System.Drawing.Point(431, 147);
+            this.m4GroupBox.Name = "m4GroupBox";
+            this.m4GroupBox.Size = new System.Drawing.Size(208, 138);
+            this.m4GroupBox.TabIndex = 49;
+            this.m4GroupBox.TabStop = false;
+            this.m4GroupBox.Text = "M4";
+            // 
+            // m4LayoutPanel
+            // 
+            this.m4LayoutPanel.ColumnCount = 2;
+            this.m4LayoutPanel.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
+            this.m4LayoutPanel.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
+            this.m4LayoutPanel.Controls.Add(this.tableLayoutPanel31, 0, 1);
+            this.m4LayoutPanel.Controls.Add(this.m4PictureBox, 0, 0);
+            this.m4LayoutPanel.Controls.Add(this.m4CheckBox, 1, 0);
+            this.m4LayoutPanel.Controls.Add(this.tableLayoutPanel32, 0, 1);
+            this.m4LayoutPanel.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.m4LayoutPanel.Location = new System.Drawing.Point(3, 16);
+            this.m4LayoutPanel.Name = "m4LayoutPanel";
+            this.m4LayoutPanel.RowCount = 2;
+            this.m4LayoutPanel.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 42.22222F));
+            this.m4LayoutPanel.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 57.77778F));
+            this.m4LayoutPanel.Size = new System.Drawing.Size(202, 119);
+            this.m4LayoutPanel.TabIndex = 41;
+            // 
+            // tableLayoutPanel31
+            // 
+            this.tableLayoutPanel31.ColumnCount = 2;
+            this.tableLayoutPanel31.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
+            this.tableLayoutPanel31.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 40F));
+            this.tableLayoutPanel31.Controls.Add(this.label30, 0, 0);
+            this.tableLayoutPanel31.Controls.Add(this.m4MaxUpDown, 0, 1);
+            this.tableLayoutPanel31.Controls.Add(this.m4MaxBtn, 1, 1);
+            this.tableLayoutPanel31.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.tableLayoutPanel31.Location = new System.Drawing.Point(104, 53);
+            this.tableLayoutPanel31.Name = "tableLayoutPanel31";
+            this.tableLayoutPanel31.RowCount = 2;
+            this.tableLayoutPanel31.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 38.88889F));
+            this.tableLayoutPanel31.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 61.11111F));
+            this.tableLayoutPanel31.Size = new System.Drawing.Size(95, 63);
+            this.tableLayoutPanel31.TabIndex = 3;
+            // 
+            // label30
+            // 
+            this.label30.AutoSize = true;
+            this.tableLayoutPanel31.SetColumnSpan(this.label30, 2);
+            this.label30.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.label30.Location = new System.Drawing.Point(0, 0);
+            this.label30.Margin = new System.Windows.Forms.Padding(0);
+            this.label30.Name = "label30";
+            this.label30.Size = new System.Drawing.Size(95, 24);
+            this.label30.TabIndex = 0;
+            this.label30.Text = "Max Count";
+            // 
+            // m4MaxUpDown
+            // 
+            this.m4MaxUpDown.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.m4MaxUpDown.Location = new System.Drawing.Point(3, 25);
+            this.m4MaxUpDown.Margin = new System.Windows.Forms.Padding(3, 1, 0, 0);
+            this.m4MaxUpDown.Maximum = new decimal(new int[] {
+            32767,
+            0,
+            0,
+            0});
+            this.m4MaxUpDown.Name = "m4MaxUpDown";
+            this.m4MaxUpDown.Size = new System.Drawing.Size(52, 20);
+            this.m4MaxUpDown.TabIndex = 1;
+            // 
+            // m4MaxBtn
+            // 
+            this.m4MaxBtn.Dock = System.Windows.Forms.DockStyle.Top;
+            this.m4MaxBtn.Location = new System.Drawing.Point(55, 24);
+            this.m4MaxBtn.Margin = new System.Windows.Forms.Padding(0);
+            this.m4MaxBtn.Name = "m4MaxBtn";
+            this.m4MaxBtn.Size = new System.Drawing.Size(40, 22);
+            this.m4MaxBtn.TabIndex = 2;
+            this.m4MaxBtn.Text = "Set!";
+            this.m4MaxBtn.UseVisualStyleBackColor = true;
+            // 
+            // m4PictureBox
+            // 
+            this.m4PictureBox.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.m4PictureBox.Location = new System.Drawing.Point(3, 3);
+            this.m4PictureBox.Name = "m4PictureBox";
+            this.m4PictureBox.Size = new System.Drawing.Size(95, 44);
+            this.m4PictureBox.TabIndex = 0;
+            this.m4PictureBox.TabStop = false;
+            // 
+            // m4CheckBox
+            // 
+            this.m4CheckBox.AutoSize = true;
+            this.m4CheckBox.Location = new System.Drawing.Point(104, 6);
+            this.m4CheckBox.Margin = new System.Windows.Forms.Padding(3, 6, 3, 3);
+            this.m4CheckBox.Name = "m4CheckBox";
+            this.m4CheckBox.Size = new System.Drawing.Size(71, 17);
+            this.m4CheckBox.TabIndex = 1;
+            this.m4CheckBox.Text = "Enabled?";
+            this.m4CheckBox.UseVisualStyleBackColor = true;
+            // 
+            // tableLayoutPanel32
+            // 
+            this.tableLayoutPanel32.ColumnCount = 2;
+            this.tableLayoutPanel32.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
+            this.tableLayoutPanel32.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 40F));
+            this.tableLayoutPanel32.Controls.Add(this.label31, 0, 0);
+            this.tableLayoutPanel32.Controls.Add(this.m4CurrentUpDown, 0, 1);
+            this.tableLayoutPanel32.Controls.Add(this.m4CurrentBtn, 1, 1);
+            this.tableLayoutPanel32.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.tableLayoutPanel32.Location = new System.Drawing.Point(3, 53);
+            this.tableLayoutPanel32.Name = "tableLayoutPanel32";
+            this.tableLayoutPanel32.RowCount = 2;
+            this.tableLayoutPanel32.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 38.88889F));
+            this.tableLayoutPanel32.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 61.11111F));
+            this.tableLayoutPanel32.Size = new System.Drawing.Size(95, 63);
+            this.tableLayoutPanel32.TabIndex = 2;
+            // 
+            // label31
+            // 
+            this.label31.AutoSize = true;
+            this.tableLayoutPanel32.SetColumnSpan(this.label31, 2);
+            this.label31.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.label31.Location = new System.Drawing.Point(0, 0);
+            this.label31.Margin = new System.Windows.Forms.Padding(0);
+            this.label31.Name = "label31";
+            this.label31.Size = new System.Drawing.Size(95, 24);
+            this.label31.TabIndex = 0;
+            this.label31.Text = "Current Count";
+            // 
+            // m4CurrentUpDown
+            // 
+            this.m4CurrentUpDown.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.m4CurrentUpDown.Location = new System.Drawing.Point(3, 25);
+            this.m4CurrentUpDown.Margin = new System.Windows.Forms.Padding(3, 1, 0, 0);
+            this.m4CurrentUpDown.Maximum = new decimal(new int[] {
+            32767,
+            0,
+            0,
+            0});
+            this.m4CurrentUpDown.Name = "m4CurrentUpDown";
+            this.m4CurrentUpDown.Size = new System.Drawing.Size(52, 20);
+            this.m4CurrentUpDown.TabIndex = 1;
+            // 
+            // m4CurrentBtn
+            // 
+            this.m4CurrentBtn.Dock = System.Windows.Forms.DockStyle.Top;
+            this.m4CurrentBtn.Location = new System.Drawing.Point(55, 24);
+            this.m4CurrentBtn.Margin = new System.Windows.Forms.Padding(0);
+            this.m4CurrentBtn.Name = "m4CurrentBtn";
+            this.m4CurrentBtn.Size = new System.Drawing.Size(40, 22);
+            this.m4CurrentBtn.TabIndex = 2;
+            this.m4CurrentBtn.Text = "Set!";
+            this.m4CurrentBtn.UseVisualStyleBackColor = true;
+            // 
+            // psg1GroupBox
+            // 
+            this.psg1GroupBox.Controls.Add(this.psg1LayoutPanel);
+            this.psg1GroupBox.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.psg1GroupBox.Location = new System.Drawing.Point(431, 291);
+            this.psg1GroupBox.Name = "psg1GroupBox";
+            this.psg1GroupBox.Size = new System.Drawing.Size(208, 138);
+            this.psg1GroupBox.TabIndex = 50;
+            this.psg1GroupBox.TabStop = false;
+            this.psg1GroupBox.Text = "PSG-1";
+            // 
+            // psg1LayoutPanel
+            // 
+            this.psg1LayoutPanel.ColumnCount = 2;
+            this.psg1LayoutPanel.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
+            this.psg1LayoutPanel.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
+            this.psg1LayoutPanel.Controls.Add(this.tableLayoutPanel33, 0, 1);
+            this.psg1LayoutPanel.Controls.Add(this.psg1PictureBox, 0, 0);
+            this.psg1LayoutPanel.Controls.Add(this.psg1CheckBox, 1, 0);
+            this.psg1LayoutPanel.Controls.Add(this.tableLayoutPanel34, 0, 1);
+            this.psg1LayoutPanel.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.psg1LayoutPanel.Location = new System.Drawing.Point(3, 16);
+            this.psg1LayoutPanel.Name = "psg1LayoutPanel";
+            this.psg1LayoutPanel.RowCount = 2;
+            this.psg1LayoutPanel.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 42.22222F));
+            this.psg1LayoutPanel.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 57.77778F));
+            this.psg1LayoutPanel.Size = new System.Drawing.Size(202, 119);
+            this.psg1LayoutPanel.TabIndex = 41;
+            // 
+            // tableLayoutPanel33
+            // 
+            this.tableLayoutPanel33.ColumnCount = 2;
+            this.tableLayoutPanel33.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
+            this.tableLayoutPanel33.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 40F));
+            this.tableLayoutPanel33.Controls.Add(this.label32, 0, 0);
+            this.tableLayoutPanel33.Controls.Add(this.psg1MaxUpDown, 0, 1);
+            this.tableLayoutPanel33.Controls.Add(this.psg1MaxBtn, 1, 1);
+            this.tableLayoutPanel33.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.tableLayoutPanel33.Location = new System.Drawing.Point(104, 53);
+            this.tableLayoutPanel33.Name = "tableLayoutPanel33";
+            this.tableLayoutPanel33.RowCount = 2;
+            this.tableLayoutPanel33.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 38.88889F));
+            this.tableLayoutPanel33.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 61.11111F));
+            this.tableLayoutPanel33.Size = new System.Drawing.Size(95, 63);
+            this.tableLayoutPanel33.TabIndex = 3;
+            // 
+            // label32
+            // 
+            this.label32.AutoSize = true;
+            this.tableLayoutPanel33.SetColumnSpan(this.label32, 2);
+            this.label32.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.label32.Location = new System.Drawing.Point(0, 0);
+            this.label32.Margin = new System.Windows.Forms.Padding(0);
+            this.label32.Name = "label32";
+            this.label32.Size = new System.Drawing.Size(95, 24);
+            this.label32.TabIndex = 0;
+            this.label32.Text = "Max Count";
+            // 
+            // psg1MaxUpDown
+            // 
+            this.psg1MaxUpDown.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.psg1MaxUpDown.Location = new System.Drawing.Point(3, 25);
+            this.psg1MaxUpDown.Margin = new System.Windows.Forms.Padding(3, 1, 0, 0);
+            this.psg1MaxUpDown.Maximum = new decimal(new int[] {
+            32767,
+            0,
+            0,
+            0});
+            this.psg1MaxUpDown.Name = "psg1MaxUpDown";
+            this.psg1MaxUpDown.Size = new System.Drawing.Size(52, 20);
+            this.psg1MaxUpDown.TabIndex = 1;
+            // 
+            // psg1MaxBtn
+            // 
+            this.psg1MaxBtn.Dock = System.Windows.Forms.DockStyle.Top;
+            this.psg1MaxBtn.Location = new System.Drawing.Point(55, 24);
+            this.psg1MaxBtn.Margin = new System.Windows.Forms.Padding(0);
+            this.psg1MaxBtn.Name = "psg1MaxBtn";
+            this.psg1MaxBtn.Size = new System.Drawing.Size(40, 22);
+            this.psg1MaxBtn.TabIndex = 2;
+            this.psg1MaxBtn.Text = "Set!";
+            this.psg1MaxBtn.UseVisualStyleBackColor = true;
+            // 
+            // psg1PictureBox
+            // 
+            this.psg1PictureBox.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.psg1PictureBox.Location = new System.Drawing.Point(3, 3);
+            this.psg1PictureBox.Name = "psg1PictureBox";
+            this.psg1PictureBox.Size = new System.Drawing.Size(95, 44);
+            this.psg1PictureBox.TabIndex = 0;
+            this.psg1PictureBox.TabStop = false;
+            // 
+            // psg1CheckBox
+            // 
+            this.psg1CheckBox.AutoSize = true;
+            this.psg1CheckBox.Location = new System.Drawing.Point(104, 6);
+            this.psg1CheckBox.Margin = new System.Windows.Forms.Padding(3, 6, 3, 3);
+            this.psg1CheckBox.Name = "psg1CheckBox";
+            this.psg1CheckBox.Size = new System.Drawing.Size(71, 17);
+            this.psg1CheckBox.TabIndex = 1;
+            this.psg1CheckBox.Text = "Enabled?";
+            this.psg1CheckBox.UseVisualStyleBackColor = true;
+            // 
+            // tableLayoutPanel34
+            // 
+            this.tableLayoutPanel34.ColumnCount = 2;
+            this.tableLayoutPanel34.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
+            this.tableLayoutPanel34.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 40F));
+            this.tableLayoutPanel34.Controls.Add(this.label33, 0, 0);
+            this.tableLayoutPanel34.Controls.Add(this.psg1CurrentUpDown, 0, 1);
+            this.tableLayoutPanel34.Controls.Add(this.psg1CurrentBtn, 1, 1);
+            this.tableLayoutPanel34.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.tableLayoutPanel34.Location = new System.Drawing.Point(3, 53);
+            this.tableLayoutPanel34.Name = "tableLayoutPanel34";
+            this.tableLayoutPanel34.RowCount = 2;
+            this.tableLayoutPanel34.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 38.88889F));
+            this.tableLayoutPanel34.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 61.11111F));
+            this.tableLayoutPanel34.Size = new System.Drawing.Size(95, 63);
+            this.tableLayoutPanel34.TabIndex = 2;
+            // 
+            // label33
+            // 
+            this.label33.AutoSize = true;
+            this.tableLayoutPanel34.SetColumnSpan(this.label33, 2);
+            this.label33.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.label33.Location = new System.Drawing.Point(0, 0);
+            this.label33.Margin = new System.Windows.Forms.Padding(0);
+            this.label33.Name = "label33";
+            this.label33.Size = new System.Drawing.Size(95, 24);
+            this.label33.TabIndex = 0;
+            this.label33.Text = "Current Count";
+            // 
+            // psg1CurrentUpDown
+            // 
+            this.psg1CurrentUpDown.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.psg1CurrentUpDown.Location = new System.Drawing.Point(3, 25);
+            this.psg1CurrentUpDown.Margin = new System.Windows.Forms.Padding(3, 1, 0, 0);
+            this.psg1CurrentUpDown.Maximum = new decimal(new int[] {
+            32767,
+            0,
+            0,
+            0});
+            this.psg1CurrentUpDown.Name = "psg1CurrentUpDown";
+            this.psg1CurrentUpDown.Size = new System.Drawing.Size(52, 20);
+            this.psg1CurrentUpDown.TabIndex = 1;
+            // 
+            // psg1CurrentBtn
+            // 
+            this.psg1CurrentBtn.Dock = System.Windows.Forms.DockStyle.Top;
+            this.psg1CurrentBtn.Location = new System.Drawing.Point(55, 24);
+            this.psg1CurrentBtn.Margin = new System.Windows.Forms.Padding(0);
+            this.psg1CurrentBtn.Name = "psg1CurrentBtn";
+            this.psg1CurrentBtn.Size = new System.Drawing.Size(40, 22);
+            this.psg1CurrentBtn.TabIndex = 2;
+            this.psg1CurrentBtn.Text = "Set!";
+            this.psg1CurrentBtn.UseVisualStyleBackColor = true;
+            // 
+            // psg1TGroupBox
+            // 
+            this.psg1TGroupBox.Controls.Add(this.psg1TLayoutPanel);
+            this.psg1TGroupBox.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.psg1TGroupBox.Location = new System.Drawing.Point(431, 435);
+            this.psg1TGroupBox.Name = "psg1TGroupBox";
+            this.psg1TGroupBox.Size = new System.Drawing.Size(208, 139);
+            this.psg1TGroupBox.TabIndex = 51;
+            this.psg1TGroupBox.TabStop = false;
+            this.psg1TGroupBox.Text = "PSG-1T";
+            // 
+            // psg1TLayoutPanel
+            // 
+            this.psg1TLayoutPanel.ColumnCount = 2;
+            this.psg1TLayoutPanel.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
+            this.psg1TLayoutPanel.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
+            this.psg1TLayoutPanel.Controls.Add(this.tableLayoutPanel35, 0, 1);
+            this.psg1TLayoutPanel.Controls.Add(this.psg1TPictureBox, 0, 0);
+            this.psg1TLayoutPanel.Controls.Add(this.psg1TCheckBox, 1, 0);
+            this.psg1TLayoutPanel.Controls.Add(this.tableLayoutPanel36, 0, 1);
+            this.psg1TLayoutPanel.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.psg1TLayoutPanel.Location = new System.Drawing.Point(3, 16);
+            this.psg1TLayoutPanel.Name = "psg1TLayoutPanel";
+            this.psg1TLayoutPanel.RowCount = 2;
+            this.psg1TLayoutPanel.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 42.22222F));
+            this.psg1TLayoutPanel.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 57.77778F));
+            this.psg1TLayoutPanel.Size = new System.Drawing.Size(202, 120);
+            this.psg1TLayoutPanel.TabIndex = 41;
+            // 
+            // tableLayoutPanel35
+            // 
+            this.tableLayoutPanel35.ColumnCount = 2;
+            this.tableLayoutPanel35.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
+            this.tableLayoutPanel35.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 40F));
+            this.tableLayoutPanel35.Controls.Add(this.label34, 0, 0);
+            this.tableLayoutPanel35.Controls.Add(this.psg1TMaxUpDown, 0, 1);
+            this.tableLayoutPanel35.Controls.Add(this.psg1TMaxBtn, 1, 1);
+            this.tableLayoutPanel35.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.tableLayoutPanel35.Location = new System.Drawing.Point(104, 53);
+            this.tableLayoutPanel35.Name = "tableLayoutPanel35";
+            this.tableLayoutPanel35.RowCount = 2;
+            this.tableLayoutPanel35.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 38.88889F));
+            this.tableLayoutPanel35.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 61.11111F));
+            this.tableLayoutPanel35.Size = new System.Drawing.Size(95, 64);
+            this.tableLayoutPanel35.TabIndex = 3;
+            // 
+            // label34
+            // 
+            this.label34.AutoSize = true;
+            this.tableLayoutPanel35.SetColumnSpan(this.label34, 2);
+            this.label34.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.label34.Location = new System.Drawing.Point(0, 0);
+            this.label34.Margin = new System.Windows.Forms.Padding(0);
+            this.label34.Name = "label34";
+            this.label34.Size = new System.Drawing.Size(95, 24);
+            this.label34.TabIndex = 0;
+            this.label34.Text = "Max Count";
+            // 
+            // psg1TMaxUpDown
+            // 
+            this.psg1TMaxUpDown.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.psg1TMaxUpDown.Location = new System.Drawing.Point(3, 25);
+            this.psg1TMaxUpDown.Margin = new System.Windows.Forms.Padding(3, 1, 0, 0);
+            this.psg1TMaxUpDown.Maximum = new decimal(new int[] {
+            32767,
+            0,
+            0,
+            0});
+            this.psg1TMaxUpDown.Name = "psg1TMaxUpDown";
+            this.psg1TMaxUpDown.Size = new System.Drawing.Size(52, 20);
+            this.psg1TMaxUpDown.TabIndex = 1;
+            // 
+            // psg1TMaxBtn
+            // 
+            this.psg1TMaxBtn.Dock = System.Windows.Forms.DockStyle.Top;
+            this.psg1TMaxBtn.Location = new System.Drawing.Point(55, 24);
+            this.psg1TMaxBtn.Margin = new System.Windows.Forms.Padding(0);
+            this.psg1TMaxBtn.Name = "psg1TMaxBtn";
+            this.psg1TMaxBtn.Size = new System.Drawing.Size(40, 22);
+            this.psg1TMaxBtn.TabIndex = 2;
+            this.psg1TMaxBtn.Text = "Set!";
+            this.psg1TMaxBtn.UseVisualStyleBackColor = true;
+            // 
+            // psg1TPictureBox
+            // 
+            this.psg1TPictureBox.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.psg1TPictureBox.Location = new System.Drawing.Point(3, 3);
+            this.psg1TPictureBox.Name = "psg1TPictureBox";
+            this.psg1TPictureBox.Size = new System.Drawing.Size(95, 44);
+            this.psg1TPictureBox.TabIndex = 0;
+            this.psg1TPictureBox.TabStop = false;
+            // 
+            // psg1TCheckBox
+            // 
+            this.psg1TCheckBox.AutoSize = true;
+            this.psg1TCheckBox.Location = new System.Drawing.Point(104, 6);
+            this.psg1TCheckBox.Margin = new System.Windows.Forms.Padding(3, 6, 3, 3);
+            this.psg1TCheckBox.Name = "psg1TCheckBox";
+            this.psg1TCheckBox.Size = new System.Drawing.Size(71, 17);
+            this.psg1TCheckBox.TabIndex = 1;
+            this.psg1TCheckBox.Text = "Enabled?";
+            this.psg1TCheckBox.UseVisualStyleBackColor = true;
+            // 
+            // tableLayoutPanel36
+            // 
+            this.tableLayoutPanel36.ColumnCount = 2;
+            this.tableLayoutPanel36.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
+            this.tableLayoutPanel36.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 40F));
+            this.tableLayoutPanel36.Controls.Add(this.label35, 0, 0);
+            this.tableLayoutPanel36.Controls.Add(this.psg1TCurrentUpDown, 0, 1);
+            this.tableLayoutPanel36.Controls.Add(this.psg1TCurrentBtn, 1, 1);
+            this.tableLayoutPanel36.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.tableLayoutPanel36.Location = new System.Drawing.Point(3, 53);
+            this.tableLayoutPanel36.Name = "tableLayoutPanel36";
+            this.tableLayoutPanel36.RowCount = 2;
+            this.tableLayoutPanel36.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 38.88889F));
+            this.tableLayoutPanel36.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 61.11111F));
+            this.tableLayoutPanel36.Size = new System.Drawing.Size(95, 64);
+            this.tableLayoutPanel36.TabIndex = 2;
+            // 
+            // label35
+            // 
+            this.label35.AutoSize = true;
+            this.tableLayoutPanel36.SetColumnSpan(this.label35, 2);
+            this.label35.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.label35.Location = new System.Drawing.Point(0, 0);
+            this.label35.Margin = new System.Windows.Forms.Padding(0);
+            this.label35.Name = "label35";
+            this.label35.Size = new System.Drawing.Size(95, 24);
+            this.label35.TabIndex = 0;
+            this.label35.Text = "Current Count";
+            // 
+            // psg1TCurrentUpDown
+            // 
+            this.psg1TCurrentUpDown.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.psg1TCurrentUpDown.Location = new System.Drawing.Point(3, 25);
+            this.psg1TCurrentUpDown.Margin = new System.Windows.Forms.Padding(3, 1, 0, 0);
+            this.psg1TCurrentUpDown.Maximum = new decimal(new int[] {
+            32767,
+            0,
+            0,
+            0});
+            this.psg1TCurrentUpDown.Name = "psg1TCurrentUpDown";
+            this.psg1TCurrentUpDown.Size = new System.Drawing.Size(52, 20);
+            this.psg1TCurrentUpDown.TabIndex = 1;
+            // 
+            // psg1TCurrentBtn
+            // 
+            this.psg1TCurrentBtn.Dock = System.Windows.Forms.DockStyle.Top;
+            this.psg1TCurrentBtn.Location = new System.Drawing.Point(55, 24);
+            this.psg1TCurrentBtn.Margin = new System.Windows.Forms.Padding(0);
+            this.psg1TCurrentBtn.Name = "psg1TCurrentBtn";
+            this.psg1TCurrentBtn.Size = new System.Drawing.Size(40, 22);
+            this.psg1TCurrentBtn.TabIndex = 2;
+            this.psg1TCurrentBtn.Text = "Set!";
+            this.psg1TCurrentBtn.UseVisualStyleBackColor = true;
             // 
             // GUI
             // 
@@ -3625,6 +5597,118 @@
             this.bodyArmorLayoutPanel.ResumeLayout(false);
             this.bodyArmorLayoutPanel.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.bodyArmorPictureBox)).EndInit();
+            this.tabPageWeapon.ResumeLayout(false);
+            this.weaponsLayoutPanel.ResumeLayout(false);
+            this.m9GroupBox.ResumeLayout(false);
+            this.m9LayoutPanel.ResumeLayout(false);
+            this.m9LayoutPanel.PerformLayout();
+            this.tableLayoutPanel16.ResumeLayout(false);
+            this.tableLayoutPanel16.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.m9MaxUpDown)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.m9PictureBox)).EndInit();
+            this.tableLayoutPanel17.ResumeLayout(false);
+            this.tableLayoutPanel17.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.m9CurrentUpDown)).EndInit();
+            this.socomGroupBox.ResumeLayout(false);
+            this.socomLayoutPanel.ResumeLayout(false);
+            this.socomLayoutPanel.PerformLayout();
+            this.tableLayoutPanel18.ResumeLayout(false);
+            this.tableLayoutPanel18.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.socomMaxUpDown)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.socomPictureBox)).EndInit();
+            this.tableLayoutPanel19.ResumeLayout(false);
+            this.tableLayoutPanel19.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.socomCurrentUpDown)).EndInit();
+            this.uspGroupBox.ResumeLayout(false);
+            this.uspLayoutPanel.ResumeLayout(false);
+            this.uspLayoutPanel.PerformLayout();
+            this.tableLayoutPanel20.ResumeLayout(false);
+            this.tableLayoutPanel20.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.uspMaxUpDown)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.uspPictureBox)).EndInit();
+            this.tableLayoutPanel21.ResumeLayout(false);
+            this.tableLayoutPanel21.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.uspCurrentUpDown)).EndInit();
+            this.chaffGroupBox.ResumeLayout(false);
+            this.chaffLayoutPanel.ResumeLayout(false);
+            this.chaffLayoutPanel.PerformLayout();
+            this.tableLayoutPanel22.ResumeLayout(false);
+            this.tableLayoutPanel22.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.chaffMaxUpDown)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.chaffPictureBox)).EndInit();
+            this.tableLayoutPanel23.ResumeLayout(false);
+            this.tableLayoutPanel23.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.chaffCurrentUpDown)).EndInit();
+            this.stunGroupBox.ResumeLayout(false);
+            this.stunLayoutPanel.ResumeLayout(false);
+            this.stunLayoutPanel.PerformLayout();
+            this.tableLayoutPanel25.ResumeLayout(false);
+            this.tableLayoutPanel25.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.stunMaxUpDown)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.stunPictureBox)).EndInit();
+            this.tableLayoutPanel26.ResumeLayout(false);
+            this.tableLayoutPanel26.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.stunCurrentUpDown)).EndInit();
+            this.grenadeGroupBox.ResumeLayout(false);
+            this.grenadeLayoutPanel.ResumeLayout(false);
+            this.grenadeLayoutPanel.PerformLayout();
+            this.tableLayoutPanel28.ResumeLayout(false);
+            this.tableLayoutPanel28.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.grenadeMaxUpDown)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.grenadePictureBox)).EndInit();
+            this.tableLayoutPanel29.ResumeLayout(false);
+            this.tableLayoutPanel29.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.grenadeCurrentUpDown)).EndInit();
+            this.magazineGroupBox.ResumeLayout(false);
+            this.magazineLayoutPanel.ResumeLayout(false);
+            this.magazineLayoutPanel.PerformLayout();
+            this.tableLayoutPanel24.ResumeLayout(false);
+            this.tableLayoutPanel24.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.magazineMaxUpDown)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.magazinePictureBox)).EndInit();
+            this.tableLayoutPanel27.ResumeLayout(false);
+            this.tableLayoutPanel27.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.magazineCurrentUpDown)).EndInit();
+            this.akGroupBox.ResumeLayout(false);
+            this.akLayoutPanel.ResumeLayout(false);
+            this.akLayoutPanel.PerformLayout();
+            this.tableLayoutPanel15.ResumeLayout(false);
+            this.tableLayoutPanel15.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.akMaxUpDown)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.akPictureBox)).EndInit();
+            this.tableLayoutPanel30.ResumeLayout(false);
+            this.tableLayoutPanel30.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.akCurrentUpDown)).EndInit();
+            this.m4GroupBox.ResumeLayout(false);
+            this.m4LayoutPanel.ResumeLayout(false);
+            this.m4LayoutPanel.PerformLayout();
+            this.tableLayoutPanel31.ResumeLayout(false);
+            this.tableLayoutPanel31.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.m4MaxUpDown)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.m4PictureBox)).EndInit();
+            this.tableLayoutPanel32.ResumeLayout(false);
+            this.tableLayoutPanel32.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.m4CurrentUpDown)).EndInit();
+            this.psg1GroupBox.ResumeLayout(false);
+            this.psg1LayoutPanel.ResumeLayout(false);
+            this.psg1LayoutPanel.PerformLayout();
+            this.tableLayoutPanel33.ResumeLayout(false);
+            this.tableLayoutPanel33.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.psg1MaxUpDown)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.psg1PictureBox)).EndInit();
+            this.tableLayoutPanel34.ResumeLayout(false);
+            this.tableLayoutPanel34.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.psg1CurrentUpDown)).EndInit();
+            this.psg1TGroupBox.ResumeLayout(false);
+            this.psg1TLayoutPanel.ResumeLayout(false);
+            this.psg1TLayoutPanel.PerformLayout();
+            this.tableLayoutPanel35.ResumeLayout(false);
+            this.tableLayoutPanel35.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.psg1TMaxUpDown)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.psg1TPictureBox)).EndInit();
+            this.tableLayoutPanel36.ResumeLayout(false);
+            this.tableLayoutPanel36.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.psg1TCurrentUpDown)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -3868,6 +5952,139 @@
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.NumericUpDown coldMedsCurrentUpDown;
         private System.Windows.Forms.Button coldMedsCurrentBtn;
+        private System.Windows.Forms.TableLayoutPanel weaponsLayoutPanel;
+        private System.Windows.Forms.GroupBox m9GroupBox;
+        private System.Windows.Forms.TableLayoutPanel m9LayoutPanel;
+        private System.Windows.Forms.TableLayoutPanel tableLayoutPanel16;
+        private System.Windows.Forms.Label label14;
+        private System.Windows.Forms.NumericUpDown m9MaxUpDown;
+        private System.Windows.Forms.Button m9MaxBtn;
+        private System.Windows.Forms.PictureBox m9PictureBox;
+        private System.Windows.Forms.CheckBox m9CheckBox;
+        private System.Windows.Forms.TableLayoutPanel tableLayoutPanel17;
+        private System.Windows.Forms.Label label15;
+        private System.Windows.Forms.NumericUpDown m9CurrentUpDown;
+        private System.Windows.Forms.Button m9CurrentBtn;
+        private System.Windows.Forms.GroupBox uspGroupBox;
+        private System.Windows.Forms.TableLayoutPanel uspLayoutPanel;
+        private System.Windows.Forms.TableLayoutPanel tableLayoutPanel20;
+        private System.Windows.Forms.Label label18;
+        private System.Windows.Forms.NumericUpDown uspMaxUpDown;
+        private System.Windows.Forms.Button uspMaxBtn;
+        private System.Windows.Forms.PictureBox uspPictureBox;
+        private System.Windows.Forms.CheckBox uspCheckBox;
+        private System.Windows.Forms.TableLayoutPanel tableLayoutPanel21;
+        private System.Windows.Forms.Label label19;
+        private System.Windows.Forms.NumericUpDown uspCurrentUpDown;
+        private System.Windows.Forms.Button uspCurrentBtn;
+        private System.Windows.Forms.GroupBox socomGroupBox;
+        private System.Windows.Forms.TableLayoutPanel socomLayoutPanel;
+        private System.Windows.Forms.TableLayoutPanel tableLayoutPanel18;
+        private System.Windows.Forms.Label label16;
+        private System.Windows.Forms.NumericUpDown socomMaxUpDown;
+        private System.Windows.Forms.Button socomMaxBtn;
+        private System.Windows.Forms.PictureBox socomPictureBox;
+        private System.Windows.Forms.CheckBox socomCheckBox;
+        private System.Windows.Forms.TableLayoutPanel tableLayoutPanel19;
+        private System.Windows.Forms.Label label17;
+        private System.Windows.Forms.NumericUpDown socomCurrentUpDown;
+        private System.Windows.Forms.Button socomCurrentBtn;
+        private System.Windows.Forms.GroupBox stunGroupBox;
+        private System.Windows.Forms.TableLayoutPanel stunLayoutPanel;
+        private System.Windows.Forms.TableLayoutPanel tableLayoutPanel25;
+        private System.Windows.Forms.Label label22;
+        private System.Windows.Forms.NumericUpDown stunMaxUpDown;
+        private System.Windows.Forms.Button stunMaxBtn;
+        private System.Windows.Forms.PictureBox stunPictureBox;
+        private System.Windows.Forms.CheckBox stunCheckBox;
+        private System.Windows.Forms.TableLayoutPanel tableLayoutPanel26;
+        private System.Windows.Forms.Label label23;
+        private System.Windows.Forms.NumericUpDown stunCurrentUpDown;
+        private System.Windows.Forms.Button stunCurrentBtn;
+        private System.Windows.Forms.GroupBox chaffGroupBox;
+        private System.Windows.Forms.TableLayoutPanel chaffLayoutPanel;
+        private System.Windows.Forms.TableLayoutPanel tableLayoutPanel22;
+        private System.Windows.Forms.Label label20;
+        private System.Windows.Forms.NumericUpDown chaffMaxUpDown;
+        private System.Windows.Forms.Button chaffMaxBtn;
+        private System.Windows.Forms.PictureBox chaffPictureBox;
+        private System.Windows.Forms.CheckBox chaffCheckBox;
+        private System.Windows.Forms.TableLayoutPanel tableLayoutPanel23;
+        private System.Windows.Forms.Label label21;
+        private System.Windows.Forms.NumericUpDown chaffCurrentUpDown;
+        private System.Windows.Forms.Button chaffCurrentBtn;
+        private System.Windows.Forms.GroupBox grenadeGroupBox;
+        private System.Windows.Forms.TableLayoutPanel grenadeLayoutPanel;
+        private System.Windows.Forms.TableLayoutPanel tableLayoutPanel28;
+        private System.Windows.Forms.Label label24;
+        private System.Windows.Forms.NumericUpDown grenadeMaxUpDown;
+        private System.Windows.Forms.Button grenadeMaxBtn;
+        private System.Windows.Forms.PictureBox grenadePictureBox;
+        private System.Windows.Forms.CheckBox grenadeCheckBox;
+        private System.Windows.Forms.TableLayoutPanel tableLayoutPanel29;
+        private System.Windows.Forms.Label label25;
+        private System.Windows.Forms.NumericUpDown grenadeCurrentUpDown;
+        private System.Windows.Forms.Button grenadeCurrentBtn;
+        private System.Windows.Forms.GroupBox magazineGroupBox;
+        private System.Windows.Forms.TableLayoutPanel magazineLayoutPanel;
+        private System.Windows.Forms.TableLayoutPanel tableLayoutPanel24;
+        private System.Windows.Forms.Label label26;
+        private System.Windows.Forms.NumericUpDown magazineMaxUpDown;
+        private System.Windows.Forms.Button magazineMaxBtn;
+        private System.Windows.Forms.PictureBox magazinePictureBox;
+        private System.Windows.Forms.CheckBox magazineCheckBox;
+        private System.Windows.Forms.TableLayoutPanel tableLayoutPanel27;
+        private System.Windows.Forms.Label label27;
+        private System.Windows.Forms.NumericUpDown magazineCurrentUpDown;
+        private System.Windows.Forms.Button magazineCurrentBtn;
+        private System.Windows.Forms.GroupBox akGroupBox;
+        private System.Windows.Forms.TableLayoutPanel akLayoutPanel;
+        private System.Windows.Forms.TableLayoutPanel tableLayoutPanel15;
+        private System.Windows.Forms.Label label28;
+        private System.Windows.Forms.NumericUpDown akMaxUpDown;
+        private System.Windows.Forms.Button akMaxBtn;
+        private System.Windows.Forms.PictureBox akPictureBox;
+        private System.Windows.Forms.CheckBox akCheckBox;
+        private System.Windows.Forms.TableLayoutPanel tableLayoutPanel30;
+        private System.Windows.Forms.Label label29;
+        private System.Windows.Forms.NumericUpDown akCurrentUpDown;
+        private System.Windows.Forms.Button akCurrentBtn;
+        private System.Windows.Forms.GroupBox psg1GroupBox;
+        private System.Windows.Forms.TableLayoutPanel psg1LayoutPanel;
+        private System.Windows.Forms.TableLayoutPanel tableLayoutPanel33;
+        private System.Windows.Forms.Label label32;
+        private System.Windows.Forms.NumericUpDown psg1MaxUpDown;
+        private System.Windows.Forms.Button psg1MaxBtn;
+        private System.Windows.Forms.PictureBox psg1PictureBox;
+        private System.Windows.Forms.CheckBox psg1CheckBox;
+        private System.Windows.Forms.TableLayoutPanel tableLayoutPanel34;
+        private System.Windows.Forms.Label label33;
+        private System.Windows.Forms.NumericUpDown psg1CurrentUpDown;
+        private System.Windows.Forms.Button psg1CurrentBtn;
+        private System.Windows.Forms.GroupBox m4GroupBox;
+        private System.Windows.Forms.TableLayoutPanel m4LayoutPanel;
+        private System.Windows.Forms.TableLayoutPanel tableLayoutPanel31;
+        private System.Windows.Forms.Label label30;
+        private System.Windows.Forms.NumericUpDown m4MaxUpDown;
+        private System.Windows.Forms.Button m4MaxBtn;
+        private System.Windows.Forms.PictureBox m4PictureBox;
+        private System.Windows.Forms.CheckBox m4CheckBox;
+        private System.Windows.Forms.TableLayoutPanel tableLayoutPanel32;
+        private System.Windows.Forms.Label label31;
+        private System.Windows.Forms.NumericUpDown m4CurrentUpDown;
+        private System.Windows.Forms.Button m4CurrentBtn;
+        private System.Windows.Forms.GroupBox psg1TGroupBox;
+        private System.Windows.Forms.TableLayoutPanel psg1TLayoutPanel;
+        private System.Windows.Forms.TableLayoutPanel tableLayoutPanel35;
+        private System.Windows.Forms.Label label34;
+        private System.Windows.Forms.NumericUpDown psg1TMaxUpDown;
+        private System.Windows.Forms.Button psg1TMaxBtn;
+        private System.Windows.Forms.PictureBox psg1TPictureBox;
+        private System.Windows.Forms.CheckBox psg1TCheckBox;
+        private System.Windows.Forms.TableLayoutPanel tableLayoutPanel36;
+        private System.Windows.Forms.Label label35;
+        private System.Windows.Forms.NumericUpDown psg1TCurrentUpDown;
+        private System.Windows.Forms.Button psg1TCurrentBtn;
     }
 }
 
