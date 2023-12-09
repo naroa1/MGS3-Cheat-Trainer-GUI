@@ -166,7 +166,32 @@ namespace MGS2_MC
         {
             CurrentAmmoOffset = inventoryOffset;
             MaxAmmoOffset = inventoryOffset + MIN_MAX_COUNT_DIFF;
-         }
+        }
+
+        internal override void ToggleObject()
+        {
+            //read current count: if 0, we are enabling, otherwise, disable
+            short currentCount = BitConverter.ToInt16(MGS2MemoryManager.GetCurrentValue(CurrentAmmoOffset, sizeof(short)), 0);
+            if (currentCount != 0)
+            {
+                UpdateCurrentAmmoCount(0);
+            }
+            else
+            {
+                UpdateCurrentAmmoCount(1); //TODO: verify!
+            }
+        }
+
+        public new void ToggleWeapon()
+        {
+            ToggleObject();
+        }
+
+        public void UpdateMaxAmmoCount(int count)
+        {
+            short shortCount = (short)count;
+            MGS2MemoryManager.UpdateObjectMaxCount(this, shortCount);
+        }
     }
 
     public class SpecialWeapon : BasicWeapon
@@ -179,6 +204,16 @@ namespace MGS2_MC
         public new void ToggleWeapon()
         {
             ToggleObject();
+        }
+
+        public void SetToLethal()
+        {
+
+        }
+
+        public void SetToStun()
+        {
+
         }
     }
     #endregion

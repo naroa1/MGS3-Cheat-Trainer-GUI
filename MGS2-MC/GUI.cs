@@ -73,62 +73,172 @@ namespace MGS2_MC
             return (short)cardUpDown.Value;
         }
 
-        private short CurrentChaffGrenadeCount()
+        private short M9CurrentAmmoCount()
+        {
+            return (short)m9CurrentUpDown.Value;
+        }
+
+        private short M9MaxAmmoCount()
+        {
+            return (short)m9MaxUpDown.Value;
+        }
+
+        private short UspCurrentAmmoCount()
+        {
+            return (short)uspCurrentUpDown.Value;
+        }
+
+        private short UspMaxAmmoCount()
+        {
+            return (short)uspMaxUpDown.Value;
+        }
+
+        private short SocomCurrentAmmoCount()
+        {
+            return (short)socomCurrentUpDown.Value;
+        }
+
+        private short SocomMaxAmmoCount()
+        {
+            return (short)socomMaxUpDown.Value;
+        }
+
+        private short Psg1CurrentAmmoCount()
+        {
+            return (short)psg1CurrentUpDown.Value;
+        }
+
+        private short Psg1MaxAmmoCount()
+        {
+            return (short)psg1MaxUpDown.Value;
+        }
+
+        private short Rgb6CurrentAmmoCount()
+        {
+            return (short)rgb6CurrentUpDown.Value;
+        }
+
+        private short Rgb6MaxAmmoCount()
+        {
+            return (short)rgb6MaxUpDown.Value;
+        }
+
+        private short NikitaCurrentAmmoCount()
+        {
+            return (short)nikitaCurrentUpDown.Value;
+        }
+
+        private short NikitaMaxAmmoCount()
+        {
+            return (short)nikitaMaxUpDown.Value;
+        }
+
+        private short StingerCurrentAmmoCount()
+        {
+            return (short)stingerCurrentUpDown.Value;
+        }
+
+        private short StingerMaxAmmoCount()
+        {
+            return (short)stingerMaxUpDown.Value;
+        }
+
+        private short C4CurrentAmmoCount()
+        {
+            return (short)c4CurrentUpDown.Value;
+        }
+
+        private short C4MaxAmmoCount()
+        {
+            return (short)c4MaxUpDown.Value;
+        }
+
+        private short AkCurrentAmmoCount()
+        {
+            return (short)akCurrentUpDown.Value;
+        }
+
+        private short AkMaxAmmoCount()
+        {
+            return (short)akMaxUpDown.Value;
+        }
+
+        private short M4CurrentAmmoCount()
+        {
+            return (short)m4CurrentUpDown.Value;
+        }
+
+        private short M4MaxAmmoCount()
+        {
+            return (short)m4MaxUpDown.Value;
+        }
+
+        private short Psg1TCurrentAmmoCount()
+        {
+            return (short)psg1TCurrentUpDown.Value;
+        }
+
+        private short Psg1TMaxAmmoCount()
+        {
+            return (short)psg1TMaxUpDown.Value;
+        }
+
+        private short ChaffCurrentAmmoCount()
         {
             return (short)chaffCurrentUpDown.Value;
         }
 
-        private short MaxChaffGrenadeCount()
+        private short ChaffMaxAmmoCount()
         {
             return (short)chaffMaxUpDown.Value;
         }
 
-        private short CurrentStunGrenadeCount()
+        private short StunCurrentAmmoCount()
         {
             return (short)stunCurrentUpDown.Value;
         }
 
-        private short MaxStunGrenadeCount()
+        private short StunMaxAmmoCount()
         {
             return (short)stunMaxUpDown.Value;
         }
 
-        private short CurrentGrenadeCount()
+        private short GrenadeCurrentAmmoCount()
         {
             return (short)grenadeCurrentUpDown.Value;
         }
 
-        private short MaxGrenadeCount()
+        private short GrenadeMaxAmmoCount()
         {
             return (short)grenadeMaxUpDown.Value;
         }
 
-        private short CurrentBookCount()
+        private short BookCurrentAmmoCount()
         {
             return (short)bookCurrentUpDown.Value;
         }
 
-        private short MaxBookCount()
+        private short BookMaxAmmoCount()
         {
             return (short)bookMaxUpDown.Value;
         }
 
-        private short CurrentMagazineCount()
+        private short MagazineCurrentAmmoCount()
         {
             return (short)magazineCurrentUpDown.Value;
         }
 
-        private short MaxMagazineCount()
+        private short MagazineMaxAmmoCount()
         {
             return (short)magazineMaxUpDown.Value;
         }
 
-        private short CurrentClaymoreCount()
+        private short ClaymoreCurrentAmmoCount()
         {
             return (short)claymoreCurrentUpDown.Value;
         }
 
-        private short MaxClaymoreCount()
+        private short ClaymoreMaxAmmoCount()
         {
             return (short)claymoreMaxUpDown.Value;
         }
@@ -141,6 +251,16 @@ namespace MGS2_MC
         private bool DMic2Enabled()
         {
             return dmic2CheckBox.Checked;
+        }
+
+        private bool CoolantEnabled()
+        {
+            return coolantCheckBox.Checked;
+        }
+
+        private bool HfBladeEnabled()
+        {
+            return hfBladeCheckBox.Checked;
         }
         #endregion
 
@@ -369,275 +489,277 @@ namespace MGS2_MC
         {
             MGS2UsableObjects.ColdMedicine.UpdateMaxCount(MaxColdMedsCount());
         }
+        #endregion
 
+        #region Weapons Button Functions
         private void akMaxBtn_Click(object sender, EventArgs e)
         {
-
+            MGS2UsableObjects.AKS74u.UpdateMaxAmmoCount(AkMaxAmmoCount());
         }
 
         private void m9CurrentBtn_Click(object sender, EventArgs e)
         {
-
+            MGS2UsableObjects.M9.UpdateCurrentAmmoCount(M9CurrentAmmoCount());
         }
 
         private void m9MaxBtn_Click(object sender, EventArgs e)
         {
-
+            MGS2UsableObjects.M9.UpdateMaxAmmoCount(M9MaxAmmoCount());
         }
 
         private void socomCurrentBtn_Click(object sender, EventArgs e)
         {
-
+            MGS2UsableObjects.SOCOM.UpdateCurrentAmmoCount(SocomCurrentAmmoCount());
         }
 
         private void socomMaxBtn_Click(object sender, EventArgs e)
         {
-
+            MGS2UsableObjects.SOCOM.UpdateMaxAmmoCount(SocomMaxAmmoCount());
         }
 
         private void uspCurrentBtn_Click(object sender, EventArgs e)
         {
-
+            MGS2UsableObjects.USP.UpdateCurrentAmmoCount(UspCurrentAmmoCount());
         }
 
         private void uspMaxBtn_Click(object sender, EventArgs e)
         {
-
+            MGS2UsableObjects.USP.UpdateMaxAmmoCount(UspMaxAmmoCount());
         }
 
         private void chaffCurrentBtn_Click(object sender, EventArgs e)
         {
-            MGS2UsableObjects.ChaffGrenade.UpdateCurrentAmmoCount(CurrentChaffGrenadeCount());
+            MGS2UsableObjects.ChaffGrenade.UpdateCurrentAmmoCount(ChaffCurrentAmmoCount());
         }
 
         private void chaffMaxBtn_Click(object sender, EventArgs e)
         {
-            //MGS2UsableObjects.ChaffGrenade.Update(MaxChaffGrenadeCount());
+            MGS2UsableObjects.ChaffGrenade.UpdateMaxAmmoCount(ChaffMaxAmmoCount());
         }
 
         private void stunCurrentBtn_Click(object sender, EventArgs e)
         {
-            MGS2UsableObjects.StunGrenade.UpdateCurrentAmmoCount(CurrentStunGrenadeCount());
+            MGS2UsableObjects.StunGrenade.UpdateCurrentAmmoCount(StunCurrentAmmoCount());
         }
 
         private void stunMaxBtn_Click(object sender, EventArgs e)
         {
-
+            MGS2UsableObjects.StunGrenade.UpdateMaxAmmoCount(StunMaxAmmoCount());
         }
 
         private void grenadeCurrentBtn_Click(object sender, EventArgs e)
         {
-            MGS2UsableObjects.Grenade.UpdateCurrentAmmoCount(CurrentGrenadeCount());
+            MGS2UsableObjects.Grenade.UpdateCurrentAmmoCount(GrenadeCurrentAmmoCount());
         }
 
         private void grenadeMaxBtn_Click(object sender, EventArgs e)
         {
-
+            MGS2UsableObjects.Grenade.UpdateMaxAmmoCount(GrenadeMaxAmmoCount());
         }
 
         private void magazineCurrentBtn_Click(object sender, EventArgs e)
         {
-            MGS2UsableObjects.Magazine.UpdateCurrentAmmoCount(CurrentMagazineCount());
+            MGS2UsableObjects.Magazine.UpdateCurrentAmmoCount(MagazineCurrentAmmoCount());
         }
 
         private void magazineMaxBtn_Click(object sender, EventArgs e)
         {
-
+            MGS2UsableObjects.Magazine.UpdateMaxAmmoCount(MagazineMaxAmmoCount());
         }
 
         private void akCurrentBtn_Click(object sender, EventArgs e)
         {
-
+            MGS2UsableObjects.AKS74u.UpdateCurrentAmmoCount(AkCurrentAmmoCount());
         }
 
         private void m4CurrentBtn_Click(object sender, EventArgs e)
         {
-
+            MGS2UsableObjects.M4.UpdateCurrentAmmoCount(M4CurrentAmmoCount());
         }
 
         private void m4MaxBtn_Click(object sender, EventArgs e)
         {
-
+            MGS2UsableObjects.M4.UpdateMaxAmmoCount(M4MaxAmmoCount());
         }
 
         private void psg1CurrentBtn_Click(object sender, EventArgs e)
         {
-
+            MGS2UsableObjects.PSG1.UpdateCurrentAmmoCount(Psg1CurrentAmmoCount());
         }
 
         private void psg1MaxBtn_Click(object sender, EventArgs e)
         {
-
+            MGS2UsableObjects.PSG1.UpdateMaxAmmoCount(Psg1MaxAmmoCount());
         }
 
         private void psg1TCurrentBtn_Click(object sender, EventArgs e)
         {
-
+            MGS2UsableObjects.PSG1T.UpdateCurrentAmmoCount(Psg1TCurrentAmmoCount());
         }
 
         private void psg1TMaxBtn_Click(object sender, EventArgs e)
         {
-
+            MGS2UsableObjects.PSG1T.UpdateMaxAmmoCount(Psg1TMaxAmmoCount());
         }
 
         private void rgb6CurrentBtn_Click(object sender, EventArgs e)
         {
-
+            MGS2UsableObjects.RGB6.UpdateCurrentAmmoCount(Rgb6CurrentAmmoCount());
         }
 
         private void rgb6MaxBtn_Click(object sender, EventArgs e)
         {
-
+            MGS2UsableObjects.RGB6.UpdateMaxAmmoCount(Rgb6MaxAmmoCount());
         }
 
         private void nikitaCurrentBtn_Click(object sender, EventArgs e)
         {
-
+            MGS2UsableObjects.Nikita.UpdateCurrentAmmoCount(NikitaCurrentAmmoCount());
         }
 
         private void nikitaMaxBtn_Click(object sender, EventArgs e)
         {
-
+            MGS2UsableObjects.Nikita.UpdateMaxAmmoCount(NikitaMaxAmmoCount());
         }
 
         private void stingerCurrentBtn_Click(object sender, EventArgs e)
         {
-
+            MGS2UsableObjects.Stinger.UpdateCurrentAmmoCount(StingerCurrentAmmoCount());
         }
 
         private void stingerMaxBtn_Click(object sender, EventArgs e)
         {
-
+            MGS2UsableObjects.Stinger.UpdateMaxAmmoCount(StingerMaxAmmoCount());
         }
 
         private void claymoreCurrentBtn_Click(object sender, EventArgs e)
         {
-            MGS2UsableObjects.Claymore.UpdateCurrentAmmoCount(CurrentClaymoreCount());
+            MGS2UsableObjects.Claymore.UpdateCurrentAmmoCount(ClaymoreCurrentAmmoCount());
         }
 
         private void claymoreMaxBtn_Click(object sender, EventArgs e)
         {
-            
+            MGS2UsableObjects.Claymore.UpdateMaxAmmoCount(ClaymoreMaxAmmoCount());
         }
 
         private void c4CurrentBtn_Click(object sender, EventArgs e)
         {
-
+            MGS2UsableObjects.C4.UpdateCurrentAmmoCount(ClaymoreCurrentAmmoCount());
         }
 
         private void c4MaxBtn_Click(object sender, EventArgs e)
         {
-
+            MGS2UsableObjects.C4.UpdateMaxAmmoCount(ClaymoreMaxAmmoCount());
         }
 
         private void bookCurrentBtn_Click(object sender, EventArgs e)
         {
-            MGS2UsableObjects.Book.UpdateCurrentAmmoCount(CurrentBookCount());
+            MGS2UsableObjects.Book.UpdateCurrentAmmoCount(BookCurrentAmmoCount());
         }
 
         private void bookMaxBtn_Click(object sender, EventArgs e)
         {
-
+            MGS2UsableObjects.Book.UpdateMaxAmmoCount(BookMaxAmmoCount());
         }
 
         private void hfBladeLethalBtn_Click(object sender, EventArgs e)
         {
-
+            MGS2UsableObjects.HighFrequencyBlade.SetToLethal();
         }
 
         private void hfBladeStunBtn_Click(object sender, EventArgs e)
         {
-
+            MGS2UsableObjects.HighFrequencyBlade.SetToStun();
         }
 
         private void m9CheckBox_CheckedChanged(object sender, EventArgs e)
         {
-
+            MGS2UsableObjects.M9.ToggleWeapon();
         }
 
         private void socomCheckBox_CheckedChanged(object sender, EventArgs e)
         {
-
+            MGS2UsableObjects.SOCOM.ToggleWeapon();
         }
 
         private void uspCheckBox_CheckedChanged(object sender, EventArgs e)
         {
-
+            MGS2UsableObjects.USP.ToggleWeapon();
         }
 
         private void chaffCheckBox_CheckedChanged(object sender, EventArgs e)
         {
-
+            MGS2UsableObjects.ChaffGrenade.ToggleWeapon();
         }
 
         private void stunCheckBox_CheckedChanged(object sender, EventArgs e)
         {
-
+            MGS2UsableObjects.StunGrenade.ToggleWeapon();
         }
 
         private void grenadeCheckBox_CheckedChanged(object sender, EventArgs e)
         {
-
+            MGS2UsableObjects.Grenade.ToggleWeapon();
         }
 
         private void magazineCheckBox_CheckedChanged(object sender, EventArgs e)
         {
-
+            MGS2UsableObjects.Magazine.ToggleWeapon();
         }
 
         private void akCheckBox_CheckedChanged(object sender, EventArgs e)
         {
-
+            MGS2UsableObjects.AKS74u.ToggleWeapon();
         }
 
         private void m4CheckBox_CheckedChanged(object sender, EventArgs e)
         {
-
+            MGS2UsableObjects.M4.ToggleWeapon();
         }
 
         private void psg1CheckBox_CheckedChanged(object sender, EventArgs e)
         {
-
+            MGS2UsableObjects.PSG1.ToggleWeapon();
         }
 
         private void psg1TCheckBox_CheckedChanged(object sender, EventArgs e)
         {
-
+            MGS2UsableObjects.PSG1T.ToggleWeapon();
         }
 
         private void rgb6CheckBox_CheckedChanged(object sender, EventArgs e)
         {
-
+            MGS2UsableObjects.RGB6.ToggleWeapon();
         }
 
         private void nikitaCheckBox_CheckedChanged(object sender, EventArgs e)
         {
-
+            MGS2UsableObjects.Nikita.ToggleWeapon();
         }
 
         private void stingerCheckBox_CheckedChanged(object sender, EventArgs e)
         {
-
+            MGS2UsableObjects.Stinger.ToggleWeapon();
         }
 
         private void claymoreCheckBox_CheckedChanged(object sender, EventArgs e)
         {
-
+            MGS2UsableObjects.Claymore.ToggleWeapon();
         }
 
         private void c4CheckBox_CheckedChanged(object sender, EventArgs e)
         {
-
+            MGS2UsableObjects.C4.ToggleWeapon();
         }
 
         private void bookCheckBox_CheckedChanged(object sender, EventArgs e)
         {
-
+            MGS2UsableObjects.Book.ToggleWeapon();
         }
 
         private void coolantCheckBox_CheckedChanged(object sender, EventArgs e)
         {
-
+            MGS2UsableObjects.Coolant.ToggleWeapon();
         }
 
         private void dmic1CheckBox_CheckedChanged(object sender, EventArgs e)
@@ -652,13 +774,8 @@ namespace MGS2_MC
 
         private void hfBladeCheckBox_CheckedChanged(object sender, EventArgs e)
         {
-
+            MGS2UsableObjects.HighFrequencyBlade.ToggleWeapon();
         }
         #endregion
-
-        /*private void button1_Click(object sender, EventArgs e)
-        {
-            MGS2UsableObjects.M9.UpdateCurrentAmmoCount(int.Parse(textBox1.Text));
-        }*/
     }
 }
