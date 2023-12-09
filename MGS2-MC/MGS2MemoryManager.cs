@@ -58,6 +58,7 @@ namespace MGS2_MC
             // we now, theoretically, have the ENTIRETY of MGS2 loaded into this buffer. At this point, we now
             // need to scan through this buffer until we find the second to last grouping of MGS2Constants.PlayerOffsetBytes
             int byteCount = 0;
+            int foundPositions = 0;
             int[] playerPositions = new int[2];
             while(byteCount + 8 < buffer.Length)
             {
@@ -70,9 +71,13 @@ namespace MGS2_MC
                     buffer[byteCount + 6] == MGS2Constants.PlayerOffsetBytes[6] &&
                     buffer[byteCount + 7] == MGS2Constants.PlayerOffsetBytes[7])
                 {
-                    playerPositions.Append(byteCount);
+                    playerPositions.SetValue(byteCount, foundPositions);
+                    foundPositions++;
                 }
-                byteCount += 4; //this technically introduces the possibility that we miss the player positions.
+                //byteCount += 8;
+                byteCount += 4;
+                //byteCount += 2; //this technically introduces the possibility that we miss the player positions.
+                //byteCount++;
             }
 
             return playerPositions;

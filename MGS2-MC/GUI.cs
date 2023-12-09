@@ -72,6 +72,16 @@ namespace MGS2_MC
         {
             return (short)cardUpDown.Value;
         }
+
+        private short CurrentChaffGrenadeCount()
+        {
+            return (short)chaffCurrentUpDown.Value;
+        }
+
+        private short MaxChaffGrenadeCount()
+        {
+            return (short)chaffMaxUpDown.Value;
+        }
         #endregion
 
         #region Items Button Functions
@@ -337,12 +347,12 @@ namespace MGS2_MC
 
         private void chaffCurrentBtn_Click(object sender, EventArgs e)
         {
-
+            MGS2UsableObjects.ChaffGrenade.UpdateCurrentAmmoCount(CurrentChaffGrenadeCount());
         }
 
         private void chaffMaxBtn_Click(object sender, EventArgs e)
         {
-
+            //MGS2UsableObjects.ChaffGrenade.Update(MaxChaffGrenadeCount());
         }
 
         private void stunCurrentBtn_Click(object sender, EventArgs e)
