@@ -300,7 +300,287 @@ namespace MGS2_MC
             MGS2UsableObjects.ColdMedicine.UpdateMaxCount(MaxColdMedsCount());
         }
 
-        private void button1_Click(object sender, EventArgs e)
+        private void akMaxBtn_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void m9CurrentBtn_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void m9MaxBtn_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void socomCurrentBtn_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void socomMaxBtn_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void uspCurrentBtn_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void uspMaxBtn_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void chaffCurrentBtn_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void chaffMaxBtn_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void stunCurrentBtn_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void stunMaxBtn_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void grenadeCurrentBtn_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void grenadeMaxBtn_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void magazineCurrentBtn_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void magazineMaxBtn_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void akCurrentBtn_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void m4CurrentBtn_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void m4MaxBtn_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void psg1CurrentBtn_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void psg1MaxBtn_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void psg1TCurrentBtn_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void psg1TMaxBtn_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void rgb6CurrentBtn_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void rgb6MaxBtn_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void nikitaCurrentBtn_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void nikitaMaxBtn_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void stingerCurrentBtn_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void stingerMaxBtn_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void claymoreCurrentBtn_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void claymoreMaxBtn_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void c4CurrentBtn_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void c4MaxBtn_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void bookCurrentBtn_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void bookMaxBtn_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void hfBladeLethalBtn_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void hfBladeStunBtn_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void m9CheckBox_CheckedChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void socomCheckBox_CheckedChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void uspCheckBox_CheckedChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void chaffCheckBox_CheckedChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void stunCheckBox_CheckedChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void grenadeCheckBox_CheckedChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void magazineCheckBox_CheckedChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void akCheckBox_CheckedChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void m4CheckBox_CheckedChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void psg1CheckBox_CheckedChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void psg1TCheckBox_CheckedChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void rgb6CheckBox_CheckedChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void nikitaCheckBox_CheckedChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void stingerCheckBox_CheckedChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void claymoreCheckBox_CheckedChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void c4CheckBox_CheckedChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void bookCheckBox_CheckedChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void coolantCheckBox_CheckedChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void dmic1CheckBox_CheckedChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void dmic2CheckBox_CheckedChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void hfBladeCheckBox_CheckedChanged(object sender, EventArgs e)
         {
 
         }

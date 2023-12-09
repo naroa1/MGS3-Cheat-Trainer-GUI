@@ -191,31 +191,31 @@ namespace MGS2_MC
         //TODO: update name pointers to, you know, real values :)
         #region Weapons
         #region Basic Weapons
-        public static readonly BasicWeapon DMic = new BasicWeapon("Directional Microphone", IntPtr.Zero, BASE_WEAPON_OFFSET + 22);
-        public static readonly BasicWeapon DMic2 = new BasicWeapon("Directional Microphone", IntPtr.Zero, BASE_WEAPON_OFFSET + 38);
-        public static readonly BasicWeapon Coolant = new BasicWeapon("Coolant Spray", IntPtr.Zero, BASE_WEAPON_OFFSET + 26);
+        public static readonly BasicWeapon DMic = new BasicWeapon("Directional Microphone", IntPtr.Zero, BASE_WEAPON_OFFSET + 22); //GUI'd
+        public static readonly BasicWeapon DMic2 = new BasicWeapon("Directional Microphone", IntPtr.Zero, BASE_WEAPON_OFFSET + 38); //GUI'd
+        public static readonly BasicWeapon Coolant = new BasicWeapon("Coolant Spray", IntPtr.Zero, BASE_WEAPON_OFFSET + 26); //GUI'd
         #endregion
         #region Ammo Weapons
-        public static readonly AmmoWeapon M9 = new AmmoWeapon("M9", IntPtr.Zero, BASE_WEAPON_OFFSET);
-        public static readonly AmmoWeapon USP = new AmmoWeapon("USP", IntPtr.Zero, BASE_WEAPON_OFFSET + 2);
-        public static readonly AmmoWeapon SOCOM = new AmmoWeapon("SOCOM", IntPtr.Zero, BASE_WEAPON_OFFSET + 4);
-        public static readonly AmmoWeapon PSG1 = new AmmoWeapon("PSG1", IntPtr.Zero, BASE_WEAPON_OFFSET + 6);
-        public static readonly AmmoWeapon RGB6 = new AmmoWeapon("RGB6", IntPtr.Zero, BASE_WEAPON_OFFSET + 8);
-        public static readonly AmmoWeapon Nikita = new AmmoWeapon("Nikita", IntPtr.Zero, BASE_WEAPON_OFFSET + 10);
-        public static readonly AmmoWeapon Stinger = new AmmoWeapon("Stinger", IntPtr.Zero, BASE_WEAPON_OFFSET + 12);
-        public static readonly AmmoWeapon Claymore = new AmmoWeapon("Claymore", IntPtr.Zero, BASE_WEAPON_OFFSET + 14);
-        public static readonly AmmoWeapon C4 = new AmmoWeapon("C4", IntPtr.Zero, BASE_WEAPON_OFFSET + 16);
-        public static readonly AmmoWeapon ChaffGrenade = new AmmoWeapon("Chaff Grenade", IntPtr.Zero, BASE_WEAPON_OFFSET + 18);
-        public static readonly AmmoWeapon StunGrenade = new AmmoWeapon("Stun Grenade", IntPtr.Zero, BASE_WEAPON_OFFSET + 20);
-        public static readonly AmmoWeapon AKS74u = new AmmoWeapon("AKS74u", IntPtr.Zero, BASE_WEAPON_OFFSET + 28);
-        public static readonly AmmoWeapon Magazine = new AmmoWeapon("Magazine", IntPtr.Zero, BASE_WEAPON_OFFSET + 30);
-        public static readonly AmmoWeapon Grenade = new AmmoWeapon("Grenade", IntPtr.Zero, BASE_WEAPON_OFFSET + 32);
-        public static readonly AmmoWeapon M4 = new AmmoWeapon("M4", IntPtr.Zero, BASE_WEAPON_OFFSET + 34);
-        public static readonly AmmoWeapon PSG1T = new AmmoWeapon("PGS1-T", IntPtr.Zero, BASE_WEAPON_OFFSET + 36);
-        public static readonly AmmoWeapon Book = new AmmoWeapon("Book", IntPtr.Zero, BASE_WEAPON_OFFSET + 40);
+        public static readonly AmmoWeapon M9 = new AmmoWeapon("M9", IntPtr.Zero, BASE_WEAPON_OFFSET); //GUI'd
+        public static readonly AmmoWeapon USP = new AmmoWeapon("USP", IntPtr.Zero, BASE_WEAPON_OFFSET + 2); //GUI'd
+        public static readonly AmmoWeapon SOCOM = new AmmoWeapon("SOCOM", IntPtr.Zero, BASE_WEAPON_OFFSET + 4); //GUI'd
+        public static readonly AmmoWeapon PSG1 = new AmmoWeapon("PSG1", IntPtr.Zero, BASE_WEAPON_OFFSET + 6); //GUI'd
+        public static readonly AmmoWeapon RGB6 = new AmmoWeapon("RGB6", IntPtr.Zero, BASE_WEAPON_OFFSET + 8); //GUI'd
+        public static readonly AmmoWeapon Nikita = new AmmoWeapon("Nikita", IntPtr.Zero, BASE_WEAPON_OFFSET + 10); //GUI'd
+        public static readonly AmmoWeapon Stinger = new AmmoWeapon("Stinger", IntPtr.Zero, BASE_WEAPON_OFFSET + 12); //GUI'd
+        public static readonly AmmoWeapon Claymore = new AmmoWeapon("Claymore", IntPtr.Zero, BASE_WEAPON_OFFSET + 14); //GUI'd
+        public static readonly AmmoWeapon C4 = new AmmoWeapon("C4", IntPtr.Zero, BASE_WEAPON_OFFSET + 16); //GUI'd
+        public static readonly AmmoWeapon ChaffGrenade = new AmmoWeapon("Chaff Grenade", IntPtr.Zero, BASE_WEAPON_OFFSET + 18); //GUI'd
+        public static readonly AmmoWeapon StunGrenade = new AmmoWeapon("Stun Grenade", IntPtr.Zero, BASE_WEAPON_OFFSET + 20); //GUI'd
+        public static readonly AmmoWeapon AKS74u = new AmmoWeapon("AKS74u", IntPtr.Zero, BASE_WEAPON_OFFSET + 28); //GUI'd
+        public static readonly AmmoWeapon Magazine = new AmmoWeapon("Magazine", IntPtr.Zero, BASE_WEAPON_OFFSET + 30); //GUI'd
+        public static readonly AmmoWeapon Grenade = new AmmoWeapon("Grenade", IntPtr.Zero, BASE_WEAPON_OFFSET + 32); //GUI'd
+        public static readonly AmmoWeapon M4 = new AmmoWeapon("M4", IntPtr.Zero, BASE_WEAPON_OFFSET + 34); //GUI'd
+        public static readonly AmmoWeapon PSG1T = new AmmoWeapon("PGS1-T", IntPtr.Zero, BASE_WEAPON_OFFSET + 36); //GUI'd
+        public static readonly AmmoWeapon Book = new AmmoWeapon("Book", IntPtr.Zero, BASE_WEAPON_OFFSET + 40); //GUI'd
         #endregion
         #region Special Weapons
-        public static readonly SpecialWeapon HighFrequencyBlade = new SpecialWeapon("HF Blade", IntPtr.Zero, BASE_WEAPON_OFFSET + 24);
+        public static readonly SpecialWeapon HighFrequencyBlade = new SpecialWeapon("HF Blade", IntPtr.Zero, BASE_WEAPON_OFFSET + 24); //GUI'd
         #endregion
         #endregion
 
