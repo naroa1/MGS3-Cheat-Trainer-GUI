@@ -57,9 +57,9 @@ namespace MGS2_MC
             NativeMethods.ReadProcessMemory(processHandle, PROCESS_BASE_ADDRESS, buffer, (uint)buffer.Length, out int numBytesRead);
             // we now, theoretically, have the ENTIRETY of MGS2 loaded into this buffer. At this point, we now
             // need to scan through this buffer until we find the second to last grouping of MGS2Constants.PlayerOffsetBytes
+            // (seems like the last one is always the checkpoint offset, second to last is current playeroffset)
             int byteCount = 0;
-            int foundPositions = 0;
-            int[] playerPositions = new int[2];
+            List<int> playerOffsets = new List<int>();
             while(byteCount + 8 < buffer.Length)
             {
                 if (buffer[byteCount] == MGS2Constants.PlayerOffsetBytes[0] &&
@@ -71,16 +71,18 @@ namespace MGS2_MC
                     buffer[byteCount + 6] == MGS2Constants.PlayerOffsetBytes[6] &&
                     buffer[byteCount + 7] == MGS2Constants.PlayerOffsetBytes[7])
                 {
-                    playerPositions.SetValue(byteCount, foundPositions);
-                    foundPositions++;
+                    playerOffsets.Add(byteCount);
                 }
-                //byteCount += 8;
-                byteCount += 4;
-                //byteCount += 2; //this technically introduces the possibility that we miss the player positions.
-                //byteCount++;
+                //byteCount += 8; //this technically introduces the possibility that we miss the player offsets.
+                byteCount += 4; //this seems to be the "fastest" at finding player offsets without sacrificing accuracy
+                //byteCount += 2; //when you don't want to be a dinosaur at finding player offsets, but not too fast
+                //byteCount++; //when you want to be 1000% sure you've got a valid player offset.
             }
 
-            return playerPositions;
+            //the GC fucking _sucks_ when the game crashes and leaves a bunch of these in memory until you've died
+            //a sufficient amount of times...
+            //my next "best" idea is to do some validation when we find a possible playerOffset before returning it
+            return new int[] { playerOffsets[playerOffsets.Count - 2], playerOffsets.Last() };
         }
 
         private static byte[] ReadValueFromMemory(IntPtr processHandle, IntPtr objectAddress, byte[] bytesToRead = null)

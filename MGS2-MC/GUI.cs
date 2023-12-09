@@ -82,6 +82,66 @@ namespace MGS2_MC
         {
             return (short)chaffMaxUpDown.Value;
         }
+
+        private short CurrentStunGrenadeCount()
+        {
+            return (short)stunCurrentUpDown.Value;
+        }
+
+        private short MaxStunGrenadeCount()
+        {
+            return (short)stunMaxUpDown.Value;
+        }
+
+        private short CurrentGrenadeCount()
+        {
+            return (short)grenadeCurrentUpDown.Value;
+        }
+
+        private short MaxGrenadeCount()
+        {
+            return (short)grenadeMaxUpDown.Value;
+        }
+
+        private short CurrentBookCount()
+        {
+            return (short)bookCurrentUpDown.Value;
+        }
+
+        private short MaxBookCount()
+        {
+            return (short)bookMaxUpDown.Value;
+        }
+
+        private short CurrentMagazineCount()
+        {
+            return (short)magazineCurrentUpDown.Value;
+        }
+
+        private short MaxMagazineCount()
+        {
+            return (short)magazineMaxUpDown.Value;
+        }
+
+        private short CurrentClaymoreCount()
+        {
+            return (short)claymoreCurrentUpDown.Value;
+        }
+
+        private short MaxClaymoreCount()
+        {
+            return (short)claymoreMaxUpDown.Value;
+        }
+
+        private bool DMic1Enabled()
+        {
+            return dmic1CheckBox.Checked;
+        }
+
+        private bool DMic2Enabled()
+        {
+            return dmic2CheckBox.Checked;
+        }
         #endregion
 
         #region Items Button Functions
@@ -357,7 +417,7 @@ namespace MGS2_MC
 
         private void stunCurrentBtn_Click(object sender, EventArgs e)
         {
-
+            MGS2UsableObjects.StunGrenade.UpdateCurrentAmmoCount(CurrentStunGrenadeCount());
         }
 
         private void stunMaxBtn_Click(object sender, EventArgs e)
@@ -367,7 +427,7 @@ namespace MGS2_MC
 
         private void grenadeCurrentBtn_Click(object sender, EventArgs e)
         {
-
+            MGS2UsableObjects.Grenade.UpdateCurrentAmmoCount(CurrentGrenadeCount());
         }
 
         private void grenadeMaxBtn_Click(object sender, EventArgs e)
@@ -377,7 +437,7 @@ namespace MGS2_MC
 
         private void magazineCurrentBtn_Click(object sender, EventArgs e)
         {
-
+            MGS2UsableObjects.Magazine.UpdateCurrentAmmoCount(CurrentMagazineCount());
         }
 
         private void magazineMaxBtn_Click(object sender, EventArgs e)
@@ -452,12 +512,12 @@ namespace MGS2_MC
 
         private void claymoreCurrentBtn_Click(object sender, EventArgs e)
         {
-
+            MGS2UsableObjects.Claymore.UpdateCurrentAmmoCount(CurrentClaymoreCount());
         }
 
         private void claymoreMaxBtn_Click(object sender, EventArgs e)
         {
-
+            
         }
 
         private void c4CurrentBtn_Click(object sender, EventArgs e)
@@ -472,7 +532,7 @@ namespace MGS2_MC
 
         private void bookCurrentBtn_Click(object sender, EventArgs e)
         {
-
+            MGS2UsableObjects.Book.UpdateCurrentAmmoCount(CurrentBookCount());
         }
 
         private void bookMaxBtn_Click(object sender, EventArgs e)
@@ -582,12 +642,12 @@ namespace MGS2_MC
 
         private void dmic1CheckBox_CheckedChanged(object sender, EventArgs e)
         {
-
+            MGS2UsableObjects.DMic.ToggleWeapon();
         }
 
         private void dmic2CheckBox_CheckedChanged(object sender, EventArgs e)
         {
-
+            MGS2UsableObjects.DMic2.ToggleWeapon();
         }
 
         private void hfBladeCheckBox_CheckedChanged(object sender, EventArgs e)
