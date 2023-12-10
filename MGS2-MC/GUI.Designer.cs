@@ -37,14 +37,12 @@
             this.stealthCheckBox = new System.Windows.Forms.CheckBox();
             this.wetBoxGroupBox = new System.Windows.Forms.GroupBox();
             this.wetBoxLayoutPanel = new System.Windows.Forms.TableLayoutPanel();
+            this.tableLayoutPanel53 = new System.Windows.Forms.TableLayoutPanel();
+            this.label48 = new System.Windows.Forms.Label();
+            this.wetBoxUpDown = new System.Windows.Forms.NumericUpDown();
+            this.wetBoxBtn = new System.Windows.Forms.Button();
             this.wetBoxPictureBox = new System.Windows.Forms.PictureBox();
             this.wetBoxCheckBox = new System.Windows.Forms.CheckBox();
-            this.tableLayoutPanel60 = new System.Windows.Forms.TableLayoutPanel();
-            this.label55 = new System.Windows.Forms.Label();
-            this.numericUpDown55 = new System.Windows.Forms.NumericUpDown();
-            this.tableLayoutPanel61 = new System.Windows.Forms.TableLayoutPanel();
-            this.label56 = new System.Windows.Forms.Label();
-            this.numericUpDown56 = new System.Windows.Forms.NumericUpDown();
             this.akSupGroupBox = new System.Windows.Forms.GroupBox();
             this.akSupLayoutPanel = new System.Windows.Forms.TableLayoutPanel();
             this.akSupPictureBox = new System.Windows.Forms.PictureBox();
@@ -71,14 +69,12 @@
             this.orangeWigCheckBox = new System.Windows.Forms.CheckBox();
             this.box5GroupBox = new System.Windows.Forms.GroupBox();
             this.box5LayoutPanel = new System.Windows.Forms.TableLayoutPanel();
+            this.tableLayoutPanel52 = new System.Windows.Forms.TableLayoutPanel();
+            this.label47 = new System.Windows.Forms.Label();
+            this.box5UpDown = new System.Windows.Forms.NumericUpDown();
+            this.box5Btn = new System.Windows.Forms.Button();
             this.box5PictureBox = new System.Windows.Forms.PictureBox();
             this.box5CheckBox = new System.Windows.Forms.CheckBox();
-            this.tableLayoutPanel58 = new System.Windows.Forms.TableLayoutPanel();
-            this.label53 = new System.Windows.Forms.Label();
-            this.numericUpDown53 = new System.Windows.Forms.NumericUpDown();
-            this.tableLayoutPanel59 = new System.Windows.Forms.TableLayoutPanel();
-            this.label54 = new System.Windows.Forms.Label();
-            this.numericUpDown54 = new System.Windows.Forms.NumericUpDown();
             this.uspSupGroupBox = new System.Windows.Forms.GroupBox();
             this.uspSupLayoutPanel = new System.Windows.Forms.TableLayoutPanel();
             this.uspSupPictureBox = new System.Windows.Forms.PictureBox();
@@ -93,14 +89,6 @@
             this.nvgCheckBox = new System.Windows.Forms.CheckBox();
             this.shaverGroupBox = new System.Windows.Forms.GroupBox();
             this.shaverLayoutPanel = new System.Windows.Forms.TableLayoutPanel();
-            this.tableLayoutPanel12 = new System.Windows.Forms.TableLayoutPanel();
-            this.label12 = new System.Windows.Forms.Label();
-            this.shaverCurrentUpDown = new System.Windows.Forms.NumericUpDown();
-            this.button8 = new System.Windows.Forms.Button();
-            this.tableLayoutPanel11 = new System.Windows.Forms.TableLayoutPanel();
-            this.label11 = new System.Windows.Forms.Label();
-            this.numericUpDown9 = new System.Windows.Forms.NumericUpDown();
-            this.button7 = new System.Windows.Forms.Button();
             this.shaverPictureBox = new System.Windows.Forms.PictureBox();
             this.shaverCheckBox = new System.Windows.Forms.CheckBox();
             this.blueWigGroupBox = new System.Windows.Forms.GroupBox();
@@ -109,14 +97,12 @@
             this.blueWigCheckBox = new System.Windows.Forms.CheckBox();
             this.box4GroupBox = new System.Windows.Forms.GroupBox();
             this.box4LayoutPanel = new System.Windows.Forms.TableLayoutPanel();
+            this.tableLayoutPanel51 = new System.Windows.Forms.TableLayoutPanel();
+            this.label46 = new System.Windows.Forms.Label();
+            this.box4UpDown = new System.Windows.Forms.NumericUpDown();
+            this.box4Btn = new System.Windows.Forms.Button();
             this.box4PictureBox = new System.Windows.Forms.PictureBox();
             this.box4CheckBox = new System.Windows.Forms.CheckBox();
-            this.tableLayoutPanel56 = new System.Windows.Forms.TableLayoutPanel();
-            this.label51 = new System.Windows.Forms.Label();
-            this.numericUpDown51 = new System.Windows.Forms.NumericUpDown();
-            this.tableLayoutPanel57 = new System.Windows.Forms.TableLayoutPanel();
-            this.label52 = new System.Windows.Forms.Label();
-            this.numericUpDown52 = new System.Windows.Forms.NumericUpDown();
             this.socomSupGroupBox = new System.Windows.Forms.GroupBox();
             this.socomSupLayoutPanel = new System.Windows.Forms.TableLayoutPanel();
             this.socomSupPictureBox = new System.Windows.Forms.PictureBox();
@@ -147,14 +133,12 @@
             this.infinityWigCheckBox = new System.Windows.Forms.CheckBox();
             this.box3GroupBox = new System.Windows.Forms.GroupBox();
             this.box3LayoutPanel = new System.Windows.Forms.TableLayoutPanel();
+            this.tableLayoutPanel50 = new System.Windows.Forms.TableLayoutPanel();
+            this.label45 = new System.Windows.Forms.Label();
+            this.box3UpDown = new System.Windows.Forms.NumericUpDown();
+            this.box3Btn = new System.Windows.Forms.Button();
             this.box3PictureBox = new System.Windows.Forms.PictureBox();
             this.box3CheckBox = new System.Windows.Forms.CheckBox();
-            this.tableLayoutPanel54 = new System.Windows.Forms.TableLayoutPanel();
-            this.label49 = new System.Windows.Forms.Label();
-            this.numericUpDown49 = new System.Windows.Forms.NumericUpDown();
-            this.tableLayoutPanel55 = new System.Windows.Forms.TableLayoutPanel();
-            this.label50 = new System.Windows.Forms.Label();
-            this.numericUpDown50 = new System.Windows.Forms.NumericUpDown();
             this.moDiscGroupBox = new System.Windows.Forms.GroupBox();
             this.moDiscLayoutPanel = new System.Windows.Forms.TableLayoutPanel();
             this.moDiscPictureBox = new System.Windows.Forms.PictureBox();
@@ -185,14 +169,12 @@
             this.bandanaCheckBox = new System.Windows.Forms.CheckBox();
             this.box2GroupBox = new System.Windows.Forms.GroupBox();
             this.box2LayoutPanel = new System.Windows.Forms.TableLayoutPanel();
+            this.tableLayoutPanel12 = new System.Windows.Forms.TableLayoutPanel();
+            this.label12 = new System.Windows.Forms.Label();
+            this.box2UpDown = new System.Windows.Forms.NumericUpDown();
+            this.box2Btn = new System.Windows.Forms.Button();
             this.box2PictureBox = new System.Windows.Forms.PictureBox();
             this.box2CheckBox = new System.Windows.Forms.CheckBox();
-            this.tableLayoutPanel52 = new System.Windows.Forms.TableLayoutPanel();
-            this.label47 = new System.Windows.Forms.Label();
-            this.numericUpDown47 = new System.Windows.Forms.NumericUpDown();
-            this.tableLayoutPanel53 = new System.Windows.Forms.TableLayoutPanel();
-            this.label48 = new System.Windows.Forms.Label();
-            this.numericUpDown48 = new System.Windows.Forms.NumericUpDown();
             this.cigarettesGroupBox = new System.Windows.Forms.GroupBox();
             this.cigarettesLayoutPanel = new System.Windows.Forms.TableLayoutPanel();
             this.cigarettesPictureBox = new System.Windows.Forms.PictureBox();
@@ -224,14 +206,12 @@
             this.bduCheckBox = new System.Windows.Forms.CheckBox();
             this.box1GroupBox = new System.Windows.Forms.GroupBox();
             this.box1LayoutPanel = new System.Windows.Forms.TableLayoutPanel();
+            this.tableLayoutPanel11 = new System.Windows.Forms.TableLayoutPanel();
+            this.label11 = new System.Windows.Forms.Label();
+            this.box1UpDown = new System.Windows.Forms.NumericUpDown();
+            this.box1Btn = new System.Windows.Forms.Button();
             this.box1PictureBox = new System.Windows.Forms.PictureBox();
             this.box1CheckBox = new System.Windows.Forms.CheckBox();
-            this.tableLayoutPanel50 = new System.Windows.Forms.TableLayoutPanel();
-            this.label45 = new System.Windows.Forms.Label();
-            this.numericUpDown45 = new System.Windows.Forms.NumericUpDown();
-            this.tableLayoutPanel51 = new System.Windows.Forms.TableLayoutPanel();
-            this.label46 = new System.Windows.Forms.Label();
-            this.numericUpDown46 = new System.Windows.Forms.NumericUpDown();
             this.coldMedsGroupBox = new System.Windows.Forms.GroupBox();
             this.coldMedsLayoutPanel = new System.Windows.Forms.TableLayoutPanel();
             this.tableLayoutPanel9 = new System.Windows.Forms.TableLayoutPanel();
@@ -496,11 +476,9 @@
             ((System.ComponentModel.ISupportInitialize)(this.stealthPictureBox)).BeginInit();
             this.wetBoxGroupBox.SuspendLayout();
             this.wetBoxLayoutPanel.SuspendLayout();
+            this.tableLayoutPanel53.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.wetBoxUpDown)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.wetBoxPictureBox)).BeginInit();
-            this.tableLayoutPanel60.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown55)).BeginInit();
-            this.tableLayoutPanel61.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown56)).BeginInit();
             this.akSupGroupBox.SuspendLayout();
             this.akSupLayoutPanel.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.akSupPictureBox)).BeginInit();
@@ -520,11 +498,9 @@
             ((System.ComponentModel.ISupportInitialize)(this.orangeWigPictureBox)).BeginInit();
             this.box5GroupBox.SuspendLayout();
             this.box5LayoutPanel.SuspendLayout();
+            this.tableLayoutPanel52.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.box5UpDown)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.box5PictureBox)).BeginInit();
-            this.tableLayoutPanel58.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown53)).BeginInit();
-            this.tableLayoutPanel59.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown54)).BeginInit();
             this.uspSupGroupBox.SuspendLayout();
             this.uspSupLayoutPanel.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.uspSupPictureBox)).BeginInit();
@@ -536,21 +512,15 @@
             ((System.ComponentModel.ISupportInitialize)(this.nvgPictureBox)).BeginInit();
             this.shaverGroupBox.SuspendLayout();
             this.shaverLayoutPanel.SuspendLayout();
-            this.tableLayoutPanel12.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.shaverCurrentUpDown)).BeginInit();
-            this.tableLayoutPanel11.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown9)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.shaverPictureBox)).BeginInit();
             this.blueWigGroupBox.SuspendLayout();
             this.blueWigLayoutPanel.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.blueWigPictureBox)).BeginInit();
             this.box4GroupBox.SuspendLayout();
             this.box4LayoutPanel.SuspendLayout();
+            this.tableLayoutPanel51.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.box4UpDown)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.box4PictureBox)).BeginInit();
-            this.tableLayoutPanel56.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown51)).BeginInit();
-            this.tableLayoutPanel57.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown52)).BeginInit();
             this.socomSupGroupBox.SuspendLayout();
             this.socomSupLayoutPanel.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.socomSupPictureBox)).BeginInit();
@@ -572,11 +542,9 @@
             ((System.ComponentModel.ISupportInitialize)(this.infinityWigPictureBox)).BeginInit();
             this.box3GroupBox.SuspendLayout();
             this.box3LayoutPanel.SuspendLayout();
+            this.tableLayoutPanel50.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.box3UpDown)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.box3PictureBox)).BeginInit();
-            this.tableLayoutPanel54.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown49)).BeginInit();
-            this.tableLayoutPanel55.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown50)).BeginInit();
             this.moDiscGroupBox.SuspendLayout();
             this.moDiscLayoutPanel.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.moDiscPictureBox)).BeginInit();
@@ -598,11 +566,9 @@
             ((System.ComponentModel.ISupportInitialize)(this.bandanaPictureBox)).BeginInit();
             this.box2GroupBox.SuspendLayout();
             this.box2LayoutPanel.SuspendLayout();
+            this.tableLayoutPanel12.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.box2UpDown)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.box2PictureBox)).BeginInit();
-            this.tableLayoutPanel52.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown47)).BeginInit();
-            this.tableLayoutPanel53.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown48)).BeginInit();
             this.cigarettesGroupBox.SuspendLayout();
             this.cigarettesLayoutPanel.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.cigarettesPictureBox)).BeginInit();
@@ -624,11 +590,9 @@
             ((System.ComponentModel.ISupportInitialize)(this.bduPictureBox)).BeginInit();
             this.box1GroupBox.SuspendLayout();
             this.box1LayoutPanel.SuspendLayout();
+            this.tableLayoutPanel11.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.box1UpDown)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.box1PictureBox)).BeginInit();
-            this.tableLayoutPanel50.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown45)).BeginInit();
-            this.tableLayoutPanel51.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown46)).BeginInit();
             this.coldMedsGroupBox.SuspendLayout();
             this.coldMedsLayoutPanel.SuspendLayout();
             this.tableLayoutPanel9.SuspendLayout();
@@ -911,7 +875,7 @@
             this.stealthCheckBox.TabIndex = 1;
             this.stealthCheckBox.Text = "Enabled?";
             this.stealthCheckBox.UseVisualStyleBackColor = true;
-            this.stealthCheckBox.CheckedChanged += new System.EventHandler(this.stealthCheckBox_CheckedChanged);
+            this.stealthCheckBox.CheckedChanged += new System.EventHandler(this.StealthCheckBox_CheckedChanged);
             // 
             // wetBoxGroupBox
             // 
@@ -929,10 +893,9 @@
             this.wetBoxLayoutPanel.ColumnCount = 2;
             this.wetBoxLayoutPanel.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 56.74157F));
             this.wetBoxLayoutPanel.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 43.25843F));
+            this.wetBoxLayoutPanel.Controls.Add(this.tableLayoutPanel53, 0, 1);
             this.wetBoxLayoutPanel.Controls.Add(this.wetBoxPictureBox, 0, 0);
             this.wetBoxLayoutPanel.Controls.Add(this.wetBoxCheckBox, 1, 0);
-            this.wetBoxLayoutPanel.Controls.Add(this.tableLayoutPanel60, 0, 1);
-            this.wetBoxLayoutPanel.Controls.Add(this.tableLayoutPanel61, 1, 1);
             this.wetBoxLayoutPanel.Dock = System.Windows.Forms.DockStyle.Fill;
             this.wetBoxLayoutPanel.Location = new System.Drawing.Point(3, 16);
             this.wetBoxLayoutPanel.Name = "wetBoxLayoutPanel";
@@ -941,6 +904,61 @@
             this.wetBoxLayoutPanel.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 57.77778F));
             this.wetBoxLayoutPanel.Size = new System.Drawing.Size(202, 72);
             this.wetBoxLayoutPanel.TabIndex = 41;
+            // 
+            // tableLayoutPanel53
+            // 
+            this.tableLayoutPanel53.ColumnCount = 2;
+            this.tableLayoutPanel53.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
+            this.tableLayoutPanel53.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 40F));
+            this.tableLayoutPanel53.Controls.Add(this.label48, 0, 0);
+            this.tableLayoutPanel53.Controls.Add(this.wetBoxUpDown, 0, 1);
+            this.tableLayoutPanel53.Controls.Add(this.wetBoxBtn, 1, 1);
+            this.tableLayoutPanel53.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.tableLayoutPanel53.Location = new System.Drawing.Point(3, 33);
+            this.tableLayoutPanel53.Name = "tableLayoutPanel53";
+            this.tableLayoutPanel53.RowCount = 2;
+            this.tableLayoutPanel53.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 38.88889F));
+            this.tableLayoutPanel53.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 61.11111F));
+            this.tableLayoutPanel53.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
+            this.tableLayoutPanel53.Size = new System.Drawing.Size(108, 36);
+            this.tableLayoutPanel53.TabIndex = 6;
+            // 
+            // label48
+            // 
+            this.label48.AutoSize = true;
+            this.tableLayoutPanel53.SetColumnSpan(this.label48, 2);
+            this.label48.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.label48.Location = new System.Drawing.Point(0, 0);
+            this.label48.Margin = new System.Windows.Forms.Padding(0);
+            this.label48.Name = "label48";
+            this.label48.Size = new System.Drawing.Size(108, 14);
+            this.label48.TabIndex = 0;
+            this.label48.Text = "Durability";
+            // 
+            // wetBoxUpDown
+            // 
+            this.wetBoxUpDown.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.wetBoxUpDown.Location = new System.Drawing.Point(3, 15);
+            this.wetBoxUpDown.Margin = new System.Windows.Forms.Padding(3, 1, 0, 0);
+            this.wetBoxUpDown.Maximum = new decimal(new int[] {
+            32767,
+            0,
+            0,
+            0});
+            this.wetBoxUpDown.Name = "wetBoxUpDown";
+            this.wetBoxUpDown.Size = new System.Drawing.Size(65, 20);
+            this.wetBoxUpDown.TabIndex = 1;
+            // 
+            // wetBoxBtn
+            // 
+            this.wetBoxBtn.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.wetBoxBtn.Location = new System.Drawing.Point(68, 14);
+            this.wetBoxBtn.Margin = new System.Windows.Forms.Padding(0);
+            this.wetBoxBtn.Name = "wetBoxBtn";
+            this.wetBoxBtn.Size = new System.Drawing.Size(40, 22);
+            this.wetBoxBtn.TabIndex = 2;
+            this.wetBoxBtn.Text = "Set!";
+            this.wetBoxBtn.UseVisualStyleBackColor = true;
             // 
             // wetBoxPictureBox
             // 
@@ -961,71 +979,7 @@
             this.wetBoxCheckBox.TabIndex = 1;
             this.wetBoxCheckBox.Text = "Enabled?";
             this.wetBoxCheckBox.UseVisualStyleBackColor = true;
-            this.wetBoxCheckBox.CheckedChanged += new System.EventHandler(this.wetBoxCheckBox_CheckedChanged);
-            // 
-            // tableLayoutPanel60
-            // 
-            this.tableLayoutPanel60.ColumnCount = 1;
-            this.tableLayoutPanel60.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
-            this.tableLayoutPanel60.Controls.Add(this.label55, 0, 0);
-            this.tableLayoutPanel60.Controls.Add(this.numericUpDown55, 0, 1);
-            this.tableLayoutPanel60.Location = new System.Drawing.Point(3, 33);
-            this.tableLayoutPanel60.Name = "tableLayoutPanel60";
-            this.tableLayoutPanel60.RowCount = 2;
-            this.tableLayoutPanel60.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
-            this.tableLayoutPanel60.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
-            this.tableLayoutPanel60.Size = new System.Drawing.Size(94, 36);
-            this.tableLayoutPanel60.TabIndex = 2;
-            // 
-            // label55
-            // 
-            this.label55.AutoSize = true;
-            this.label55.Location = new System.Drawing.Point(0, 0);
-            this.label55.Margin = new System.Windows.Forms.Padding(0);
-            this.label55.Name = "label55";
-            this.label55.Size = new System.Drawing.Size(60, 13);
-            this.label55.TabIndex = 0;
-            this.label55.Text = "Set Current";
-            // 
-            // numericUpDown55
-            // 
-            this.numericUpDown55.Location = new System.Drawing.Point(3, 18);
-            this.numericUpDown55.Margin = new System.Windows.Forms.Padding(3, 0, 3, 0);
-            this.numericUpDown55.Name = "numericUpDown55";
-            this.numericUpDown55.Size = new System.Drawing.Size(52, 20);
-            this.numericUpDown55.TabIndex = 1;
-            // 
-            // tableLayoutPanel61
-            // 
-            this.tableLayoutPanel61.ColumnCount = 1;
-            this.tableLayoutPanel61.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
-            this.tableLayoutPanel61.Controls.Add(this.label56, 0, 0);
-            this.tableLayoutPanel61.Controls.Add(this.numericUpDown56, 0, 1);
-            this.tableLayoutPanel61.Location = new System.Drawing.Point(117, 33);
-            this.tableLayoutPanel61.Name = "tableLayoutPanel61";
-            this.tableLayoutPanel61.RowCount = 2;
-            this.tableLayoutPanel61.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
-            this.tableLayoutPanel61.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
-            this.tableLayoutPanel61.Size = new System.Drawing.Size(71, 36);
-            this.tableLayoutPanel61.TabIndex = 3;
-            // 
-            // label56
-            // 
-            this.label56.AutoSize = true;
-            this.label56.Location = new System.Drawing.Point(0, 0);
-            this.label56.Margin = new System.Windows.Forms.Padding(0);
-            this.label56.Name = "label56";
-            this.label56.Size = new System.Drawing.Size(46, 13);
-            this.label56.TabIndex = 0;
-            this.label56.Text = "Set Max";
-            // 
-            // numericUpDown56
-            // 
-            this.numericUpDown56.Location = new System.Drawing.Point(3, 18);
-            this.numericUpDown56.Margin = new System.Windows.Forms.Padding(3, 0, 3, 0);
-            this.numericUpDown56.Name = "numericUpDown56";
-            this.numericUpDown56.Size = new System.Drawing.Size(52, 20);
-            this.numericUpDown56.TabIndex = 1;
+            this.wetBoxCheckBox.CheckedChanged += new System.EventHandler(this.WetBoxCheckBox_CheckedChanged);
             // 
             // akSupGroupBox
             // 
@@ -1073,7 +1027,7 @@
             this.akSupCheckBox.TabIndex = 1;
             this.akSupCheckBox.Text = "Enabled?";
             this.akSupCheckBox.UseVisualStyleBackColor = true;
-            this.akSupCheckBox.CheckedChanged += new System.EventHandler(this.akSupCheckBox_CheckedChanged);
+            this.akSupCheckBox.CheckedChanged += new System.EventHandler(this.AkSupCheckBox_CheckedChanged);
             // 
             // phoneGroupBox
             // 
@@ -1121,7 +1075,7 @@
             this.phoneCheckBox.TabIndex = 1;
             this.phoneCheckBox.Text = "Enabled?";
             this.phoneCheckBox.UseVisualStyleBackColor = true;
-            this.phoneCheckBox.CheckedChanged += new System.EventHandler(this.phoneCheckBox_CheckedChanged);
+            this.phoneCheckBox.CheckedChanged += new System.EventHandler(this.PhoneCheckBox_CheckedChanged);
             // 
             // thermalGroupBox
             // 
@@ -1169,7 +1123,7 @@
             this.thermalCheckBox.TabIndex = 1;
             this.thermalCheckBox.Text = "Enabled?";
             this.thermalCheckBox.UseVisualStyleBackColor = true;
-            this.thermalCheckBox.CheckedChanged += new System.EventHandler(this.thermalCheckBox_CheckedChanged);
+            this.thermalCheckBox.CheckedChanged += new System.EventHandler(this.ThermalCheckBox_CheckedChanged);
             // 
             // cardGroupBox
             // 
@@ -1262,7 +1216,7 @@
             this.cardBtn.TabIndex = 2;
             this.cardBtn.Text = "Set!";
             this.cardBtn.UseVisualStyleBackColor = true;
-            this.cardBtn.Click += new System.EventHandler(this.cardBtn_Click);
+            this.cardBtn.Click += new System.EventHandler(this.CardBtn_Click);
             // 
             // cardPictureBox
             // 
@@ -1283,7 +1237,7 @@
             this.cardCheckBox.TabIndex = 1;
             this.cardCheckBox.Text = "Enabled?";
             this.cardCheckBox.UseVisualStyleBackColor = true;
-            this.cardCheckBox.CheckedChanged += new System.EventHandler(this.cardCheckBox_CheckedChanged);
+            this.cardCheckBox.CheckedChanged += new System.EventHandler(this.CardCheckBox_CheckedChanged);
             // 
             // orangeWigGroupBox
             // 
@@ -1331,7 +1285,7 @@
             this.orangeWigCheckBox.TabIndex = 1;
             this.orangeWigCheckBox.Text = "Enabled?";
             this.orangeWigCheckBox.UseVisualStyleBackColor = true;
-            this.orangeWigCheckBox.CheckedChanged += new System.EventHandler(this.orangeWigCheckBox_CheckedChanged);
+            this.orangeWigCheckBox.CheckedChanged += new System.EventHandler(this.OrangeWigCheckBox_CheckedChanged);
             // 
             // box5GroupBox
             // 
@@ -1349,10 +1303,9 @@
             this.box5LayoutPanel.ColumnCount = 2;
             this.box5LayoutPanel.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 56.74157F));
             this.box5LayoutPanel.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 43.25843F));
+            this.box5LayoutPanel.Controls.Add(this.tableLayoutPanel52, 0, 1);
             this.box5LayoutPanel.Controls.Add(this.box5PictureBox, 0, 0);
             this.box5LayoutPanel.Controls.Add(this.box5CheckBox, 1, 0);
-            this.box5LayoutPanel.Controls.Add(this.tableLayoutPanel58, 0, 1);
-            this.box5LayoutPanel.Controls.Add(this.tableLayoutPanel59, 1, 1);
             this.box5LayoutPanel.Dock = System.Windows.Forms.DockStyle.Fill;
             this.box5LayoutPanel.Location = new System.Drawing.Point(3, 16);
             this.box5LayoutPanel.Name = "box5LayoutPanel";
@@ -1361,6 +1314,61 @@
             this.box5LayoutPanel.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 57.77778F));
             this.box5LayoutPanel.Size = new System.Drawing.Size(202, 71);
             this.box5LayoutPanel.TabIndex = 41;
+            // 
+            // tableLayoutPanel52
+            // 
+            this.tableLayoutPanel52.ColumnCount = 2;
+            this.tableLayoutPanel52.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
+            this.tableLayoutPanel52.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 40F));
+            this.tableLayoutPanel52.Controls.Add(this.label47, 0, 0);
+            this.tableLayoutPanel52.Controls.Add(this.box5UpDown, 0, 1);
+            this.tableLayoutPanel52.Controls.Add(this.box5Btn, 1, 1);
+            this.tableLayoutPanel52.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.tableLayoutPanel52.Location = new System.Drawing.Point(3, 32);
+            this.tableLayoutPanel52.Name = "tableLayoutPanel52";
+            this.tableLayoutPanel52.RowCount = 2;
+            this.tableLayoutPanel52.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 38.88889F));
+            this.tableLayoutPanel52.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 61.11111F));
+            this.tableLayoutPanel52.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
+            this.tableLayoutPanel52.Size = new System.Drawing.Size(108, 36);
+            this.tableLayoutPanel52.TabIndex = 6;
+            // 
+            // label47
+            // 
+            this.label47.AutoSize = true;
+            this.tableLayoutPanel52.SetColumnSpan(this.label47, 2);
+            this.label47.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.label47.Location = new System.Drawing.Point(0, 0);
+            this.label47.Margin = new System.Windows.Forms.Padding(0);
+            this.label47.Name = "label47";
+            this.label47.Size = new System.Drawing.Size(108, 14);
+            this.label47.TabIndex = 0;
+            this.label47.Text = "Durability";
+            // 
+            // box5UpDown
+            // 
+            this.box5UpDown.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.box5UpDown.Location = new System.Drawing.Point(3, 15);
+            this.box5UpDown.Margin = new System.Windows.Forms.Padding(3, 1, 0, 0);
+            this.box5UpDown.Maximum = new decimal(new int[] {
+            32767,
+            0,
+            0,
+            0});
+            this.box5UpDown.Name = "box5UpDown";
+            this.box5UpDown.Size = new System.Drawing.Size(65, 20);
+            this.box5UpDown.TabIndex = 1;
+            // 
+            // box5Btn
+            // 
+            this.box5Btn.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.box5Btn.Location = new System.Drawing.Point(68, 14);
+            this.box5Btn.Margin = new System.Windows.Forms.Padding(0);
+            this.box5Btn.Name = "box5Btn";
+            this.box5Btn.Size = new System.Drawing.Size(40, 22);
+            this.box5Btn.TabIndex = 2;
+            this.box5Btn.Text = "Set!";
+            this.box5Btn.UseVisualStyleBackColor = true;
             // 
             // box5PictureBox
             // 
@@ -1381,71 +1389,7 @@
             this.box5CheckBox.TabIndex = 1;
             this.box5CheckBox.Text = "Enabled?";
             this.box5CheckBox.UseVisualStyleBackColor = true;
-            this.box5CheckBox.CheckedChanged += new System.EventHandler(this.box5CheckBox_CheckedChanged);
-            // 
-            // tableLayoutPanel58
-            // 
-            this.tableLayoutPanel58.ColumnCount = 1;
-            this.tableLayoutPanel58.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
-            this.tableLayoutPanel58.Controls.Add(this.label53, 0, 0);
-            this.tableLayoutPanel58.Controls.Add(this.numericUpDown53, 0, 1);
-            this.tableLayoutPanel58.Location = new System.Drawing.Point(3, 32);
-            this.tableLayoutPanel58.Name = "tableLayoutPanel58";
-            this.tableLayoutPanel58.RowCount = 2;
-            this.tableLayoutPanel58.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
-            this.tableLayoutPanel58.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
-            this.tableLayoutPanel58.Size = new System.Drawing.Size(94, 36);
-            this.tableLayoutPanel58.TabIndex = 2;
-            // 
-            // label53
-            // 
-            this.label53.AutoSize = true;
-            this.label53.Location = new System.Drawing.Point(0, 0);
-            this.label53.Margin = new System.Windows.Forms.Padding(0);
-            this.label53.Name = "label53";
-            this.label53.Size = new System.Drawing.Size(60, 13);
-            this.label53.TabIndex = 0;
-            this.label53.Text = "Set Current";
-            // 
-            // numericUpDown53
-            // 
-            this.numericUpDown53.Location = new System.Drawing.Point(3, 18);
-            this.numericUpDown53.Margin = new System.Windows.Forms.Padding(3, 0, 3, 0);
-            this.numericUpDown53.Name = "numericUpDown53";
-            this.numericUpDown53.Size = new System.Drawing.Size(52, 20);
-            this.numericUpDown53.TabIndex = 1;
-            // 
-            // tableLayoutPanel59
-            // 
-            this.tableLayoutPanel59.ColumnCount = 1;
-            this.tableLayoutPanel59.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
-            this.tableLayoutPanel59.Controls.Add(this.label54, 0, 0);
-            this.tableLayoutPanel59.Controls.Add(this.numericUpDown54, 0, 1);
-            this.tableLayoutPanel59.Location = new System.Drawing.Point(117, 32);
-            this.tableLayoutPanel59.Name = "tableLayoutPanel59";
-            this.tableLayoutPanel59.RowCount = 2;
-            this.tableLayoutPanel59.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
-            this.tableLayoutPanel59.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
-            this.tableLayoutPanel59.Size = new System.Drawing.Size(71, 36);
-            this.tableLayoutPanel59.TabIndex = 3;
-            // 
-            // label54
-            // 
-            this.label54.AutoSize = true;
-            this.label54.Location = new System.Drawing.Point(0, 0);
-            this.label54.Margin = new System.Windows.Forms.Padding(0);
-            this.label54.Name = "label54";
-            this.label54.Size = new System.Drawing.Size(46, 13);
-            this.label54.TabIndex = 0;
-            this.label54.Text = "Set Max";
-            // 
-            // numericUpDown54
-            // 
-            this.numericUpDown54.Location = new System.Drawing.Point(3, 18);
-            this.numericUpDown54.Margin = new System.Windows.Forms.Padding(3, 0, 3, 0);
-            this.numericUpDown54.Name = "numericUpDown54";
-            this.numericUpDown54.Size = new System.Drawing.Size(52, 20);
-            this.numericUpDown54.TabIndex = 1;
+            this.box5CheckBox.CheckedChanged += new System.EventHandler(this.Box5CheckBox_CheckedChanged);
             // 
             // uspSupGroupBox
             // 
@@ -1493,7 +1437,7 @@
             this.uspSupCheckBox.TabIndex = 1;
             this.uspSupCheckBox.Text = "Enabled?";
             this.uspSupCheckBox.UseVisualStyleBackColor = true;
-            this.uspSupCheckBox.CheckedChanged += new System.EventHandler(this.uspSupCheckBox_CheckedChanged);
+            this.uspSupCheckBox.CheckedChanged += new System.EventHandler(this.UspSupCheckBox_CheckedChanged);
             // 
             // sensorBGroupBox
             // 
@@ -1541,7 +1485,7 @@
             this.sensorBCheckBox.TabIndex = 1;
             this.sensorBCheckBox.Text = "Enabled?";
             this.sensorBCheckBox.UseVisualStyleBackColor = true;
-            this.sensorBCheckBox.CheckedChanged += new System.EventHandler(this.sensorBCheckBox_CheckedChanged);
+            this.sensorBCheckBox.CheckedChanged += new System.EventHandler(this.SensorBCheckBox_CheckedChanged);
             // 
             // nvgGroupBox
             // 
@@ -1589,7 +1533,7 @@
             this.nvgCheckBox.TabIndex = 1;
             this.nvgCheckBox.Text = "Enabled?";
             this.nvgCheckBox.UseVisualStyleBackColor = true;
-            this.nvgCheckBox.CheckedChanged += new System.EventHandler(this.nvgCheckBox_CheckedChanged);
+            this.nvgCheckBox.CheckedChanged += new System.EventHandler(this.NvgCheckBox_CheckedChanged);
             // 
             // shaverGroupBox
             // 
@@ -1607,8 +1551,6 @@
             this.shaverLayoutPanel.ColumnCount = 2;
             this.shaverLayoutPanel.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 52.47525F));
             this.shaverLayoutPanel.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 47.52475F));
-            this.shaverLayoutPanel.Controls.Add(this.tableLayoutPanel12, 0, 1);
-            this.shaverLayoutPanel.Controls.Add(this.tableLayoutPanel11, 0, 1);
             this.shaverLayoutPanel.Controls.Add(this.shaverPictureBox, 0, 0);
             this.shaverLayoutPanel.Controls.Add(this.shaverCheckBox, 1, 0);
             this.shaverLayoutPanel.Dock = System.Windows.Forms.DockStyle.Fill;
@@ -1619,114 +1561,6 @@
             this.shaverLayoutPanel.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 57.77778F));
             this.shaverLayoutPanel.Size = new System.Drawing.Size(202, 71);
             this.shaverLayoutPanel.TabIndex = 41;
-            // 
-            // tableLayoutPanel12
-            // 
-            this.tableLayoutPanel12.ColumnCount = 2;
-            this.tableLayoutPanel12.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
-            this.tableLayoutPanel12.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 40F));
-            this.tableLayoutPanel12.Controls.Add(this.label12, 0, 0);
-            this.tableLayoutPanel12.Controls.Add(this.shaverCurrentUpDown, 0, 1);
-            this.tableLayoutPanel12.Controls.Add(this.button8, 1, 1);
-            this.tableLayoutPanel12.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.tableLayoutPanel12.Location = new System.Drawing.Point(3, 32);
-            this.tableLayoutPanel12.Name = "tableLayoutPanel12";
-            this.tableLayoutPanel12.RowCount = 2;
-            this.tableLayoutPanel12.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 38.88889F));
-            this.tableLayoutPanel12.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 61.11111F));
-            this.tableLayoutPanel12.Size = new System.Drawing.Size(100, 36);
-            this.tableLayoutPanel12.TabIndex = 4;
-            // 
-            // label12
-            // 
-            this.label12.AutoSize = true;
-            this.tableLayoutPanel12.SetColumnSpan(this.label12, 2);
-            this.label12.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.label12.Location = new System.Drawing.Point(0, 0);
-            this.label12.Margin = new System.Windows.Forms.Padding(0);
-            this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(100, 14);
-            this.label12.TabIndex = 0;
-            this.label12.Text = "Current Count";
-            // 
-            // shaverCurrentUpDown
-            // 
-            this.shaverCurrentUpDown.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.shaverCurrentUpDown.Location = new System.Drawing.Point(3, 15);
-            this.shaverCurrentUpDown.Margin = new System.Windows.Forms.Padding(3, 1, 0, 0);
-            this.shaverCurrentUpDown.Maximum = new decimal(new int[] {
-            32767,
-            0,
-            0,
-            0});
-            this.shaverCurrentUpDown.Name = "shaverCurrentUpDown";
-            this.shaverCurrentUpDown.Size = new System.Drawing.Size(57, 20);
-            this.shaverCurrentUpDown.TabIndex = 1;
-            // 
-            // button8
-            // 
-            this.button8.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.button8.Location = new System.Drawing.Point(60, 14);
-            this.button8.Margin = new System.Windows.Forms.Padding(0);
-            this.button8.Name = "button8";
-            this.button8.Size = new System.Drawing.Size(40, 22);
-            this.button8.TabIndex = 2;
-            this.button8.Text = "Set!";
-            this.button8.UseVisualStyleBackColor = true;
-            // 
-            // tableLayoutPanel11
-            // 
-            this.tableLayoutPanel11.ColumnCount = 2;
-            this.tableLayoutPanel11.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
-            this.tableLayoutPanel11.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 40F));
-            this.tableLayoutPanel11.Controls.Add(this.label11, 0, 0);
-            this.tableLayoutPanel11.Controls.Add(this.numericUpDown9, 0, 1);
-            this.tableLayoutPanel11.Controls.Add(this.button7, 1, 1);
-            this.tableLayoutPanel11.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.tableLayoutPanel11.Location = new System.Drawing.Point(109, 32);
-            this.tableLayoutPanel11.Name = "tableLayoutPanel11";
-            this.tableLayoutPanel11.RowCount = 2;
-            this.tableLayoutPanel11.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 38.88889F));
-            this.tableLayoutPanel11.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 61.11111F));
-            this.tableLayoutPanel11.Size = new System.Drawing.Size(90, 36);
-            this.tableLayoutPanel11.TabIndex = 3;
-            // 
-            // label11
-            // 
-            this.label11.AutoSize = true;
-            this.tableLayoutPanel11.SetColumnSpan(this.label11, 2);
-            this.label11.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.label11.Location = new System.Drawing.Point(0, 0);
-            this.label11.Margin = new System.Windows.Forms.Padding(0);
-            this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(90, 14);
-            this.label11.TabIndex = 0;
-            this.label11.Text = "Max Count";
-            // 
-            // numericUpDown9
-            // 
-            this.numericUpDown9.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.numericUpDown9.Location = new System.Drawing.Point(3, 15);
-            this.numericUpDown9.Margin = new System.Windows.Forms.Padding(3, 1, 0, 0);
-            this.numericUpDown9.Maximum = new decimal(new int[] {
-            32767,
-            0,
-            0,
-            0});
-            this.numericUpDown9.Name = "numericUpDown9";
-            this.numericUpDown9.Size = new System.Drawing.Size(47, 20);
-            this.numericUpDown9.TabIndex = 1;
-            // 
-            // button7
-            // 
-            this.button7.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.button7.Location = new System.Drawing.Point(50, 14);
-            this.button7.Margin = new System.Windows.Forms.Padding(0);
-            this.button7.Name = "button7";
-            this.button7.Size = new System.Drawing.Size(40, 22);
-            this.button7.TabIndex = 2;
-            this.button7.Text = "Set!";
-            this.button7.UseVisualStyleBackColor = true;
             // 
             // shaverPictureBox
             // 
@@ -1747,7 +1581,7 @@
             this.shaverCheckBox.TabIndex = 1;
             this.shaverCheckBox.Text = "Enabled?";
             this.shaverCheckBox.UseVisualStyleBackColor = true;
-            this.shaverCheckBox.CheckedChanged += new System.EventHandler(this.shaverCheckBox_CheckedChanged);
+            this.shaverCheckBox.CheckedChanged += new System.EventHandler(this.ShaverCheckBox_CheckedChanged);
             // 
             // blueWigGroupBox
             // 
@@ -1795,7 +1629,7 @@
             this.blueWigCheckBox.TabIndex = 1;
             this.blueWigCheckBox.Text = "Enabled?";
             this.blueWigCheckBox.UseVisualStyleBackColor = true;
-            this.blueWigCheckBox.CheckedChanged += new System.EventHandler(this.blueWigCheckBox_CheckedChanged);
+            this.blueWigCheckBox.CheckedChanged += new System.EventHandler(this.BlueWigCheckBox_CheckedChanged);
             // 
             // box4GroupBox
             // 
@@ -1813,10 +1647,9 @@
             this.box4LayoutPanel.ColumnCount = 2;
             this.box4LayoutPanel.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 56.74157F));
             this.box4LayoutPanel.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 43.25843F));
+            this.box4LayoutPanel.Controls.Add(this.tableLayoutPanel51, 0, 1);
             this.box4LayoutPanel.Controls.Add(this.box4PictureBox, 0, 0);
             this.box4LayoutPanel.Controls.Add(this.box4CheckBox, 1, 0);
-            this.box4LayoutPanel.Controls.Add(this.tableLayoutPanel56, 0, 1);
-            this.box4LayoutPanel.Controls.Add(this.tableLayoutPanel57, 1, 1);
             this.box4LayoutPanel.Dock = System.Windows.Forms.DockStyle.Fill;
             this.box4LayoutPanel.Location = new System.Drawing.Point(3, 16);
             this.box4LayoutPanel.Name = "box4LayoutPanel";
@@ -1825,6 +1658,61 @@
             this.box4LayoutPanel.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 57.77778F));
             this.box4LayoutPanel.Size = new System.Drawing.Size(202, 71);
             this.box4LayoutPanel.TabIndex = 41;
+            // 
+            // tableLayoutPanel51
+            // 
+            this.tableLayoutPanel51.ColumnCount = 2;
+            this.tableLayoutPanel51.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
+            this.tableLayoutPanel51.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 40F));
+            this.tableLayoutPanel51.Controls.Add(this.label46, 0, 0);
+            this.tableLayoutPanel51.Controls.Add(this.box4UpDown, 0, 1);
+            this.tableLayoutPanel51.Controls.Add(this.box4Btn, 1, 1);
+            this.tableLayoutPanel51.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.tableLayoutPanel51.Location = new System.Drawing.Point(3, 32);
+            this.tableLayoutPanel51.Name = "tableLayoutPanel51";
+            this.tableLayoutPanel51.RowCount = 2;
+            this.tableLayoutPanel51.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 38.88889F));
+            this.tableLayoutPanel51.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 61.11111F));
+            this.tableLayoutPanel51.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
+            this.tableLayoutPanel51.Size = new System.Drawing.Size(108, 36);
+            this.tableLayoutPanel51.TabIndex = 6;
+            // 
+            // label46
+            // 
+            this.label46.AutoSize = true;
+            this.tableLayoutPanel51.SetColumnSpan(this.label46, 2);
+            this.label46.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.label46.Location = new System.Drawing.Point(0, 0);
+            this.label46.Margin = new System.Windows.Forms.Padding(0);
+            this.label46.Name = "label46";
+            this.label46.Size = new System.Drawing.Size(108, 14);
+            this.label46.TabIndex = 0;
+            this.label46.Text = "Durability";
+            // 
+            // box4UpDown
+            // 
+            this.box4UpDown.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.box4UpDown.Location = new System.Drawing.Point(3, 15);
+            this.box4UpDown.Margin = new System.Windows.Forms.Padding(3, 1, 0, 0);
+            this.box4UpDown.Maximum = new decimal(new int[] {
+            32767,
+            0,
+            0,
+            0});
+            this.box4UpDown.Name = "box4UpDown";
+            this.box4UpDown.Size = new System.Drawing.Size(65, 20);
+            this.box4UpDown.TabIndex = 1;
+            // 
+            // box4Btn
+            // 
+            this.box4Btn.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.box4Btn.Location = new System.Drawing.Point(68, 14);
+            this.box4Btn.Margin = new System.Windows.Forms.Padding(0);
+            this.box4Btn.Name = "box4Btn";
+            this.box4Btn.Size = new System.Drawing.Size(40, 22);
+            this.box4Btn.TabIndex = 2;
+            this.box4Btn.Text = "Set!";
+            this.box4Btn.UseVisualStyleBackColor = true;
             // 
             // box4PictureBox
             // 
@@ -1845,71 +1733,7 @@
             this.box4CheckBox.TabIndex = 1;
             this.box4CheckBox.Text = "Enabled?";
             this.box4CheckBox.UseVisualStyleBackColor = true;
-            this.box4CheckBox.CheckedChanged += new System.EventHandler(this.box4CheckBox_CheckedChanged);
-            // 
-            // tableLayoutPanel56
-            // 
-            this.tableLayoutPanel56.ColumnCount = 1;
-            this.tableLayoutPanel56.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
-            this.tableLayoutPanel56.Controls.Add(this.label51, 0, 0);
-            this.tableLayoutPanel56.Controls.Add(this.numericUpDown51, 0, 1);
-            this.tableLayoutPanel56.Location = new System.Drawing.Point(3, 32);
-            this.tableLayoutPanel56.Name = "tableLayoutPanel56";
-            this.tableLayoutPanel56.RowCount = 2;
-            this.tableLayoutPanel56.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
-            this.tableLayoutPanel56.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
-            this.tableLayoutPanel56.Size = new System.Drawing.Size(94, 36);
-            this.tableLayoutPanel56.TabIndex = 2;
-            // 
-            // label51
-            // 
-            this.label51.AutoSize = true;
-            this.label51.Location = new System.Drawing.Point(0, 0);
-            this.label51.Margin = new System.Windows.Forms.Padding(0);
-            this.label51.Name = "label51";
-            this.label51.Size = new System.Drawing.Size(60, 13);
-            this.label51.TabIndex = 0;
-            this.label51.Text = "Set Current";
-            // 
-            // numericUpDown51
-            // 
-            this.numericUpDown51.Location = new System.Drawing.Point(3, 18);
-            this.numericUpDown51.Margin = new System.Windows.Forms.Padding(3, 0, 3, 0);
-            this.numericUpDown51.Name = "numericUpDown51";
-            this.numericUpDown51.Size = new System.Drawing.Size(52, 20);
-            this.numericUpDown51.TabIndex = 1;
-            // 
-            // tableLayoutPanel57
-            // 
-            this.tableLayoutPanel57.ColumnCount = 1;
-            this.tableLayoutPanel57.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
-            this.tableLayoutPanel57.Controls.Add(this.label52, 0, 0);
-            this.tableLayoutPanel57.Controls.Add(this.numericUpDown52, 0, 1);
-            this.tableLayoutPanel57.Location = new System.Drawing.Point(117, 32);
-            this.tableLayoutPanel57.Name = "tableLayoutPanel57";
-            this.tableLayoutPanel57.RowCount = 2;
-            this.tableLayoutPanel57.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
-            this.tableLayoutPanel57.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
-            this.tableLayoutPanel57.Size = new System.Drawing.Size(71, 36);
-            this.tableLayoutPanel57.TabIndex = 3;
-            // 
-            // label52
-            // 
-            this.label52.AutoSize = true;
-            this.label52.Location = new System.Drawing.Point(0, 0);
-            this.label52.Margin = new System.Windows.Forms.Padding(0);
-            this.label52.Name = "label52";
-            this.label52.Size = new System.Drawing.Size(46, 13);
-            this.label52.TabIndex = 0;
-            this.label52.Text = "Set Max";
-            // 
-            // numericUpDown52
-            // 
-            this.numericUpDown52.Location = new System.Drawing.Point(3, 18);
-            this.numericUpDown52.Margin = new System.Windows.Forms.Padding(3, 0, 3, 0);
-            this.numericUpDown52.Name = "numericUpDown52";
-            this.numericUpDown52.Size = new System.Drawing.Size(52, 20);
-            this.numericUpDown52.TabIndex = 1;
+            this.box4CheckBox.CheckedChanged += new System.EventHandler(this.Box4CheckBox_CheckedChanged);
             // 
             // socomSupGroupBox
             // 
@@ -1957,7 +1781,7 @@
             this.socomSupCheckBox.TabIndex = 1;
             this.socomSupCheckBox.Text = "Enabled?";
             this.socomSupCheckBox.UseVisualStyleBackColor = true;
-            this.socomSupCheckBox.CheckedChanged += new System.EventHandler(this.socomSupCheckBox_CheckedChanged);
+            this.socomSupCheckBox.CheckedChanged += new System.EventHandler(this.SocomSupCheckBox_CheckedChanged);
             // 
             // sensorAGroupBox
             // 
@@ -2005,7 +1829,7 @@
             this.sensorACheckBox.TabIndex = 1;
             this.sensorACheckBox.Text = "Enabled?";
             this.sensorACheckBox.UseVisualStyleBackColor = true;
-            this.sensorACheckBox.CheckedChanged += new System.EventHandler(this.sensorACheckBox_CheckedChanged);
+            this.sensorACheckBox.CheckedChanged += new System.EventHandler(this.SensorACheckBox_CheckedChanged);
             // 
             // camera2GroupBox
             // 
@@ -2053,7 +1877,7 @@
             this.camera2CheckBox.TabIndex = 1;
             this.camera2CheckBox.Text = "Enabled?";
             this.camera2CheckBox.UseVisualStyleBackColor = true;
-            this.camera2CheckBox.CheckedChanged += new System.EventHandler(this.camera2CheckBox_CheckedChanged);
+            this.camera2CheckBox.CheckedChanged += new System.EventHandler(this.Camera2CheckBox_CheckedChanged);
             // 
             // dogTagsGroupBox
             // 
@@ -2214,7 +2038,7 @@
             this.dogTagsCheckBox.TabIndex = 1;
             this.dogTagsCheckBox.Text = "Enabled?";
             this.dogTagsCheckBox.UseVisualStyleBackColor = true;
-            this.dogTagsCheckBox.CheckedChanged += new System.EventHandler(this.dogTagsCheckBox_CheckedChanged);
+            this.dogTagsCheckBox.CheckedChanged += new System.EventHandler(this.DogTagsCheckBox_CheckedChanged);
             // 
             // infinityWigGroupBox
             // 
@@ -2262,7 +2086,7 @@
             this.infinityWigCheckBox.TabIndex = 1;
             this.infinityWigCheckBox.Text = "Enabled?";
             this.infinityWigCheckBox.UseVisualStyleBackColor = true;
-            this.infinityWigCheckBox.CheckedChanged += new System.EventHandler(this.infinityWigCheckBox_CheckedChanged);
+            this.infinityWigCheckBox.CheckedChanged += new System.EventHandler(this.InfinityWigCheckBox_CheckedChanged);
             // 
             // box3GroupBox
             // 
@@ -2280,10 +2104,9 @@
             this.box3LayoutPanel.ColumnCount = 2;
             this.box3LayoutPanel.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 56.74157F));
             this.box3LayoutPanel.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 43.25843F));
+            this.box3LayoutPanel.Controls.Add(this.tableLayoutPanel50, 0, 1);
             this.box3LayoutPanel.Controls.Add(this.box3PictureBox, 0, 0);
             this.box3LayoutPanel.Controls.Add(this.box3CheckBox, 1, 0);
-            this.box3LayoutPanel.Controls.Add(this.tableLayoutPanel54, 0, 1);
-            this.box3LayoutPanel.Controls.Add(this.tableLayoutPanel55, 1, 1);
             this.box3LayoutPanel.Dock = System.Windows.Forms.DockStyle.Fill;
             this.box3LayoutPanel.Location = new System.Drawing.Point(3, 16);
             this.box3LayoutPanel.Name = "box3LayoutPanel";
@@ -2292,6 +2115,61 @@
             this.box3LayoutPanel.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 57.77778F));
             this.box3LayoutPanel.Size = new System.Drawing.Size(202, 71);
             this.box3LayoutPanel.TabIndex = 41;
+            // 
+            // tableLayoutPanel50
+            // 
+            this.tableLayoutPanel50.ColumnCount = 2;
+            this.tableLayoutPanel50.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
+            this.tableLayoutPanel50.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 40F));
+            this.tableLayoutPanel50.Controls.Add(this.label45, 0, 0);
+            this.tableLayoutPanel50.Controls.Add(this.box3UpDown, 0, 1);
+            this.tableLayoutPanel50.Controls.Add(this.box3Btn, 1, 1);
+            this.tableLayoutPanel50.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.tableLayoutPanel50.Location = new System.Drawing.Point(3, 32);
+            this.tableLayoutPanel50.Name = "tableLayoutPanel50";
+            this.tableLayoutPanel50.RowCount = 2;
+            this.tableLayoutPanel50.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 38.88889F));
+            this.tableLayoutPanel50.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 61.11111F));
+            this.tableLayoutPanel50.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
+            this.tableLayoutPanel50.Size = new System.Drawing.Size(108, 36);
+            this.tableLayoutPanel50.TabIndex = 6;
+            // 
+            // label45
+            // 
+            this.label45.AutoSize = true;
+            this.tableLayoutPanel50.SetColumnSpan(this.label45, 2);
+            this.label45.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.label45.Location = new System.Drawing.Point(0, 0);
+            this.label45.Margin = new System.Windows.Forms.Padding(0);
+            this.label45.Name = "label45";
+            this.label45.Size = new System.Drawing.Size(108, 14);
+            this.label45.TabIndex = 0;
+            this.label45.Text = "Durability";
+            // 
+            // box3UpDown
+            // 
+            this.box3UpDown.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.box3UpDown.Location = new System.Drawing.Point(3, 15);
+            this.box3UpDown.Margin = new System.Windows.Forms.Padding(3, 1, 0, 0);
+            this.box3UpDown.Maximum = new decimal(new int[] {
+            32767,
+            0,
+            0,
+            0});
+            this.box3UpDown.Name = "box3UpDown";
+            this.box3UpDown.Size = new System.Drawing.Size(65, 20);
+            this.box3UpDown.TabIndex = 1;
+            // 
+            // box3Btn
+            // 
+            this.box3Btn.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.box3Btn.Location = new System.Drawing.Point(68, 14);
+            this.box3Btn.Margin = new System.Windows.Forms.Padding(0);
+            this.box3Btn.Name = "box3Btn";
+            this.box3Btn.Size = new System.Drawing.Size(40, 22);
+            this.box3Btn.TabIndex = 2;
+            this.box3Btn.Text = "Set!";
+            this.box3Btn.UseVisualStyleBackColor = true;
             // 
             // box3PictureBox
             // 
@@ -2312,71 +2190,7 @@
             this.box3CheckBox.TabIndex = 1;
             this.box3CheckBox.Text = "Enabled?";
             this.box3CheckBox.UseVisualStyleBackColor = true;
-            this.box3CheckBox.CheckedChanged += new System.EventHandler(this.box3CheckBox_CheckedChanged);
-            // 
-            // tableLayoutPanel54
-            // 
-            this.tableLayoutPanel54.ColumnCount = 1;
-            this.tableLayoutPanel54.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
-            this.tableLayoutPanel54.Controls.Add(this.label49, 0, 0);
-            this.tableLayoutPanel54.Controls.Add(this.numericUpDown49, 0, 1);
-            this.tableLayoutPanel54.Location = new System.Drawing.Point(3, 32);
-            this.tableLayoutPanel54.Name = "tableLayoutPanel54";
-            this.tableLayoutPanel54.RowCount = 2;
-            this.tableLayoutPanel54.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
-            this.tableLayoutPanel54.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
-            this.tableLayoutPanel54.Size = new System.Drawing.Size(94, 36);
-            this.tableLayoutPanel54.TabIndex = 2;
-            // 
-            // label49
-            // 
-            this.label49.AutoSize = true;
-            this.label49.Location = new System.Drawing.Point(0, 0);
-            this.label49.Margin = new System.Windows.Forms.Padding(0);
-            this.label49.Name = "label49";
-            this.label49.Size = new System.Drawing.Size(60, 13);
-            this.label49.TabIndex = 0;
-            this.label49.Text = "Set Current";
-            // 
-            // numericUpDown49
-            // 
-            this.numericUpDown49.Location = new System.Drawing.Point(3, 18);
-            this.numericUpDown49.Margin = new System.Windows.Forms.Padding(3, 0, 3, 0);
-            this.numericUpDown49.Name = "numericUpDown49";
-            this.numericUpDown49.Size = new System.Drawing.Size(52, 20);
-            this.numericUpDown49.TabIndex = 1;
-            // 
-            // tableLayoutPanel55
-            // 
-            this.tableLayoutPanel55.ColumnCount = 1;
-            this.tableLayoutPanel55.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
-            this.tableLayoutPanel55.Controls.Add(this.label50, 0, 0);
-            this.tableLayoutPanel55.Controls.Add(this.numericUpDown50, 0, 1);
-            this.tableLayoutPanel55.Location = new System.Drawing.Point(117, 32);
-            this.tableLayoutPanel55.Name = "tableLayoutPanel55";
-            this.tableLayoutPanel55.RowCount = 2;
-            this.tableLayoutPanel55.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
-            this.tableLayoutPanel55.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
-            this.tableLayoutPanel55.Size = new System.Drawing.Size(71, 36);
-            this.tableLayoutPanel55.TabIndex = 3;
-            // 
-            // label50
-            // 
-            this.label50.AutoSize = true;
-            this.label50.Location = new System.Drawing.Point(0, 0);
-            this.label50.Margin = new System.Windows.Forms.Padding(0);
-            this.label50.Name = "label50";
-            this.label50.Size = new System.Drawing.Size(46, 13);
-            this.label50.TabIndex = 0;
-            this.label50.Text = "Set Max";
-            // 
-            // numericUpDown50
-            // 
-            this.numericUpDown50.Location = new System.Drawing.Point(3, 18);
-            this.numericUpDown50.Margin = new System.Windows.Forms.Padding(3, 0, 3, 0);
-            this.numericUpDown50.Name = "numericUpDown50";
-            this.numericUpDown50.Size = new System.Drawing.Size(52, 20);
-            this.numericUpDown50.TabIndex = 1;
+            this.box3CheckBox.CheckedChanged += new System.EventHandler(this.Box3CheckBox_CheckedChanged);
             // 
             // moDiscGroupBox
             // 
@@ -2424,7 +2238,7 @@
             this.moDiscCheckBox.TabIndex = 1;
             this.moDiscCheckBox.Text = "Enabled?";
             this.moDiscCheckBox.UseVisualStyleBackColor = true;
-            this.moDiscCheckBox.CheckedChanged += new System.EventHandler(this.moDiscCheckBox_CheckedChanged);
+            this.moDiscCheckBox.CheckedChanged += new System.EventHandler(this.MoDiscCheckBox_CheckedChanged);
             // 
             // apSensorGroupBox
             // 
@@ -2472,7 +2286,7 @@
             this.apSensorCheckBox.TabIndex = 1;
             this.apSensorCheckBox.Text = "Enabled?";
             this.apSensorCheckBox.UseVisualStyleBackColor = true;
-            this.apSensorCheckBox.CheckedChanged += new System.EventHandler(this.apSensorCheckBox_CheckedChanged);
+            this.apSensorCheckBox.CheckedChanged += new System.EventHandler(this.ApSensorCheckBox_CheckedChanged);
             // 
             // camera1GroupBox
             // 
@@ -2520,7 +2334,7 @@
             this.camera1CheckBox.TabIndex = 1;
             this.camera1CheckBox.Text = "Enabled?";
             this.camera1CheckBox.UseVisualStyleBackColor = true;
-            this.camera1CheckBox.CheckedChanged += new System.EventHandler(this.camera1CheckBox_CheckedChanged);
+            this.camera1CheckBox.CheckedChanged += new System.EventHandler(this.Camera1CheckBox_CheckedChanged);
             // 
             // pentazeminGroupBox
             // 
@@ -2604,7 +2418,7 @@
             this.pentazeminCurrentBtn.TabIndex = 2;
             this.pentazeminCurrentBtn.Text = "Set!";
             this.pentazeminCurrentBtn.UseVisualStyleBackColor = true;
-            this.pentazeminCurrentBtn.Click += new System.EventHandler(this.pentazeminCurrentBtn_Click);
+            this.pentazeminCurrentBtn.Click += new System.EventHandler(this.PentazeminCurrentBtn_Click);
             // 
             // tableLayoutPanel5
             // 
@@ -2661,7 +2475,7 @@
             this.pentazeminMaxBtn.TabIndex = 2;
             this.pentazeminMaxBtn.Text = "Set!";
             this.pentazeminMaxBtn.UseVisualStyleBackColor = true;
-            this.pentazeminMaxBtn.Click += new System.EventHandler(this.pentazeminMaxBtn_Click);
+            this.pentazeminMaxBtn.Click += new System.EventHandler(this.PentazeminMaxBtn_Click);
             // 
             // pentazeminPictureBox
             // 
@@ -2682,7 +2496,7 @@
             this.pentazeminCheckBox.TabIndex = 1;
             this.pentazeminCheckBox.Text = "Enabled?";
             this.pentazeminCheckBox.UseVisualStyleBackColor = true;
-            this.pentazeminCheckBox.CheckedChanged += new System.EventHandler(this.pentazeminCheckBox_CheckedChanged);
+            this.pentazeminCheckBox.CheckedChanged += new System.EventHandler(this.PentazeminCheckBox_CheckedChanged);
             // 
             // bandanaGroupBox
             // 
@@ -2730,7 +2544,7 @@
             this.bandanaCheckBox.TabIndex = 1;
             this.bandanaCheckBox.Text = "Enabled?";
             this.bandanaCheckBox.UseVisualStyleBackColor = true;
-            this.bandanaCheckBox.CheckedChanged += new System.EventHandler(this.bandanaCheckBox_CheckedChanged);
+            this.bandanaCheckBox.CheckedChanged += new System.EventHandler(this.BandanaCheckBox_CheckedChanged);
             // 
             // box2GroupBox
             // 
@@ -2748,10 +2562,9 @@
             this.box2LayoutPanel.ColumnCount = 2;
             this.box2LayoutPanel.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 56.74157F));
             this.box2LayoutPanel.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 43.25843F));
+            this.box2LayoutPanel.Controls.Add(this.tableLayoutPanel12, 0, 1);
             this.box2LayoutPanel.Controls.Add(this.box2PictureBox, 0, 0);
             this.box2LayoutPanel.Controls.Add(this.box2CheckBox, 1, 0);
-            this.box2LayoutPanel.Controls.Add(this.tableLayoutPanel52, 0, 1);
-            this.box2LayoutPanel.Controls.Add(this.tableLayoutPanel53, 1, 1);
             this.box2LayoutPanel.Dock = System.Windows.Forms.DockStyle.Fill;
             this.box2LayoutPanel.Location = new System.Drawing.Point(3, 16);
             this.box2LayoutPanel.Name = "box2LayoutPanel";
@@ -2760,6 +2573,61 @@
             this.box2LayoutPanel.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 57.77778F));
             this.box2LayoutPanel.Size = new System.Drawing.Size(202, 71);
             this.box2LayoutPanel.TabIndex = 41;
+            // 
+            // tableLayoutPanel12
+            // 
+            this.tableLayoutPanel12.ColumnCount = 2;
+            this.tableLayoutPanel12.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
+            this.tableLayoutPanel12.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 40F));
+            this.tableLayoutPanel12.Controls.Add(this.label12, 0, 0);
+            this.tableLayoutPanel12.Controls.Add(this.box2UpDown, 0, 1);
+            this.tableLayoutPanel12.Controls.Add(this.box2Btn, 1, 1);
+            this.tableLayoutPanel12.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.tableLayoutPanel12.Location = new System.Drawing.Point(3, 32);
+            this.tableLayoutPanel12.Name = "tableLayoutPanel12";
+            this.tableLayoutPanel12.RowCount = 2;
+            this.tableLayoutPanel12.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 38.88889F));
+            this.tableLayoutPanel12.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 61.11111F));
+            this.tableLayoutPanel12.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
+            this.tableLayoutPanel12.Size = new System.Drawing.Size(108, 36);
+            this.tableLayoutPanel12.TabIndex = 6;
+            // 
+            // label12
+            // 
+            this.label12.AutoSize = true;
+            this.tableLayoutPanel12.SetColumnSpan(this.label12, 2);
+            this.label12.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.label12.Location = new System.Drawing.Point(0, 0);
+            this.label12.Margin = new System.Windows.Forms.Padding(0);
+            this.label12.Name = "label12";
+            this.label12.Size = new System.Drawing.Size(108, 14);
+            this.label12.TabIndex = 0;
+            this.label12.Text = "Durability";
+            // 
+            // box2UpDown
+            // 
+            this.box2UpDown.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.box2UpDown.Location = new System.Drawing.Point(3, 15);
+            this.box2UpDown.Margin = new System.Windows.Forms.Padding(3, 1, 0, 0);
+            this.box2UpDown.Maximum = new decimal(new int[] {
+            32767,
+            0,
+            0,
+            0});
+            this.box2UpDown.Name = "box2UpDown";
+            this.box2UpDown.Size = new System.Drawing.Size(65, 20);
+            this.box2UpDown.TabIndex = 1;
+            // 
+            // box2Btn
+            // 
+            this.box2Btn.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.box2Btn.Location = new System.Drawing.Point(68, 14);
+            this.box2Btn.Margin = new System.Windows.Forms.Padding(0);
+            this.box2Btn.Name = "box2Btn";
+            this.box2Btn.Size = new System.Drawing.Size(40, 22);
+            this.box2Btn.TabIndex = 2;
+            this.box2Btn.Text = "Set!";
+            this.box2Btn.UseVisualStyleBackColor = true;
             // 
             // box2PictureBox
             // 
@@ -2780,71 +2648,7 @@
             this.box2CheckBox.TabIndex = 1;
             this.box2CheckBox.Text = "Enabled?";
             this.box2CheckBox.UseVisualStyleBackColor = true;
-            this.box2CheckBox.CheckedChanged += new System.EventHandler(this.box2CheckBox_CheckedChanged);
-            // 
-            // tableLayoutPanel52
-            // 
-            this.tableLayoutPanel52.ColumnCount = 1;
-            this.tableLayoutPanel52.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
-            this.tableLayoutPanel52.Controls.Add(this.label47, 0, 0);
-            this.tableLayoutPanel52.Controls.Add(this.numericUpDown47, 0, 1);
-            this.tableLayoutPanel52.Location = new System.Drawing.Point(3, 32);
-            this.tableLayoutPanel52.Name = "tableLayoutPanel52";
-            this.tableLayoutPanel52.RowCount = 2;
-            this.tableLayoutPanel52.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
-            this.tableLayoutPanel52.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
-            this.tableLayoutPanel52.Size = new System.Drawing.Size(94, 36);
-            this.tableLayoutPanel52.TabIndex = 2;
-            // 
-            // label47
-            // 
-            this.label47.AutoSize = true;
-            this.label47.Location = new System.Drawing.Point(0, 0);
-            this.label47.Margin = new System.Windows.Forms.Padding(0);
-            this.label47.Name = "label47";
-            this.label47.Size = new System.Drawing.Size(60, 13);
-            this.label47.TabIndex = 0;
-            this.label47.Text = "Set Current";
-            // 
-            // numericUpDown47
-            // 
-            this.numericUpDown47.Location = new System.Drawing.Point(3, 18);
-            this.numericUpDown47.Margin = new System.Windows.Forms.Padding(3, 0, 3, 0);
-            this.numericUpDown47.Name = "numericUpDown47";
-            this.numericUpDown47.Size = new System.Drawing.Size(52, 20);
-            this.numericUpDown47.TabIndex = 1;
-            // 
-            // tableLayoutPanel53
-            // 
-            this.tableLayoutPanel53.ColumnCount = 1;
-            this.tableLayoutPanel53.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
-            this.tableLayoutPanel53.Controls.Add(this.label48, 0, 0);
-            this.tableLayoutPanel53.Controls.Add(this.numericUpDown48, 0, 1);
-            this.tableLayoutPanel53.Location = new System.Drawing.Point(117, 32);
-            this.tableLayoutPanel53.Name = "tableLayoutPanel53";
-            this.tableLayoutPanel53.RowCount = 2;
-            this.tableLayoutPanel53.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
-            this.tableLayoutPanel53.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
-            this.tableLayoutPanel53.Size = new System.Drawing.Size(71, 36);
-            this.tableLayoutPanel53.TabIndex = 3;
-            // 
-            // label48
-            // 
-            this.label48.AutoSize = true;
-            this.label48.Location = new System.Drawing.Point(0, 0);
-            this.label48.Margin = new System.Windows.Forms.Padding(0);
-            this.label48.Name = "label48";
-            this.label48.Size = new System.Drawing.Size(46, 13);
-            this.label48.TabIndex = 0;
-            this.label48.Text = "Set Max";
-            // 
-            // numericUpDown48
-            // 
-            this.numericUpDown48.Location = new System.Drawing.Point(3, 18);
-            this.numericUpDown48.Margin = new System.Windows.Forms.Padding(3, 0, 3, 0);
-            this.numericUpDown48.Name = "numericUpDown48";
-            this.numericUpDown48.Size = new System.Drawing.Size(52, 20);
-            this.numericUpDown48.TabIndex = 1;
+            this.box2CheckBox.CheckedChanged += new System.EventHandler(this.Box2CheckBox_CheckedChanged);
             // 
             // cigarettesGroupBox
             // 
@@ -2892,7 +2696,7 @@
             this.cigarettesCheckBox.TabIndex = 1;
             this.cigarettesCheckBox.Text = "Enabled?";
             this.cigarettesCheckBox.UseVisualStyleBackColor = true;
-            this.cigarettesCheckBox.CheckedChanged += new System.EventHandler(this.cigarettesCheckBox_CheckedChanged);
+            this.cigarettesCheckBox.CheckedChanged += new System.EventHandler(this.CigarettesCheckBox_CheckedChanged);
             // 
             // mineDetectorGroupBox
             // 
@@ -2940,7 +2744,7 @@
             this.mineDetectorCheckBox.TabIndex = 1;
             this.mineDetectorCheckBox.Text = "Enabled?";
             this.mineDetectorCheckBox.UseVisualStyleBackColor = true;
-            this.mineDetectorCheckBox.CheckedChanged += new System.EventHandler(this.mineDetectorCheckBox_CheckedChanged);
+            this.mineDetectorCheckBox.CheckedChanged += new System.EventHandler(this.MineDetectorCheckBox_CheckedChanged);
             // 
             // binos2GroupBox
             // 
@@ -2988,7 +2792,7 @@
             this.binos2CheckBox.TabIndex = 1;
             this.binos2CheckBox.Text = "Enabled?";
             this.binos2CheckBox.UseVisualStyleBackColor = true;
-            this.binos2CheckBox.CheckedChanged += new System.EventHandler(this.binos2CheckBox_CheckedChanged);
+            this.binos2CheckBox.CheckedChanged += new System.EventHandler(this.Binos2CheckBox_CheckedChanged);
             // 
             // bandageGroupBox
             // 
@@ -3072,7 +2876,7 @@
             this.bandageCurrentBtn.TabIndex = 2;
             this.bandageCurrentBtn.Text = "Set!";
             this.bandageCurrentBtn.UseVisualStyleBackColor = true;
-            this.bandageCurrentBtn.Click += new System.EventHandler(this.bandageCurrentBtn_Click);
+            this.bandageCurrentBtn.Click += new System.EventHandler(this.BandageCurrentBtn_Click);
             // 
             // tableLayoutPanel3
             // 
@@ -3127,7 +2931,7 @@
             this.bandageMaxBtn.TabIndex = 2;
             this.bandageMaxBtn.Text = "Set!";
             this.bandageMaxBtn.UseVisualStyleBackColor = true;
-            this.bandageMaxBtn.Click += new System.EventHandler(this.bandageMaxBtn_Click);
+            this.bandageMaxBtn.Click += new System.EventHandler(this.BandageMaxBtn_Click);
             // 
             // bandagePictureBox
             // 
@@ -3148,7 +2952,7 @@
             this.bandageCheckBox.TabIndex = 1;
             this.bandageCheckBox.Text = "Enabled?";
             this.bandageCheckBox.UseVisualStyleBackColor = true;
-            this.bandageCheckBox.CheckedChanged += new System.EventHandler(this.bandageCheckBox_CheckedChanged);
+            this.bandageCheckBox.CheckedChanged += new System.EventHandler(this.BandageCheckBox_CheckedChanged);
             // 
             // bduGroupBox
             // 
@@ -3188,6 +2992,7 @@
             this.bduMaskCheckBox.TabIndex = 2;
             this.bduMaskCheckBox.Text = "Balaclava?";
             this.bduMaskCheckBox.UseVisualStyleBackColor = true;
+            this.bduMaskCheckBox.CheckedChanged += new System.EventHandler(this.BduMaskCheckBox_CheckedChanged);
             // 
             // bduPictureBox
             // 
@@ -3208,7 +3013,7 @@
             this.bduCheckBox.TabIndex = 1;
             this.bduCheckBox.Text = "Enabled?";
             this.bduCheckBox.UseVisualStyleBackColor = true;
-            this.bduCheckBox.CheckedChanged += new System.EventHandler(this.bduCheckBox_CheckedChanged);
+            this.bduCheckBox.CheckedChanged += new System.EventHandler(this.BduCheckBox_CheckedChanged);
             // 
             // box1GroupBox
             // 
@@ -3226,10 +3031,9 @@
             this.box1LayoutPanel.ColumnCount = 2;
             this.box1LayoutPanel.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 56.74157F));
             this.box1LayoutPanel.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 43.25843F));
+            this.box1LayoutPanel.Controls.Add(this.tableLayoutPanel11, 0, 1);
             this.box1LayoutPanel.Controls.Add(this.box1PictureBox, 0, 0);
             this.box1LayoutPanel.Controls.Add(this.box1CheckBox, 1, 0);
-            this.box1LayoutPanel.Controls.Add(this.tableLayoutPanel50, 0, 1);
-            this.box1LayoutPanel.Controls.Add(this.tableLayoutPanel51, 1, 1);
             this.box1LayoutPanel.Dock = System.Windows.Forms.DockStyle.Fill;
             this.box1LayoutPanel.Location = new System.Drawing.Point(3, 16);
             this.box1LayoutPanel.Name = "box1LayoutPanel";
@@ -3238,6 +3042,61 @@
             this.box1LayoutPanel.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 57.77778F));
             this.box1LayoutPanel.Size = new System.Drawing.Size(202, 71);
             this.box1LayoutPanel.TabIndex = 41;
+            // 
+            // tableLayoutPanel11
+            // 
+            this.tableLayoutPanel11.ColumnCount = 2;
+            this.tableLayoutPanel11.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
+            this.tableLayoutPanel11.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 40F));
+            this.tableLayoutPanel11.Controls.Add(this.label11, 0, 0);
+            this.tableLayoutPanel11.Controls.Add(this.box1UpDown, 0, 1);
+            this.tableLayoutPanel11.Controls.Add(this.box1Btn, 1, 1);
+            this.tableLayoutPanel11.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.tableLayoutPanel11.Location = new System.Drawing.Point(3, 32);
+            this.tableLayoutPanel11.Name = "tableLayoutPanel11";
+            this.tableLayoutPanel11.RowCount = 2;
+            this.tableLayoutPanel11.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 38.88889F));
+            this.tableLayoutPanel11.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 61.11111F));
+            this.tableLayoutPanel11.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
+            this.tableLayoutPanel11.Size = new System.Drawing.Size(108, 36);
+            this.tableLayoutPanel11.TabIndex = 6;
+            // 
+            // label11
+            // 
+            this.label11.AutoSize = true;
+            this.tableLayoutPanel11.SetColumnSpan(this.label11, 2);
+            this.label11.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.label11.Location = new System.Drawing.Point(0, 0);
+            this.label11.Margin = new System.Windows.Forms.Padding(0);
+            this.label11.Name = "label11";
+            this.label11.Size = new System.Drawing.Size(108, 14);
+            this.label11.TabIndex = 0;
+            this.label11.Text = "Durability";
+            // 
+            // box1UpDown
+            // 
+            this.box1UpDown.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.box1UpDown.Location = new System.Drawing.Point(3, 15);
+            this.box1UpDown.Margin = new System.Windows.Forms.Padding(3, 1, 0, 0);
+            this.box1UpDown.Maximum = new decimal(new int[] {
+            32767,
+            0,
+            0,
+            0});
+            this.box1UpDown.Name = "box1UpDown";
+            this.box1UpDown.Size = new System.Drawing.Size(65, 20);
+            this.box1UpDown.TabIndex = 1;
+            // 
+            // box1Btn
+            // 
+            this.box1Btn.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.box1Btn.Location = new System.Drawing.Point(68, 14);
+            this.box1Btn.Margin = new System.Windows.Forms.Padding(0);
+            this.box1Btn.Name = "box1Btn";
+            this.box1Btn.Size = new System.Drawing.Size(40, 22);
+            this.box1Btn.TabIndex = 2;
+            this.box1Btn.Text = "Set!";
+            this.box1Btn.UseVisualStyleBackColor = true;
             // 
             // box1PictureBox
             // 
@@ -3258,71 +3117,7 @@
             this.box1CheckBox.TabIndex = 1;
             this.box1CheckBox.Text = "Enabled?";
             this.box1CheckBox.UseVisualStyleBackColor = true;
-            this.box1CheckBox.CheckedChanged += new System.EventHandler(this.box1CheckBox_CheckedChanged);
-            // 
-            // tableLayoutPanel50
-            // 
-            this.tableLayoutPanel50.ColumnCount = 1;
-            this.tableLayoutPanel50.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
-            this.tableLayoutPanel50.Controls.Add(this.label45, 0, 0);
-            this.tableLayoutPanel50.Controls.Add(this.numericUpDown45, 0, 1);
-            this.tableLayoutPanel50.Location = new System.Drawing.Point(3, 32);
-            this.tableLayoutPanel50.Name = "tableLayoutPanel50";
-            this.tableLayoutPanel50.RowCount = 2;
-            this.tableLayoutPanel50.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
-            this.tableLayoutPanel50.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
-            this.tableLayoutPanel50.Size = new System.Drawing.Size(94, 36);
-            this.tableLayoutPanel50.TabIndex = 2;
-            // 
-            // label45
-            // 
-            this.label45.AutoSize = true;
-            this.label45.Location = new System.Drawing.Point(0, 0);
-            this.label45.Margin = new System.Windows.Forms.Padding(0);
-            this.label45.Name = "label45";
-            this.label45.Size = new System.Drawing.Size(60, 13);
-            this.label45.TabIndex = 0;
-            this.label45.Text = "Set Current";
-            // 
-            // numericUpDown45
-            // 
-            this.numericUpDown45.Location = new System.Drawing.Point(3, 18);
-            this.numericUpDown45.Margin = new System.Windows.Forms.Padding(3, 0, 3, 0);
-            this.numericUpDown45.Name = "numericUpDown45";
-            this.numericUpDown45.Size = new System.Drawing.Size(52, 20);
-            this.numericUpDown45.TabIndex = 1;
-            // 
-            // tableLayoutPanel51
-            // 
-            this.tableLayoutPanel51.ColumnCount = 1;
-            this.tableLayoutPanel51.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
-            this.tableLayoutPanel51.Controls.Add(this.label46, 0, 0);
-            this.tableLayoutPanel51.Controls.Add(this.numericUpDown46, 0, 1);
-            this.tableLayoutPanel51.Location = new System.Drawing.Point(117, 32);
-            this.tableLayoutPanel51.Name = "tableLayoutPanel51";
-            this.tableLayoutPanel51.RowCount = 2;
-            this.tableLayoutPanel51.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
-            this.tableLayoutPanel51.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
-            this.tableLayoutPanel51.Size = new System.Drawing.Size(71, 36);
-            this.tableLayoutPanel51.TabIndex = 3;
-            // 
-            // label46
-            // 
-            this.label46.AutoSize = true;
-            this.label46.Location = new System.Drawing.Point(0, 0);
-            this.label46.Margin = new System.Windows.Forms.Padding(0);
-            this.label46.Name = "label46";
-            this.label46.Size = new System.Drawing.Size(46, 13);
-            this.label46.TabIndex = 0;
-            this.label46.Text = "Set Max";
-            // 
-            // numericUpDown46
-            // 
-            this.numericUpDown46.Location = new System.Drawing.Point(3, 18);
-            this.numericUpDown46.Margin = new System.Windows.Forms.Padding(3, 0, 3, 0);
-            this.numericUpDown46.Name = "numericUpDown46";
-            this.numericUpDown46.Size = new System.Drawing.Size(52, 20);
-            this.numericUpDown46.TabIndex = 1;
+            this.box1CheckBox.CheckedChanged += new System.EventHandler(this.Box1CheckBox_CheckedChanged);
             // 
             // coldMedsGroupBox
             // 
@@ -3406,7 +3201,7 @@
             this.coldMedsMaxBtn.TabIndex = 2;
             this.coldMedsMaxBtn.Text = "Set!";
             this.coldMedsMaxBtn.UseVisualStyleBackColor = true;
-            this.coldMedsMaxBtn.Click += new System.EventHandler(this.coldMedsMaxBtn_Click);
+            this.coldMedsMaxBtn.Click += new System.EventHandler(this.ColdMedsMaxBtn_Click);
             // 
             // tableLayoutPanel8
             // 
@@ -3462,7 +3257,7 @@
             this.coldMedsCurrentBtn.TabIndex = 2;
             this.coldMedsCurrentBtn.Text = "Set!";
             this.coldMedsCurrentBtn.UseVisualStyleBackColor = true;
-            this.coldMedsCurrentBtn.Click += new System.EventHandler(this.coldMedsCurrentBtn_Click);
+            this.coldMedsCurrentBtn.Click += new System.EventHandler(this.ColdMedsCurrentBtn_Click);
             // 
             // coldMedsPictureBox
             // 
@@ -3483,7 +3278,7 @@
             this.coldMedsCheckBox.TabIndex = 1;
             this.coldMedsCheckBox.Text = "Enabled?";
             this.coldMedsCheckBox.UseVisualStyleBackColor = true;
-            this.coldMedsCheckBox.CheckedChanged += new System.EventHandler(this.coldMedsCheckBox_CheckedChanged);
+            this.coldMedsCheckBox.CheckedChanged += new System.EventHandler(this.ColdMedsCheckBox_CheckedChanged);
             // 
             // rationGroupBox
             // 
@@ -3567,7 +3362,7 @@
             this.rationMaxBtn.TabIndex = 2;
             this.rationMaxBtn.Text = "Set!";
             this.rationMaxBtn.UseVisualStyleBackColor = true;
-            this.rationMaxBtn.Click += new System.EventHandler(this.rationMaxBtn_Click);
+            this.rationMaxBtn.Click += new System.EventHandler(this.RationMaxBtn_Click);
             // 
             // rationPictureBox
             // 
@@ -3588,7 +3383,7 @@
             this.rationCheckBox.TabIndex = 1;
             this.rationCheckBox.Text = "Enabled?";
             this.rationCheckBox.UseVisualStyleBackColor = true;
-            this.rationCheckBox.CheckedChanged += new System.EventHandler(this.rationCheckBox_CheckedChanged);
+            this.rationCheckBox.CheckedChanged += new System.EventHandler(this.RationCheckBox_CheckedChanged);
             // 
             // tableLayoutPanel2
             // 
@@ -3643,7 +3438,7 @@
             this.rationCurrentBtn.TabIndex = 2;
             this.rationCurrentBtn.Text = "Set!";
             this.rationCurrentBtn.UseVisualStyleBackColor = true;
-            this.rationCurrentBtn.Click += new System.EventHandler(this.rationCurrentBtn_Click);
+            this.rationCurrentBtn.Click += new System.EventHandler(this.RationCurrentBtn_Click);
             // 
             // binos1GroupBox
             // 
@@ -3691,7 +3486,7 @@
             this.binos1CheckBox.TabIndex = 1;
             this.binos1CheckBox.Text = "Enabled?";
             this.binos1CheckBox.UseVisualStyleBackColor = true;
-            this.binos1CheckBox.CheckedChanged += new System.EventHandler(this.binos1CheckBox_CheckedChanged);
+            this.binos1CheckBox.CheckedChanged += new System.EventHandler(this.Binos1CheckBox_CheckedChanged);
             // 
             // bodyArmorGroupBox
             // 
@@ -3739,7 +3534,7 @@
             this.bodyArmorCheckBox.TabIndex = 1;
             this.bodyArmorCheckBox.Text = "Enabled?";
             this.bodyArmorCheckBox.UseVisualStyleBackColor = true;
-            this.bodyArmorCheckBox.CheckedChanged += new System.EventHandler(this.bodyArmorCheckBox_CheckedChanged);
+            this.bodyArmorCheckBox.CheckedChanged += new System.EventHandler(this.BodyArmorCheckBox_CheckedChanged);
             // 
             // tabPageWeapon
             // 
@@ -3831,7 +3626,7 @@
             this.hfBladeStunBtn.TabIndex = 3;
             this.hfBladeStunBtn.Text = "STUN";
             this.hfBladeStunBtn.UseVisualStyleBackColor = true;
-            this.hfBladeStunBtn.Click += new System.EventHandler(this.hfBladeStunBtn_Click);
+            this.hfBladeStunBtn.Click += new System.EventHandler(this.HfBladeStunBtn_Click);
             // 
             // hfBladePictureBox
             // 
@@ -3852,7 +3647,7 @@
             this.hfBladeCheckBox.TabIndex = 1;
             this.hfBladeCheckBox.Text = "Enabled?";
             this.hfBladeCheckBox.UseVisualStyleBackColor = true;
-            this.hfBladeCheckBox.CheckedChanged += new System.EventHandler(this.hfBladeCheckBox_CheckedChanged);
+            this.hfBladeCheckBox.CheckedChanged += new System.EventHandler(this.HfBladeCheckBox_CheckedChanged);
             // 
             // hfBladeLethalBtn
             // 
@@ -3863,7 +3658,7 @@
             this.hfBladeLethalBtn.TabIndex = 2;
             this.hfBladeLethalBtn.Text = "LETHAL";
             this.hfBladeLethalBtn.UseVisualStyleBackColor = true;
-            this.hfBladeLethalBtn.Click += new System.EventHandler(this.hfBladeLethalBtn_Click);
+            this.hfBladeLethalBtn.Click += new System.EventHandler(this.HfBladeLethalBtn_Click);
             // 
             // dmic2GroupBox
             // 
@@ -3911,7 +3706,7 @@
             this.dmic2CheckBox.TabIndex = 1;
             this.dmic2CheckBox.Text = "Enabled?";
             this.dmic2CheckBox.UseVisualStyleBackColor = true;
-            this.dmic2CheckBox.CheckedChanged += new System.EventHandler(this.dmic2CheckBox_CheckedChanged);
+            this.dmic2CheckBox.CheckedChanged += new System.EventHandler(this.Dmic2CheckBox_CheckedChanged);
             // 
             // dmic1GroupBox
             // 
@@ -3959,7 +3754,7 @@
             this.dmic1CheckBox.TabIndex = 1;
             this.dmic1CheckBox.Text = "Enabled?";
             this.dmic1CheckBox.UseVisualStyleBackColor = true;
-            this.dmic1CheckBox.CheckedChanged += new System.EventHandler(this.dmic1CheckBox_CheckedChanged);
+            this.dmic1CheckBox.CheckedChanged += new System.EventHandler(this.Dmic1CheckBox_CheckedChanged);
             // 
             // coolantGroupBox
             // 
@@ -4007,7 +3802,7 @@
             this.coolantCheckBox.TabIndex = 1;
             this.coolantCheckBox.Text = "Enabled?";
             this.coolantCheckBox.UseVisualStyleBackColor = true;
-            this.coolantCheckBox.CheckedChanged += new System.EventHandler(this.coolantCheckBox_CheckedChanged);
+            this.coolantCheckBox.CheckedChanged += new System.EventHandler(this.CoolantCheckBox_CheckedChanged);
             // 
             // bookGroupBox
             // 
@@ -4091,7 +3886,7 @@
             this.bookMaxBtn.TabIndex = 2;
             this.bookMaxBtn.Text = "Set!";
             this.bookMaxBtn.UseVisualStyleBackColor = true;
-            this.bookMaxBtn.Click += new System.EventHandler(this.bookMaxBtn_Click);
+            this.bookMaxBtn.Click += new System.EventHandler(this.BookMaxBtn_Click);
             // 
             // bookPictureBox
             // 
@@ -4112,7 +3907,7 @@
             this.bookCheckBox.TabIndex = 1;
             this.bookCheckBox.Text = "Enabled?";
             this.bookCheckBox.UseVisualStyleBackColor = true;
-            this.bookCheckBox.CheckedChanged += new System.EventHandler(this.bookCheckBox_CheckedChanged);
+            this.bookCheckBox.CheckedChanged += new System.EventHandler(this.BookCheckBox_CheckedChanged);
             // 
             // tableLayoutPanel49
             // 
@@ -4167,7 +3962,7 @@
             this.bookCurrentBtn.TabIndex = 2;
             this.bookCurrentBtn.Text = "Set!";
             this.bookCurrentBtn.UseVisualStyleBackColor = true;
-            this.bookCurrentBtn.Click += new System.EventHandler(this.bookCurrentBtn_Click);
+            this.bookCurrentBtn.Click += new System.EventHandler(this.BookCurrentBtn_Click);
             // 
             // c4GroupBox
             // 
@@ -4251,7 +4046,7 @@
             this.c4MaxBtn.TabIndex = 2;
             this.c4MaxBtn.Text = "Set!";
             this.c4MaxBtn.UseVisualStyleBackColor = true;
-            this.c4MaxBtn.Click += new System.EventHandler(this.c4MaxBtn_Click);
+            this.c4MaxBtn.Click += new System.EventHandler(this.C4MaxBtn_Click);
             // 
             // c4PictureBox
             // 
@@ -4272,7 +4067,7 @@
             this.c4CheckBox.TabIndex = 1;
             this.c4CheckBox.Text = "Enabled?";
             this.c4CheckBox.UseVisualStyleBackColor = true;
-            this.c4CheckBox.CheckedChanged += new System.EventHandler(this.c4CheckBox_CheckedChanged);
+            this.c4CheckBox.CheckedChanged += new System.EventHandler(this.C4CheckBox_CheckedChanged);
             // 
             // tableLayoutPanel46
             // 
@@ -4327,7 +4122,7 @@
             this.c4CurrentBtn.TabIndex = 2;
             this.c4CurrentBtn.Text = "Set!";
             this.c4CurrentBtn.UseVisualStyleBackColor = true;
-            this.c4CurrentBtn.Click += new System.EventHandler(this.c4CurrentBtn_Click);
+            this.c4CurrentBtn.Click += new System.EventHandler(this.C4CurrentBtn_Click);
             // 
             // claymoreGroupBox
             // 
@@ -4411,7 +4206,7 @@
             this.claymoreMaxBtn.TabIndex = 2;
             this.claymoreMaxBtn.Text = "Set!";
             this.claymoreMaxBtn.UseVisualStyleBackColor = true;
-            this.claymoreMaxBtn.Click += new System.EventHandler(this.claymoreMaxBtn_Click);
+            this.claymoreMaxBtn.Click += new System.EventHandler(this.ClaymoreMaxBtn_Click);
             // 
             // claymorePictureBox
             // 
@@ -4432,7 +4227,7 @@
             this.claymoreCheckBox.TabIndex = 1;
             this.claymoreCheckBox.Text = "Enabled?";
             this.claymoreCheckBox.UseVisualStyleBackColor = true;
-            this.claymoreCheckBox.CheckedChanged += new System.EventHandler(this.claymoreCheckBox_CheckedChanged);
+            this.claymoreCheckBox.CheckedChanged += new System.EventHandler(this.ClaymoreCheckBox_CheckedChanged);
             // 
             // tableLayoutPanel45
             // 
@@ -4487,7 +4282,7 @@
             this.claymoreCurrentBtn.TabIndex = 2;
             this.claymoreCurrentBtn.Text = "Set!";
             this.claymoreCurrentBtn.UseVisualStyleBackColor = true;
-            this.claymoreCurrentBtn.Click += new System.EventHandler(this.claymoreCurrentBtn_Click);
+            this.claymoreCurrentBtn.Click += new System.EventHandler(this.ClaymoreCurrentBtn_Click);
             // 
             // stingerGroupBox
             // 
@@ -4571,7 +4366,7 @@
             this.stingerMaxBtn.TabIndex = 2;
             this.stingerMaxBtn.Text = "Set!";
             this.stingerMaxBtn.UseVisualStyleBackColor = true;
-            this.stingerMaxBtn.Click += new System.EventHandler(this.stingerMaxBtn_Click);
+            this.stingerMaxBtn.Click += new System.EventHandler(this.StingerMaxBtn_Click);
             // 
             // stingerPictureBox
             // 
@@ -4592,7 +4387,7 @@
             this.stingerCheckBox.TabIndex = 1;
             this.stingerCheckBox.Text = "Enabled?";
             this.stingerCheckBox.UseVisualStyleBackColor = true;
-            this.stingerCheckBox.CheckedChanged += new System.EventHandler(this.stingerCheckBox_CheckedChanged);
+            this.stingerCheckBox.CheckedChanged += new System.EventHandler(this.StingerCheckBox_CheckedChanged);
             // 
             // tableLayoutPanel42
             // 
@@ -4647,7 +4442,7 @@
             this.stingerCurrentBtn.TabIndex = 2;
             this.stingerCurrentBtn.Text = "Set!";
             this.stingerCurrentBtn.UseVisualStyleBackColor = true;
-            this.stingerCurrentBtn.Click += new System.EventHandler(this.stingerCurrentBtn_Click);
+            this.stingerCurrentBtn.Click += new System.EventHandler(this.StingerCurrentBtn_Click);
             // 
             // nikitaGroupBox
             // 
@@ -4731,7 +4526,7 @@
             this.nikitaMaxBtn.TabIndex = 2;
             this.nikitaMaxBtn.Text = "Set!";
             this.nikitaMaxBtn.UseVisualStyleBackColor = true;
-            this.nikitaMaxBtn.Click += new System.EventHandler(this.nikitaMaxBtn_Click);
+            this.nikitaMaxBtn.Click += new System.EventHandler(this.NikitaMaxBtn_Click);
             // 
             // nikitaPictureBox
             // 
@@ -4752,7 +4547,7 @@
             this.nikitaCheckBox.TabIndex = 1;
             this.nikitaCheckBox.Text = "Enabled?";
             this.nikitaCheckBox.UseVisualStyleBackColor = true;
-            this.nikitaCheckBox.CheckedChanged += new System.EventHandler(this.nikitaCheckBox_CheckedChanged);
+            this.nikitaCheckBox.CheckedChanged += new System.EventHandler(this.NikitaCheckBox_CheckedChanged);
             // 
             // tableLayoutPanel40
             // 
@@ -4807,7 +4602,7 @@
             this.nikitaCurrentBtn.TabIndex = 2;
             this.nikitaCurrentBtn.Text = "Set!";
             this.nikitaCurrentBtn.UseVisualStyleBackColor = true;
-            this.nikitaCurrentBtn.Click += new System.EventHandler(this.nikitaCurrentBtn_Click);
+            this.nikitaCurrentBtn.Click += new System.EventHandler(this.NikitaCurrentBtn_Click);
             // 
             // rgb6GroupBox
             // 
@@ -4891,7 +4686,7 @@
             this.rgb6MaxBtn.TabIndex = 2;
             this.rgb6MaxBtn.Text = "Set!";
             this.rgb6MaxBtn.UseVisualStyleBackColor = true;
-            this.rgb6MaxBtn.Click += new System.EventHandler(this.rgb6MaxBtn_Click);
+            this.rgb6MaxBtn.Click += new System.EventHandler(this.Rgb6MaxBtn_Click);
             // 
             // rgb6PictureBox
             // 
@@ -4912,7 +4707,7 @@
             this.rgb6CheckBox.TabIndex = 1;
             this.rgb6CheckBox.Text = "Enabled?";
             this.rgb6CheckBox.UseVisualStyleBackColor = true;
-            this.rgb6CheckBox.CheckedChanged += new System.EventHandler(this.rgb6CheckBox_CheckedChanged);
+            this.rgb6CheckBox.CheckedChanged += new System.EventHandler(this.Rgb6CheckBox_CheckedChanged);
             // 
             // tableLayoutPanel38
             // 
@@ -4967,7 +4762,7 @@
             this.rgb6CurrentBtn.TabIndex = 2;
             this.rgb6CurrentBtn.Text = "Set!";
             this.rgb6CurrentBtn.UseVisualStyleBackColor = true;
-            this.rgb6CurrentBtn.Click += new System.EventHandler(this.rgb6CurrentBtn_Click);
+            this.rgb6CurrentBtn.Click += new System.EventHandler(this.Rgb6CurrentBtn_Click);
             // 
             // psg1TGroupBox
             // 
@@ -5051,7 +4846,7 @@
             this.psg1TMaxBtn.TabIndex = 2;
             this.psg1TMaxBtn.Text = "Set!";
             this.psg1TMaxBtn.UseVisualStyleBackColor = true;
-            this.psg1TMaxBtn.Click += new System.EventHandler(this.psg1TMaxBtn_Click);
+            this.psg1TMaxBtn.Click += new System.EventHandler(this.Psg1TMaxBtn_Click);
             // 
             // psg1TPictureBox
             // 
@@ -5072,7 +4867,7 @@
             this.psg1TCheckBox.TabIndex = 1;
             this.psg1TCheckBox.Text = "Enabled?";
             this.psg1TCheckBox.UseVisualStyleBackColor = true;
-            this.psg1TCheckBox.CheckedChanged += new System.EventHandler(this.psg1TCheckBox_CheckedChanged);
+            this.psg1TCheckBox.CheckedChanged += new System.EventHandler(this.Psg1TCheckBox_CheckedChanged);
             // 
             // tableLayoutPanel36
             // 
@@ -5127,7 +4922,7 @@
             this.psg1TCurrentBtn.TabIndex = 2;
             this.psg1TCurrentBtn.Text = "Set!";
             this.psg1TCurrentBtn.UseVisualStyleBackColor = true;
-            this.psg1TCurrentBtn.Click += new System.EventHandler(this.psg1TCurrentBtn_Click);
+            this.psg1TCurrentBtn.Click += new System.EventHandler(this.Psg1TCurrentBtn_Click);
             // 
             // psg1GroupBox
             // 
@@ -5211,7 +5006,7 @@
             this.psg1MaxBtn.TabIndex = 2;
             this.psg1MaxBtn.Text = "Set!";
             this.psg1MaxBtn.UseVisualStyleBackColor = true;
-            this.psg1MaxBtn.Click += new System.EventHandler(this.psg1MaxBtn_Click);
+            this.psg1MaxBtn.Click += new System.EventHandler(this.Psg1MaxBtn_Click);
             // 
             // psg1PictureBox
             // 
@@ -5232,7 +5027,7 @@
             this.psg1CheckBox.TabIndex = 1;
             this.psg1CheckBox.Text = "Enabled?";
             this.psg1CheckBox.UseVisualStyleBackColor = true;
-            this.psg1CheckBox.CheckedChanged += new System.EventHandler(this.psg1CheckBox_CheckedChanged);
+            this.psg1CheckBox.CheckedChanged += new System.EventHandler(this.Psg1CheckBox_CheckedChanged);
             // 
             // tableLayoutPanel34
             // 
@@ -5287,7 +5082,7 @@
             this.psg1CurrentBtn.TabIndex = 2;
             this.psg1CurrentBtn.Text = "Set!";
             this.psg1CurrentBtn.UseVisualStyleBackColor = true;
-            this.psg1CurrentBtn.Click += new System.EventHandler(this.psg1CurrentBtn_Click);
+            this.psg1CurrentBtn.Click += new System.EventHandler(this.Psg1CurrentBtn_Click);
             // 
             // m4GroupBox
             // 
@@ -5371,7 +5166,7 @@
             this.m4MaxBtn.TabIndex = 2;
             this.m4MaxBtn.Text = "Set!";
             this.m4MaxBtn.UseVisualStyleBackColor = true;
-            this.m4MaxBtn.Click += new System.EventHandler(this.m4MaxBtn_Click);
+            this.m4MaxBtn.Click += new System.EventHandler(this.M4MaxBtn_Click);
             // 
             // m4PictureBox
             // 
@@ -5392,7 +5187,7 @@
             this.m4CheckBox.TabIndex = 1;
             this.m4CheckBox.Text = "Enabled?";
             this.m4CheckBox.UseVisualStyleBackColor = true;
-            this.m4CheckBox.CheckedChanged += new System.EventHandler(this.m4CheckBox_CheckedChanged);
+            this.m4CheckBox.CheckedChanged += new System.EventHandler(this.M4CheckBox_CheckedChanged);
             // 
             // tableLayoutPanel32
             // 
@@ -5447,7 +5242,7 @@
             this.m4CurrentBtn.TabIndex = 2;
             this.m4CurrentBtn.Text = "Set!";
             this.m4CurrentBtn.UseVisualStyleBackColor = true;
-            this.m4CurrentBtn.Click += new System.EventHandler(this.m4CurrentBtn_Click);
+            this.m4CurrentBtn.Click += new System.EventHandler(this.M4CurrentBtn_Click);
             // 
             // akGroupBox
             // 
@@ -5531,7 +5326,7 @@
             this.akMaxBtn.TabIndex = 2;
             this.akMaxBtn.Text = "Set!";
             this.akMaxBtn.UseVisualStyleBackColor = true;
-            this.akMaxBtn.Click += new System.EventHandler(this.akMaxBtn_Click);
+            this.akMaxBtn.Click += new System.EventHandler(this.AkMaxBtn_Click);
             // 
             // akPictureBox
             // 
@@ -5552,7 +5347,7 @@
             this.akCheckBox.TabIndex = 1;
             this.akCheckBox.Text = "Enabled?";
             this.akCheckBox.UseVisualStyleBackColor = true;
-            this.akCheckBox.CheckedChanged += new System.EventHandler(this.akCheckBox_CheckedChanged);
+            this.akCheckBox.CheckedChanged += new System.EventHandler(this.AkCheckBox_CheckedChanged);
             // 
             // tableLayoutPanel30
             // 
@@ -5607,7 +5402,7 @@
             this.akCurrentBtn.TabIndex = 2;
             this.akCurrentBtn.Text = "Set!";
             this.akCurrentBtn.UseVisualStyleBackColor = true;
-            this.akCurrentBtn.Click += new System.EventHandler(this.akCurrentBtn_Click);
+            this.akCurrentBtn.Click += new System.EventHandler(this.AkCurrentBtn_Click);
             // 
             // magazineGroupBox
             // 
@@ -5691,7 +5486,7 @@
             this.magazineMaxBtn.TabIndex = 2;
             this.magazineMaxBtn.Text = "Set!";
             this.magazineMaxBtn.UseVisualStyleBackColor = true;
-            this.magazineMaxBtn.Click += new System.EventHandler(this.magazineMaxBtn_Click);
+            this.magazineMaxBtn.Click += new System.EventHandler(this.MagazineMaxBtn_Click);
             // 
             // magazinePictureBox
             // 
@@ -5712,7 +5507,7 @@
             this.magazineCheckBox.TabIndex = 1;
             this.magazineCheckBox.Text = "Enabled?";
             this.magazineCheckBox.UseVisualStyleBackColor = true;
-            this.magazineCheckBox.CheckedChanged += new System.EventHandler(this.magazineCheckBox_CheckedChanged);
+            this.magazineCheckBox.CheckedChanged += new System.EventHandler(this.MagazineCheckBox_CheckedChanged);
             // 
             // tableLayoutPanel27
             // 
@@ -5767,7 +5562,7 @@
             this.magazineCurrentBtn.TabIndex = 2;
             this.magazineCurrentBtn.Text = "Set!";
             this.magazineCurrentBtn.UseVisualStyleBackColor = true;
-            this.magazineCurrentBtn.Click += new System.EventHandler(this.magazineCurrentBtn_Click);
+            this.magazineCurrentBtn.Click += new System.EventHandler(this.MagazineCurrentBtn_Click);
             // 
             // grenadeGroupBox
             // 
@@ -5851,7 +5646,7 @@
             this.grenadeMaxBtn.TabIndex = 2;
             this.grenadeMaxBtn.Text = "Set!";
             this.grenadeMaxBtn.UseVisualStyleBackColor = true;
-            this.grenadeMaxBtn.Click += new System.EventHandler(this.grenadeMaxBtn_Click);
+            this.grenadeMaxBtn.Click += new System.EventHandler(this.GrenadeMaxBtn_Click);
             // 
             // grenadePictureBox
             // 
@@ -5872,7 +5667,7 @@
             this.grenadeCheckBox.TabIndex = 1;
             this.grenadeCheckBox.Text = "Enabled?";
             this.grenadeCheckBox.UseVisualStyleBackColor = true;
-            this.grenadeCheckBox.CheckedChanged += new System.EventHandler(this.grenadeCheckBox_CheckedChanged);
+            this.grenadeCheckBox.CheckedChanged += new System.EventHandler(this.GrenadeCheckBox_CheckedChanged);
             // 
             // tableLayoutPanel29
             // 
@@ -5927,7 +5722,7 @@
             this.grenadeCurrentBtn.TabIndex = 2;
             this.grenadeCurrentBtn.Text = "Set!";
             this.grenadeCurrentBtn.UseVisualStyleBackColor = true;
-            this.grenadeCurrentBtn.Click += new System.EventHandler(this.grenadeCurrentBtn_Click);
+            this.grenadeCurrentBtn.Click += new System.EventHandler(this.GrenadeCurrentBtn_Click);
             // 
             // stunGroupBox
             // 
@@ -6011,7 +5806,7 @@
             this.stunMaxBtn.TabIndex = 2;
             this.stunMaxBtn.Text = "Set!";
             this.stunMaxBtn.UseVisualStyleBackColor = true;
-            this.stunMaxBtn.Click += new System.EventHandler(this.stunMaxBtn_Click);
+            this.stunMaxBtn.Click += new System.EventHandler(this.StunMaxBtn_Click);
             // 
             // stunPictureBox
             // 
@@ -6032,7 +5827,7 @@
             this.stunCheckBox.TabIndex = 1;
             this.stunCheckBox.Text = "Enabled?";
             this.stunCheckBox.UseVisualStyleBackColor = true;
-            this.stunCheckBox.CheckedChanged += new System.EventHandler(this.stunCheckBox_CheckedChanged);
+            this.stunCheckBox.CheckedChanged += new System.EventHandler(this.StunCheckBox_CheckedChanged);
             // 
             // tableLayoutPanel26
             // 
@@ -6087,7 +5882,7 @@
             this.stunCurrentBtn.TabIndex = 2;
             this.stunCurrentBtn.Text = "Set!";
             this.stunCurrentBtn.UseVisualStyleBackColor = true;
-            this.stunCurrentBtn.Click += new System.EventHandler(this.stunCurrentBtn_Click);
+            this.stunCurrentBtn.Click += new System.EventHandler(this.StunCurrentBtn_Click);
             // 
             // chaffGroupBox
             // 
@@ -6171,7 +5966,7 @@
             this.chaffMaxBtn.TabIndex = 2;
             this.chaffMaxBtn.Text = "Set!";
             this.chaffMaxBtn.UseVisualStyleBackColor = true;
-            this.chaffMaxBtn.Click += new System.EventHandler(this.chaffMaxBtn_Click);
+            this.chaffMaxBtn.Click += new System.EventHandler(this.ChaffMaxBtn_Click);
             // 
             // chaffPictureBox
             // 
@@ -6192,7 +5987,7 @@
             this.chaffCheckBox.TabIndex = 1;
             this.chaffCheckBox.Text = "Enabled?";
             this.chaffCheckBox.UseVisualStyleBackColor = true;
-            this.chaffCheckBox.CheckedChanged += new System.EventHandler(this.chaffCheckBox_CheckedChanged);
+            this.chaffCheckBox.CheckedChanged += new System.EventHandler(this.ChaffCheckBox_CheckedChanged);
             // 
             // tableLayoutPanel23
             // 
@@ -6247,7 +6042,7 @@
             this.chaffCurrentBtn.TabIndex = 2;
             this.chaffCurrentBtn.Text = "Set!";
             this.chaffCurrentBtn.UseVisualStyleBackColor = true;
-            this.chaffCurrentBtn.Click += new System.EventHandler(this.chaffCurrentBtn_Click);
+            this.chaffCurrentBtn.Click += new System.EventHandler(this.ChaffCurrentBtn_Click);
             // 
             // uspGroupBox
             // 
@@ -6331,7 +6126,7 @@
             this.uspMaxBtn.TabIndex = 2;
             this.uspMaxBtn.Text = "Set!";
             this.uspMaxBtn.UseVisualStyleBackColor = true;
-            this.uspMaxBtn.Click += new System.EventHandler(this.uspMaxBtn_Click);
+            this.uspMaxBtn.Click += new System.EventHandler(this.UspMaxBtn_Click);
             // 
             // uspPictureBox
             // 
@@ -6352,7 +6147,7 @@
             this.uspCheckBox.TabIndex = 1;
             this.uspCheckBox.Text = "Enabled?";
             this.uspCheckBox.UseVisualStyleBackColor = true;
-            this.uspCheckBox.CheckedChanged += new System.EventHandler(this.uspCheckBox_CheckedChanged);
+            this.uspCheckBox.CheckedChanged += new System.EventHandler(this.UspCheckBox_CheckedChanged);
             // 
             // tableLayoutPanel21
             // 
@@ -6407,7 +6202,7 @@
             this.uspCurrentBtn.TabIndex = 2;
             this.uspCurrentBtn.Text = "Set!";
             this.uspCurrentBtn.UseVisualStyleBackColor = true;
-            this.uspCurrentBtn.Click += new System.EventHandler(this.uspCurrentBtn_Click);
+            this.uspCurrentBtn.Click += new System.EventHandler(this.UspCurrentBtn_Click);
             // 
             // socomGroupBox
             // 
@@ -6491,7 +6286,7 @@
             this.socomMaxBtn.TabIndex = 2;
             this.socomMaxBtn.Text = "Set!";
             this.socomMaxBtn.UseVisualStyleBackColor = true;
-            this.socomMaxBtn.Click += new System.EventHandler(this.socomMaxBtn_Click);
+            this.socomMaxBtn.Click += new System.EventHandler(this.SocomMaxBtn_Click);
             // 
             // socomPictureBox
             // 
@@ -6512,7 +6307,7 @@
             this.socomCheckBox.TabIndex = 1;
             this.socomCheckBox.Text = "Enabled?";
             this.socomCheckBox.UseVisualStyleBackColor = true;
-            this.socomCheckBox.CheckedChanged += new System.EventHandler(this.socomCheckBox_CheckedChanged);
+            this.socomCheckBox.CheckedChanged += new System.EventHandler(this.SocomCheckBox_CheckedChanged);
             // 
             // tableLayoutPanel19
             // 
@@ -6567,7 +6362,7 @@
             this.socomCurrentBtn.TabIndex = 2;
             this.socomCurrentBtn.Text = "Set!";
             this.socomCurrentBtn.UseVisualStyleBackColor = true;
-            this.socomCurrentBtn.Click += new System.EventHandler(this.socomCurrentBtn_Click);
+            this.socomCurrentBtn.Click += new System.EventHandler(this.SocomCurrentBtn_Click);
             // 
             // m9GroupBox
             // 
@@ -6651,7 +6446,7 @@
             this.m9MaxBtn.TabIndex = 2;
             this.m9MaxBtn.Text = "Set!";
             this.m9MaxBtn.UseVisualStyleBackColor = true;
-            this.m9MaxBtn.Click += new System.EventHandler(this.m9MaxBtn_Click);
+            this.m9MaxBtn.Click += new System.EventHandler(this.M9MaxBtn_Click);
             // 
             // m9PictureBox
             // 
@@ -6672,7 +6467,7 @@
             this.m9CheckBox.TabIndex = 1;
             this.m9CheckBox.Text = "Enabled?";
             this.m9CheckBox.UseVisualStyleBackColor = true;
-            this.m9CheckBox.CheckedChanged += new System.EventHandler(this.m9CheckBox_CheckedChanged);
+            this.m9CheckBox.CheckedChanged += new System.EventHandler(this.M9CheckBox_CheckedChanged);
             // 
             // tableLayoutPanel17
             // 
@@ -6727,7 +6522,7 @@
             this.m9CurrentBtn.TabIndex = 2;
             this.m9CurrentBtn.Text = "Set!";
             this.m9CurrentBtn.UseVisualStyleBackColor = true;
-            this.m9CurrentBtn.Click += new System.EventHandler(this.m9CurrentBtn_Click);
+            this.m9CurrentBtn.Click += new System.EventHandler(this.M9CurrentBtn_Click);
             // 
             // GUI
             // 
@@ -6747,13 +6542,10 @@
             this.wetBoxGroupBox.ResumeLayout(false);
             this.wetBoxLayoutPanel.ResumeLayout(false);
             this.wetBoxLayoutPanel.PerformLayout();
+            this.tableLayoutPanel53.ResumeLayout(false);
+            this.tableLayoutPanel53.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.wetBoxUpDown)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.wetBoxPictureBox)).EndInit();
-            this.tableLayoutPanel60.ResumeLayout(false);
-            this.tableLayoutPanel60.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown55)).EndInit();
-            this.tableLayoutPanel61.ResumeLayout(false);
-            this.tableLayoutPanel61.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown56)).EndInit();
             this.akSupGroupBox.ResumeLayout(false);
             this.akSupLayoutPanel.ResumeLayout(false);
             this.akSupLayoutPanel.PerformLayout();
@@ -6780,13 +6572,10 @@
             this.box5GroupBox.ResumeLayout(false);
             this.box5LayoutPanel.ResumeLayout(false);
             this.box5LayoutPanel.PerformLayout();
+            this.tableLayoutPanel52.ResumeLayout(false);
+            this.tableLayoutPanel52.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.box5UpDown)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.box5PictureBox)).EndInit();
-            this.tableLayoutPanel58.ResumeLayout(false);
-            this.tableLayoutPanel58.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown53)).EndInit();
-            this.tableLayoutPanel59.ResumeLayout(false);
-            this.tableLayoutPanel59.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown54)).EndInit();
             this.uspSupGroupBox.ResumeLayout(false);
             this.uspSupLayoutPanel.ResumeLayout(false);
             this.uspSupLayoutPanel.PerformLayout();
@@ -6802,12 +6591,6 @@
             this.shaverGroupBox.ResumeLayout(false);
             this.shaverLayoutPanel.ResumeLayout(false);
             this.shaverLayoutPanel.PerformLayout();
-            this.tableLayoutPanel12.ResumeLayout(false);
-            this.tableLayoutPanel12.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.shaverCurrentUpDown)).EndInit();
-            this.tableLayoutPanel11.ResumeLayout(false);
-            this.tableLayoutPanel11.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown9)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.shaverPictureBox)).EndInit();
             this.blueWigGroupBox.ResumeLayout(false);
             this.blueWigLayoutPanel.ResumeLayout(false);
@@ -6816,13 +6599,10 @@
             this.box4GroupBox.ResumeLayout(false);
             this.box4LayoutPanel.ResumeLayout(false);
             this.box4LayoutPanel.PerformLayout();
+            this.tableLayoutPanel51.ResumeLayout(false);
+            this.tableLayoutPanel51.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.box4UpDown)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.box4PictureBox)).EndInit();
-            this.tableLayoutPanel56.ResumeLayout(false);
-            this.tableLayoutPanel56.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown51)).EndInit();
-            this.tableLayoutPanel57.ResumeLayout(false);
-            this.tableLayoutPanel57.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown52)).EndInit();
             this.socomSupGroupBox.ResumeLayout(false);
             this.socomSupLayoutPanel.ResumeLayout(false);
             this.socomSupLayoutPanel.PerformLayout();
@@ -6852,13 +6632,10 @@
             this.box3GroupBox.ResumeLayout(false);
             this.box3LayoutPanel.ResumeLayout(false);
             this.box3LayoutPanel.PerformLayout();
+            this.tableLayoutPanel50.ResumeLayout(false);
+            this.tableLayoutPanel50.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.box3UpDown)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.box3PictureBox)).EndInit();
-            this.tableLayoutPanel54.ResumeLayout(false);
-            this.tableLayoutPanel54.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown49)).EndInit();
-            this.tableLayoutPanel55.ResumeLayout(false);
-            this.tableLayoutPanel55.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown50)).EndInit();
             this.moDiscGroupBox.ResumeLayout(false);
             this.moDiscLayoutPanel.ResumeLayout(false);
             this.moDiscLayoutPanel.PerformLayout();
@@ -6888,13 +6665,10 @@
             this.box2GroupBox.ResumeLayout(false);
             this.box2LayoutPanel.ResumeLayout(false);
             this.box2LayoutPanel.PerformLayout();
+            this.tableLayoutPanel12.ResumeLayout(false);
+            this.tableLayoutPanel12.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.box2UpDown)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.box2PictureBox)).EndInit();
-            this.tableLayoutPanel52.ResumeLayout(false);
-            this.tableLayoutPanel52.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown47)).EndInit();
-            this.tableLayoutPanel53.ResumeLayout(false);
-            this.tableLayoutPanel53.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown48)).EndInit();
             this.cigarettesGroupBox.ResumeLayout(false);
             this.cigarettesLayoutPanel.ResumeLayout(false);
             this.cigarettesLayoutPanel.PerformLayout();
@@ -6924,13 +6698,10 @@
             this.box1GroupBox.ResumeLayout(false);
             this.box1LayoutPanel.ResumeLayout(false);
             this.box1LayoutPanel.PerformLayout();
+            this.tableLayoutPanel11.ResumeLayout(false);
+            this.tableLayoutPanel11.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.box1UpDown)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.box1PictureBox)).EndInit();
-            this.tableLayoutPanel50.ResumeLayout(false);
-            this.tableLayoutPanel50.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown45)).EndInit();
-            this.tableLayoutPanel51.ResumeLayout(false);
-            this.tableLayoutPanel51.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown46)).EndInit();
             this.coldMedsGroupBox.ResumeLayout(false);
             this.coldMedsLayoutPanel.ResumeLayout(false);
             this.coldMedsLayoutPanel.PerformLayout();
@@ -7270,57 +7041,21 @@
         private System.Windows.Forms.TableLayoutPanel box1LayoutPanel;
         private System.Windows.Forms.PictureBox box1PictureBox;
         private System.Windows.Forms.CheckBox box1CheckBox;
-        private System.Windows.Forms.TableLayoutPanel tableLayoutPanel50;
-        private System.Windows.Forms.Label label45;
-        private System.Windows.Forms.NumericUpDown numericUpDown45;
-        private System.Windows.Forms.TableLayoutPanel tableLayoutPanel51;
-        private System.Windows.Forms.Label label46;
-        private System.Windows.Forms.NumericUpDown numericUpDown46;
         private System.Windows.Forms.TableLayoutPanel box2LayoutPanel;
         private System.Windows.Forms.PictureBox box2PictureBox;
         private System.Windows.Forms.CheckBox box2CheckBox;
-        private System.Windows.Forms.TableLayoutPanel tableLayoutPanel52;
-        private System.Windows.Forms.Label label47;
-        private System.Windows.Forms.NumericUpDown numericUpDown47;
-        private System.Windows.Forms.TableLayoutPanel tableLayoutPanel53;
-        private System.Windows.Forms.Label label48;
-        private System.Windows.Forms.NumericUpDown numericUpDown48;
         private System.Windows.Forms.TableLayoutPanel box3LayoutPanel;
         private System.Windows.Forms.PictureBox box3PictureBox;
         private System.Windows.Forms.CheckBox box3CheckBox;
-        private System.Windows.Forms.TableLayoutPanel tableLayoutPanel54;
-        private System.Windows.Forms.Label label49;
-        private System.Windows.Forms.NumericUpDown numericUpDown49;
-        private System.Windows.Forms.TableLayoutPanel tableLayoutPanel55;
-        private System.Windows.Forms.Label label50;
-        private System.Windows.Forms.NumericUpDown numericUpDown50;
         private System.Windows.Forms.TableLayoutPanel box4LayoutPanel;
         private System.Windows.Forms.PictureBox box4PictureBox;
         private System.Windows.Forms.CheckBox box4CheckBox;
-        private System.Windows.Forms.TableLayoutPanel tableLayoutPanel56;
-        private System.Windows.Forms.Label label51;
-        private System.Windows.Forms.NumericUpDown numericUpDown51;
-        private System.Windows.Forms.TableLayoutPanel tableLayoutPanel57;
-        private System.Windows.Forms.Label label52;
-        private System.Windows.Forms.NumericUpDown numericUpDown52;
         private System.Windows.Forms.TableLayoutPanel box5LayoutPanel;
         private System.Windows.Forms.PictureBox box5PictureBox;
         private System.Windows.Forms.CheckBox box5CheckBox;
-        private System.Windows.Forms.TableLayoutPanel tableLayoutPanel58;
-        private System.Windows.Forms.Label label53;
-        private System.Windows.Forms.NumericUpDown numericUpDown53;
-        private System.Windows.Forms.TableLayoutPanel tableLayoutPanel59;
-        private System.Windows.Forms.Label label54;
-        private System.Windows.Forms.NumericUpDown numericUpDown54;
         private System.Windows.Forms.TableLayoutPanel wetBoxLayoutPanel;
         private System.Windows.Forms.PictureBox wetBoxPictureBox;
         private System.Windows.Forms.CheckBox wetBoxCheckBox;
-        private System.Windows.Forms.TableLayoutPanel tableLayoutPanel60;
-        private System.Windows.Forms.Label label55;
-        private System.Windows.Forms.NumericUpDown numericUpDown55;
-        private System.Windows.Forms.TableLayoutPanel tableLayoutPanel61;
-        private System.Windows.Forms.Label label56;
-        private System.Windows.Forms.NumericUpDown numericUpDown56;
         private System.Windows.Forms.TableLayoutPanel bduLayoutPanel;
         private System.Windows.Forms.PictureBox bduPictureBox;
         private System.Windows.Forms.CheckBox bduCheckBox;
@@ -7346,14 +7081,6 @@
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.NumericUpDown rationMaxUpDown;
         private System.Windows.Forms.Button rationMaxBtn;
-        private System.Windows.Forms.TableLayoutPanel tableLayoutPanel12;
-        private System.Windows.Forms.Label label12;
-        private System.Windows.Forms.NumericUpDown shaverCurrentUpDown;
-        private System.Windows.Forms.Button button8;
-        private System.Windows.Forms.TableLayoutPanel tableLayoutPanel11;
-        private System.Windows.Forms.Label label11;
-        private System.Windows.Forms.NumericUpDown numericUpDown9;
-        private System.Windows.Forms.Button button7;
         private System.Windows.Forms.TableLayoutPanel tableLayoutPanel10;
         private System.Windows.Forms.Label label10;
         private System.Windows.Forms.NumericUpDown dogTagsCurrentUpDown;
@@ -7613,6 +7340,30 @@
         private System.Windows.Forms.CheckBox coolantCheckBox;
         private System.Windows.Forms.Button hfBladeStunBtn;
         private System.Windows.Forms.Button hfBladeLethalBtn;
+        private System.Windows.Forms.TableLayoutPanel tableLayoutPanel53;
+        private System.Windows.Forms.Label label48;
+        private System.Windows.Forms.NumericUpDown wetBoxUpDown;
+        private System.Windows.Forms.Button wetBoxBtn;
+        private System.Windows.Forms.TableLayoutPanel tableLayoutPanel52;
+        private System.Windows.Forms.Label label47;
+        private System.Windows.Forms.NumericUpDown box5UpDown;
+        private System.Windows.Forms.Button box5Btn;
+        private System.Windows.Forms.TableLayoutPanel tableLayoutPanel51;
+        private System.Windows.Forms.Label label46;
+        private System.Windows.Forms.NumericUpDown box4UpDown;
+        private System.Windows.Forms.Button box4Btn;
+        private System.Windows.Forms.TableLayoutPanel tableLayoutPanel50;
+        private System.Windows.Forms.Label label45;
+        private System.Windows.Forms.NumericUpDown box3UpDown;
+        private System.Windows.Forms.Button box3Btn;
+        private System.Windows.Forms.TableLayoutPanel tableLayoutPanel12;
+        private System.Windows.Forms.Label label12;
+        private System.Windows.Forms.NumericUpDown box2UpDown;
+        private System.Windows.Forms.Button box2Btn;
+        private System.Windows.Forms.TableLayoutPanel tableLayoutPanel11;
+        private System.Windows.Forms.Label label11;
+        private System.Windows.Forms.NumericUpDown box1UpDown;
+        private System.Windows.Forms.Button box1Btn;
     }
 }
 

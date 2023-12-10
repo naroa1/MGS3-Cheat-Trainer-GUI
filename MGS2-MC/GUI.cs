@@ -83,42 +83,42 @@ namespace MGS2_MC
             return (short)m9MaxUpDown.Value;
         }
 
-        private short UspCurrentAmmoCount()
+        private short USPCurrentAmmoCount()
         {
             return (short)uspCurrentUpDown.Value;
         }
 
-        private short UspMaxAmmoCount()
+        private short USPMaxAmmoCount()
         {
             return (short)uspMaxUpDown.Value;
         }
 
-        private short SocomCurrentAmmoCount()
+        private short SOCOMCurrentAmmoCount()
         {
             return (short)socomCurrentUpDown.Value;
         }
 
-        private short SocomMaxAmmoCount()
+        private short SOCOMMaxAmmoCount()
         {
             return (short)socomMaxUpDown.Value;
         }
 
-        private short Psg1CurrentAmmoCount()
+        private short PSG1CurrentAmmoCount()
         {
             return (short)psg1CurrentUpDown.Value;
         }
 
-        private short Psg1MaxAmmoCount()
+        private short PSG1MaxAmmoCount()
         {
             return (short)psg1MaxUpDown.Value;
         }
 
-        private short Rgb6CurrentAmmoCount()
+        private short RGB6CurrentAmmoCount()
         {
             return (short)rgb6CurrentUpDown.Value;
         }
 
-        private short Rgb6MaxAmmoCount()
+        private short RGB6MaxAmmoCount()
         {
             return (short)rgb6MaxUpDown.Value;
         }
@@ -153,12 +153,12 @@ namespace MGS2_MC
             return (short)c4MaxUpDown.Value;
         }
 
-        private short AkCurrentAmmoCount()
+        private short AKCurrentAmmoCount()
         {
             return (short)akCurrentUpDown.Value;
         }
 
-        private short AkMaxAmmoCount()
+        private short AKMaxAmmoCount()
         {
             return (short)akMaxUpDown.Value;
         }
@@ -173,12 +173,12 @@ namespace MGS2_MC
             return (short)m4MaxUpDown.Value;
         }
 
-        private short Psg1TCurrentAmmoCount()
+        private short PSG1TCurrentAmmoCount()
         {
             return (short)psg1TCurrentUpDown.Value;
         }
 
-        private short Psg1TMaxAmmoCount()
+        private short PSG1TMaxAmmoCount()
         {
             return (short)psg1TMaxUpDown.Value;
         }
@@ -265,517 +265,523 @@ namespace MGS2_MC
         #endregion
 
         #region Items Button Functions
-        private void rationCheckBox_CheckedChanged(object sender, EventArgs e)
+        private void RationCheckBox_CheckedChanged(object sender, EventArgs e)
         {
             MGS2UsableObjects.Ration.ToggleItem();
         }
 
-        private void rationCurrentBtn_Click(object sender, EventArgs e)
+        private void RationCurrentBtn_Click(object sender, EventArgs e)
         {
             MGS2UsableObjects.Ration.UpdateCurrentCount(CurrentRationValue());
         }
 
-        private void rationMaxBtn_Click(object sender, EventArgs e)
+        private void RationMaxBtn_Click(object sender, EventArgs e)
         {
             MGS2UsableObjects.Ration.UpdateMaxCount(MaxRationValue());
         }
 
-        private void bandageCheckBox_CheckedChanged(object sender, EventArgs e)
+        private void BandageCheckBox_CheckedChanged(object sender, EventArgs e)
         {
             MGS2UsableObjects.Bandage.ToggleItem();
         }
 
-        private void bandageCurrentBtn_Click(object sender, EventArgs e)
+        private void BandageCurrentBtn_Click(object sender, EventArgs e)
         {
             MGS2UsableObjects.Bandage.UpdateCurrentCount(CurrentBandageValue());
         }
 
-        private void bandageMaxBtn_Click(object sender, EventArgs e)
+        private void BandageMaxBtn_Click(object sender, EventArgs e)
         {
             MGS2UsableObjects.Bandage.UpdateMaxCount(MaxBandageValue());
         }
 
-        private void pentazeminCheckBox_CheckedChanged(object sender, EventArgs e)
+        private void PentazeminCheckBox_CheckedChanged(object sender, EventArgs e)
         {
             MGS2UsableObjects.Pentazemin.ToggleItem();
         }
 
-        private void pentazeminCurrentBtn_Click(object sender, EventArgs e)
+        private void PentazeminCurrentBtn_Click(object sender, EventArgs e)
         {
             MGS2UsableObjects.Pentazemin.UpdateCurrentCount(CurrentPentazeminCount());
         }
 
-        private void pentazeminMaxBtn_Click(object sender, EventArgs e)
+        private void PentazeminMaxBtn_Click(object sender, EventArgs e)
         {
             MGS2UsableObjects.Pentazemin.UpdateMaxCount(MaxPentazeminCount());
         }
 
-        private void cardBtn_Click(object sender, EventArgs e)
+        private void CardBtn_Click(object sender, EventArgs e)
         {
             MGS2UsableObjects.Card.SetLevel(CardSecurityLevel());
         }
 
-        private void cardCheckBox_CheckedChanged(object sender, EventArgs e)
+        private void CardCheckBox_CheckedChanged(object sender, EventArgs e)
         {
             MGS2UsableObjects.Card.ToggleItem();
         }
 
-        private void binos1CheckBox_CheckedChanged(object sender, EventArgs e)
+        private void Binos1CheckBox_CheckedChanged(object sender, EventArgs e)
         {
             MGS2UsableObjects.SnakeBinoculars.ToggleItem();
         }
 
-        private void binos2CheckBox_CheckedChanged(object sender, EventArgs e)
+        private void Binos2CheckBox_CheckedChanged(object sender, EventArgs e)
         {
             MGS2UsableObjects.RaidenBinoculars.ToggleItem();
         }
 
-        private void camera1CheckBox_CheckedChanged(object sender, EventArgs e)
+        private void Camera1CheckBox_CheckedChanged(object sender, EventArgs e)
         {
             MGS2UsableObjects.Camera1.ToggleItem();
         }
 
-        private void camera2CheckBox_CheckedChanged(object sender, EventArgs e)
+        private void Camera2CheckBox_CheckedChanged(object sender, EventArgs e)
         {
             MGS2UsableObjects.Camera2.ToggleItem();
         }
 
-        private void nvgCheckBox_CheckedChanged(object sender, EventArgs e)
+        private void NvgCheckBox_CheckedChanged(object sender, EventArgs e)
         {
             MGS2UsableObjects.NightVisionGoggles.ToggleItem();
         }
 
-        private void thermalCheckBox_CheckedChanged(object sender, EventArgs e)
+        private void ThermalCheckBox_CheckedChanged(object sender, EventArgs e)
         {
             MGS2UsableObjects.ThermalGoggles.ToggleItem();
         }
 
-        private void bodyArmorCheckBox_CheckedChanged(object sender, EventArgs e)
+        private void BodyArmorCheckBox_CheckedChanged(object sender, EventArgs e)
         {
             MGS2UsableObjects.BodyArmor.ToggleItem();
         }
 
-        private void mineDetectorCheckBox_CheckedChanged(object sender, EventArgs e)
+        private void MineDetectorCheckBox_CheckedChanged(object sender, EventArgs e)
         {
             MGS2UsableObjects.MineDetector.ToggleItem();
         }
 
-        private void apSensorCheckBox_CheckedChanged(object sender, EventArgs e)
+        private void ApSensorCheckBox_CheckedChanged(object sender, EventArgs e)
         {
             MGS2UsableObjects.APSensor.ToggleItem();
         }
 
-        private void sensorACheckBox_CheckedChanged(object sender, EventArgs e)
+        private void SensorACheckBox_CheckedChanged(object sender, EventArgs e)
         {
             MGS2UsableObjects.SensorA.ToggleItem();
         }
 
-        private void sensorBCheckBox_CheckedChanged(object sender, EventArgs e)
+        private void SensorBCheckBox_CheckedChanged(object sender, EventArgs e)
         {
             MGS2UsableObjects.SensorB.ToggleItem();
         }
 
-        private void phoneCheckBox_CheckedChanged(object sender, EventArgs e)
+        private void PhoneCheckBox_CheckedChanged(object sender, EventArgs e)
         {
             MGS2UsableObjects.Phone.ToggleItem();
         }
 
-        private void coldMedsCheckBox_CheckedChanged(object sender, EventArgs e)
+        private void ColdMedsCheckBox_CheckedChanged(object sender, EventArgs e)
         {
             MGS2UsableObjects.ColdMedicine.ToggleItem();
         }
 
-        private void cigarettesCheckBox_CheckedChanged(object sender, EventArgs e)
+        private void CigarettesCheckBox_CheckedChanged(object sender, EventArgs e)
         {
             MGS2UsableObjects.Cigarettes.ToggleItem();
         }
 
-        private void moDiscCheckBox_CheckedChanged(object sender, EventArgs e)
+        private void MoDiscCheckBox_CheckedChanged(object sender, EventArgs e)
         {
             MGS2UsableObjects.MODisc.ToggleItem();
         }
 
-        private void socomSupCheckBox_CheckedChanged(object sender, EventArgs e)
+        private void SocomSupCheckBox_CheckedChanged(object sender, EventArgs e)
         {
             MGS2UsableObjects.SocomSuppressor.ToggleItem();
         }
 
-        private void uspSupCheckBox_CheckedChanged(object sender, EventArgs e)
+        private void UspSupCheckBox_CheckedChanged(object sender, EventArgs e)
         {
             MGS2UsableObjects.USPSuppressor.ToggleItem();
         }
 
-        private void akSupCheckBox_CheckedChanged(object sender, EventArgs e)
+        private void AkSupCheckBox_CheckedChanged(object sender, EventArgs e)
         {
             MGS2UsableObjects.AKSuppressor.ToggleItem();
         }
 
-        private void box1CheckBox_CheckedChanged(object sender, EventArgs e)
+        private void Box1CheckBox_CheckedChanged(object sender, EventArgs e)
         {
             MGS2UsableObjects.Box1.ToggleItem();
         }
 
-        private void box2CheckBox_CheckedChanged(object sender, EventArgs e)
+        private void Box2CheckBox_CheckedChanged(object sender, EventArgs e)
         {
             MGS2UsableObjects.Box2.ToggleItem();
         }
 
-        private void box3CheckBox_CheckedChanged(object sender, EventArgs e)
+        private void Box3CheckBox_CheckedChanged(object sender, EventArgs e)
         {
             MGS2UsableObjects.Box3.ToggleItem();
         }
 
-        private void box4CheckBox_CheckedChanged(object sender, EventArgs e)
+        private void Box4CheckBox_CheckedChanged(object sender, EventArgs e)
         {
             MGS2UsableObjects.Box4.ToggleItem();
         }
 
-        private void box5CheckBox_CheckedChanged(object sender, EventArgs e)
+        private void Box5CheckBox_CheckedChanged(object sender, EventArgs e)
         {
             MGS2UsableObjects.Box5.ToggleItem();
         }
 
-        private void wetBoxCheckBox_CheckedChanged(object sender, EventArgs e)
+        private void WetBoxCheckBox_CheckedChanged(object sender, EventArgs e)
         {
             MGS2UsableObjects.WetBox.ToggleItem();
         }
 
-        private void bduCheckBox_CheckedChanged(object sender, EventArgs e)
+        private void BduCheckBox_CheckedChanged(object sender, EventArgs e)
         {
             MGS2UsableObjects.BDU.ToggleItem();
         }
 
-        private void bandanaCheckBox_CheckedChanged(object sender, EventArgs e)
+        private void BduMaskCheckBox_CheckedChanged(object sender, EventArgs e)
+        {
+            //TODO: implement
+        }
+
+        private void BandanaCheckBox_CheckedChanged(object sender, EventArgs e)
         {
             MGS2UsableObjects.Bandana.ToggleItem();
         }
 
-        private void infinityWigCheckBox_CheckedChanged(object sender, EventArgs e)
+        private void InfinityWigCheckBox_CheckedChanged(object sender, EventArgs e)
         {
             MGS2UsableObjects.InfinityWig.ToggleItem();
         }
 
-        private void blueWigCheckBox_CheckedChanged(object sender, EventArgs e)
+        private void BlueWigCheckBox_CheckedChanged(object sender, EventArgs e)
         {
             MGS2UsableObjects.BlueWig.ToggleItem();
         }
 
-        private void orangeWigCheckBox_CheckedChanged(object sender, EventArgs e)
+        private void OrangeWigCheckBox_CheckedChanged(object sender, EventArgs e)
         {
             MGS2UsableObjects.OrangeWig.ToggleItem();
         }
 
-        private void stealthCheckBox_CheckedChanged(object sender, EventArgs e)
+        private void StealthCheckBox_CheckedChanged(object sender, EventArgs e)
         {
             MGS2UsableObjects.Stealth.ToggleItem();
         }
 
-        private void dogTagsCheckBox_CheckedChanged(object sender, EventArgs e)
+        private void DogTagsCheckBox_CheckedChanged(object sender, EventArgs e)
         {
             MGS2UsableObjects.DogTags.ToggleItem();
         }
 
-        private void shaverCheckBox_CheckedChanged(object sender, EventArgs e)
+        private void ShaverCheckBox_CheckedChanged(object sender, EventArgs e)
         {
             MGS2UsableObjects.Shaver.ToggleItem();
         }
 
-        private void coldMedsCurrentBtn_Click(object sender, EventArgs e)
+        private void ColdMedsCurrentBtn_Click(object sender, EventArgs e)
         {
             MGS2UsableObjects.ColdMedicine.UpdateCurrentCount(CurrentColdMedsCount());
         }
 
-        private void coldMedsMaxBtn_Click(object sender, EventArgs e)
+        private void ColdMedsMaxBtn_Click(object sender, EventArgs e)
         {
             MGS2UsableObjects.ColdMedicine.UpdateMaxCount(MaxColdMedsCount());
         }
         #endregion
 
         #region Weapons Button Functions
-        private void akMaxBtn_Click(object sender, EventArgs e)
+        private void AkMaxBtn_Click(object sender, EventArgs e)
         {
-            MGS2UsableObjects.AKS74u.UpdateMaxAmmoCount(AkMaxAmmoCount());
+            MGS2UsableObjects.AKS74u.UpdateMaxAmmoCount(AKMaxAmmoCount());
         }
 
-        private void m9CurrentBtn_Click(object sender, EventArgs e)
+        private void M9CurrentBtn_Click(object sender, EventArgs e)
         {
             MGS2UsableObjects.M9.UpdateCurrentAmmoCount(M9CurrentAmmoCount());
         }
 
-        private void m9MaxBtn_Click(object sender, EventArgs e)
+        private void M9MaxBtn_Click(object sender, EventArgs e)
         {
             MGS2UsableObjects.M9.UpdateMaxAmmoCount(M9MaxAmmoCount());
         }
 
-        private void socomCurrentBtn_Click(object sender, EventArgs e)
+        private void SocomCurrentBtn_Click(object sender, EventArgs e)
         {
-            MGS2UsableObjects.SOCOM.UpdateCurrentAmmoCount(SocomCurrentAmmoCount());
+            MGS2UsableObjects.SOCOM.UpdateCurrentAmmoCount(SOCOMCurrentAmmoCount());
         }
 
-        private void socomMaxBtn_Click(object sender, EventArgs e)
+        private void SocomMaxBtn_Click(object sender, EventArgs e)
         {
-            MGS2UsableObjects.SOCOM.UpdateMaxAmmoCount(SocomMaxAmmoCount());
+            MGS2UsableObjects.SOCOM.UpdateMaxAmmoCount(SOCOMMaxAmmoCount());
         }
 
-        private void uspCurrentBtn_Click(object sender, EventArgs e)
+        private void UspCurrentBtn_Click(object sender, EventArgs e)
         {
-            MGS2UsableObjects.USP.UpdateCurrentAmmoCount(UspCurrentAmmoCount());
+            MGS2UsableObjects.USP.UpdateCurrentAmmoCount(USPCurrentAmmoCount());
         }
 
-        private void uspMaxBtn_Click(object sender, EventArgs e)
+        private void UspMaxBtn_Click(object sender, EventArgs e)
         {
-            MGS2UsableObjects.USP.UpdateMaxAmmoCount(UspMaxAmmoCount());
+            MGS2UsableObjects.USP.UpdateMaxAmmoCount(USPMaxAmmoCount());
         }
 
-        private void chaffCurrentBtn_Click(object sender, EventArgs e)
+        private void ChaffCurrentBtn_Click(object sender, EventArgs e)
         {
             MGS2UsableObjects.ChaffGrenade.UpdateCurrentAmmoCount(ChaffCurrentAmmoCount());
         }
 
-        private void chaffMaxBtn_Click(object sender, EventArgs e)
+        private void ChaffMaxBtn_Click(object sender, EventArgs e)
         {
             MGS2UsableObjects.ChaffGrenade.UpdateMaxAmmoCount(ChaffMaxAmmoCount());
         }
 
-        private void stunCurrentBtn_Click(object sender, EventArgs e)
+        private void StunCurrentBtn_Click(object sender, EventArgs e)
         {
             MGS2UsableObjects.StunGrenade.UpdateCurrentAmmoCount(StunCurrentAmmoCount());
         }
 
-        private void stunMaxBtn_Click(object sender, EventArgs e)
+        private void StunMaxBtn_Click(object sender, EventArgs e)
         {
             MGS2UsableObjects.StunGrenade.UpdateMaxAmmoCount(StunMaxAmmoCount());
         }
 
-        private void grenadeCurrentBtn_Click(object sender, EventArgs e)
+        private void GrenadeCurrentBtn_Click(object sender, EventArgs e)
         {
             MGS2UsableObjects.Grenade.UpdateCurrentAmmoCount(GrenadeCurrentAmmoCount());
         }
 
-        private void grenadeMaxBtn_Click(object sender, EventArgs e)
+        private void GrenadeMaxBtn_Click(object sender, EventArgs e)
         {
             MGS2UsableObjects.Grenade.UpdateMaxAmmoCount(GrenadeMaxAmmoCount());
         }
 
-        private void magazineCurrentBtn_Click(object sender, EventArgs e)
+        private void MagazineCurrentBtn_Click(object sender, EventArgs e)
         {
             MGS2UsableObjects.Magazine.UpdateCurrentAmmoCount(MagazineCurrentAmmoCount());
         }
 
-        private void magazineMaxBtn_Click(object sender, EventArgs e)
+        private void MagazineMaxBtn_Click(object sender, EventArgs e)
         {
             MGS2UsableObjects.Magazine.UpdateMaxAmmoCount(MagazineMaxAmmoCount());
         }
 
-        private void akCurrentBtn_Click(object sender, EventArgs e)
+        private void AkCurrentBtn_Click(object sender, EventArgs e)
         {
-            MGS2UsableObjects.AKS74u.UpdateCurrentAmmoCount(AkCurrentAmmoCount());
+            MGS2UsableObjects.AKS74u.UpdateCurrentAmmoCount(AKCurrentAmmoCount());
         }
 
-        private void m4CurrentBtn_Click(object sender, EventArgs e)
+        private void M4CurrentBtn_Click(object sender, EventArgs e)
         {
             MGS2UsableObjects.M4.UpdateCurrentAmmoCount(M4CurrentAmmoCount());
         }
 
-        private void m4MaxBtn_Click(object sender, EventArgs e)
+        private void M4MaxBtn_Click(object sender, EventArgs e)
         {
             MGS2UsableObjects.M4.UpdateMaxAmmoCount(M4MaxAmmoCount());
         }
 
-        private void psg1CurrentBtn_Click(object sender, EventArgs e)
+        private void Psg1CurrentBtn_Click(object sender, EventArgs e)
         {
-            MGS2UsableObjects.PSG1.UpdateCurrentAmmoCount(Psg1CurrentAmmoCount());
+            MGS2UsableObjects.PSG1.UpdateCurrentAmmoCount(PSG1CurrentAmmoCount());
         }
 
-        private void psg1MaxBtn_Click(object sender, EventArgs e)
+        private void Psg1MaxBtn_Click(object sender, EventArgs e)
         {
-            MGS2UsableObjects.PSG1.UpdateMaxAmmoCount(Psg1MaxAmmoCount());
+            MGS2UsableObjects.PSG1.UpdateMaxAmmoCount(PSG1MaxAmmoCount());
         }
 
-        private void psg1TCurrentBtn_Click(object sender, EventArgs e)
+        private void Psg1TCurrentBtn_Click(object sender, EventArgs e)
         {
-            MGS2UsableObjects.PSG1T.UpdateCurrentAmmoCount(Psg1TCurrentAmmoCount());
+            MGS2UsableObjects.PSG1T.UpdateCurrentAmmoCount(PSG1TCurrentAmmoCount());
         }
 
-        private void psg1TMaxBtn_Click(object sender, EventArgs e)
+        private void Psg1TMaxBtn_Click(object sender, EventArgs e)
         {
-            MGS2UsableObjects.PSG1T.UpdateMaxAmmoCount(Psg1TMaxAmmoCount());
+            MGS2UsableObjects.PSG1T.UpdateMaxAmmoCount(PSG1TMaxAmmoCount());
         }
 
-        private void rgb6CurrentBtn_Click(object sender, EventArgs e)
+        private void Rgb6CurrentBtn_Click(object sender, EventArgs e)
         {
-            MGS2UsableObjects.RGB6.UpdateCurrentAmmoCount(Rgb6CurrentAmmoCount());
+            MGS2UsableObjects.RGB6.UpdateCurrentAmmoCount(RGB6CurrentAmmoCount());
         }
 
-        private void rgb6MaxBtn_Click(object sender, EventArgs e)
+        private void Rgb6MaxBtn_Click(object sender, EventArgs e)
         {
-            MGS2UsableObjects.RGB6.UpdateMaxAmmoCount(Rgb6MaxAmmoCount());
+            MGS2UsableObjects.RGB6.UpdateMaxAmmoCount(RGB6MaxAmmoCount());
         }
 
-        private void nikitaCurrentBtn_Click(object sender, EventArgs e)
+        private void NikitaCurrentBtn_Click(object sender, EventArgs e)
         {
             MGS2UsableObjects.Nikita.UpdateCurrentAmmoCount(NikitaCurrentAmmoCount());
         }
 
-        private void nikitaMaxBtn_Click(object sender, EventArgs e)
+        private void NikitaMaxBtn_Click(object sender, EventArgs e)
         {
             MGS2UsableObjects.Nikita.UpdateMaxAmmoCount(NikitaMaxAmmoCount());
         }
 
-        private void stingerCurrentBtn_Click(object sender, EventArgs e)
+        private void StingerCurrentBtn_Click(object sender, EventArgs e)
         {
             MGS2UsableObjects.Stinger.UpdateCurrentAmmoCount(StingerCurrentAmmoCount());
         }
 
-        private void stingerMaxBtn_Click(object sender, EventArgs e)
+        private void StingerMaxBtn_Click(object sender, EventArgs e)
         {
             MGS2UsableObjects.Stinger.UpdateMaxAmmoCount(StingerMaxAmmoCount());
         }
 
-        private void claymoreCurrentBtn_Click(object sender, EventArgs e)
+        private void ClaymoreCurrentBtn_Click(object sender, EventArgs e)
         {
             MGS2UsableObjects.Claymore.UpdateCurrentAmmoCount(ClaymoreCurrentAmmoCount());
         }
 
-        private void claymoreMaxBtn_Click(object sender, EventArgs e)
+        private void ClaymoreMaxBtn_Click(object sender, EventArgs e)
         {
             MGS2UsableObjects.Claymore.UpdateMaxAmmoCount(ClaymoreMaxAmmoCount());
         }
 
-        private void c4CurrentBtn_Click(object sender, EventArgs e)
+        private void C4CurrentBtn_Click(object sender, EventArgs e)
         {
             MGS2UsableObjects.C4.UpdateCurrentAmmoCount(ClaymoreCurrentAmmoCount());
         }
 
-        private void c4MaxBtn_Click(object sender, EventArgs e)
+        private void C4MaxBtn_Click(object sender, EventArgs e)
         {
             MGS2UsableObjects.C4.UpdateMaxAmmoCount(ClaymoreMaxAmmoCount());
         }
 
-        private void bookCurrentBtn_Click(object sender, EventArgs e)
+        private void BookCurrentBtn_Click(object sender, EventArgs e)
         {
             MGS2UsableObjects.Book.UpdateCurrentAmmoCount(BookCurrentAmmoCount());
         }
 
-        private void bookMaxBtn_Click(object sender, EventArgs e)
+        private void BookMaxBtn_Click(object sender, EventArgs e)
         {
             MGS2UsableObjects.Book.UpdateMaxAmmoCount(BookMaxAmmoCount());
         }
 
-        private void hfBladeLethalBtn_Click(object sender, EventArgs e)
+        private void HfBladeLethalBtn_Click(object sender, EventArgs e)
         {
             MGS2UsableObjects.HighFrequencyBlade.SetToLethal();
         }
 
-        private void hfBladeStunBtn_Click(object sender, EventArgs e)
+        private void HfBladeStunBtn_Click(object sender, EventArgs e)
         {
             MGS2UsableObjects.HighFrequencyBlade.SetToStun();
         }
 
-        private void m9CheckBox_CheckedChanged(object sender, EventArgs e)
+        private void M9CheckBox_CheckedChanged(object sender, EventArgs e)
         {
             MGS2UsableObjects.M9.ToggleWeapon();
         }
 
-        private void socomCheckBox_CheckedChanged(object sender, EventArgs e)
+        private void SocomCheckBox_CheckedChanged(object sender, EventArgs e)
         {
             MGS2UsableObjects.SOCOM.ToggleWeapon();
         }
 
-        private void uspCheckBox_CheckedChanged(object sender, EventArgs e)
+        private void UspCheckBox_CheckedChanged(object sender, EventArgs e)
         {
             MGS2UsableObjects.USP.ToggleWeapon();
         }
 
-        private void chaffCheckBox_CheckedChanged(object sender, EventArgs e)
+        private void ChaffCheckBox_CheckedChanged(object sender, EventArgs e)
         {
             MGS2UsableObjects.ChaffGrenade.ToggleWeapon();
         }
 
-        private void stunCheckBox_CheckedChanged(object sender, EventArgs e)
+        private void StunCheckBox_CheckedChanged(object sender, EventArgs e)
         {
             MGS2UsableObjects.StunGrenade.ToggleWeapon();
         }
 
-        private void grenadeCheckBox_CheckedChanged(object sender, EventArgs e)
+        private void GrenadeCheckBox_CheckedChanged(object sender, EventArgs e)
         {
             MGS2UsableObjects.Grenade.ToggleWeapon();
         }
 
-        private void magazineCheckBox_CheckedChanged(object sender, EventArgs e)
+        private void MagazineCheckBox_CheckedChanged(object sender, EventArgs e)
         {
             MGS2UsableObjects.Magazine.ToggleWeapon();
         }
 
-        private void akCheckBox_CheckedChanged(object sender, EventArgs e)
+        private void AkCheckBox_CheckedChanged(object sender, EventArgs e)
         {
             MGS2UsableObjects.AKS74u.ToggleWeapon();
         }
 
-        private void m4CheckBox_CheckedChanged(object sender, EventArgs e)
+        private void M4CheckBox_CheckedChanged(object sender, EventArgs e)
         {
             MGS2UsableObjects.M4.ToggleWeapon();
         }
 
-        private void psg1CheckBox_CheckedChanged(object sender, EventArgs e)
+        private void Psg1CheckBox_CheckedChanged(object sender, EventArgs e)
         {
             MGS2UsableObjects.PSG1.ToggleWeapon();
         }
 
-        private void psg1TCheckBox_CheckedChanged(object sender, EventArgs e)
+        private void Psg1TCheckBox_CheckedChanged(object sender, EventArgs e)
         {
             MGS2UsableObjects.PSG1T.ToggleWeapon();
         }
 
-        private void rgb6CheckBox_CheckedChanged(object sender, EventArgs e)
+        private void Rgb6CheckBox_CheckedChanged(object sender, EventArgs e)
         {
             MGS2UsableObjects.RGB6.ToggleWeapon();
         }
 
-        private void nikitaCheckBox_CheckedChanged(object sender, EventArgs e)
+        private void NikitaCheckBox_CheckedChanged(object sender, EventArgs e)
         {
             MGS2UsableObjects.Nikita.ToggleWeapon();
         }
 
-        private void stingerCheckBox_CheckedChanged(object sender, EventArgs e)
+        private void StingerCheckBox_CheckedChanged(object sender, EventArgs e)
         {
             MGS2UsableObjects.Stinger.ToggleWeapon();
         }
 
-        private void claymoreCheckBox_CheckedChanged(object sender, EventArgs e)
+        private void ClaymoreCheckBox_CheckedChanged(object sender, EventArgs e)
         {
             MGS2UsableObjects.Claymore.ToggleWeapon();
         }
 
-        private void c4CheckBox_CheckedChanged(object sender, EventArgs e)
+        private void C4CheckBox_CheckedChanged(object sender, EventArgs e)
         {
             MGS2UsableObjects.C4.ToggleWeapon();
         }
 
-        private void bookCheckBox_CheckedChanged(object sender, EventArgs e)
+        private void BookCheckBox_CheckedChanged(object sender, EventArgs e)
         {
             MGS2UsableObjects.Book.ToggleWeapon();
         }
 
-        private void coolantCheckBox_CheckedChanged(object sender, EventArgs e)
+        private void CoolantCheckBox_CheckedChanged(object sender, EventArgs e)
         {
             MGS2UsableObjects.Coolant.ToggleWeapon();
         }
 
-        private void dmic1CheckBox_CheckedChanged(object sender, EventArgs e)
+        private void Dmic1CheckBox_CheckedChanged(object sender, EventArgs e)
         {
             MGS2UsableObjects.DMic.ToggleWeapon();
         }
 
-        private void dmic2CheckBox_CheckedChanged(object sender, EventArgs e)
+        private void Dmic2CheckBox_CheckedChanged(object sender, EventArgs e)
         {
             MGS2UsableObjects.DMic2.ToggleWeapon();
         }
 
-        private void hfBladeCheckBox_CheckedChanged(object sender, EventArgs e)
+        private void HfBladeCheckBox_CheckedChanged(object sender, EventArgs e)
         {
             MGS2UsableObjects.HighFrequencyBlade.ToggleWeapon();
         }
         #endregion
+
     }
 }
