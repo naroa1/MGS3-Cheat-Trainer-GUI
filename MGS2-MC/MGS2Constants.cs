@@ -116,6 +116,11 @@ Knockout (normal) takes 9 punches
 
         public const int BASE_WEAPON_OFFSET = -66; //whenever a "new" "anchor" is chosen, only need to update this value and all others will update.
         public const int BASE_ITEM_OFFSET = BASE_WEAPON_OFFSET + 144;
+        public const int TIMES_FOUND_GAME_LAUNCH_OFFSET = default; //TODO: update to real value
+        public const int SHOT_COUNT_PLAYER_OFFSET = -96;
+        public const int HOLD_UP_PLAYER_OFFSET = 5108;
+        //TODO: add more of the game stats here
+
 
         //These values are PRESENTLY unknown
         //internal const int HealthPointerOffset = 0x00AE49D8; 

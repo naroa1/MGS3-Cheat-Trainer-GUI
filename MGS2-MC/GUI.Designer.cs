@@ -468,6 +468,16 @@
             this.label15 = new System.Windows.Forms.Label();
             this.m9CurrentUpDown = new System.Windows.Forms.NumericUpDown();
             this.m9CurrentBtn = new System.Windows.Forms.Button();
+            this.tabPageStats = new System.Windows.Forms.TabPage();
+            this.tableLayoutPanel54 = new System.Windows.Forms.TableLayoutPanel();
+            this.timesFoundGroupBox = new System.Windows.Forms.GroupBox();
+            this.timesFoundLayoutPanel = new System.Windows.Forms.TableLayoutPanel();
+            this.label49 = new System.Windows.Forms.Label();
+            this.timesFoundGameLaunchUpDown = new System.Windows.Forms.NumericUpDown();
+            this.label50 = new System.Windows.Forms.Label();
+            this.timesFoundOnLatestSaveUpDown = new System.Windows.Forms.NumericUpDown();
+            this.label51 = new System.Windows.Forms.Label();
+            this.timesFoundSinceLatestSaveUpDown = new System.Windows.Forms.NumericUpDown();
             this.mgs2TabControl.SuspendLayout();
             this.tabPageItem.SuspendLayout();
             this.itemLayoutPanel.SuspendLayout();
@@ -746,12 +756,20 @@
             ((System.ComponentModel.ISupportInitialize)(this.m9PictureBox)).BeginInit();
             this.tableLayoutPanel17.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.m9CurrentUpDown)).BeginInit();
+            this.tabPageStats.SuspendLayout();
+            this.tableLayoutPanel54.SuspendLayout();
+            this.timesFoundGroupBox.SuspendLayout();
+            this.timesFoundLayoutPanel.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.timesFoundGameLaunchUpDown)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.timesFoundOnLatestSaveUpDown)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.timesFoundSinceLatestSaveUpDown)).BeginInit();
             this.SuspendLayout();
             // 
             // mgs2TabControl
             // 
             this.mgs2TabControl.Controls.Add(this.tabPageItem);
             this.mgs2TabControl.Controls.Add(this.tabPageWeapon);
+            this.mgs2TabControl.Controls.Add(this.tabPageStats);
             this.mgs2TabControl.Dock = System.Windows.Forms.DockStyle.Fill;
             this.mgs2TabControl.Location = new System.Drawing.Point(0, 0);
             this.mgs2TabControl.Name = "mgs2TabControl";
@@ -6571,6 +6589,130 @@
             this.m9CurrentBtn.UseVisualStyleBackColor = true;
             this.m9CurrentBtn.Click += new System.EventHandler(this.M9CurrentBtn_Click);
             // 
+            // tabPageStats
+            // 
+            this.tabPageStats.Controls.Add(this.tableLayoutPanel54);
+            this.tabPageStats.Location = new System.Drawing.Point(4, 22);
+            this.tabPageStats.Name = "tabPageStats";
+            this.tabPageStats.Padding = new System.Windows.Forms.Padding(3);
+            this.tabPageStats.Size = new System.Drawing.Size(1295, 583);
+            this.tabPageStats.TabIndex = 2;
+            this.tabPageStats.Text = "In-Game Stats";
+            this.tabPageStats.UseVisualStyleBackColor = true;
+            // 
+            // tableLayoutPanel54
+            // 
+            this.tableLayoutPanel54.ColumnCount = 3;
+            this.tableLayoutPanel54.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
+            this.tableLayoutPanel54.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
+            this.tableLayoutPanel54.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 400F));
+            this.tableLayoutPanel54.Controls.Add(this.timesFoundGroupBox, 0, 0);
+            this.tableLayoutPanel54.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.tableLayoutPanel54.Location = new System.Drawing.Point(3, 3);
+            this.tableLayoutPanel54.Name = "tableLayoutPanel54";
+            this.tableLayoutPanel54.RowCount = 4;
+            this.tableLayoutPanel54.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 25F));
+            this.tableLayoutPanel54.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 25F));
+            this.tableLayoutPanel54.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 25F));
+            this.tableLayoutPanel54.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 25F));
+            this.tableLayoutPanel54.Size = new System.Drawing.Size(1289, 577);
+            this.tableLayoutPanel54.TabIndex = 0;
+            // 
+            // timesFoundGroupBox
+            // 
+            this.timesFoundGroupBox.Controls.Add(this.timesFoundLayoutPanel);
+            this.timesFoundGroupBox.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.timesFoundGroupBox.Location = new System.Drawing.Point(3, 3);
+            this.timesFoundGroupBox.Name = "timesFoundGroupBox";
+            this.timesFoundGroupBox.Size = new System.Drawing.Size(438, 138);
+            this.timesFoundGroupBox.TabIndex = 0;
+            this.timesFoundGroupBox.TabStop = false;
+            this.timesFoundGroupBox.Text = "Times Found";
+            // 
+            // timesFoundLayoutPanel
+            // 
+            this.timesFoundLayoutPanel.ColumnCount = 2;
+            this.timesFoundLayoutPanel.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 40F));
+            this.timesFoundLayoutPanel.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 60F));
+            this.timesFoundLayoutPanel.Controls.Add(this.label51, 0, 2);
+            this.timesFoundLayoutPanel.Controls.Add(this.timesFoundSinceLatestSaveUpDown, 1, 2);
+            this.timesFoundLayoutPanel.Controls.Add(this.label50, 0, 1);
+            this.timesFoundLayoutPanel.Controls.Add(this.timesFoundOnLatestSaveUpDown, 1, 1);
+            this.timesFoundLayoutPanel.Controls.Add(this.label49, 0, 0);
+            this.timesFoundLayoutPanel.Controls.Add(this.timesFoundGameLaunchUpDown, 1, 0);
+            this.timesFoundLayoutPanel.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.timesFoundLayoutPanel.Location = new System.Drawing.Point(3, 16);
+            this.timesFoundLayoutPanel.Name = "timesFoundLayoutPanel";
+            this.timesFoundLayoutPanel.RowCount = 3;
+            this.timesFoundLayoutPanel.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 33.33333F));
+            this.timesFoundLayoutPanel.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 33.33333F));
+            this.timesFoundLayoutPanel.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 33.33333F));
+            this.timesFoundLayoutPanel.Size = new System.Drawing.Size(432, 119);
+            this.timesFoundLayoutPanel.TabIndex = 0;
+            // 
+            // label49
+            // 
+            this.label49.AutoSize = true;
+            this.label49.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.label49.Location = new System.Drawing.Point(3, 3);
+            this.label49.Margin = new System.Windows.Forms.Padding(3);
+            this.label49.Name = "label49";
+            this.label49.Size = new System.Drawing.Size(166, 33);
+            this.label49.TabIndex = 0;
+            this.label49.Text = "Since Game Launch";
+            this.label49.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // timesFoundGameLaunchUpDown
+            // 
+            this.timesFoundGameLaunchUpDown.Anchor = System.Windows.Forms.AnchorStyles.Left;
+            this.timesFoundGameLaunchUpDown.Location = new System.Drawing.Point(175, 9);
+            this.timesFoundGameLaunchUpDown.Name = "timesFoundGameLaunchUpDown";
+            this.timesFoundGameLaunchUpDown.Size = new System.Drawing.Size(120, 20);
+            this.timesFoundGameLaunchUpDown.TabIndex = 1;
+            this.timesFoundGameLaunchUpDown.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // label50
+            // 
+            this.label50.AutoSize = true;
+            this.label50.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.label50.Location = new System.Drawing.Point(3, 42);
+            this.label50.Margin = new System.Windows.Forms.Padding(3);
+            this.label50.Name = "label50";
+            this.label50.Size = new System.Drawing.Size(166, 33);
+            this.label50.TabIndex = 2;
+            this.label50.Text = "On Latest Save";
+            this.label50.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // timesFoundOnLatestSaveUpDown
+            // 
+            this.timesFoundOnLatestSaveUpDown.Anchor = System.Windows.Forms.AnchorStyles.Left;
+            this.timesFoundOnLatestSaveUpDown.Location = new System.Drawing.Point(175, 48);
+            this.timesFoundOnLatestSaveUpDown.Name = "timesFoundOnLatestSaveUpDown";
+            this.timesFoundOnLatestSaveUpDown.Size = new System.Drawing.Size(120, 20);
+            this.timesFoundOnLatestSaveUpDown.TabIndex = 3;
+            this.timesFoundOnLatestSaveUpDown.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // label51
+            // 
+            this.label51.AutoSize = true;
+            this.label51.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.label51.Location = new System.Drawing.Point(3, 81);
+            this.label51.Margin = new System.Windows.Forms.Padding(3);
+            this.label51.Name = "label51";
+            this.label51.Size = new System.Drawing.Size(166, 35);
+            this.label51.TabIndex = 4;
+            this.label51.Text = "Since Latest Save";
+            this.label51.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // timesFoundSinceLatestSaveUpDown
+            // 
+            this.timesFoundSinceLatestSaveUpDown.Anchor = System.Windows.Forms.AnchorStyles.Left;
+            this.timesFoundSinceLatestSaveUpDown.Location = new System.Drawing.Point(175, 88);
+            this.timesFoundSinceLatestSaveUpDown.Name = "timesFoundSinceLatestSaveUpDown";
+            this.timesFoundSinceLatestSaveUpDown.Size = new System.Drawing.Size(120, 20);
+            this.timesFoundSinceLatestSaveUpDown.TabIndex = 5;
+            this.timesFoundSinceLatestSaveUpDown.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
             // GUI
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -6965,6 +7107,14 @@
             this.tableLayoutPanel17.ResumeLayout(false);
             this.tableLayoutPanel17.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.m9CurrentUpDown)).EndInit();
+            this.tabPageStats.ResumeLayout(false);
+            this.tableLayoutPanel54.ResumeLayout(false);
+            this.timesFoundGroupBox.ResumeLayout(false);
+            this.timesFoundLayoutPanel.ResumeLayout(false);
+            this.timesFoundLayoutPanel.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.timesFoundGameLaunchUpDown)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.timesFoundOnLatestSaveUpDown)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.timesFoundSinceLatestSaveUpDown)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -7411,6 +7561,16 @@
         private System.Windows.Forms.Label label11;
         private System.Windows.Forms.NumericUpDown box1UpDown;
         private System.Windows.Forms.Button box1Btn;
+        private System.Windows.Forms.TabPage tabPageStats;
+        private System.Windows.Forms.TableLayoutPanel tableLayoutPanel54;
+        private System.Windows.Forms.GroupBox timesFoundGroupBox;
+        private System.Windows.Forms.TableLayoutPanel timesFoundLayoutPanel;
+        private System.Windows.Forms.Label label51;
+        private System.Windows.Forms.NumericUpDown timesFoundSinceLatestSaveUpDown;
+        private System.Windows.Forms.Label label50;
+        private System.Windows.Forms.NumericUpDown timesFoundOnLatestSaveUpDown;
+        private System.Windows.Forms.Label label49;
+        private System.Windows.Forms.NumericUpDown timesFoundGameLaunchUpDown;
     }
 }
 
