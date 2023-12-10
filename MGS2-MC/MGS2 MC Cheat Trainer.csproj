@@ -100,6 +100,7 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
+    <None Include="Resources\METAL GEAR SOLID 2 SONS OF LIBERTY.CT" />
     <None Include="Resources\mgs2_sse_hackzinglyhack7.CT" />
   </ItemGroup>
   <ItemGroup>

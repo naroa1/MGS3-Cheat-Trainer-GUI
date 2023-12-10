@@ -322,12 +322,12 @@ namespace MGS2_MC
 
         private void Binos1CheckBox_CheckedChanged(object sender, EventArgs e)
         {
-            MGS2UsableObjects.SnakeBinoculars.ToggleItem(scope1CheckBox.Checked);
+            MGS2UsableObjects.SnakeScope.ToggleItem(scope1CheckBox.Checked);
         }
 
         private void Binos2CheckBox_CheckedChanged(object sender, EventArgs e)
         {
-            MGS2UsableObjects.RaidenBinoculars.ToggleItem(scope2CheckBox.Checked);
+            MGS2UsableObjects.RaidenScope.ToggleItem(scope2CheckBox.Checked);
         }
 
         private void Camera1CheckBox_CheckedChanged(object sender, EventArgs e)

@@ -273,7 +273,7 @@ namespace MGS2_MC
 
         #region Items
         #region Basic Items
-        public static readonly BasicItem SnakeBinoculars = new BasicItem("Binoculars", IntPtr.Zero, MGS2Constants.BASE_ITEM_OFFSET + MGS2Constants.SnakeBinocularsOffset);
+        public static readonly BasicItem SnakeScope = new BasicItem("Binoculars", IntPtr.Zero, MGS2Constants.BASE_ITEM_OFFSET + MGS2Constants.SnakeScopeOffset);
         public static readonly BasicItem BodyArmor = new BasicItem("Body Armor", IntPtr.Zero, MGS2Constants.BASE_ITEM_OFFSET + MGS2Constants.BodyArmorOffset);
         public static readonly BasicItem Stealth = new BasicItem("Stealth", IntPtr.Zero, MGS2Constants.BASE_ITEM_OFFSET + MGS2Constants.StealthOffset);
         public static readonly BasicItem MineDetector = new BasicItem("Mine Detector", IntPtr.Zero, MGS2Constants.BASE_ITEM_OFFSET + MGS2Constants.MineDetectorOffset);
@@ -281,7 +281,7 @@ namespace MGS2_MC
         public static readonly BasicItem SensorB = new BasicItem("Sensor B", IntPtr.Zero, MGS2Constants.BASE_ITEM_OFFSET + MGS2Constants.SensorBOffset);
         public static readonly BasicItem NightVisionGoggles = new BasicItem("NVG", IntPtr.Zero, MGS2Constants.BASE_ITEM_OFFSET + MGS2Constants.NightVisionGogglesOffset);
         public static readonly BasicItem ThermalGoggles = new BasicItem("ThermalG", IntPtr.Zero, MGS2Constants.BASE_ITEM_OFFSET + MGS2Constants.ThermalGogglesOffset);
-        public static readonly BasicItem RaidenBinoculars = new BasicItem("Binoculars", IntPtr.Zero, MGS2Constants.BASE_ITEM_OFFSET + MGS2Constants.RaidenBinocularsOffset);
+        public static readonly BasicItem RaidenScope = new BasicItem("Binoculars", IntPtr.Zero, MGS2Constants.BASE_ITEM_OFFSET + MGS2Constants.RaidenScopeOffset);
         public static readonly BasicItem DigitalCamera = new BasicItem("Digital Camera", IntPtr.Zero, MGS2Constants.BASE_ITEM_OFFSET + MGS2Constants.DigitalCameraOffset);
         public static readonly BasicItem Cigarettes = new BasicItem("Cigs", IntPtr.Zero, MGS2Constants.BASE_ITEM_OFFSET + MGS2Constants.CigarettesOffset);
         public static readonly BasicItem Shaver = new BasicItem("Shaver", IntPtr.Zero, MGS2Constants.BASE_ITEM_OFFSET + MGS2Constants.ShaverOffset);

@@ -11,17 +11,98 @@ namespace MGS2_MC
     {
         /*useful information from @ANTIBigBoss irt GoG port CT:
          * 
+         * Misc notes:
+         * You  can open menus bij clicking their active boxes left to them
+______________________________
+Values to make some cheats work
+----------------------------------------------------
+Regular cheats
+  - Walk through walls: 39 = on, 36=off
+  - Enable Stealth: 64 = invisible :not from cameras ='(]
+ 
+Weapon values
+ - If you want to disable weapons: set value to -1 or 65535
+ - this also means for items.
+ - Whitesnoop ~
+Alert mode = Put 1
+Evasion = just lock for infinite evation
+Caution = 5000 or whatever number to get Caution
+------
+Knockout (normal) takes 9 punches
+         * 
+         * !!!!!!!!!!! Unfortunately, it seems like the offsets in the GoG version are NOT translating to the MC version :( !!!!!!!
+         * (Statics we can manipulate) = (type) -- (original offset in hex == original offset in decimal)
+         * 
+         * ------------
+         * "Main" stuff
+         * ------------
          * MaxLife = 2 bytes
-         * AmmoInClip = 4 bytes(original offset of 618B2C == 6392620)
-         * FPV State = array bytes(original offset of 9C18C == 639372)
-         * FPV = byte(original offset of 618B03 == 6392579)
-         * CurrentLevel = 7 char string
-         * CurrentWeapon = 2 bytes
+         * AmmoInClip = 4 bytes -- 618B2C == 6392620
+         * FPV State = array bytes -- 9C18C == 639372
+         * FPV = byte -- 618B03 == 6392579
+         * CurrentItem = 2 bytes -- D8AEC6 == 14200518
+         * CurrentLevel = 7 char string -- D8ADEC == 14200300
+         * CurrentWeapon = 2 bytes -- D8AEC4 == 14200516
+         * Life = 2 bytes -- 618BD0 == 6392784
          * LifeText = 15 char string
          * End if found = 1 byte
          * Walk through walls = 1 byte
          * Walk through walls(soft) = 1 byte
+         * Set character at load = 7 char string -- D8C374 == 14205812
+         * VR end(34)?? = 4 bytes 
+         * Set start point ROT = 2 bytes -- D8FE28 == 14220840
+         * Set start point X = 2 bytes -- D8FE30 == 14220848
+         * Set start point Y = 2 bytes -- D8FE34 == 14220852
+         * Set start point Z = 2 bytes -- D8FE38 == 14220856
+         * Load level = 16 char string -- D8C384 == 14205828
+         * Previous level = 7 char string -- 664FC4 == 6705092
+         * Difficulty = 1 byte -- D8C368 == 14205800
+         * Difficulty(RO) = 1 byte -- D8ADD0 == 14200272
+         * Screen visible(codec eg?) = 1 byte -- 9B7044 == 10186820
+         * X(?) = float -- 6164E0 == 6382816
+         * Y(?) = float -- 6164E4 == 6382820
+         * Z(?) = float -- 6164E8 == 6382824
+         * LocationX(?) = byte? -- 4A9910 == 4888848
+         * LocationY(?) = 2 bytes -- 4A990B == 4888843
          * 
+         * ----------------
+         * VR mission stuff
+         * ----------------
+         * Bomb disposal = 2 bytes -- B60CFC == 11930876
+         * Enemies = 2 bytes -- B6DE20 == 11984416
+         * Score = 4 bytes -- B60C20 == 11930656
+         * Targets = 2 bytes -- B60C04 == 11930628
+         * Time = 2 bytes -- B60CF8 == 11930872
+         * 
+         * ----------------
+         * Alert mode stuff
+         * ----------------
+         * Caution = 4 bytes -- 6160C8 == 6381768
+         * Current Mode = 1 byte -- D8AEDA == 14200538
+         * 
+         * ------------
+         * Random stuff
+         * ------------
+         * Character luminance = float -- 5FE990 == 6285712
+         * Flip screen = float -- 5FE2F4 == 6284020
+         * Hud horizontal placement = float -- 5FE610 == 6284816
+         * Hud vertical placement = float -- 5FE614 == 6284820
+         * Function starter? = 4 bytes -- B60A0C == 11930124
+         * FOV = float -- 5FE1C8 == 6283720
+         * Horizontal Stretch = float -- 5FE1B4 == 6283700
+         * Vertical stretch = float -- 5FE1A0 == 6283680
+         * Screen Y pos = float -- 5FD704 == 6280964
+         */
+
+
+        /*
+         * 12/10: Interesting CE learnings -
+         * 
+         * Certain game stats are tracked GLOBALLY and reset on launch(kill count, shot count, holdups, choke outs, prolly more)
+         * It looks like the memory accesses these counts AT LEAST once on game load, once on screen load and twice on gameplay
+         * 
+         * Hold up count is 5108 bytes AFTER my current anchor(00 00 00 00 01 00 2E 00) and 7588 BEFORE checkpoint?.
+         * Shot count is 96 bytes BEFORE my current anchor and 12792 AFTER checkpoint?.
          */
 
         public const string PROCESS_NAME = "METAL GEAR SOLID2";
@@ -31,6 +112,7 @@ namespace MGS2_MC
         //public static byte[] PlayerOffsetBytes = new byte[] { 82, 82, 74, 41, 37, 148, 82, 74, 41, 145, 66, 170, 148, 82, 74, 41, 1, 132, 18, 80, 74, 165, 144, 145, 145, 145, 82, 162, 164, 148, 145, 82, 74, 41, 165, 148, 82, 74, 41, 73, 72, 33 };
         //public static IntPtr PlayerOffsetPtr = (IntPtr)0x52524A292594524A299142AA94524A29018412504AA59092929252A2A49492524A29A594524A29494821;
         public static byte[] PlayerOffsetBytes = new byte[] { 00, 00, 00, 00, 01, 00, 46, 00 };
+        //00 00 00 00 01 00 2E 00 <-- use this array of bytes to find ^^ in CE
 
         public const int BASE_WEAPON_OFFSET = -66; //whenever a "new" "anchor" is chosen, only need to update this value and all others will update.
         public const int BASE_ITEM_OFFSET = BASE_WEAPON_OFFSET + 144;
@@ -46,7 +128,7 @@ namespace MGS2_MC
 
         #region Item Table
         public const int RationOffset = 0;
-        public const int SnakeBinocularsOffset = 2;
+        public const int SnakeScopeOffset = 2;
         public const int ColdMedicineOffset = 4;
         public const int BandageOffset = 6;
         public const int PentazeminOffset = 8;
@@ -58,7 +140,7 @@ namespace MGS2_MC
         public const int SensorBOffset = 20;
         public const int NightVisionGogglesOffset = 22;
         public const int ThermalGogglesOffset = 24;
-        public const int RaidenBinocularsOffset = 26;
+        public const int RaidenScopeOffset = 26;
         public const int DigitalCameraOffset = 28;
         public const int Box1Offset = 30;
         public const int CigarettesOffset = 32;
@@ -72,7 +154,7 @@ namespace MGS2_MC
         public const int APSensorOffset = 48;
         public const int Box4Offset = 50;
         public const int Box5Offset = 52;
-        public const int UnknownItemOffset = 54;
+        public const int UnknownItemOffset = 54; //razor?
         public const int SocomSuppressorOffset = 56;
         public const int AKSuppressorOffset = 58;
         public const int Camera2Offset = 60;
