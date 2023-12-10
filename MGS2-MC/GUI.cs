@@ -494,6 +494,36 @@ namespace MGS2_MC
         {
             MGS2UsableObjects.ColdMedicine.UpdateMaxCount(MaxColdMedsCount());
         }
+
+        private void box1Btn_Click(object sender, EventArgs e)
+        {
+            MGS2UsableObjects.Box1.SetDurability((short)box1UpDown.Value);
+        }
+
+        private void box2Btn_Click(object sender, EventArgs e)
+        {
+            MGS2UsableObjects.Box2.SetDurability((short)box2UpDown.Value);
+        }
+
+        private void box3Btn_Click(object sender, EventArgs e)
+        {
+            MGS2UsableObjects.Box3.SetDurability((short)box3UpDown.Value);
+        }
+
+        private void box4Btn_Click(object sender, EventArgs e)
+        {
+            MGS2UsableObjects.Box4.SetDurability((short)box4UpDown.Value);
+        }
+
+        private void box5Btn_Click(object sender, EventArgs e)
+        {
+            MGS2UsableObjects.Box5.SetDurability((short)box5UpDown.Value);
+        }
+
+        private void wetBoxBtn_Click(object sender, EventArgs e)
+        {
+            MGS2UsableObjects.WetBox.SetDurability((short)wetBoxUpDown.Value);
+        }
         #endregion
 
         #region Weapons Button Functions
@@ -782,35 +812,5 @@ namespace MGS2_MC
             MGS2UsableObjects.HighFrequencyBlade.ToggleWeapon(hfBladeCheckBox.Checked);
         }
         #endregion
-
-        private void box1Btn_Click(object sender, EventArgs e)
-        {
-            MGS2UsableObjects.Box1.SetDurability((short)box1UpDown.Value);
-        }
-
-        private void box2Btn_Click(object sender, EventArgs e)
-        {
-            MGS2UsableObjects.Box2.SetDurability((short)box2UpDown.Value);
-        }
-
-        private void box3Btn_Click(object sender, EventArgs e)
-        {
-            MGS2UsableObjects.Box3.SetDurability((short)box3UpDown.Value);
-        }
-
-        private void box4Btn_Click(object sender, EventArgs e)
-        {
-            MGS2UsableObjects.Box4.SetDurability((short)box4UpDown.Value);
-        }
-
-        private void box5Btn_Click(object sender, EventArgs e)
-        {
-            MGS2UsableObjects.Box5.SetDurability((short)box5UpDown.Value);
-        }
-
-        private void wetBoxBtn_Click(object sender, EventArgs e)
-        {
-            MGS2UsableObjects.WetBox.SetDurability((short)wetBoxUpDown.Value);
-        }
     }
 }

@@ -9,6 +9,21 @@ namespace MGS2_MC
 {
     internal class MGS2Constants
     {
+        /*useful information from @ANTIBigBoss irt GoG port CT:
+         * 
+         * MaxLife = 2 bytes
+         * AmmoInClip = 4 bytes(original offset of 618B2C == 6392620)
+         * FPV State = array bytes(original offset of 9C18C == 639372)
+         * FPV = byte(original offset of 618B03 == 6392579)
+         * CurrentLevel = 7 char string
+         * CurrentWeapon = 2 bytes
+         * LifeText = 15 char string
+         * End if found = 1 byte
+         * Walk through walls = 1 byte
+         * Walk through walls(soft) = 1 byte
+         * 
+         */
+
         public const string PROCESS_NAME = "METAL GEAR SOLID2";
         //these commented offsets are old possible anchors i found that weren't consistent/usable
         //public static byte[] PlayerOffsetBytes = new byte[6] { 104, 01, 100, 00, 100, 00 }; // the CURRENT player offset will be the second to last one in memory.
