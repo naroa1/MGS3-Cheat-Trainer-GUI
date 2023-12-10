@@ -82,6 +82,8 @@ namespace MGS2_MC
             //the GC fucking _sucks_ when the game crashes and leaves a bunch of these in memory until you've died
             //a sufficient amount of times...
             //my next "best" idea is to do some validation when we find a possible playerOffset before returning it
+
+            //ALSO, we can use scope1 & 2 to determine whether we are playing Snake or Raiden!
             return new int[] { playerOffsets[playerOffsets.Count - 2], playerOffsets.Last() };
         }
 
@@ -184,20 +186,29 @@ namespace MGS2_MC
             return bytesRead;
         }
 
-        internal static void UpdateObjectCurrentCount(MGS2Object mgs2Object, short count)
+        internal static void UpdateObjectBaseValue(MGS2Object mgs2Object, short value)
         {
             switch (mgs2Object)
             {
                 case StackableItem stackableItem:
-                    ModifyByteValueObject(stackableItem.InventoryOffset, BitConverter.GetBytes(count));
+                    ModifyByteValueObject(stackableItem.CurrentCountOffset, BitConverter.GetBytes(value));
+                    break;
+                case DurabilityItem durabilityItem:
+                    ModifyByteValueObject(durabilityItem.DurabilityOffset, BitConverter.GetBytes(value));
                     break;
                 case AmmoWeapon ammoWeapon:
-                    ModifyByteValueObject(ammoWeapon.InventoryOffset, BitConverter.GetBytes(count));
+                    ModifyByteValueObject(ammoWeapon.CurrentAmmoOffset, BitConverter.GetBytes(value));
+                    break;
+                case SpecialWeapon specialWeapon:
+                    ModifyByteValueObject(specialWeapon.SpecialOffset, BitConverter.GetBytes(value));
+                    break;
+                case LevelableItem levelableItem:
+                    ModifyByteValueObject(levelableItem.LevelOffset, BitConverter.GetBytes(value));
                     break;
             }
         }
 
-        internal static void UpdateObjectMaxCount(MGS2Object mgs2Object, short count)
+        internal static void UpdateObjectMaxValue(MGS2Object mgs2Object, short count)
         {
             switch (mgs2Object)
             {

@@ -183,10 +183,10 @@
             this.mineDetectorLayoutPanel = new System.Windows.Forms.TableLayoutPanel();
             this.mineDetectorPictureBox = new System.Windows.Forms.PictureBox();
             this.mineDetectorCheckBox = new System.Windows.Forms.CheckBox();
-            this.binos2GroupBox = new System.Windows.Forms.GroupBox();
-            this.binos2LayoutPanel = new System.Windows.Forms.TableLayoutPanel();
-            this.binos2PictureBox = new System.Windows.Forms.PictureBox();
-            this.binos2CheckBox = new System.Windows.Forms.CheckBox();
+            this.scope2GroupBox = new System.Windows.Forms.GroupBox();
+            this.scope2LayoutPanel = new System.Windows.Forms.TableLayoutPanel();
+            this.scope2PictureBox = new System.Windows.Forms.PictureBox();
+            this.scope2CheckBox = new System.Windows.Forms.CheckBox();
             this.bandageGroupBox = new System.Windows.Forms.GroupBox();
             this.bandageLayoutPanel = new System.Windows.Forms.TableLayoutPanel();
             this.tableLayoutPanel4 = new System.Windows.Forms.TableLayoutPanel();
@@ -236,10 +236,10 @@
             this.label3 = new System.Windows.Forms.Label();
             this.rationCurrentUpDown = new System.Windows.Forms.NumericUpDown();
             this.rationCurrentBtn = new System.Windows.Forms.Button();
-            this.binos1GroupBox = new System.Windows.Forms.GroupBox();
-            this.binos1LayoutPanel = new System.Windows.Forms.TableLayoutPanel();
-            this.binos1PictureBox = new System.Windows.Forms.PictureBox();
-            this.binos1CheckBox = new System.Windows.Forms.CheckBox();
+            this.scope1GroupBox = new System.Windows.Forms.GroupBox();
+            this.scope1LayoutPanel = new System.Windows.Forms.TableLayoutPanel();
+            this.scope1PictureBox = new System.Windows.Forms.PictureBox();
+            this.scope1CheckBox = new System.Windows.Forms.CheckBox();
             this.bodyArmorGroupBox = new System.Windows.Forms.GroupBox();
             this.bodyArmorLayoutPanel = new System.Windows.Forms.TableLayoutPanel();
             this.bodyArmorPictureBox = new System.Windows.Forms.PictureBox();
@@ -575,9 +575,9 @@
             this.mineDetectorGroupBox.SuspendLayout();
             this.mineDetectorLayoutPanel.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.mineDetectorPictureBox)).BeginInit();
-            this.binos2GroupBox.SuspendLayout();
-            this.binos2LayoutPanel.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.binos2PictureBox)).BeginInit();
+            this.scope2GroupBox.SuspendLayout();
+            this.scope2LayoutPanel.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.scope2PictureBox)).BeginInit();
             this.bandageGroupBox.SuspendLayout();
             this.bandageLayoutPanel.SuspendLayout();
             this.tableLayoutPanel4.SuspendLayout();
@@ -607,9 +607,9 @@
             ((System.ComponentModel.ISupportInitialize)(this.rationPictureBox)).BeginInit();
             this.tableLayoutPanel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.rationCurrentUpDown)).BeginInit();
-            this.binos1GroupBox.SuspendLayout();
-            this.binos1LayoutPanel.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.binos1PictureBox)).BeginInit();
+            this.scope1GroupBox.SuspendLayout();
+            this.scope1LayoutPanel.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.scope1PictureBox)).BeginInit();
             this.bodyArmorGroupBox.SuspendLayout();
             this.bodyArmorLayoutPanel.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.bodyArmorPictureBox)).BeginInit();
@@ -808,13 +808,13 @@
             this.itemLayoutPanel.Controls.Add(this.box2GroupBox, 4, 1);
             this.itemLayoutPanel.Controls.Add(this.cigarettesGroupBox, 3, 1);
             this.itemLayoutPanel.Controls.Add(this.mineDetectorGroupBox, 2, 1);
-            this.itemLayoutPanel.Controls.Add(this.binos2GroupBox, 1, 1);
+            this.itemLayoutPanel.Controls.Add(this.scope2GroupBox, 1, 1);
             this.itemLayoutPanel.Controls.Add(this.bandageGroupBox, 0, 1);
             this.itemLayoutPanel.Controls.Add(this.bduGroupBox, 5, 0);
             this.itemLayoutPanel.Controls.Add(this.box1GroupBox, 4, 0);
             this.itemLayoutPanel.Controls.Add(this.coldMedsGroupBox, 0, 3);
             this.itemLayoutPanel.Controls.Add(this.rationGroupBox, 0, 0);
-            this.itemLayoutPanel.Controls.Add(this.binos1GroupBox, 1, 0);
+            this.itemLayoutPanel.Controls.Add(this.scope1GroupBox, 1, 0);
             this.itemLayoutPanel.Controls.Add(this.bodyArmorGroupBox, 2, 0);
             this.itemLayoutPanel.Dock = System.Windows.Forms.DockStyle.Fill;
             this.itemLayoutPanel.Location = new System.Drawing.Point(3, 3);
@@ -948,6 +948,11 @@
             this.wetBoxUpDown.Name = "wetBoxUpDown";
             this.wetBoxUpDown.Size = new System.Drawing.Size(65, 20);
             this.wetBoxUpDown.TabIndex = 1;
+            this.wetBoxUpDown.Value = new decimal(new int[] {
+            21,
+            0,
+            0,
+            0});
             // 
             // wetBoxBtn
             // 
@@ -959,6 +964,7 @@
             this.wetBoxBtn.TabIndex = 2;
             this.wetBoxBtn.Text = "Set!";
             this.wetBoxBtn.UseVisualStyleBackColor = true;
+            this.wetBoxBtn.Click += new System.EventHandler(this.wetBoxBtn_Click);
             // 
             // wetBoxPictureBox
             // 
@@ -1358,6 +1364,11 @@
             this.box5UpDown.Name = "box5UpDown";
             this.box5UpDown.Size = new System.Drawing.Size(65, 20);
             this.box5UpDown.TabIndex = 1;
+            this.box5UpDown.Value = new decimal(new int[] {
+            21,
+            0,
+            0,
+            0});
             // 
             // box5Btn
             // 
@@ -1369,6 +1380,7 @@
             this.box5Btn.TabIndex = 2;
             this.box5Btn.Text = "Set!";
             this.box5Btn.UseVisualStyleBackColor = true;
+            this.box5Btn.Click += new System.EventHandler(this.box5Btn_Click);
             // 
             // box5PictureBox
             // 
@@ -1702,6 +1714,11 @@
             this.box4UpDown.Name = "box4UpDown";
             this.box4UpDown.Size = new System.Drawing.Size(65, 20);
             this.box4UpDown.TabIndex = 1;
+            this.box4UpDown.Value = new decimal(new int[] {
+            21,
+            0,
+            0,
+            0});
             // 
             // box4Btn
             // 
@@ -1713,6 +1730,7 @@
             this.box4Btn.TabIndex = 2;
             this.box4Btn.Text = "Set!";
             this.box4Btn.UseVisualStyleBackColor = true;
+            this.box4Btn.Click += new System.EventHandler(this.box4Btn_Click);
             // 
             // box4PictureBox
             // 
@@ -1840,7 +1858,7 @@
             this.camera2GroupBox.Size = new System.Drawing.Size(208, 90);
             this.camera2GroupBox.TabIndex = 62;
             this.camera2GroupBox.TabStop = false;
-            this.camera2GroupBox.Text = "Raiden\'s Camera";
+            this.camera2GroupBox.Text = "Broken Camera?";
             // 
             // camera2LayoutPanel
             // 
@@ -2159,6 +2177,11 @@
             this.box3UpDown.Name = "box3UpDown";
             this.box3UpDown.Size = new System.Drawing.Size(65, 20);
             this.box3UpDown.TabIndex = 1;
+            this.box3UpDown.Value = new decimal(new int[] {
+            21,
+            0,
+            0,
+            0});
             // 
             // box3Btn
             // 
@@ -2170,6 +2193,7 @@
             this.box3Btn.TabIndex = 2;
             this.box3Btn.Text = "Set!";
             this.box3Btn.UseVisualStyleBackColor = true;
+            this.box3Btn.Click += new System.EventHandler(this.box3Btn_Click);
             // 
             // box3PictureBox
             // 
@@ -2617,6 +2641,11 @@
             this.box2UpDown.Name = "box2UpDown";
             this.box2UpDown.Size = new System.Drawing.Size(65, 20);
             this.box2UpDown.TabIndex = 1;
+            this.box2UpDown.Value = new decimal(new int[] {
+            21,
+            0,
+            0,
+            0});
             // 
             // box2Btn
             // 
@@ -2628,6 +2657,7 @@
             this.box2Btn.TabIndex = 2;
             this.box2Btn.Text = "Set!";
             this.box2Btn.UseVisualStyleBackColor = true;
+            this.box2Btn.Click += new System.EventHandler(this.box2Btn_Click);
             // 
             // box2PictureBox
             // 
@@ -2689,6 +2719,9 @@
             // cigarettesCheckBox
             // 
             this.cigarettesCheckBox.AutoSize = true;
+            this.cigarettesCheckBox.Checked = true;
+            this.cigarettesCheckBox.CheckState = System.Windows.Forms.CheckState.Checked;
+            this.cigarettesCheckBox.Enabled = false;
             this.cigarettesCheckBox.Location = new System.Drawing.Point(117, 6);
             this.cigarettesCheckBox.Margin = new System.Windows.Forms.Padding(3, 6, 3, 3);
             this.cigarettesCheckBox.Name = "cigarettesCheckBox";
@@ -2746,53 +2779,56 @@
             this.mineDetectorCheckBox.UseVisualStyleBackColor = true;
             this.mineDetectorCheckBox.CheckedChanged += new System.EventHandler(this.MineDetectorCheckBox_CheckedChanged);
             // 
-            // binos2GroupBox
+            // scope2GroupBox
             // 
-            this.binos2GroupBox.Controls.Add(this.binos2LayoutPanel);
-            this.binos2GroupBox.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.binos2GroupBox.Location = new System.Drawing.Point(217, 99);
-            this.binos2GroupBox.Name = "binos2GroupBox";
-            this.binos2GroupBox.Size = new System.Drawing.Size(208, 90);
-            this.binos2GroupBox.TabIndex = 48;
-            this.binos2GroupBox.TabStop = false;
-            this.binos2GroupBox.Text = "Raiden\'s Binos";
+            this.scope2GroupBox.Controls.Add(this.scope2LayoutPanel);
+            this.scope2GroupBox.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.scope2GroupBox.Location = new System.Drawing.Point(217, 99);
+            this.scope2GroupBox.Name = "scope2GroupBox";
+            this.scope2GroupBox.Size = new System.Drawing.Size(208, 90);
+            this.scope2GroupBox.TabIndex = 48;
+            this.scope2GroupBox.TabStop = false;
+            this.scope2GroupBox.Text = "Raiden\'s Binoculars";
             // 
-            // binos2LayoutPanel
+            // scope2LayoutPanel
             // 
-            this.binos2LayoutPanel.ColumnCount = 2;
-            this.binos2LayoutPanel.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 56.74157F));
-            this.binos2LayoutPanel.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 43.25843F));
-            this.binos2LayoutPanel.Controls.Add(this.binos2PictureBox, 0, 0);
-            this.binos2LayoutPanel.Controls.Add(this.binos2CheckBox, 1, 0);
-            this.binos2LayoutPanel.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.binos2LayoutPanel.Location = new System.Drawing.Point(3, 16);
-            this.binos2LayoutPanel.Name = "binos2LayoutPanel";
-            this.binos2LayoutPanel.RowCount = 2;
-            this.binos2LayoutPanel.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 42.22222F));
-            this.binos2LayoutPanel.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 57.77778F));
-            this.binos2LayoutPanel.Size = new System.Drawing.Size(202, 71);
-            this.binos2LayoutPanel.TabIndex = 41;
+            this.scope2LayoutPanel.ColumnCount = 2;
+            this.scope2LayoutPanel.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 56.74157F));
+            this.scope2LayoutPanel.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 43.25843F));
+            this.scope2LayoutPanel.Controls.Add(this.scope2PictureBox, 0, 0);
+            this.scope2LayoutPanel.Controls.Add(this.scope2CheckBox, 1, 0);
+            this.scope2LayoutPanel.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.scope2LayoutPanel.Location = new System.Drawing.Point(3, 16);
+            this.scope2LayoutPanel.Name = "scope2LayoutPanel";
+            this.scope2LayoutPanel.RowCount = 2;
+            this.scope2LayoutPanel.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 42.22222F));
+            this.scope2LayoutPanel.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 57.77778F));
+            this.scope2LayoutPanel.Size = new System.Drawing.Size(202, 71);
+            this.scope2LayoutPanel.TabIndex = 41;
             // 
-            // binos2PictureBox
+            // scope2PictureBox
             // 
-            this.binos2PictureBox.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.binos2PictureBox.Location = new System.Drawing.Point(3, 3);
-            this.binos2PictureBox.Name = "binos2PictureBox";
-            this.binos2PictureBox.Size = new System.Drawing.Size(108, 23);
-            this.binos2PictureBox.TabIndex = 0;
-            this.binos2PictureBox.TabStop = false;
+            this.scope2PictureBox.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.scope2PictureBox.Location = new System.Drawing.Point(3, 3);
+            this.scope2PictureBox.Name = "scope2PictureBox";
+            this.scope2PictureBox.Size = new System.Drawing.Size(108, 23);
+            this.scope2PictureBox.TabIndex = 0;
+            this.scope2PictureBox.TabStop = false;
             // 
-            // binos2CheckBox
+            // scope2CheckBox
             // 
-            this.binos2CheckBox.AutoSize = true;
-            this.binos2CheckBox.Location = new System.Drawing.Point(117, 6);
-            this.binos2CheckBox.Margin = new System.Windows.Forms.Padding(3, 6, 3, 3);
-            this.binos2CheckBox.Name = "binos2CheckBox";
-            this.binos2CheckBox.Size = new System.Drawing.Size(71, 17);
-            this.binos2CheckBox.TabIndex = 1;
-            this.binos2CheckBox.Text = "Enabled?";
-            this.binos2CheckBox.UseVisualStyleBackColor = true;
-            this.binos2CheckBox.CheckedChanged += new System.EventHandler(this.Binos2CheckBox_CheckedChanged);
+            this.scope2CheckBox.AutoSize = true;
+            this.scope2CheckBox.Checked = true;
+            this.scope2CheckBox.CheckState = System.Windows.Forms.CheckState.Indeterminate;
+            this.scope2CheckBox.Enabled = false;
+            this.scope2CheckBox.Location = new System.Drawing.Point(117, 6);
+            this.scope2CheckBox.Margin = new System.Windows.Forms.Padding(3, 6, 3, 3);
+            this.scope2CheckBox.Name = "scope2CheckBox";
+            this.scope2CheckBox.Size = new System.Drawing.Size(71, 17);
+            this.scope2CheckBox.TabIndex = 1;
+            this.scope2CheckBox.Text = "Enabled?";
+            this.scope2CheckBox.UseVisualStyleBackColor = true;
+            this.scope2CheckBox.CheckedChanged += new System.EventHandler(this.Binos2CheckBox_CheckedChanged);
             // 
             // bandageGroupBox
             // 
@@ -2979,12 +3015,14 @@
             this.bduLayoutPanel.RowCount = 2;
             this.bduLayoutPanel.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 42.22222F));
             this.bduLayoutPanel.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 57.77778F));
+            this.bduLayoutPanel.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
             this.bduLayoutPanel.Size = new System.Drawing.Size(207, 71);
             this.bduLayoutPanel.TabIndex = 41;
             // 
             // bduMaskCheckBox
             // 
             this.bduMaskCheckBox.AutoSize = true;
+            this.bduMaskCheckBox.Enabled = false;
             this.bduMaskCheckBox.Location = new System.Drawing.Point(3, 35);
             this.bduMaskCheckBox.Margin = new System.Windows.Forms.Padding(3, 6, 3, 3);
             this.bduMaskCheckBox.Name = "bduMaskCheckBox";
@@ -3086,6 +3124,11 @@
             this.box1UpDown.Name = "box1UpDown";
             this.box1UpDown.Size = new System.Drawing.Size(65, 20);
             this.box1UpDown.TabIndex = 1;
+            this.box1UpDown.Value = new decimal(new int[] {
+            21,
+            0,
+            0,
+            0});
             // 
             // box1Btn
             // 
@@ -3097,6 +3140,7 @@
             this.box1Btn.TabIndex = 2;
             this.box1Btn.Text = "Set!";
             this.box1Btn.UseVisualStyleBackColor = true;
+            this.box1Btn.Click += new System.EventHandler(this.box1Btn_Click);
             // 
             // box1PictureBox
             // 
@@ -3440,53 +3484,56 @@
             this.rationCurrentBtn.UseVisualStyleBackColor = true;
             this.rationCurrentBtn.Click += new System.EventHandler(this.RationCurrentBtn_Click);
             // 
-            // binos1GroupBox
+            // scope1GroupBox
             // 
-            this.binos1GroupBox.Controls.Add(this.binos1LayoutPanel);
-            this.binos1GroupBox.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.binos1GroupBox.Location = new System.Drawing.Point(217, 3);
-            this.binos1GroupBox.Name = "binos1GroupBox";
-            this.binos1GroupBox.Size = new System.Drawing.Size(208, 90);
-            this.binos1GroupBox.TabIndex = 41;
-            this.binos1GroupBox.TabStop = false;
-            this.binos1GroupBox.Text = "Snake\'s Binos";
+            this.scope1GroupBox.Controls.Add(this.scope1LayoutPanel);
+            this.scope1GroupBox.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.scope1GroupBox.Location = new System.Drawing.Point(217, 3);
+            this.scope1GroupBox.Name = "scope1GroupBox";
+            this.scope1GroupBox.Size = new System.Drawing.Size(208, 90);
+            this.scope1GroupBox.TabIndex = 41;
+            this.scope1GroupBox.TabStop = false;
+            this.scope1GroupBox.Text = "Snake\'s Binoculars";
             // 
-            // binos1LayoutPanel
+            // scope1LayoutPanel
             // 
-            this.binos1LayoutPanel.ColumnCount = 2;
-            this.binos1LayoutPanel.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 56.74157F));
-            this.binos1LayoutPanel.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 43.25843F));
-            this.binos1LayoutPanel.Controls.Add(this.binos1PictureBox, 0, 0);
-            this.binos1LayoutPanel.Controls.Add(this.binos1CheckBox, 1, 0);
-            this.binos1LayoutPanel.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.binos1LayoutPanel.Location = new System.Drawing.Point(3, 16);
-            this.binos1LayoutPanel.Name = "binos1LayoutPanel";
-            this.binos1LayoutPanel.RowCount = 2;
-            this.binos1LayoutPanel.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 42.22222F));
-            this.binos1LayoutPanel.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 57.77778F));
-            this.binos1LayoutPanel.Size = new System.Drawing.Size(202, 71);
-            this.binos1LayoutPanel.TabIndex = 40;
+            this.scope1LayoutPanel.ColumnCount = 2;
+            this.scope1LayoutPanel.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 56.74157F));
+            this.scope1LayoutPanel.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 43.25843F));
+            this.scope1LayoutPanel.Controls.Add(this.scope1PictureBox, 0, 0);
+            this.scope1LayoutPanel.Controls.Add(this.scope1CheckBox, 1, 0);
+            this.scope1LayoutPanel.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.scope1LayoutPanel.Location = new System.Drawing.Point(3, 16);
+            this.scope1LayoutPanel.Name = "scope1LayoutPanel";
+            this.scope1LayoutPanel.RowCount = 2;
+            this.scope1LayoutPanel.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 42.22222F));
+            this.scope1LayoutPanel.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 57.77778F));
+            this.scope1LayoutPanel.Size = new System.Drawing.Size(202, 71);
+            this.scope1LayoutPanel.TabIndex = 40;
             // 
-            // binos1PictureBox
+            // scope1PictureBox
             // 
-            this.binos1PictureBox.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.binos1PictureBox.Location = new System.Drawing.Point(3, 3);
-            this.binos1PictureBox.Name = "binos1PictureBox";
-            this.binos1PictureBox.Size = new System.Drawing.Size(108, 23);
-            this.binos1PictureBox.TabIndex = 0;
-            this.binos1PictureBox.TabStop = false;
+            this.scope1PictureBox.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.scope1PictureBox.Location = new System.Drawing.Point(3, 3);
+            this.scope1PictureBox.Name = "scope1PictureBox";
+            this.scope1PictureBox.Size = new System.Drawing.Size(108, 23);
+            this.scope1PictureBox.TabIndex = 0;
+            this.scope1PictureBox.TabStop = false;
             // 
-            // binos1CheckBox
+            // scope1CheckBox
             // 
-            this.binos1CheckBox.AutoSize = true;
-            this.binos1CheckBox.Location = new System.Drawing.Point(117, 6);
-            this.binos1CheckBox.Margin = new System.Windows.Forms.Padding(3, 6, 3, 3);
-            this.binos1CheckBox.Name = "binos1CheckBox";
-            this.binos1CheckBox.Size = new System.Drawing.Size(71, 17);
-            this.binos1CheckBox.TabIndex = 1;
-            this.binos1CheckBox.Text = "Enabled?";
-            this.binos1CheckBox.UseVisualStyleBackColor = true;
-            this.binos1CheckBox.CheckedChanged += new System.EventHandler(this.Binos1CheckBox_CheckedChanged);
+            this.scope1CheckBox.AutoSize = true;
+            this.scope1CheckBox.Checked = true;
+            this.scope1CheckBox.CheckState = System.Windows.Forms.CheckState.Indeterminate;
+            this.scope1CheckBox.Enabled = false;
+            this.scope1CheckBox.Location = new System.Drawing.Point(117, 6);
+            this.scope1CheckBox.Margin = new System.Windows.Forms.Padding(3, 6, 3, 3);
+            this.scope1CheckBox.Name = "scope1CheckBox";
+            this.scope1CheckBox.Size = new System.Drawing.Size(71, 17);
+            this.scope1CheckBox.TabIndex = 1;
+            this.scope1CheckBox.Text = "Enabled?";
+            this.scope1CheckBox.UseVisualStyleBackColor = true;
+            this.scope1CheckBox.CheckedChanged += new System.EventHandler(this.Binos1CheckBox_CheckedChanged);
             // 
             // bodyArmorGroupBox
             // 
@@ -3669,7 +3716,7 @@
             this.dmic2GroupBox.Size = new System.Drawing.Size(213, 138);
             this.dmic2GroupBox.TabIndex = 60;
             this.dmic2GroupBox.TabStop = false;
-            this.dmic2GroupBox.Text = "Directional Mic(2)";
+            this.dmic2GroupBox.Text = "Directional Mic (Heavy Zoom)";
             // 
             // dmic2LayoutPanel
             // 
@@ -3717,7 +3764,7 @@
             this.dmic1GroupBox.Size = new System.Drawing.Size(213, 138);
             this.dmic1GroupBox.TabIndex = 59;
             this.dmic1GroupBox.TabStop = false;
-            this.dmic1GroupBox.Text = "Directional Mic (1)";
+            this.dmic1GroupBox.Text = "Directional Mic";
             // 
             // dmic1LayoutPanel
             // 
@@ -6677,10 +6724,10 @@
             this.mineDetectorLayoutPanel.ResumeLayout(false);
             this.mineDetectorLayoutPanel.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.mineDetectorPictureBox)).EndInit();
-            this.binos2GroupBox.ResumeLayout(false);
-            this.binos2LayoutPanel.ResumeLayout(false);
-            this.binos2LayoutPanel.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.binos2PictureBox)).EndInit();
+            this.scope2GroupBox.ResumeLayout(false);
+            this.scope2LayoutPanel.ResumeLayout(false);
+            this.scope2LayoutPanel.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.scope2PictureBox)).EndInit();
             this.bandageGroupBox.ResumeLayout(false);
             this.bandageLayoutPanel.ResumeLayout(false);
             this.bandageLayoutPanel.PerformLayout();
@@ -6722,10 +6769,10 @@
             this.tableLayoutPanel2.ResumeLayout(false);
             this.tableLayoutPanel2.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.rationCurrentUpDown)).EndInit();
-            this.binos1GroupBox.ResumeLayout(false);
-            this.binos1LayoutPanel.ResumeLayout(false);
-            this.binos1LayoutPanel.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.binos1PictureBox)).EndInit();
+            this.scope1GroupBox.ResumeLayout(false);
+            this.scope1LayoutPanel.ResumeLayout(false);
+            this.scope1LayoutPanel.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.scope1PictureBox)).EndInit();
             this.bodyArmorGroupBox.ResumeLayout(false);
             this.bodyArmorLayoutPanel.ResumeLayout(false);
             this.bodyArmorLayoutPanel.PerformLayout();
@@ -6955,16 +7002,16 @@
         private System.Windows.Forms.GroupBox box2GroupBox;
         private System.Windows.Forms.GroupBox cigarettesGroupBox;
         private System.Windows.Forms.GroupBox mineDetectorGroupBox;
-        private System.Windows.Forms.GroupBox binos2GroupBox;
+        private System.Windows.Forms.GroupBox scope2GroupBox;
         private System.Windows.Forms.GroupBox bandageGroupBox;
         private System.Windows.Forms.GroupBox bduGroupBox;
         private System.Windows.Forms.GroupBox box1GroupBox;
         private System.Windows.Forms.GroupBox coldMedsGroupBox;
         private System.Windows.Forms.GroupBox bodyArmorGroupBox;
-        private System.Windows.Forms.GroupBox binos1GroupBox;
-        private System.Windows.Forms.TableLayoutPanel binos1LayoutPanel;
-        private System.Windows.Forms.PictureBox binos1PictureBox;
-        private System.Windows.Forms.CheckBox binos1CheckBox;
+        private System.Windows.Forms.GroupBox scope1GroupBox;
+        private System.Windows.Forms.TableLayoutPanel scope1LayoutPanel;
+        private System.Windows.Forms.PictureBox scope1PictureBox;
+        private System.Windows.Forms.CheckBox scope1CheckBox;
         private System.Windows.Forms.GroupBox rationGroupBox;
         private System.Windows.Forms.TableLayoutPanel rationLayoutPanel;
         private System.Windows.Forms.PictureBox rationPictureBox;
@@ -6993,9 +7040,9 @@
         private System.Windows.Forms.TableLayoutPanel cardLayoutPanel;
         private System.Windows.Forms.PictureBox cardPictureBox;
         private System.Windows.Forms.CheckBox cardCheckBox;
-        private System.Windows.Forms.TableLayoutPanel binos2LayoutPanel;
-        private System.Windows.Forms.PictureBox binos2PictureBox;
-        private System.Windows.Forms.CheckBox binos2CheckBox;
+        private System.Windows.Forms.TableLayoutPanel scope2LayoutPanel;
+        private System.Windows.Forms.PictureBox scope2PictureBox;
+        private System.Windows.Forms.CheckBox scope2CheckBox;
         private System.Windows.Forms.TableLayoutPanel camera1LayoutPanel;
         private System.Windows.Forms.PictureBox camera1PictureBox;
         private System.Windows.Forms.CheckBox camera1CheckBox;
