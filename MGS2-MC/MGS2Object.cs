@@ -15,46 +15,43 @@ namespace MGS2_MC
 
     public abstract class MGS2Object : IMGS2Object
     {
-        internal GameObject gameObject { get; set; }
-        public string Name { get { return gameObject._name; } }
-        public IntPtr NameMemoryOffset { get { return gameObject._nameOffset; } }
+        internal GameObject GameObject { get; set; }
+        public string Name { get { return GameObject._name; } }
+        public IntPtr NameMemoryOffset { get { return GameObject._nameOffset; } }
 
         public MGS2Object(string name, IntPtr nameMemoryOffset)
         {
-            gameObject = new GameObject { _name = name, _nameOffset = nameMemoryOffset };
+            GameObject = new GameObject { _name = name, _nameOffset = nameMemoryOffset };
         }
 
         public void ChangeName(string name)
         {
+            //TODO: this should be leveraged in the string modifiers
             GameObject newGameObject = new GameObject { _name = name, _nameOffset = NameMemoryOffset };
-            gameObject = newGameObject;
+            GameObject = newGameObject;
         }
 
         internal abstract void ToggleObject(bool desiredEnabledState);
-    }
-
-    public class Durability
-    {
-        public dynamic Value { get; set; } //TODO: hard type this instead of dynamic. frick pythonic code. prolly int or float
-
-        public Durability(dynamic value) {  Value = value; }
     }
     #endregion
 
     #region Item Classes
     public class BasicItem : MGS2Object
     {
+        #region Internals & Constructor
         internal int InventoryOffset { get; set; }
         public BasicItem(string name, IntPtr nameMemoryOffset, int inventoryOffset) : base(name, nameMemoryOffset)
         {
             InventoryOffset = inventoryOffset;
         }
+        #endregion
 
         internal override void ToggleObject(bool shouldBeEnabled)
         {
-            short currentEnabledStatus = BitConverter.ToInt16(MGS2MemoryManager.GetCurrentValue(InventoryOffset, sizeof(short)), 0);
+            short currentObjectValue = BitConverter.ToInt16(MGS2MemoryManager.GetCurrentValue(InventoryOffset, sizeof(short)), 0);
+            bool isCurrentlyEnabled = currentObjectValue > 0 ? true : false; //this feels more readable as a ternary than the shorthand
             //Toggle the object if it is currently disabled and needs enabling, or if it is currently enabled and needs disabling.
-            if (currentEnabledStatus == 0 == shouldBeEnabled)
+            if (isCurrentlyEnabled != shouldBeEnabled)
             {
                 MGS2MemoryManager.ToggleObject(InventoryOffset);
             }
@@ -83,27 +80,32 @@ namespace MGS2_MC
 
     public class DurabilityItem : BasicItem
     {
+        #region Internals & Constructor
         internal int DurabilityOffset { get { return InventoryOffset; } set { InventoryOffset = value; } }
 
         public DurabilityItem(string name, IntPtr nameMemoryOffset, int inventoryOffset) : base(name, nameMemoryOffset, inventoryOffset)
         {
         }
+        #endregion
 
         public void SetDurability(short value)
         {
+            //Boxes have a durability of 21(perfect condition) -> 1(nearly destroyed)
             MGS2MemoryManager.UpdateObjectBaseValue(this, value);
         }
 
         internal override void ToggleObject(bool shouldBeEnabled)
         {
             short currentDurability = BitConverter.ToInt16(MGS2MemoryManager.GetCurrentValue(DurabilityOffset, sizeof(short)), 0);
-            //Boxes have a durability of 21(perfect condition) -> 1(nearly destroyed)
+            
             if (currentDurability == 0 && shouldBeEnabled)
             {
+                //if the box is destroyed/disabled and should be enabled, set to "max" durability
                 SetDurability(21);
             }
-            else if(currentDurability != 0 && shouldBeEnabled)
+            else if(currentDurability != 0 && !shouldBeEnabled)
             {
+                //if the box is in-tact/enabled and should be disabled, set to 0 durability
                 SetDurability(0);
             }
         }
@@ -111,6 +113,7 @@ namespace MGS2_MC
 
     public class StackableItem : BasicItem
     {
+        #region Internals & Constructor
         internal int CurrentCountOffset { get { return InventoryOffset; } set { InventoryOffset = value; } }
         internal int MaxCountOffset { get; set; }
 
@@ -121,6 +124,7 @@ namespace MGS2_MC
         {
             MaxCountOffset = inventoryOffset + MIN_MAX_COUNT_DIFF;
         }
+        #endregion
 
         internal override void ToggleObject(bool shouldBeEnabled)
         {
@@ -154,17 +158,20 @@ namespace MGS2_MC
     #region Weapon Classes
     public class BasicWeapon : MGS2Object
     {
+        #region Internals & Constructor
         public int InventoryOffset { get; set; }
         public BasicWeapon(string name, IntPtr nameMemoryOffset, int inventoryOffset) : base(name, nameMemoryOffset)
         {
             InventoryOffset = inventoryOffset;
         }
+        #endregion
 
         internal override void ToggleObject(bool shouldBeEnabled)
         {
-            short currentlyEnabledStatus = BitConverter.ToInt16(MGS2MemoryManager.GetCurrentValue(InventoryOffset, sizeof(short)), 0);
+            short currentObjectValue = BitConverter.ToInt16(MGS2MemoryManager.GetCurrentValue(InventoryOffset, sizeof(short)), 0);
+            bool isCurrentlyEnabled = currentObjectValue > 0 ? true : false;
             //Toggle the object if it is currently disabled and needs enabling, or if it is currently enabled and needs disabling.
-            if (currentlyEnabledStatus == 0 == shouldBeEnabled)
+            if (isCurrentlyEnabled != shouldBeEnabled)
             {
                 MGS2MemoryManager.ToggleObject(InventoryOffset);
             }
@@ -178,6 +185,7 @@ namespace MGS2_MC
 
     public class AmmoWeapon : BasicWeapon
     {
+        #region Internals & Constructor
         public int CurrentAmmoOffset { get { return InventoryOffset; } set { InventoryOffset = value; } }
         public int MaxAmmoOffset { get; set; }
 
@@ -187,6 +195,7 @@ namespace MGS2_MC
         {
             MaxAmmoOffset = inventoryOffset + MIN_MAX_COUNT_DIFF;
         }
+        #endregion
 
         internal override void ToggleObject(bool shouldBeEnabled)
         {
@@ -220,11 +229,13 @@ namespace MGS2_MC
 
     public class SpecialWeapon : BasicWeapon
     {
+        #region Internals & Constructor
         public int SpecialOffset { get { return InventoryOffset; } set { InventoryOffset = value; } }
         short count = 0;
         public SpecialWeapon(string name, IntPtr nameMemoryOffset, int inventoryOffset) : base(name, nameMemoryOffset, inventoryOffset)
         {
         }
+        #endregion
 
         public void SetToLethal()
         {
@@ -302,7 +313,6 @@ namespace MGS2_MC
         public static readonly BasicItem ColorWig2 = new BasicItem("Color Wig 2", IntPtr.Zero, MGS2Constants.BASE_ITEM_OFFSET + MGS2Constants.ColorWig2Offset); //unused
         #endregion
         #region Durability Items
-        public static readonly DurabilityItem BDU = new DurabilityItem("BDU", IntPtr.Zero, MGS2Constants.BASE_ITEM_OFFSET + MGS2Constants.BDUOffset);
         public static readonly DurabilityItem Box1 = new DurabilityItem("Box1", IntPtr.Zero, MGS2Constants.BASE_ITEM_OFFSET + MGS2Constants.Box1Offset);
         public static readonly DurabilityItem Box2 = new DurabilityItem("Box2", IntPtr.Zero, MGS2Constants.BASE_ITEM_OFFSET + MGS2Constants.Box2Offset);
         public static readonly DurabilityItem Box3 = new DurabilityItem("Box3", IntPtr.Zero, MGS2Constants.BASE_ITEM_OFFSET + MGS2Constants.Box3Offset);
@@ -319,6 +329,9 @@ namespace MGS2_MC
         #endregion
         #region Levelable Items
         public static readonly LevelableItem Card = new LevelableItem("Card", IntPtr.Zero, MGS2Constants.BASE_ITEM_OFFSET + MGS2Constants.CardOffset);
+        #endregion
+        #region Unknown Items
+        public static readonly BasicItem BDU = new DurabilityItem("BDU", IntPtr.Zero, MGS2Constants.BASE_ITEM_OFFSET + MGS2Constants.BDUOffset);
         #endregion
         #endregion
     }
