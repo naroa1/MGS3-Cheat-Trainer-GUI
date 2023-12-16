@@ -447,7 +447,7 @@ namespace MGS2_MC
 
         private void BduMaskCheckBox_CheckedChanged(object sender, EventArgs e)
         {
-            MGS2UsableObjects.BDU.SetDurability(2);
+            //MGS2UsableObjects.BDU.SetDurability(2);
         }
 
         private void BandanaCheckBox_CheckedChanged(object sender, EventArgs e)

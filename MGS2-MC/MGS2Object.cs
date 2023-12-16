@@ -200,7 +200,9 @@ namespace MGS2_MC
         internal override void ToggleObject(bool shouldBeEnabled)
         {
             short currentAmmo = BitConverter.ToInt16(MGS2MemoryManager.GetCurrentValue(CurrentAmmoOffset, sizeof(short)), 0);
-            if (currentAmmo == 0 && shouldBeEnabled)
+            //TODO: it would be cool to duplicate the "NO USE" functionality the Stinger gets when prone when disabled!
+            //can't seem to easily find the bytes that control that though :(
+            if (currentAmmo < 0 && shouldBeEnabled)
             {
                 if (LastKnownCurrentAmmo != 0)
                     UpdateCurrentAmmoCount(LastKnownCurrentAmmo);
@@ -210,7 +212,7 @@ namespace MGS2_MC
             else if(!shouldBeEnabled)
             {
                 LastKnownCurrentAmmo = currentAmmo;
-                UpdateCurrentAmmoCount(0); //TODO: verify!
+                UpdateCurrentAmmoCount(-1);
             }
         }
 
