@@ -111,10 +111,12 @@ Knockout (normal) takes 9 punches
         //public static IntPtr PlayerOffsetPtr = (IntPtr)0x680164006400;
         //public static byte[] PlayerOffsetBytes = new byte[] { 82, 82, 74, 41, 37, 148, 82, 74, 41, 145, 66, 170, 148, 82, 74, 41, 1, 132, 18, 80, 74, 165, 144, 145, 145, 145, 82, 162, 164, 148, 145, 82, 74, 41, 165, 148, 82, 74, 41, 73, 72, 33 };
         //public static IntPtr PlayerOffsetPtr = (IntPtr)0x52524A292594524A299142AA94524A29018412504AA59092929252A2A49492524A29A594524A29494821;
-        public static byte[] PlayerOffsetBytes = new byte[] { 00, 00, 00, 00, 01, 00, 46, 00 };
-        //00 00 00 00 01 00 2E 00 <-- use this array of bytes to find ^^ in CE
+        public static byte[] OldPlayerOffsetBytes = new byte[] { 00, 00, 00, 00, 01, 00, 46, 00 };
+        public static byte[] PlayerOffsetBytes = new byte[] { 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 01, 00 };
+        //00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 01 00 
+        //it changes(if changing zones) THEN moves
 
-        public const int BASE_WEAPON_OFFSET = -66; //whenever a "new" "anchor" is chosen, only need to update this value and all others will update.
+        public const int BASE_WEAPON_OFFSET = -42; //if a "new" "anchor" is chosen, only need to update this value and all others will update.
         public const int BASE_ITEM_OFFSET = BASE_WEAPON_OFFSET + 144;
         public const int TIMES_FOUND_GAME_LAUNCH_OFFSET = 0x17B786C;
         public const int HOLD_UPS_GAME_LAUNCH_OFFSET = 0x1673DB0;

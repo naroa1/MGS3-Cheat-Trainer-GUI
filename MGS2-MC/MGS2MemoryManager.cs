@@ -40,6 +40,7 @@ namespace MGS2_MC
         }
 
         static IntPtr PROCESS_BASE_ADDRESS = IntPtr.Zero;
+        static int[] LAST_KNOWN_PLAYER_OFFSETS = default;
 
         private static Process GetMGS2Process()
         {
@@ -55,36 +56,54 @@ namespace MGS2_MC
         {
             byte[] buffer = new byte[mgs2Process.PrivateMemorySize64];
             NativeMethods.ReadProcessMemory(processHandle, PROCESS_BASE_ADDRESS, buffer, (uint)buffer.Length, out int numBytesRead);
-            // we now, theoretically, have the ENTIRETY of MGS2 loaded into this buffer. At this point, we now
-            // need to scan through this buffer until we find the second to last grouping of MGS2Constants.PlayerOffsetBytes
-            // (seems like the last one is always the checkpoint offset, second to last is current playeroffset)
+
             int byteCount = 0;
-            List<int> playerOffsets = new List<int>();
-            while(byteCount + 8 < buffer.Length)
+            List<int> playerOffset = new List<int>();
+            while(byteCount + 152 < buffer.Length)
             {
-                if (buffer[byteCount] == MGS2Constants.PlayerOffsetBytes[0] &&
-                    buffer[byteCount + 1] == MGS2Constants.PlayerOffsetBytes[1] &&
-                    buffer[byteCount + 2] == MGS2Constants.PlayerOffsetBytes[2] &&
-                    buffer[byteCount + 3] == MGS2Constants.PlayerOffsetBytes[3] &&
-                    buffer[byteCount + 4] == MGS2Constants.PlayerOffsetBytes[4] &&
-                    buffer[byteCount + 5] == MGS2Constants.PlayerOffsetBytes[5] &&
-                    buffer[byteCount + 6] == MGS2Constants.PlayerOffsetBytes[6] &&
-                    buffer[byteCount + 7] == MGS2Constants.PlayerOffsetBytes[7])
+                bool mightBeValid = false;
+                for(int position = 0; position < MGS2Constants.PlayerOffsetBytes.Length; position++)
                 {
-                    playerOffsets.Add(byteCount);
+                    if (buffer[byteCount + position + 72] != buffer[byteCount + position])
+                        break;
+                    if (buffer[byteCount + position] != MGS2Constants.PlayerOffsetBytes[position])
+                        break;
+                    else if(position == MGS2Constants.PlayerOffsetBytes.Length - 1)
+                    {
+                        //if we get all the way through the offset scan without finding anything "wrong", we have a possible match
+                        mightBeValid = true;
+                    }
                 }
-                //byteCount += 8; //this technically introduces the possibility that we miss the player offsets.
-                byteCount += 4; //this seems to be the "fastest" at finding player offsets without sacrificing accuracy
-                //byteCount += 2; //when you don't want to be a dinosaur at finding player offsets, but not too fast
-                //byteCount++; //when you want to be 1000% sure you've got a valid player offset.
+                //if you have fired 0 shots, you will have 4 of these possible blocks.
+                //if you have fired 1 or more shots, you will have either 2 or 3 of these blocks(depending on if you've checkpointed)
+                //i _think_ that means if the offset + 144 == offset, it is NOT a valid offset?
+                if (mightBeValid)
+                {
+                    byte[] bufferBeingExamined = new byte[MGS2Constants.PlayerOffsetBytes.Length];
+                    Array.Copy(buffer, byteCount + 144, bufferBeingExamined, 0, MGS2Constants.PlayerOffsetBytes.Length);
+                    bool definitelyValid = false;
+                    for(int position = 0; position < MGS2Constants.PlayerOffsetBytes.Length; position++)
+                    {
+                        if (bufferBeingExamined[position] != MGS2Constants.PlayerOffsetBytes[position])
+                        {
+                            definitelyValid = true;
+                            break;
+                        }
+                    }
+
+                    if (definitelyValid)
+                    {
+                        playerOffset.Add(byteCount);
+                    }
+                }
+                if (playerOffset.Count == 2)
+                    break;
+
+                byteCount +=4;
             }
 
-            //the GC fucking _sucks_ when the game crashes and leaves a bunch of these in memory until you've died
-            //a sufficient amount of times...
-            //my next "best" idea is to do some validation when we find a possible playerOffset before returning it
-
-            //ALSO, we can use scope1 & 2 to determine whether we are playing Snake or Raiden!
-            return new int[] { playerOffsets[playerOffsets.Count - 2], playerOffsets.Last() };
+            Array.Copy(playerOffset.ToArray(), LAST_KNOWN_PLAYER_OFFSETS, 2);
+            return new int[] { playerOffset[0], playerOffset[1] };
         }
 
         private static byte[] ReadValueFromMemory(IntPtr processHandle, IntPtr objectAddress, byte[] bytesToRead = null)
@@ -151,13 +170,6 @@ namespace MGS2_MC
                 NativeMethods.CloseHandle(processHandle);
                 throw new FileLoadException($"Failed to write memory with value {value}.");
             }
-
-            if(objectOffset == -2 && (success1 || success2))
-            {
-                //the m9 max ammo is part of the player offset i chose, which is terrible, but i don't see a better option presently. should definitely find a different anchor going forward though
-                MGS2Constants.PlayerOffsetBytes[6] = value[0];
-                MGS2Constants.PlayerOffsetBytes[7] = value[1];
-            }
             NativeMethods.CloseHandle(processHandle);
         }
 
@@ -177,7 +189,6 @@ namespace MGS2_MC
             PROCESS_BASE_ADDRESS = process.MainModule.BaseAddress;
             IntPtr processHandle = NativeMethods.OpenProcess(0x1F0FFF, false, process.Id);
             int[] playerOffset = GetCurrentPlayerOffset(process, processHandle);
-            //TODO: add some kind of check system that looks at the time bytes and sees if it is updating regularly.
             IntPtr targetAddress = IntPtr.Add(PROCESS_BASE_ADDRESS, playerOffset[0] + valueOffset); // Adjusted to add base address
 
             byte[] bytesRead = new byte[sizeToRead];
