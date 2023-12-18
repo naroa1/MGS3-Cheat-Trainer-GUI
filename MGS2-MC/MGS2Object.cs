@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Windows.Forms;
 
 namespace MGS2_MC
 {
@@ -59,7 +60,14 @@ namespace MGS2_MC
 
         public void ToggleItem(bool shouldBeEnabled)
         {
-            ToggleObject(shouldBeEnabled);
+            try
+            {
+                ToggleObject(shouldBeEnabled);
+            }
+            catch(Exception e)
+            {
+                MessageBox.Show($"Failed to toggle {Name}: {e}");
+            }
         }
     }
 
@@ -74,7 +82,14 @@ namespace MGS2_MC
 
         public void SetLevel(short level)
         {
-            MGS2MemoryManager.UpdateObjectBaseValue(this, level);
+            try
+            {
+                MGS2MemoryManager.UpdateObjectBaseValue(this, level);
+            }
+            catch(Exception e)
+            {
+                MessageBox.Show($"Failed to set card level: {e}");
+            }
         }
     }
 
@@ -91,7 +106,14 @@ namespace MGS2_MC
         public void SetDurability(short value)
         {
             //Boxes have a durability of 21(perfect condition) -> 1(nearly destroyed)
-            MGS2MemoryManager.UpdateObjectBaseValue(this, value);
+            try
+            {
+                MGS2MemoryManager.UpdateObjectBaseValue(this, value);
+            }
+            catch(Exception e)
+            {
+                MessageBox.Show($"Failed to modify durability for {Name}: {e}");
+            }
         }
 
         internal override void ToggleObject(bool shouldBeEnabled)
@@ -145,12 +167,26 @@ namespace MGS2_MC
 
         public void UpdateCurrentCount(short count)
         {
-            MGS2MemoryManager.UpdateObjectBaseValue(this, count);
+            try
+            {
+                MGS2MemoryManager.UpdateObjectBaseValue(this, count);
+            }
+            catch(Exception e)
+            {
+                MessageBox.Show($"Failed to update current count of {Name}: {e}");
+            }
         }
 
         public void UpdateMaxCount(short count)
         {
-            MGS2MemoryManager.UpdateObjectMaxValue(this, count);
+            try
+            {
+                MGS2MemoryManager.UpdateObjectMaxValue(this, count);
+            }
+            catch(Exception e)
+            {
+                MessageBox.Show($"Failed to update max count of {Name}: {e}");
+            }
         }
     }
     #endregion
@@ -179,7 +215,14 @@ namespace MGS2_MC
 
         public void ToggleWeapon(bool shouldBeEnabled)
         {
-            ToggleObject(shouldBeEnabled);
+            try
+            {
+                ToggleObject(shouldBeEnabled);
+            }
+            catch(Exception e)
+            {
+                MessageBox.Show($"Failed to toggle {Name}: {e}");
+            }
         }
     }
 
@@ -219,13 +262,27 @@ namespace MGS2_MC
         public void UpdateCurrentAmmoCount(int count)
         {
             short shortCount = (short)count;
-            MGS2MemoryManager.UpdateObjectBaseValue(this, shortCount);
+            try
+            {
+                MGS2MemoryManager.UpdateObjectBaseValue(this, shortCount);
+            }
+            catch(Exception e)
+            {
+                MessageBox.Show($"Failed to update current ammo count for {Name}: {e}");
+            }
         }
 
         public void UpdateMaxAmmoCount(int count)
         {
             short shortCount = (short)count;
-            MGS2MemoryManager.UpdateObjectMaxValue(this, shortCount);
+            try
+            {
+                MGS2MemoryManager.UpdateObjectMaxValue(this, shortCount);
+            }
+            catch(Exception e)
+            {
+                MessageBox.Show($"Failed to update max ammo count for {Name}: {e}");
+            }
         }
     }
 
@@ -241,12 +298,26 @@ namespace MGS2_MC
 
         public void SetToLethal()
         {
-            MGS2MemoryManager.UpdateObjectBaseValue(this, count += 1); //TODO: determine real values
+            try
+            {
+                MGS2MemoryManager.UpdateObjectBaseValue(this, count += 1); //TODO: determine real values
+            }
+            catch(Exception e)
+            {
+                MessageBox.Show($"Failed to set HF blade to lethal: {e}");
+            }
         }
 
         public void SetToStun()
         {
-            MGS2MemoryManager.UpdateObjectBaseValue(this, count -= 1); //TODO: determine real values
+            try
+            {
+                MGS2MemoryManager.UpdateObjectBaseValue(this, count -= 1); //TODO: determine real values
+            }
+            catch(Exception e)
+            {
+                MessageBox.Show($"Failed to set HF blade to stun: {e}");
+            }
         }
     }
     #endregion
