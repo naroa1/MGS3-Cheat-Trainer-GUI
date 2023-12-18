@@ -56,54 +56,84 @@ namespace MGS2_MC
         {
             byte[] buffer = new byte[mgs2Process.PrivateMemorySize64];
             NativeMethods.ReadProcessMemory(processHandle, PROCESS_BASE_ADDRESS, buffer, (uint)buffer.Length, out int numBytesRead);
+            
+            //if we've retrieved a player offset before, check the old one first
+            if (LAST_KNOWN_PLAYER_OFFSETS != default)
+            {
+                bool offsetHasMoved = false;
+                foreach (int previousOffset in LAST_KNOWN_PLAYER_OFFSETS)
+                {
+                    byte[] previousOffsetBuffer = new byte[MGS2Constants.PlayerOffsetBytes.Length];
+                    Array.Copy(buffer, previousOffset, previousOffsetBuffer, 0, MGS2Constants.PlayerOffsetBytes.Length);
+                    for (int i = 0; i < previousOffsetBuffer.Length; i++)
+                    {
+                        if (previousOffsetBuffer[i] != MGS2Constants.PlayerOffsetBytes[i])
+                        { 
+                            //if ANY byte does not match exactly to the offsetBytes, we know the offset has moved
+                            offsetHasMoved = true; 
+                        }
+                    }
+                }
+                if (!offsetHasMoved)
+                    return LAST_KNOWN_PLAYER_OFFSETS;
+            }
 
             int byteCount = 0;
             List<int> playerOffset = new List<int>();
-            while(byteCount + 152 < buffer.Length)
+            while(byteCount + 152 < buffer.Length) //this can _probably just be 144 or 148, but i want to be safe
             {
                 bool mightBeValid = false;
                 for(int position = 0; position < MGS2Constants.PlayerOffsetBytes.Length; position++)
                 {
+                    //the "playerOffsetBytes" is very common within the game's memory. (~60-90 matches)
+                    //HOWEVER, if we limit the playerOffset bytes by the _relative position_, we get VERY few results!
+                    //#1 if you have fired 0 shots, you will have 4 of these blocks of memory.
+                    //#2 if you have fired 1+ shots but HAVE NOT checkpointed, you will have 3 blocks
+                    //#3 if you have fired 1+ shots and HAVE checkpointed, you will have 2 blocks
+
+                    //the playerOffsetBytes will have a mirrored result: one directly between the currentAmmo array and
+                    //maxAmmo array, and another one directly before the start of currentItem array. They will be separated
+                    //by EXACTLY 72 bytes(difference between currentAmmo and maxAmmo). Ignore any sets where the current
+                    //byte value does not match with the byte value 72 bytes ahead.
                     if (buffer[byteCount + position + 72] != buffer[byteCount + position])
                         break;
+                    //now filter any out that don't match with the playerOffsetBytes
                     if (buffer[byteCount + position] != MGS2Constants.PlayerOffsetBytes[position])
                         break;
-                    else if(position == MGS2Constants.PlayerOffsetBytes.Length - 1)
+                    //if we get all the way through the scan without finding anything "wrong", we have a possible match
+                    else if (position == MGS2Constants.PlayerOffsetBytes.Length - 1)
                     {
-                        //if we get all the way through the offset scan without finding anything "wrong", we have a possible match
                         mightBeValid = true;
                     }
                 }
-                //if you have fired 0 shots, you will have 4 of these possible blocks.
-                //if you have fired 1 or more shots, you will have either 2 or 3 of these blocks(depending on if you've checkpointed)
-                //i _think_ that means if the offset + 144 == offset, it is NOT a valid offset?
+                
                 if (mightBeValid)
                 {
                     byte[] bufferBeingExamined = new byte[MGS2Constants.PlayerOffsetBytes.Length];
                     Array.Copy(buffer, byteCount + 144, bufferBeingExamined, 0, MGS2Constants.PlayerOffsetBytes.Length);
-                    bool definitelyValid = false;
+
+                    //to filter out scenarios #1 and #2 above, for all of the possible matches, check 144 bytes ahead.
+                    //ONLY if we are matching on a file with 0 shots OR 0 shots at last checkpoint can there be a full match
+                    //144 bytes ahead. if at ANY point in the 144 bytes after each position in the offset array we're scanning
+                    //there is a value that DOES NOT MATCH, then we know we have a real player offset.
                     for(int position = 0; position < MGS2Constants.PlayerOffsetBytes.Length; position++)
                     {
                         if (bufferBeingExamined[position] != MGS2Constants.PlayerOffsetBytes[position])
                         {
-                            definitelyValid = true;
+                            playerOffset.Add(byteCount);
                             break;
                         }
                     }
-
-                    if (definitelyValid)
-                    {
-                        playerOffset.Add(byteCount);
-                    }
                 }
-                if (playerOffset.Count == 2)
+
+                if (playerOffset.Count == 2) //if we have found 2 offsets, then we have found the player offset & the checkpoint
                     break;
 
-                byteCount +=4;
+                byteCount +=4; //8 bytes can result in missed offsets, 4 bytes is sufficient in accuracy & speed.
             }
 
             Array.Copy(playerOffset.ToArray(), LAST_KNOWN_PLAYER_OFFSETS, 2);
-            return new int[] { playerOffset[0], playerOffset[1] };
+            return LAST_KNOWN_PLAYER_OFFSETS;
         }
 
         private static byte[] ReadValueFromMemory(IntPtr processHandle, IntPtr objectAddress, byte[] bytesToRead = null)
