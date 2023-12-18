@@ -100,9 +100,6 @@ Knockout (normal) takes 9 punches
          * 
          * Certain game stats are tracked GLOBALLY and reset on launch(kill count, shot count, holdups, choke outs, prolly more)
          * It looks like the memory accesses these counts AT LEAST once on game load, once on screen load and twice on gameplay
-         * 
-         * Hold up count is 5108 bytes AFTER my current anchor(00 00 00 00 01 00 2E 00) and 7588 BEFORE checkpoint?.
-         * Shot count is 96 bytes BEFORE my current anchor and 12792 AFTER checkpoint?.
          */
 
         public const string PROCESS_NAME = "METAL GEAR SOLID2";
@@ -121,8 +118,8 @@ Knockout (normal) takes 9 punches
         public const int TIMES_FOUND_GAME_LAUNCH_OFFSET = 0x17B786C;
         public const int HOLD_UPS_GAME_LAUNCH_OFFSET = 0x1673DB0;
         public const int CHOKE_OUTS_GAME_LAUNCH_OFFSET = 0x1673DBC;
-        public const int SHOT_COUNT_PLAYER_OFFSET = -96;
-        public const int HOLD_UP_PLAYER_OFFSET = 5108;
+        public const int SHOT_COUNT_PLAYER_OFFSET = -96; //TODO: need to redetermine
+        public const int HOLD_UP_PLAYER_OFFSET = 5108; //TODO: need to redetermine
         //TODO: add more of the game stats here
 
 

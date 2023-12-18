@@ -15,6 +15,9 @@ namespace MGS2_MC
         public GUI()
         {
             InitializeComponent();
+            //removing the stats & strings pages for now since they're unfinished
+            mgs2TabControl.TabPages.RemoveByKey(tabPageStats.Name);
+            mgs2TabControl.TabPages.RemoveByKey(tabPageStrings.Name);
         }
 
         #region GUI getters
